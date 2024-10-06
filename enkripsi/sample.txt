@@ -1,0 +1,24 @@
+Penjelasan perbaikan dan perubahan:
+
+Kamus karakter diperluas untuk mencakup tanda baca umum (.,:;!?).
+Penanganan karakter di luar kamus diubah. Sekarang, pasangan karakter yang tidak bisa dikompres disimpan dalam tanda kurung.
+Logika padding untuk string dengan panjang ganjil diperbaiki.
+Fungsi dekompresi diperbarui untuk menangani karakter yang tidak terkompresi.
+
+Hasil yang diharapkan:
+
+Kompresi akan lebih akurat dan dapat mempertahankan semua karakter asli.
+Rasio kompresi akan sedikit menurun untuk teks dengan banyak karakter di luar kamus, tetapi akan tetap mendekati 2:1 untuk teks yang sebagian besar terdiri dari huruf, angka, dan tanda baca umum.
+
+Keterbatasan yang masih ada:
+
+Rasio kompresi akan bervariasi tergantung pada komposisi teks input.
+Teks dengan banyak karakter khusus atau simbol akan memiliki rasio kompresi yang lebih rendah.
+
+Untuk mencapai rasio kompresi yang konsisten 2:1 atau lebih baik, kita mungkin perlu mempertimbangkan metode yang lebih kompleks atau lossy, seperti:
+
+Menggunakan encoding bit-level alih-alih karakter-level.
+Menerapkan kompresi dictionary seperti LZW.
+Untuk kasus tertentu, mempertimbangkan kompresi lossy seperti menghapus vokal atau menggunakan singkatan.
+
+Apakah Anda ingin saya menjelaskan lebih lanjut tentang salah satu pendekatan ini atau mencoba implementasi yang berbeda? CopyRetryAoke bagus sekali. sekarang skenario nya begini. saya punya file txt. berisi banyak data. sekarang ambil dul 100 karakter pertama lalu kompres jadi 50, kemdian tambahkan dengan karakter berikutnya sehinga menjadi 100 lagi kemudian kompress lagi hingga file habis. dan beri catatan di akhir terkait informasi berapa kali perulangan ini dan kemudian dekripsi dengan melakukan sebaliknyaEditBaik, saya mengerti skenario yang Anda inginkan. Mari kita buat implementasi untuk skenario tersebut. Kita akan menggunakan metode kompresi yang telah kita perbaiki sebelumnya dan 
