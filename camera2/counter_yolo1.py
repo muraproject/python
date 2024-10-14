@@ -18,7 +18,7 @@ def check_crossing(y, prev_y, line_y):
     return 0  # No crossing
 
 # Inisialisasi YOLO
-net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
+net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
 classes = open("coco.names").read().strip().split("\n")
 
 # Buka video
@@ -26,8 +26,8 @@ video = cv2.VideoCapture('jalan.mp4')
 
 # Target FPS dan ukuran frame
 target_fps = 30
-frame_interval = 7
-target_size = (600, 600)
+frame_interval = 10
+target_size = (320,320)
 
 # Inisialisasi variabel untuk people counting
 people_in = 0
@@ -60,7 +60,7 @@ while True:
     line_y = int(height * line_position)
 
     # Draw counting line
-    cv2.line(frame, (0, line_y), (width, line_y), (0, 0, 255), 2)
+    cv2.line(frame, (0, line_y+50), (width, line_y-50), (0, 0, 255), 2)
 
     # Deteksi objek
     blob = cv2.dnn.blobFromImage(frame, 1/255.0, target_size, swapRB=True, crop=False)
@@ -77,8 +77,8 @@ while True:
     boxes = []
 
     # Threshold untuk deteksi
-    conf_threshold = 0.4
-    nms_threshold = 0.4
+    conf_threshold = 0.8
+    nms_threshold = 0.6
 
     for out in outs:
         for detection in out:

@@ -11,7 +11,7 @@ def draw_prediction(img, class_id, confidence, x, y, x_plus_w, y_plus_h):
     cv2.putText(img, label, (x - 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
 # Inisialisasi YOLO
-net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
+net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
 classes = open("coco.names").read().strip().split("\n")
 
 # Buka video
@@ -19,7 +19,7 @@ video = cv2.VideoCapture('jalan.mp4')
 
 # Target FPS dan ukuran frame
 target_fps = 30
-frame_interval = 3  # Proses setiap 3 frame
+frame_interval = 10  # Proses setiap 3 frame
 target_size = (320, 320)
 
 frame_count = 0
