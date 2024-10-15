@@ -42,7 +42,7 @@ except:
 
 # Buka video
 video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8', cv2.CAP_FFMPEG)
-video.set(cv2.CAP_PROP_BUFFERSIZE, 3)
+video.set(cv2.CAP_PROP_BUFFERSIZE, 10)
 
 # Target FPS dan ukuran frame
 target_fps = 30

@@ -7,7 +7,7 @@ from threading import Thread
 from queue import Queue
 
 # Load YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x
+model = torch.hub.load('ultralytics/yolov5', 'yolov5n')  # or yolov5m, yolov5l, yolov5x
 model.conf = 0.25  # NMS confidence threshold
 model.iou = 0.45  # NMS IoU threshold
 model.classes = [0, 2]  # Filter classes: 0 for person, 2 for car
@@ -37,7 +37,7 @@ video.set(cv2.CAP_PROP_BUFFERSIZE, 3)
 
 # Target FPS and frame size
 target_fps = 30
-frame_interval = 10
+frame_interval = 5
 target_size = (320, 320)  # YOLOv5 default input size
 
 # Initialize variables for counting
