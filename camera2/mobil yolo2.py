@@ -28,7 +28,7 @@ def read_frames(video, frame_queue):
     frame_queue.put(None)  # Signal end of video
 
 # Inisialisasi YOLO
-net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
 classes = open("coco.names").read().strip().split("\n")
 
 # Coba aktifkan CUDA jika tersedia
@@ -40,12 +40,12 @@ except:
     print("CUDA not available, using CPU")
 
 # Buka video
-video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/atcs/ATCS_ukdw.stream/playlist.m3u8', cv2.CAP_FFMPEG)
+video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8', cv2.CAP_FFMPEG)
 video.set(cv2.CAP_PROP_BUFFERSIZE, 3)
 
 # Target FPS dan ukuran frame
 target_fps = 30
-frame_interval = 3
+frame_interval = 5
 target_size = (320, 320)  # Reduced size for faster processing
 
 # Inisialisasi variabel untuk car counting
@@ -56,8 +56,8 @@ tracking_id = 0
 crossed_ids = set()
 
 # Posisi garis (bisa disesuaikan)
-horizontal_line_position = 0.75
-vertical_line_position = 0.7
+horizontal_line_position = 0.5
+vertical_line_position = 1
 
 frame_count = 0
 start_time = time.time()
@@ -83,8 +83,8 @@ while True:
     vertical_line_x = int(width * vertical_line_position)
 
     # Draw counting lines
-    cv2.line(frame, (0, horizontal_line_y), (width, horizontal_line_y), (0, 0, 255), 2)
-    cv2.line(frame, (vertical_line_x, 0), (vertical_line_x, height), (255, 0, 0), 2)
+    cv2.line(frame, (0, horizontal_line_y-75), (width, horizontal_line_y+25), (0, 0, 255), 5)
+    cv2.line(frame, (vertical_line_x, 50), (-100, vertical_line_x), (255, 0, 0), 2)
 
     # Deteksi objek
     blob = cv2.dnn.blobFromImage(frame, 1/255.0, target_size, swapRB=True, crop=False)

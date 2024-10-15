@@ -18,7 +18,7 @@ def check_crossing(y, prev_y, line_y):
     return 0  # No crossing
 
 # Inisialisasi YOLO
-net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
 classes = open("coco.names").read().strip().split("\n")
 
 # Buka video
