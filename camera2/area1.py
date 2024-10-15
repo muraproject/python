@@ -28,16 +28,17 @@ def point_in_polygon(x, y, polygon):
     return inside
 
 # Initialize YOLO
-net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
+# net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
+net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
 classes = open("coco.names").read().strip().split("\n")
 
 # Open video stream
-stream_url = "https://cctvjss.jogjakota.go.id/rthp/rthp_klitren_2.stream/playlist.m3u8"
+stream_url = "https://cctvjss.jogjakota.go.id/malioboro/NolKm_Utara.stream/playlist.m3u8"
 cap = cv2.VideoCapture(stream_url)
 
 # Target FPS and frame size
 target_fps = 30
-frame_interval = 10
+frame_interval = 20
 target_size = (640, 480)
 
 # Initialize variables for people counting
@@ -46,7 +47,7 @@ prev_centroids = {}
 tracking_id = 0
 
 # Define the counting area (polygon)
-counting_area = [(100, 0), (640, 0), (640, 380), (100, 380)]
+counting_area = [(100, 150), (640, 150), (640, 480), (100, 480)]
 
 frame_count = 0
 start_time = time.time()
@@ -125,7 +126,7 @@ while True:
     people_count = current_count
 
     # Display count
-    cv2.putText(frame, f"People in area: {people_count}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+    cv2.putText(frame, f"Jumlah orang di Area: {people_count}", (300, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
 
     # Calculate and display FPS
     elapsed_time = time.time() - start_time
