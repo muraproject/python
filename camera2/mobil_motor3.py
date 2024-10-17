@@ -27,12 +27,11 @@ def read_frames(video, frame_queue):
         frame_queue.put(frame)
     frame_queue.put(None)  # Signal end of video
 
-# Inisialisasi YOLO
-# net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
+# Initialize YOLO
 net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
 classes = open("coco.names").read().strip().split("\n")
 
-# Coba aktifkan CUDA jika tersedia
+# Try to activate CUDA if available
 try:
     net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
     net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
@@ -40,31 +39,32 @@ try:
 except:
     print("CUDA not available, using CPU")
 
-# Buka video
-video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8', cv2.CAP_FFMPEG)
+# Open video
+# video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8', cv2.CAP_FFMPEG)
+video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/atcs/ATCS_Simpang_Gondomanan_View_Selatan.stream/playlist.m3u8', cv2.CAP_FFMPEG)
 video.set(cv2.CAP_PROP_BUFFERSIZE, 10)
 
-# Target FPS dan ukuran frame
+# Target FPS and frame size
 target_fps = 30
 frame_interval = 5
-target_size = (320, 320)  # Reduced size for faster processing
+target_size = (416, 320)  # Reduced size for faster processing
 
-# Inisialisasi variabel untuk car counting
-cars_left = 0
-cars_right = 0
+# Initialize variables for vehicle counting
+motorcycle_count = 0
+car_count = 0
+truck_count = 0
 prev_centroids = {}
 tracking_id = 0
 crossed_ids = set()
 
-# Posisi garis (bisa disesuaikan)
+# Line position (can be adjusted)
 horizontal_line_position = 0.5
-vertical_line_position = 1
 
 frame_count = 0
 start_time = time.time()
 processing_times = []
 
-# Inisialisasi queue untuk frame
+# Initialize queue for frames
 frame_queue = Queue(maxsize=5)
 threading.Thread(target=read_frames, args=(video, frame_queue), daemon=True).start()
 
@@ -81,13 +81,11 @@ while True:
     frame = cv2.resize(frame, target_size)
     height, width = frame.shape[:2]
     horizontal_line_y = int(height * horizontal_line_position)
-    vertical_line_x = int(width * vertical_line_position)
 
-    # Draw counting lines
-    cv2.line(frame, (0, horizontal_line_y-75), (width, horizontal_line_y+25), (0, 0, 255), 10)
-    cv2.line(frame, (vertical_line_x, 50), (-100, vertical_line_x), (255, 0, 0), 2)
+    # Draw counting line
+    cv2.line(frame, (0, horizontal_line_y), (width, horizontal_line_y+150), (0, 0, 255), 10)
 
-    # Deteksi objek
+    # Object detection
     blob = cv2.dnn.blobFromImage(frame, 1/255.0, target_size, swapRB=True, crop=False)
     net.setInput(blob)
     
@@ -96,12 +94,12 @@ while True:
     process_end = time.time()
     processing_times.append(process_end - process_start)
 
-    # Inisialisasi list untuk hasil deteksi
+    # Initialize lists for detection results
     class_ids = []
     confidences = []
     boxes = []
 
-    # Threshold untuk deteksi
+    # Detection thresholds
     conf_threshold = 0.2
     nms_threshold = 0.4
 
@@ -110,7 +108,7 @@ while True:
             scores = detection[5:]
             class_id = np.argmax(scores)
             confidence = scores[class_id]
-            if confidence > conf_threshold and classes[class_id] in ["car", "truck", "bus"]:
+            if confidence > conf_threshold and classes[class_id] in ["person", "car", "truck", "bus"]:
                 center_x = int(detection[0] * width)
                 center_y = int(detection[1] * height)
                 w = int(detection[2] * width)
@@ -130,6 +128,7 @@ while True:
         x, y, w, h = box
         centroid_x = x + w // 2
         centroid_y = y + h // 2
+        class_name = classes[class_ids[i]]
 
         # Simple tracking
         min_distance = float('inf')
@@ -152,10 +151,12 @@ while True:
             crossing = check_crossing(centroid_y, prev_y, horizontal_line_y)
             if crossing != 0:
                 crossed_ids.add(matched_id)
-                if centroid_x < vertical_line_x:
-                    cars_left += 1
-                else:
-                    cars_right += 1
+                if class_name == "person":
+                    motorcycle_count += 1
+                elif class_name == "car":
+                    car_count += 1
+                elif class_name in ["truck", "bus"]:
+                    truck_count += 1
 
         draw_prediction(frame, class_ids[i], confidences[i], round(x), round(y), round(x+w), round(y+h))
 
@@ -167,14 +168,14 @@ while True:
     # Display counts and FPS every 5 frames
     if frame_count % 5 == 0:
         # Display counts
-        cv2.putText(frame, f"Left: {cars_left} Right: {cars_right}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        cv2.putText(frame, f"Motorcycles: {motorcycle_count} Cars: {car_count} Trucks: {truck_count}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
-        # Hitung dan tampilkan FPS
+        # Calculate and display FPS
         elapsed_time = time.time() - start_time
         fps = frame_count / elapsed_time
         cv2.putText(frame, f"FPS: {fps:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
-        cv2.imshow("Car Detection and Counting", frame)
+        cv2.imshow("Vehicle Detection and Counting", frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
@@ -182,6 +183,6 @@ while True:
 video.release()
 cv2.destroyAllWindows()
 
-print(f"Final count - Left: {cars_left}, Right: {cars_right}")
+print(f"Final count - Motorcycles: {motorcycle_count}, Cars: {car_count}, Trucks: {truck_count}")
 print(f"Average FPS: {frame_count / elapsed_time:.2f}")
 print(f"Average processing time per frame: {sum(processing_times) / len(processing_times):.4f} seconds")

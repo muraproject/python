@@ -1,1 +1,1 @@
-{"interval": "10", "area": "50,75,320,240", "conf_threshold": 0.22558139534883723, "nms_threshold": 0.21511627906976744, "input_size": 608, "scale_factor": 0.00392156862745098, "size_filter": 23.872093023255815}
+{"interval": "1", "area": "50,75,320,240", "conf_threshold": 0.1418604651162791, "nms_threshold": 0.21511627906976744, "input_size": 320, "scale_factor": 0.00392156862745098, "size_filter": 23.872093023255815}
