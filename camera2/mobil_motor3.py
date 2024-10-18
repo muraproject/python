@@ -40,14 +40,14 @@ except:
     print("CUDA not available, using CPU")
 
 # Open video
-# video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8', cv2.CAP_FFMPEG)
-video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/atcs/ATCS_Simpang_Gondomanan_View_Selatan.stream/playlist.m3u8', cv2.CAP_FFMPEG)
+video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8', cv2.CAP_FFMPEG)
+# video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/atcs/ATCS_Simpang_Gondomanan_View_Selatan.stream/playlist.m3u8', cv2.CAP_FFMPEG)
 video.set(cv2.CAP_PROP_BUFFERSIZE, 10)
 
 # Target FPS and frame size
 target_fps = 30
 frame_interval = 5
-target_size = (416, 320)  # Reduced size for faster processing
+target_size = (320, 320)  # Reduced size for faster processing
 
 # Initialize variables for vehicle counting
 motorcycle_count = 0
