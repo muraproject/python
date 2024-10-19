@@ -29,7 +29,7 @@ def read_frames(video, frame_queue):
 
 # Inisialisasi YOLO
 # net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
-net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
+net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
 classes = open("coco.names").read().strip().split("\n")
 
 # Coba aktifkan CUDA jika tersedia
