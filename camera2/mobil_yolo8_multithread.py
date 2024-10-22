@@ -21,20 +21,23 @@ def read_frames(video, frame_queue):
         frame_queue.put(frame)
     frame_queue.put(None)  # Signal end of video
 
-def process_frame(model, frame, results_queue, frame_id):
-    results = model(frame)
-    results_queue.put((frame_id, results))
+def process_frame(model, input_queue, output_queue):
+    while True:
+        item = input_queue.get()
+        if item is None:
+            break
+        frame, frame_id = item
+        results = model(frame)
+        output_queue.put((frame, results, frame_id))
 
 # Initialize YOLOv8
-model = YOLO('yolov8n.pt')  # or 'yolov8s.pt', 'yolov8m.pt', 'yolov8l.pt', 'yolov8x.pt' depending on your needs
+model = YOLO('yolov8n.pt')
 
 # Open video
 video = cv2.VideoCapture('https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8', cv2.CAP_FFMPEG)
-video.set(cv2.CAP_PROP_BUFFERSIZE, 10)
+video.set(cv2.CAP_PROP_BUFFERSIZE, 20)
 
-# Target FPS and frame size
-target_fps = 30
-frame_interval = 5
+# Target frame size
 target_size = (640, 640)  # YOLOv8 default input size
 
 # Initialize variables for car counting
@@ -48,12 +51,11 @@ crossed_ids = set()
 horizontal_line_position = 0.5
 vertical_line_position = 0.5
 
-frame_count = 0
 start_time = time.time()
-processing_times = []
 
 # Initialize frame queue and results queue
-frame_queue = Queue(maxsize=30)
+frame_queue = Queue(maxsize=10)
+process_queue = Queue(maxsize=10)
 results_queue = Queue()
 
 # Determine number of worker threads based on CPU count
@@ -66,36 +68,42 @@ threading.Thread(target=read_frames, args=(video, frame_queue), daemon=True).sta
 # Start worker threads
 workers = []
 for _ in range(num_workers):
-    worker = threading.Thread(target=lambda: process_frame(model, frame_queue.get(), results_queue, frame_count), daemon=True)
+    worker = threading.Thread(target=process_frame, args=(model, process_queue, results_queue), daemon=True)
     worker.start()
     workers.append(worker)
 
 processed_frame_count = 0
+frame_id = 0
+processing_times = []
+
 while True:
     if frame_queue.empty() and results_queue.empty():
-        if processed_frame_count >= frame_count:
+        if video.get(cv2.CAP_PROP_POS_FRAMES) == video.get(cv2.CAP_PROP_FRAME_COUNT):
             break
         continue
 
-    if not results_queue.empty():
-        frame_id, results = results_queue.get()
-        processed_frame_count += 1
-
-        if processed_frame_count % frame_interval != 0:
-            continue
-
+    # Read a frame and send it for processing
+    if not frame_queue.empty():
         frame = frame_queue.get()
         if frame is None:
             break
+        process_queue.put((frame, frame_id))
+        frame_id += 1
 
-        frame = cv2.resize(frame, target_size)
-        height, width = frame.shape[:2]
-        horizontal_line_y = int(height * horizontal_line_position)
-        vertical_line_x = int(width * vertical_line_position)
+    # Display the frame immediately
+    frame_display = cv2.resize(frame, target_size)
+    height, width = frame_display.shape[:2]
+    horizontal_line_y = int(height * horizontal_line_position)
+    vertical_line_x = int(width * vertical_line_position)
 
-        # Draw counting lines
-        cv2.line(frame, (0, horizontal_line_y), (width, horizontal_line_y), (0, 0, 255), 2)
-        cv2.line(frame, (vertical_line_x, 0), (vertical_line_x, height), (255, 0, 0), 2)
+    # Draw counting lines
+    cv2.line(frame_display, (0, horizontal_line_y), (width, horizontal_line_y), (0, 0, 255), 8)
+    cv2.line(frame_display, (vertical_line_x, 0), (vertical_line_x, height), (255, 0, 0), 2)
+
+    # Process results if available
+    if not results_queue.empty():
+        _, results, _ = results_queue.get()
+        processed_frame_count += 1
 
         current_centroids = {}
 
@@ -138,34 +146,32 @@ while True:
                                 cars_right += 1
 
                     # Draw bounding box and label
-                    cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                    label = f"{model.names[cls]}: {conf:.2f}"
-                    cv2.putText(frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                    # cv2.rectangle(frame_display, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                    # label = f"{model.names[cls]}: {conf:.2f}"
+                    # cv2.putText(frame_display, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
         # Remove IDs that are no longer tracked
         crossed_ids = {id for id in crossed_ids if id in current_centroids}
 
         prev_centroids = current_centroids
 
-        # Display counts and FPS
-        cv2.putText(frame, f"Left: {cars_left} Right: {cars_right}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+    # Display counts and FPS
+    cv2.putText(frame_display, f"Left: {cars_left} Right: {cars_right}", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
-        # Calculate and display FPS
-        elapsed_time = time.time() - start_time
-        fps = processed_frame_count / elapsed_time
-        cv2.putText(frame, f"FPS: {fps:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+    # Calculate and display FPS
+    current_time = time.time()
+    elapsed_time = current_time - start_time
+    fps = frame_id / elapsed_time
+    cv2.putText(frame_display, f"FPS: {fps:.2f}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
-        cv2.imshow("Car Detection and Counting", frame)
+    cv2.imshow("Car Detection and Counting", frame_display)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
 
-    frame_count += 1
-    if not frame_queue.full():
-        # Start a new worker thread for the next frame
-        worker = threading.Thread(target=lambda: process_frame(model, frame_queue.get(), results_queue, frame_count), daemon=True)
-        worker.start()
-        workers.append(worker)
+# Signal worker threads to stop
+for _ in range(num_workers):
+    process_queue.put(None)
 
 # Wait for all worker threads to finish
 for worker in workers:
@@ -174,5 +180,9 @@ for worker in workers:
 video.release()
 cv2.destroyAllWindows()
 
+# Calculate final elapsed time
+final_elapsed_time = time.time() - start_time
+
 print(f"Final count - Left: {cars_left}, Right: {cars_right}")
-print(f"Average FPS: {processed_frame_count / elapsed_time:.2f}")
+print(f"Average FPS: {frame_id / final_elapsed_time:.2f}")
+print(f"Processed Frames: {processed_frame_count}")
