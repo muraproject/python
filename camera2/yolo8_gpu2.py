@@ -128,7 +128,7 @@ def process_video_stream(video_source, skip_frames=2):
                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
             
             # Red line for downward detection
-            cv2.line(overlay, (0, down_line_y), (width, down_line_y), (0, 0, 255), 2)
+            cv2.line(overlay, (0, down_line_y), (width, down_line_y), (0, 0, 255), 4)
             cv2.putText(overlay, "DOWN DETECTION", (10, down_line_y + 25),
                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
             
