@@ -163,7 +163,7 @@ def process_video_stream(video_source='api.mp4', skip_frames=2):
     cv2.destroyAllWindows()
 
 def main():
-    video_source = 'jalan.mp4'  # Your input video file
+    video_source = 'https://cctvjss.jogjakota.go.id/rthp/rthp_segoro_amarto_tegalrejo_2.stream/playlist.m3u8'  # Your input video file
     skip_frames = 2
     process_video_stream(video_source, skip_frames)
 
