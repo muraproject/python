@@ -4,6 +4,8 @@ import time
 from ultralytics import YOLO
 from collections import deque
 
+# [Previous GPUProcessor and ObjectTracker classes remain the same]
+
 class GPUProcessor:
     def __init__(self):
         self.use_gpu = self._init_gpu()
@@ -49,23 +51,27 @@ class ObjectTracker:
             self.trajectories[track_id] = deque(maxlen=self.max_points)
         self.trajectories[track_id].append(centroid)
 
+
 def process_video_stream(video_source, skip_frames=2):
     model = YOLO('yolov8n.pt')
     gpu_processor = GPUProcessor()
     tracker = ObjectTracker()
     
     object_counts = {
-        'car': {'up': 0, 'down': 0},
-        'motorcycle': {'up': 0, 'down': 0},
-        'truck': {'up': 0, 'down': 0},
-        'bus': {'up': 0, 'down': 0},
-        'person': {'up': 0, 'down': 0},  # Tambah deteksi orang
-        'bicycle': {'up': 0, 'down': 0}  # Tambah deteksi sepeda
+        'car': {'up1': 0, 'up2': 0, 'up3': 0, 'down1': 0, 'down2': 0, 'down3': 0},
+        'motorcycle': {'up1': 0, 'up2': 0, 'up3': 0, 'down1': 0, 'down2': 0, 'down3': 0},
+        'truck': {'up1': 0, 'up2': 0, 'up3': 0, 'down1': 0, 'down2': 0, 'down3': 0},
+        'bus': {'up1': 0, 'up2': 0, 'up3': 0, 'down1': 0, 'down2': 0, 'down3': 0},
+        'person': {'up1': 0, 'up2': 0, 'up3': 0, 'down1': 0, 'down2': 0, 'down3': 0},
+        'bicycle': {'up1': 0, 'up2': 0, 'up3': 0, 'down1': 0, 'down2': 0, 'down3': 0}
     }
     
     prev_centroids = {}
     tracking_id = 0
-    crossed_ids = set()
+    crossed_ids = {
+        'up1': set(), 'up2': set(), 'up3': set(),
+        'down1': set(), 'down2': set(), 'down3': set()
+    }
 
     video = cv2.VideoCapture(video_source, cv2.CAP_FFMPEG)
     video.set(cv2.CAP_PROP_BUFFERSIZE, 30)
@@ -77,7 +83,6 @@ def process_video_stream(video_source, skip_frames=2):
 
     frame_count = 0
     start_time = time.time()
-    last_fps_time = start_time
     fps = 0
     process_this_frame = 0
     
@@ -87,11 +92,19 @@ def process_video_stream(video_source, skip_frames=2):
     
     height, width = first_frame.shape[:2]
     
-    line_spacing = 50
-    up_line_y = int(height * 0.3)
-    down_line_y = int(height * 0.45)
+    # Define three sets of detection lines
+    line_spacing = height // 10
+    up_lines_y = [
+        int(height * 0.2),  # First up line
+        int(height * 0.4),  # Second up line
+        int(height * 0.6)   # Third up line
+    ]
+    down_lines_y = [
+        int(height * 0.3),  # First down line
+        int(height * 0.45),  # Second down line
+        int(height * 0.65)   # Third down line
+    ]
     
-    dropped_frames = 0
     last_frame_time = time.time()
     
     while True:
@@ -99,7 +112,6 @@ def process_video_stream(video_source, skip_frames=2):
             ret = video.grab()
             if not ret:
                 break
-            dropped_frames += 1
 
         ret, frame = video.read()
         if not ret:
@@ -122,13 +134,16 @@ def process_video_stream(video_source, skip_frames=2):
             current_centroids = {}
             overlay = cpu_frame.copy()
             
-            cv2.line(overlay, (0, up_line_y), (width, up_line_y), (0, 255, 0), 4)
-            cv2.putText(overlay, "UP DETECTION", (10, up_line_y - 10),
-                       cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
+            # Draw all detection lines
+            for i, y in enumerate(up_lines_y):
+                cv2.line(overlay, (0, y), (width, y), (0, 255, 0), 2)
+                cv2.putText(overlay, f"UP {i+1} DETECTION", (10, y - 10),
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
             
-            cv2.line(overlay, (0, down_line_y), (width, down_line_y), (0, 0, 255), 4)
-            cv2.putText(overlay, "DOWN DETECTION", (10, down_line_y + 25),
-                       cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+            for i, y in enumerate(down_lines_y):
+                cv2.line(overlay, (0, y), (width, y), (0, 0, 255), 2)
+                cv2.putText(overlay, f"DOWN {i+1} DETECTION", (10, y + 20),
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
             
             for r in results:
                 boxes = r.boxes
@@ -137,7 +152,6 @@ def process_video_stream(video_source, skip_frames=2):
                     conf = float(box.conf[0])
                     class_name = model.names[cls]
                     
-                    # Tambahkan person dan bicycle ke daftar objek yang dideteksi
                     if conf > 0.3 and class_name in ['car', 'person', 'truck', 'bus', 'bicycle', 'motorcycle']:
                         x1, y1, x2, y2 = map(int, box.xyxy[0])
                         centroid_x = (x1 + x2) // 2
@@ -168,23 +182,26 @@ def process_video_stream(video_source, skip_frames=2):
                         for i in range(1, len(points)):
                             cv2.line(overlay, points[i-1], points[i], color, 2)
 
-                        if matched_id in prev_centroids and matched_id not in crossed_ids:
+                        if matched_id in prev_centroids:
                             prev_y = prev_centroids[matched_id][1]
+                            direction = ""
+                            direction_color = color
                             
-                            if prev_y > up_line_y and centroid_y <= up_line_y:
-                                object_counts[class_name]['up'] += 1
-                                crossed_ids.add(matched_id)
-                                direction = "↑ UP"
-                                direction_color = (0, 255, 0)
+                            # Check crossings for all up lines
+                            for i, up_y in enumerate(up_lines_y):
+                                if prev_y > up_y and centroid_y <= up_y and matched_id not in crossed_ids[f'up{i+1}']:
+                                    object_counts[class_name][f'up{i+1}'] += 1
+                                    crossed_ids[f'up{i+1}'].add(matched_id)
+                                    direction = f"↑ UP {i+1}"
+                                    direction_color = (0, 255, 0)
                             
-                            elif prev_y < down_line_y and centroid_y >= down_line_y:
-                                object_counts[class_name]['down'] += 1
-                                crossed_ids.add(matched_id)
-                                direction = "↓ DOWN"
-                                direction_color = (0, 0, 255)
-                            else:
-                                direction = ""
-                                direction_color = color
+                            # Check crossings for all down lines
+                            for i, down_y in enumerate(down_lines_y):
+                                if prev_y < down_y and centroid_y >= down_y and matched_id not in crossed_ids[f'down{i+1}']:
+                                    object_counts[class_name][f'down{i+1}'] += 1
+                                    crossed_ids[f'down{i+1}'].add(matched_id)
+                                    direction = f"↓ DOWN {i+1}"
+                                    direction_color = (0, 0, 255)
 
                             label = f"ID:{matched_id} {class_name} {direction}"
                             cv2.putText(overlay, label, (x1, y1-10), 
@@ -195,15 +212,22 @@ def process_video_stream(video_source, skip_frames=2):
                                       cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
             prev_centroids = current_centroids
-            crossed_ids = {id for id in crossed_ids if id in current_centroids}
+            
+            # Update crossed_ids sets
+            for direction in crossed_ids:
+                crossed_ids[direction] = {id for id in crossed_ids[direction] if id in current_centroids}
 
+            # Display counts
             y_position = 30
             for object_type, counts in object_counts.items():
-                up_text = f"{object_type.capitalize()} UP: {counts['up']}"
-                down_text = f"DOWN: {counts['down']}"
+                # Display UP counts
+                up_text = f"{object_type.capitalize()} UP1: {counts['up1']} UP2: {counts['up2']} UP3: {counts['up3']}"
                 cv2.putText(overlay, up_text, (10, y_position), 
-                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-                cv2.putText(overlay, down_text, (200, y_position), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
+                
+                # Display DOWN counts
+                down_text = f"DOWN1: {counts['down1']} DOWN2: {counts['down2']} DOWN3: {counts['down3']}"
+                cv2.putText(overlay, down_text, (350, y_position), 
                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
                 y_position += 30
 
@@ -235,12 +259,14 @@ def process_video_stream(video_source, skip_frames=2):
 
 def main():
     video_source = 'https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8'
-    skip_frames = 2
+    skip_frames = 1
     object_counts, fps = process_video_stream(video_source, skip_frames)
     
     print("\nFinal Object Counts:")
     for object_type, counts in object_counts.items():
-        print(f"{object_type.capitalize()}: Up {counts['up']}, Down {counts['down']}")
+        print(f"\n{object_type.capitalize()}:")
+        print(f"Up lines: 1:{counts['up1']}, 2:{counts['up2']}, 3:{counts['up3']}")
+        print(f"Down lines: 1:{counts['down1']}, 2:{counts['down2']}, 3:{counts['down3']}")
     print(f"\nAverage FPS: {fps:.2f}")
 
 if __name__ == "__main__":

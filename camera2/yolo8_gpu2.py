@@ -139,7 +139,7 @@ def process_video_stream(video_source, skip_frames=2):
                     conf = float(box.conf[0])
                     class_name = model.names[cls]
                     
-                    if conf > 0.3 and class_name in ['car', 'person', 'truck', 'bus']:
+                    if conf > 0.3 and class_name in ['car', 'motorcycle', 'truck', 'bus']:
                         x1, y1, x2, y2 = map(int, box.xyxy[0])
                         centroid_x = (x1 + x2) // 2
                         centroid_y = (y1 + y2) // 2
@@ -238,8 +238,8 @@ def process_video_stream(video_source, skip_frames=2):
     return vehicle_counts, fps
 
 def main():
-    # video_source = 'https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8'
-    video_source = 'https://wxyz.nganjukkab.go.id/PasarSukomoro/streams/A5wi1bgyVti1mWba1711937120689.m3u8'
+    video_source = 'https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8'
+    # video_source = 'https://wxyz.nganjukkab.go.id/PasarSukomoro/streams/A5wi1bgyVti1mWba1711937120689.m3u8'
     skip_frames = 2
     vehicle_counts, fps = process_video_stream(video_source, skip_frames)
     
