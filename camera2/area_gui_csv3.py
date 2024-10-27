@@ -19,7 +19,7 @@ class PeopleCounterApp:
         self.vid = cv2.VideoCapture(self.stream_url)
 
         # YOLO initialization
-        self.net = cv2.dnn.readNet("yolov3-spp.weights", "yolov3-spp.cfg")
+        self.net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
         self.classes = open("coco.names").read().strip().split("\n")
 
         # Create canvases for live video and processed video
