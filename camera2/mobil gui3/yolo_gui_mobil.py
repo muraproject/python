@@ -39,6 +39,168 @@ class VehicleCounterGUI:
         self.last_save_time = time.time()
         
         # Set main window properties
+        self.window.state('zoomed')  # Maximize window
+        self.setup_gui()
+        self.load_settings()
+        
+        # Add interval check timer
+        self.check_interval_timer = None
+
+    def start_processing(self):
+        """Start video processing"""
+        if not self.running:
+            try:
+                # Validate settings before starting
+                is_valid, message = self.validate_settings()
+                if not is_valid:
+                    messagebox.showerror("Error", message)
+                    return
+                
+                # Apply current settings
+                self.apply_settings()
+                
+                # Start processing
+                self.running = True
+                self.start_button.config(state='disabled')
+                self.stop_button.config(state='normal')
+                
+                # Disable settings inputs while running
+                self.disable_settings_inputs()
+                
+                # Reset last save time
+                self.last_save_time = time.time()
+                
+                # Start interval check timer
+                self.start_interval_timer()
+                
+                # Start video thread
+                self.video_thread = threading.Thread(target=self.process_video)
+                self.video_thread.daemon = True
+                self.video_thread.start()
+                
+            except Exception as e:
+                messagebox.showerror("Error", f"Failed to start processing: {str(e)}")
+                self.stop_processing()
+
+    def stop_processing(self):
+        """Stop video processing"""
+        try:
+            self.running = False
+            
+            # Stop interval timer
+            if self.check_interval_timer:
+                self.window.after_cancel(self.check_interval_timer)
+                self.check_interval_timer = None
+            
+            # Wait for video thread to finish
+            if self.video_thread and self.video_thread.is_alive():
+                self.video_thread.join(timeout=1.0)
+            
+            # Save final counts
+            counts = self.data_manager.save_current_counts()
+            self.update_table(counts)
+            
+            # Reset UI
+            self.start_button.config(state='normal')
+            self.stop_button.config(state='disabled')
+            
+            # Enable settings inputs
+            self.enable_settings_inputs()
+            
+        except Exception as e:
+            messagebox.showerror("Error", f"Error stopping process: {str(e)}")
+
+    def start_interval_timer(self):
+        """Start timer to check save interval"""
+        if self.running:
+            try:
+                current_time = time.time()
+                interval = int(self.interval_var.get())
+                
+                if current_time - self.last_save_time >= interval:
+                    # Save counts
+                    counts = self.data_manager.save_current_counts()
+                    self.update_table(counts)
+                    self.last_save_time = current_time
+                    
+                # Schedule next check (check every second)
+                self.check_interval_timer = self.window.after(1000, self.start_interval_timer)
+                
+            except Exception as e:
+                print(f"Error in interval timer: {str(e)}")
+
+    def process_video(self):
+        """Main video processing loop with monitoring updates"""
+        try:
+            cap = self.video_processor.initialize_video_capture()
+            if not cap.isOpened():
+                raise Exception("Could not open video source")
+
+            frame_time = time.time()
+            frames_count = 0
+
+            while self.running:
+                try:
+                    ret, frame = cap.read()
+                    if not ret:
+                        raise Exception("Failed to read video frame")
+
+                    # Process frame
+                    processed_frame = self.video_processor.process_frame(frame)
+                    self.update_image(processed_frame)
+
+                    # Update FPS calculation
+                    frames_count += 1
+                    if frames_count % 30 == 0:  # Update every 30 frames
+                        current_time = time.time()
+                        fps = 30 / (current_time - frame_time)
+                        frame_time = current_time
+                        self.fps_var.set(f"FPS: {fps:.1f}")
+
+                    # Update object count
+                    self.object_count_var.set(f"Objects: {len(self.video_processor.prev_centroids)}")
+
+                    # Update realtime monitoring
+                    self.update_monitoring(self.data_manager.current_counts)
+
+                    # Process any pending events
+                    self.window.update_idletasks()
+
+                except Exception as e:
+                    print(f"Error in processing loop: {str(e)}")
+                    continue
+
+        except Exception as e:
+            messagebox.showerror("Error", f"Video processing error: {str(e)}")
+        
+        finally:
+            if 'cap' in locals():
+                cap.release()
+            self.stop_processing()
+
+    def __init__(self, window):
+        self.window = window
+        self.window.title("Vehicle Counter System")
+        
+        # Initialize managers
+        self.settings_manager = SettingsManager()
+        self.data_manager = DataManager()
+        self.gpu_processor = GPUProcessor()
+        self.tracker = ObjectTracker()
+        
+        # Share GPU and tracker with settings manager
+        self.settings_manager.gpu_processor = self.gpu_processor
+        self.settings_manager.tracker = self.tracker
+        
+        # Initialize video processor
+        self.video_processor = VideoProcessor(self.settings_manager, self.data_manager)
+        
+        # Initialize variables
+        self.video_thread = None
+        self.running = False
+        self.last_save_time = time.time()
+        
+        # Set main window properties
         self.window.state('normal')  # Maximize window
         self.setup_gui()
         self.load_settings()

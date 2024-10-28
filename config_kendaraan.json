@@ -1,1 +1,0 @@
-{"horizontal_line_position": 0.52, "vertical_line_position": 0.5, "contrast": 1.3900000000000001, "brightness": -76, "hue": 0, "saturation": 1.44, "conf_threshold": 0.07, "nms_threshold": 0.28, "min_object_size": 0.003, "max_object_size": 0.7, "blur_amount": 6, "sharpness": 0.5, "gamma": 1.0, "line_thickness": 2, "frame_interval": 4}
