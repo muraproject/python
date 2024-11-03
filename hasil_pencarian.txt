@@ -1,0 +1,34 @@
+Hasil Pencarian 'SetIcon' di folder: C:\OpenCPN\gui\src
+(Pencarian mengabaikan besar kecil huruf)
+--------------------------------------------------
+
+Ditemukan di file: C:\OpenCPN\gui\src\chcanv.cpp
+Baris 10147: newPoint->SetIconName(_T("circle"));
+
+Ditemukan di file: C:\OpenCPN\gui\src\MarkInfo.cpp
+Baris 1432: m_pRoutePoint->SetIconName(m_IconName_save);
+Baris 1676: if (icon_name && icon_name->Length()) m_pRoutePoint->SetIconName(*icon_name);
+Baris 1718: m_pRoutePoint->SetIconName(*icon_name);
+Baris 1825: if (icon_name && icon_name->Length()) rp->SetIconName(*icon_name);
+
+Ditemukan di file: C:\OpenCPN\gui\src\ocpn_frame.cpp
+Baris 771: SetIcon(wxICON(
+Baris 777: SetIcon(app_icon);
+
+Ditemukan di file: C:\OpenCPN\gui\src\pluginmanager.cpp
+Baris 3243: prp->SetIconName(pwaypoint->m_IconName);
+Baris 7644: pWP->SetIconName(src->IconName);
+Baris 7711: prp->SetIconName(pwaypoint->IconName);
+
+Ditemukan di file: C:\OpenCPN\gui\src\routemanagerdialog.cpp
+Baris 1035: m_pRouteListCtrl->GetHandle()->setIconSize(QSize(imageRefSize, imageRefSize));
+
+Ditemukan di file: C:\OpenCPN\gui\src\toolbar.cpp
+Baris 131: void SetIconName(wxString name) { iconName = name; }
+Baris 2201: otool->SetIconName(iconName);
+
+==================================================
+Statistik Pencarian:
+Total file diperiksa: 130
+File yang mengandung teks: 6
+Total kemunculan teks: 13
