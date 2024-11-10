@@ -39,7 +39,7 @@ def create_red_overlay(frame):
     cv2.addWeighted(red_mask, 0.3, overlay, 0.7, 0, overlay)  # 30% red overlay
     return overlay
 
-def process_video_stream(video_source='api.mp4', skip_frames=2):
+def process_video_stream(video_source='api3.mp4', skip_frames=2):
     # Initialize YOLO model
     # model = YOLO('fireModel.pt')
     model = YOLO('api3.pt')
@@ -163,7 +163,7 @@ def process_video_stream(video_source='api.mp4', skip_frames=2):
     cv2.destroyAllWindows()
 
 def main():
-    video_source = 'https://cctvjss.jogjakota.go.id/rthp/rthp_segoro_amarto_tegalrejo_2.stream/playlist.m3u8'  # Your input video file
+    video_source = 'api3.mp4'  # Your input video file
     skip_frames = 2
     process_video_stream(video_source, skip_frames)
 
