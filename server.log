@@ -1,0 +1,1448 @@
+2024-11-09 09:30:54,076 - INFO - Server initialized with IP: 192.168.0.6
+2024-11-09 09:30:54,085 - INFO - Server started on 192.168.0.6:5196
+2024-11-09 09:31:49,098 - INFO - New connection from ('192.168.0.3', 43344)
+2024-11-09 09:31:49,098 - ERROR - Error handling client ('192.168.0.3', 43344): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:31:49,100 - INFO - Connection closed for ('192.168.0.3', 43344)
+2024-11-09 09:34:21,165 - INFO - New connection from ('192.168.0.3', 43352)
+2024-11-09 09:34:21,169 - ERROR - Error handling client ('192.168.0.3', 43352): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:34:21,169 - INFO - Connection closed for ('192.168.0.3', 43352)
+2024-11-09 09:34:22,266 - INFO - New connection from ('192.168.0.3', 43354)
+2024-11-09 09:34:22,269 - ERROR - Error handling client ('192.168.0.3', 43354): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:34:22,270 - INFO - Connection closed for ('192.168.0.3', 43354)
+2024-11-09 09:35:45,957 - INFO - New connection from ('192.168.0.3', 43358)
+2024-11-09 09:35:45,961 - ERROR - Error handling client ('192.168.0.3', 43358): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:35:45,964 - INFO - Connection closed for ('192.168.0.3', 43358)
+2024-11-09 09:35:45,969 - INFO - New connection from ('192.168.0.3', 43360)
+2024-11-09 09:35:45,977 - ERROR - Error handling client ('192.168.0.3', 43360): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:35:45,977 - INFO - Connection closed for ('192.168.0.3', 43360)
+2024-11-09 09:37:23,280 - INFO - New connection from ('192.168.0.3', 43366)
+2024-11-09 09:37:23,283 - ERROR - Error handling client ('192.168.0.3', 43366): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:37:23,283 - INFO - Connection closed for ('192.168.0.3', 43366)
+2024-11-09 09:37:23,296 - INFO - New connection from ('192.168.0.3', 43368)
+2024-11-09 09:37:23,296 - ERROR - Error handling client ('192.168.0.3', 43368): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:37:23,297 - INFO - Connection closed for ('192.168.0.3', 43368)
+2024-11-09 09:40:31,970 - INFO - New connection from ('192.168.0.3', 43378)
+2024-11-09 09:40:31,970 - ERROR - Error handling client ('192.168.0.3', 43378): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:40:31,970 - INFO - Connection closed for ('192.168.0.3', 43378)
+2024-11-09 09:40:31,979 - INFO - New connection from ('192.168.0.3', 43380)
+2024-11-09 09:40:31,981 - ERROR - Error handling client ('192.168.0.3', 43380): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:40:31,981 - INFO - Connection closed for ('192.168.0.3', 43380)
+2024-11-09 09:41:07,723 - INFO - New connection from ('192.168.0.3', 33803)
+2024-11-09 09:41:08,205 - ERROR - Error handling client ('192.168.0.3', 33803): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:08,207 - INFO - Connection closed for ('192.168.0.3', 33803)
+2024-11-09 09:41:08,732 - INFO - New connection from ('192.168.0.3', 34253)
+2024-11-09 09:41:08,742 - ERROR - Error handling client ('192.168.0.3', 34253): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:08,742 - INFO - Connection closed for ('192.168.0.3', 34253)
+2024-11-09 09:41:09,749 - INFO - New connection from ('192.168.0.3', 42023)
+2024-11-09 09:41:10,377 - ERROR - Error handling client ('192.168.0.3', 42023): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:10,379 - INFO - Connection closed for ('192.168.0.3', 42023)
+2024-11-09 09:41:10,769 - INFO - New connection from ('192.168.0.3', 34233)
+2024-11-09 09:41:11,172 - ERROR - Error handling client ('192.168.0.3', 34233): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:11,180 - INFO - Connection closed for ('192.168.0.3', 34233)
+2024-11-09 09:41:11,429 - INFO - New connection from ('192.168.0.3', 35037)
+2024-11-09 09:41:11,789 - ERROR - Error handling client ('192.168.0.3', 35037): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:11,793 - INFO - Connection closed for ('192.168.0.3', 35037)
+2024-11-09 09:41:12,407 - INFO - New connection from ('192.168.0.3', 43151)
+2024-11-09 09:41:12,545 - ERROR - Error handling client ('192.168.0.3', 43151): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:12,550 - INFO - Connection closed for ('192.168.0.3', 43151)
+2024-11-09 09:41:12,819 - INFO - New connection from ('192.168.0.3', 35697)
+2024-11-09 09:41:12,929 - ERROR - Error handling client ('192.168.0.3', 35697): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:12,938 - INFO - Connection closed for ('192.168.0.3', 35697)
+2024-11-09 09:41:13,336 - INFO - New connection from ('192.168.0.3', 44033)
+2024-11-09 09:41:14,039 - ERROR - Error handling client ('192.168.0.3', 44033): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:14,039 - INFO - Connection closed for ('192.168.0.3', 44033)
+2024-11-09 09:41:14,550 - INFO - New connection from ('192.168.0.3', 33699)
+2024-11-09 09:41:14,559 - ERROR - Error handling client ('192.168.0.3', 33699): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:14,559 - INFO - Connection closed for ('192.168.0.3', 33699)
+2024-11-09 09:41:15,683 - INFO - New connection from ('192.168.0.3', 41205)
+2024-11-09 09:41:15,683 - ERROR - Error handling client ('192.168.0.3', 41205): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:15,685 - INFO - Connection closed for ('192.168.0.3', 41205)
+2024-11-09 09:41:16,452 - INFO - New connection from ('192.168.0.3', 44701)
+2024-11-09 09:41:16,807 - ERROR - Error handling client ('192.168.0.3', 44701): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:16,807 - INFO - Connection closed for ('192.168.0.3', 44701)
+2024-11-09 09:41:17,424 - INFO - New connection from ('192.168.0.3', 45599)
+2024-11-09 09:41:17,719 - ERROR - Error handling client ('192.168.0.3', 45599): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:17,719 - INFO - Connection closed for ('192.168.0.3', 45599)
+2024-11-09 09:41:18,140 - INFO - New connection from ('192.168.0.3', 45187)
+2024-11-09 09:41:18,416 - ERROR - Error handling client ('192.168.0.3', 45187): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:18,418 - INFO - Connection closed for ('192.168.0.3', 45187)
+2024-11-09 09:41:18,756 - INFO - New connection from ('192.168.0.3', 33609)
+2024-11-09 09:41:19,005 - ERROR - Error handling client ('192.168.0.3', 33609): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:19,021 - INFO - Connection closed for ('192.168.0.3', 33609)
+2024-11-09 09:41:19,581 - INFO - New connection from ('192.168.0.3', 39393)
+2024-11-09 09:41:20,190 - ERROR - Error handling client ('192.168.0.3', 39393): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:20,192 - INFO - Connection closed for ('192.168.0.3', 39393)
+2024-11-09 09:41:20,441 - INFO - New connection from ('192.168.0.3', 38421)
+2024-11-09 09:41:21,108 - ERROR - Error handling client ('192.168.0.3', 38421): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:21,111 - INFO - Connection closed for ('192.168.0.3', 38421)
+2024-11-09 09:41:21,524 - INFO - New connection from ('192.168.0.3', 34979)
+2024-11-09 09:41:22,032 - ERROR - Error handling client ('192.168.0.3', 34979): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:22,035 - INFO - Connection closed for ('192.168.0.3', 34979)
+2024-11-09 09:41:22,537 - INFO - New connection from ('192.168.0.3', 45867)
+2024-11-09 09:41:23,254 - ERROR - Error handling client ('192.168.0.3', 45867): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:23,266 - INFO - Connection closed for ('192.168.0.3', 45867)
+2024-11-09 09:41:24,084 - INFO - New connection from ('192.168.0.3', 44273)
+2024-11-09 09:41:24,424 - ERROR - Error handling client ('192.168.0.3', 44273): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:24,431 - INFO - Connection closed for ('192.168.0.3', 44273)
+2024-11-09 09:41:24,891 - INFO - New connection from ('192.168.0.3', 40895)
+2024-11-09 09:41:24,891 - ERROR - Error handling client ('192.168.0.3', 40895): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:24,902 - INFO - Connection closed for ('192.168.0.3', 40895)
+2024-11-09 09:41:25,350 - INFO - New connection from ('192.168.0.3', 43065)
+2024-11-09 09:41:25,351 - ERROR - Error handling client ('192.168.0.3', 43065): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:25,352 - INFO - Connection closed for ('192.168.0.3', 43065)
+2024-11-09 09:41:25,821 - INFO - New connection from ('192.168.0.3', 38407)
+2024-11-09 09:41:25,823 - ERROR - Error handling client ('192.168.0.3', 38407): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:25,824 - INFO - Connection closed for ('192.168.0.3', 38407)
+2024-11-09 09:41:26,333 - INFO - New connection from ('192.168.0.3', 35593)
+2024-11-09 09:41:26,740 - ERROR - Error handling client ('192.168.0.3', 35593): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:26,740 - INFO - Connection closed for ('192.168.0.3', 35593)
+2024-11-09 09:41:27,319 - INFO - New connection from ('192.168.0.3', 38279)
+2024-11-09 09:41:27,564 - ERROR - Error handling client ('192.168.0.3', 38279): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:27,566 - INFO - Connection closed for ('192.168.0.3', 38279)
+2024-11-09 09:41:27,819 - INFO - New connection from ('192.168.0.3', 33987)
+2024-11-09 09:41:27,941 - ERROR - Error handling client ('192.168.0.3', 33987): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:27,941 - INFO - Connection closed for ('192.168.0.3', 33987)
+2024-11-09 09:41:28,224 - INFO - New connection from ('192.168.0.3', 34435)
+2024-11-09 09:41:28,455 - ERROR - Error handling client ('192.168.0.3', 34435): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:28,456 - INFO - Connection closed for ('192.168.0.3', 34435)
+2024-11-09 09:41:28,927 - INFO - New connection from ('192.168.0.3', 33001)
+2024-11-09 09:41:29,200 - ERROR - Error handling client ('192.168.0.3', 33001): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:29,200 - INFO - Connection closed for ('192.168.0.3', 33001)
+2024-11-09 09:41:29,612 - INFO - New connection from ('192.168.0.3', 38431)
+2024-11-09 09:41:30,225 - ERROR - Error handling client ('192.168.0.3', 38431): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:30,227 - INFO - Connection closed for ('192.168.0.3', 38431)
+2024-11-09 09:41:30,536 - INFO - New connection from ('192.168.0.3', 41303)
+2024-11-09 09:41:30,932 - ERROR - Error handling client ('192.168.0.3', 41303): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:30,937 - INFO - Connection closed for ('192.168.0.3', 41303)
+2024-11-09 09:41:31,345 - INFO - New connection from ('192.168.0.3', 36913)
+2024-11-09 09:41:31,792 - ERROR - Error handling client ('192.168.0.3', 36913): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:31,792 - INFO - Connection closed for ('192.168.0.3', 36913)
+2024-11-09 09:41:32,359 - INFO - New connection from ('192.168.0.3', 40435)
+2024-11-09 09:41:32,517 - ERROR - Error handling client ('192.168.0.3', 40435): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:32,518 - INFO - Connection closed for ('192.168.0.3', 40435)
+2024-11-09 09:41:33,304 - INFO - New connection from ('192.168.0.3', 32903)
+2024-11-09 09:41:34,471 - ERROR - Error handling client ('192.168.0.3', 32903): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:34,473 - INFO - Connection closed for ('192.168.0.3', 32903)
+2024-11-09 09:41:35,250 - INFO - New connection from ('192.168.0.3', 44143)
+2024-11-09 09:41:35,748 - ERROR - Error handling client ('192.168.0.3', 44143): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:35,748 - INFO - Connection closed for ('192.168.0.3', 44143)
+2024-11-09 09:41:36,981 - INFO - New connection from ('192.168.0.3', 46003)
+2024-11-09 09:41:36,984 - ERROR - Error handling client ('192.168.0.3', 46003): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:36,984 - INFO - Connection closed for ('192.168.0.3', 46003)
+2024-11-09 09:41:37,497 - INFO - New connection from ('192.168.0.3', 37819)
+2024-11-09 09:41:37,614 - ERROR - Error handling client ('192.168.0.3', 37819): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:37,614 - INFO - Connection closed for ('192.168.0.3', 37819)
+2024-11-09 09:41:37,808 - INFO - New connection from ('192.168.0.3', 46867)
+2024-11-09 09:41:38,111 - ERROR - Error handling client ('192.168.0.3', 46867): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:38,113 - INFO - Connection closed for ('192.168.0.3', 46867)
+2024-11-09 09:41:38,616 - INFO - New connection from ('192.168.0.3', 37163)
+2024-11-09 09:41:38,623 - ERROR - Error handling client ('192.168.0.3', 37163): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:38,625 - INFO - Connection closed for ('192.168.0.3', 37163)
+2024-11-09 09:41:39,029 - INFO - New connection from ('192.168.0.3', 39457)
+2024-11-09 09:41:39,032 - ERROR - Error handling client ('192.168.0.3', 39457): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:39,032 - INFO - Connection closed for ('192.168.0.3', 39457)
+2024-11-09 09:41:39,539 - INFO - New connection from ('192.168.0.3', 36559)
+2024-11-09 09:41:39,851 - ERROR - Error handling client ('192.168.0.3', 36559): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:39,851 - INFO - Connection closed for ('192.168.0.3', 36559)
+2024-11-09 09:41:40,202 - INFO - New connection from ('192.168.0.3', 39825)
+2024-11-09 09:41:40,300 - ERROR - Error handling client ('192.168.0.3', 39825): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:40,300 - INFO - Connection closed for ('192.168.0.3', 39825)
+2024-11-09 09:41:40,707 - INFO - New connection from ('192.168.0.3', 37087)
+2024-11-09 09:41:40,723 - ERROR - Error handling client ('192.168.0.3', 37087): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:40,728 - INFO - Connection closed for ('192.168.0.3', 37087)
+2024-11-09 09:41:41,178 - INFO - New connection from ('192.168.0.3', 35727)
+2024-11-09 09:41:41,178 - ERROR - Error handling client ('192.168.0.3', 35727): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:41,178 - INFO - Connection closed for ('192.168.0.3', 35727)
+2024-11-09 09:41:41,909 - INFO - New connection from ('192.168.0.3', 43141)
+2024-11-09 09:41:41,911 - ERROR - Error handling client ('192.168.0.3', 43141): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:41,911 - INFO - Connection closed for ('192.168.0.3', 43141)
+2024-11-09 09:41:42,484 - INFO - New connection from ('192.168.0.3', 40137)
+2024-11-09 09:41:42,484 - ERROR - Error handling client ('192.168.0.3', 40137): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:42,484 - INFO - Connection closed for ('192.168.0.3', 40137)
+2024-11-09 09:41:43,184 - INFO - New connection from ('192.168.0.3', 43069)
+2024-11-09 09:41:43,184 - ERROR - Error handling client ('192.168.0.3', 43069): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:43,184 - INFO - Connection closed for ('192.168.0.3', 43069)
+2024-11-09 09:41:43,780 - INFO - New connection from ('192.168.0.3', 33245)
+2024-11-09 09:41:43,782 - ERROR - Error handling client ('192.168.0.3', 33245): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:43,783 - INFO - Connection closed for ('192.168.0.3', 33245)
+2024-11-09 09:41:44,363 - INFO - New connection from ('192.168.0.3', 46879)
+2024-11-09 09:41:44,365 - ERROR - Error handling client ('192.168.0.3', 46879): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:44,365 - INFO - Connection closed for ('192.168.0.3', 46879)
+2024-11-09 09:41:44,509 - INFO - New connection from ('192.168.0.3', 36455)
+2024-11-09 09:41:44,608 - ERROR - Error handling client ('192.168.0.3', 36455): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:44,608 - INFO - Connection closed for ('192.168.0.3', 36455)
+2024-11-09 09:41:44,719 - INFO - New connection from ('192.168.0.3', 38303)
+2024-11-09 09:41:44,820 - ERROR - Error handling client ('192.168.0.3', 38303): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:44,820 - INFO - Connection closed for ('192.168.0.3', 38303)
+2024-11-09 09:41:44,930 - INFO - New connection from ('192.168.0.3', 44233)
+2024-11-09 09:41:45,033 - ERROR - Error handling client ('192.168.0.3', 44233): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:45,033 - INFO - Connection closed for ('192.168.0.3', 44233)
+2024-11-09 09:41:45,146 - INFO - New connection from ('192.168.0.3', 36423)
+2024-11-09 09:41:45,242 - ERROR - Error handling client ('192.168.0.3', 36423): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:45,243 - INFO - Connection closed for ('192.168.0.3', 36423)
+2024-11-09 09:41:45,349 - INFO - New connection from ('192.168.0.3', 46297)
+2024-11-09 09:41:45,457 - ERROR - Error handling client ('192.168.0.3', 46297): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:45,457 - INFO - Connection closed for ('192.168.0.3', 46297)
+2024-11-09 09:41:45,565 - INFO - New connection from ('192.168.0.3', 33145)
+2024-11-09 09:41:45,666 - ERROR - Error handling client ('192.168.0.3', 33145): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:45,668 - INFO - Connection closed for ('192.168.0.3', 33145)
+2024-11-09 09:41:45,774 - INFO - New connection from ('192.168.0.3', 42071)
+2024-11-09 09:41:45,873 - ERROR - Error handling client ('192.168.0.3', 42071): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:45,873 - INFO - Connection closed for ('192.168.0.3', 42071)
+2024-11-09 09:41:45,984 - INFO - New connection from ('192.168.0.3', 38509)
+2024-11-09 09:41:46,086 - ERROR - Error handling client ('192.168.0.3', 38509): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:46,088 - INFO - Connection closed for ('192.168.0.3', 38509)
+2024-11-09 09:41:46,194 - INFO - New connection from ('192.168.0.3', 45583)
+2024-11-09 09:41:46,292 - ERROR - Error handling client ('192.168.0.3', 45583): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:46,292 - INFO - Connection closed for ('192.168.0.3', 45583)
+2024-11-09 09:41:46,405 - INFO - New connection from ('192.168.0.3', 44729)
+2024-11-09 09:41:46,506 - ERROR - Error handling client ('192.168.0.3', 44729): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:46,506 - INFO - Connection closed for ('192.168.0.3', 44729)
+2024-11-09 09:41:46,612 - INFO - New connection from ('192.168.0.3', 40515)
+2024-11-09 09:41:46,714 - ERROR - Error handling client ('192.168.0.3', 40515): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:46,715 - INFO - Connection closed for ('192.168.0.3', 40515)
+2024-11-09 09:41:46,822 - INFO - New connection from ('192.168.0.3', 35857)
+2024-11-09 09:41:46,923 - ERROR - Error handling client ('192.168.0.3', 35857): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:46,928 - INFO - Connection closed for ('192.168.0.3', 35857)
+2024-11-09 09:41:47,040 - INFO - New connection from ('192.168.0.3', 37229)
+2024-11-09 09:41:47,144 - ERROR - Error handling client ('192.168.0.3', 37229): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:47,146 - INFO - Connection closed for ('192.168.0.3', 37229)
+2024-11-09 09:41:47,254 - INFO - New connection from ('192.168.0.3', 42757)
+2024-11-09 09:41:47,355 - ERROR - Error handling client ('192.168.0.3', 42757): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:47,358 - INFO - Connection closed for ('192.168.0.3', 42757)
+2024-11-09 09:41:47,464 - INFO - New connection from ('192.168.0.3', 41971)
+2024-11-09 09:41:47,566 - ERROR - Error handling client ('192.168.0.3', 41971): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:47,566 - INFO - Connection closed for ('192.168.0.3', 41971)
+2024-11-09 09:41:47,679 - INFO - New connection from ('192.168.0.3', 40609)
+2024-11-09 09:41:47,781 - ERROR - Error handling client ('192.168.0.3', 40609): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:47,783 - INFO - Connection closed for ('192.168.0.3', 40609)
+2024-11-09 09:41:47,895 - INFO - New connection from ('192.168.0.3', 38715)
+2024-11-09 09:41:47,993 - ERROR - Error handling client ('192.168.0.3', 38715): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:47,993 - INFO - Connection closed for ('192.168.0.3', 38715)
+2024-11-09 09:41:48,103 - INFO - New connection from ('192.168.0.3', 33345)
+2024-11-09 09:41:48,203 - ERROR - Error handling client ('192.168.0.3', 33345): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:48,203 - INFO - Connection closed for ('192.168.0.3', 33345)
+2024-11-09 09:41:48,309 - INFO - New connection from ('192.168.0.3', 32849)
+2024-11-09 09:41:48,411 - ERROR - Error handling client ('192.168.0.3', 32849): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:48,411 - INFO - Connection closed for ('192.168.0.3', 32849)
+2024-11-09 09:41:48,763 - INFO - New connection from ('192.168.0.3', 43061)
+2024-11-09 09:41:49,167 - ERROR - Error handling client ('192.168.0.3', 43061): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:49,167 - INFO - Connection closed for ('192.168.0.3', 43061)
+2024-11-09 09:41:49,731 - INFO - New connection from ('192.168.0.3', 45499)
+2024-11-09 09:41:49,971 - ERROR - Error handling client ('192.168.0.3', 45499): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:49,971 - INFO - Connection closed for ('192.168.0.3', 45499)
+2024-11-09 09:41:50,400 - INFO - New connection from ('192.168.0.3', 34051)
+2024-11-09 09:41:50,523 - ERROR - Error handling client ('192.168.0.3', 34051): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:50,523 - INFO - Connection closed for ('192.168.0.3', 34051)
+2024-11-09 09:41:50,633 - INFO - New connection from ('192.168.0.3', 44669)
+2024-11-09 09:41:50,726 - ERROR - Error handling client ('192.168.0.3', 44669): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:50,732 - INFO - Connection closed for ('192.168.0.3', 44669)
+2024-11-09 09:41:50,841 - INFO - New connection from ('192.168.0.3', 37005)
+2024-11-09 09:41:50,939 - ERROR - Error handling client ('192.168.0.3', 37005): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:50,939 - INFO - Connection closed for ('192.168.0.3', 37005)
+2024-11-09 09:41:51,051 - INFO - New connection from ('192.168.0.3', 35175)
+2024-11-09 09:41:51,153 - ERROR - Error handling client ('192.168.0.3', 35175): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:51,155 - INFO - Connection closed for ('192.168.0.3', 35175)
+2024-11-09 09:41:51,255 - INFO - New connection from ('192.168.0.3', 36265)
+2024-11-09 09:41:51,365 - ERROR - Error handling client ('192.168.0.3', 36265): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:51,365 - INFO - Connection closed for ('192.168.0.3', 36265)
+2024-11-09 09:41:51,471 - INFO - New connection from ('192.168.0.3', 42557)
+2024-11-09 09:41:51,573 - ERROR - Error handling client ('192.168.0.3', 42557): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:51,575 - INFO - Connection closed for ('192.168.0.3', 42557)
+2024-11-09 09:41:51,682 - INFO - New connection from ('192.168.0.3', 40243)
+2024-11-09 09:41:51,782 - ERROR - Error handling client ('192.168.0.3', 40243): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:51,782 - INFO - Connection closed for ('192.168.0.3', 40243)
+2024-11-09 09:41:51,898 - INFO - New connection from ('192.168.0.3', 33357)
+2024-11-09 09:41:51,988 - ERROR - Error handling client ('192.168.0.3', 33357): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:51,992 - INFO - Connection closed for ('192.168.0.3', 33357)
+2024-11-09 09:41:52,114 - INFO - New connection from ('192.168.0.3', 39425)
+2024-11-09 09:41:52,204 - ERROR - Error handling client ('192.168.0.3', 39425): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:52,204 - INFO - Connection closed for ('192.168.0.3', 39425)
+2024-11-09 09:41:52,316 - INFO - New connection from ('192.168.0.3', 34835)
+2024-11-09 09:41:52,418 - ERROR - Error handling client ('192.168.0.3', 34835): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:52,418 - INFO - Connection closed for ('192.168.0.3', 34835)
+2024-11-09 09:41:52,560 - INFO - New connection from ('192.168.0.3', 33695)
+2024-11-09 09:41:52,960 - ERROR - Error handling client ('192.168.0.3', 33695): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:52,960 - INFO - Connection closed for ('192.168.0.3', 33695)
+2024-11-09 09:41:53,355 - INFO - New connection from ('192.168.0.3', 38547)
+2024-11-09 09:41:53,771 - ERROR - Error handling client ('192.168.0.3', 38547): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:53,771 - INFO - Connection closed for ('192.168.0.3', 38547)
+2024-11-09 09:41:54,192 - INFO - New connection from ('192.168.0.3', 33655)
+2024-11-09 09:41:54,531 - ERROR - Error handling client ('192.168.0.3', 33655): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:54,532 - INFO - Connection closed for ('192.168.0.3', 33655)
+2024-11-09 09:41:54,639 - INFO - New connection from ('192.168.0.3', 36365)
+2024-11-09 09:41:54,738 - ERROR - Error handling client ('192.168.0.3', 36365): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:54,738 - INFO - Connection closed for ('192.168.0.3', 36365)
+2024-11-09 09:41:54,850 - INFO - New connection from ('192.168.0.3', 46101)
+2024-11-09 09:41:54,951 - ERROR - Error handling client ('192.168.0.3', 46101): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:54,951 - INFO - Connection closed for ('192.168.0.3', 46101)
+2024-11-09 09:41:55,060 - INFO - New connection from ('192.168.0.3', 45733)
+2024-11-09 09:41:55,176 - ERROR - Error handling client ('192.168.0.3', 45733): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:55,176 - INFO - Connection closed for ('192.168.0.3', 45733)
+2024-11-09 09:41:55,299 - INFO - New connection from ('192.168.0.3', 39527)
+2024-11-09 09:41:55,397 - ERROR - Error handling client ('192.168.0.3', 39527): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:55,397 - INFO - Connection closed for ('192.168.0.3', 39527)
+2024-11-09 09:41:55,507 - INFO - New connection from ('192.168.0.3', 45277)
+2024-11-09 09:41:55,608 - ERROR - Error handling client ('192.168.0.3', 45277): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:55,608 - INFO - Connection closed for ('192.168.0.3', 45277)
+2024-11-09 09:41:55,715 - INFO - New connection from ('192.168.0.3', 40709)
+2024-11-09 09:41:55,814 - ERROR - Error handling client ('192.168.0.3', 40709): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:55,814 - INFO - Connection closed for ('192.168.0.3', 40709)
+2024-11-09 09:41:55,930 - INFO - New connection from ('192.168.0.3', 45371)
+2024-11-09 09:41:56,031 - ERROR - Error handling client ('192.168.0.3', 45371): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:56,031 - INFO - Connection closed for ('192.168.0.3', 45371)
+2024-11-09 09:41:56,136 - INFO - New connection from ('192.168.0.3', 36639)
+2024-11-09 09:41:56,235 - ERROR - Error handling client ('192.168.0.3', 36639): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:56,235 - INFO - Connection closed for ('192.168.0.3', 36639)
+2024-11-09 09:41:56,351 - INFO - New connection from ('192.168.0.3', 34579)
+2024-11-09 09:41:56,443 - ERROR - Error handling client ('192.168.0.3', 34579): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:56,443 - INFO - Connection closed for ('192.168.0.3', 34579)
+2024-11-09 09:41:56,576 - INFO - New connection from ('192.168.0.3', 39805)
+2024-11-09 09:41:56,698 - ERROR - Error handling client ('192.168.0.3', 39805): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:56,698 - INFO - Connection closed for ('192.168.0.3', 39805)
+2024-11-09 09:41:57,272 - INFO - New connection from ('192.168.0.3', 40661)
+2024-11-09 09:41:57,274 - ERROR - Error handling client ('192.168.0.3', 40661): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:57,274 - INFO - Connection closed for ('192.168.0.3', 40661)
+2024-11-09 09:41:58,028 - INFO - New connection from ('192.168.0.3', 38101)
+2024-11-09 09:41:58,030 - ERROR - Error handling client ('192.168.0.3', 38101): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:58,032 - INFO - Connection closed for ('192.168.0.3', 38101)
+2024-11-09 09:41:58,386 - INFO - New connection from ('192.168.0.3', 44055)
+2024-11-09 09:41:58,545 - ERROR - Error handling client ('192.168.0.3', 44055): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:58,546 - INFO - Connection closed for ('192.168.0.3', 44055)
+2024-11-09 09:41:58,646 - INFO - New connection from ('192.168.0.3', 45431)
+2024-11-09 09:41:58,751 - ERROR - Error handling client ('192.168.0.3', 45431): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:58,751 - INFO - Connection closed for ('192.168.0.3', 45431)
+2024-11-09 09:41:58,858 - INFO - New connection from ('192.168.0.3', 42509)
+2024-11-09 09:41:58,958 - ERROR - Error handling client ('192.168.0.3', 42509): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:58,959 - INFO - Connection closed for ('192.168.0.3', 42509)
+2024-11-09 09:41:59,063 - INFO - New connection from ('192.168.0.3', 41053)
+2024-11-09 09:41:59,165 - ERROR - Error handling client ('192.168.0.3', 41053): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:59,169 - INFO - Connection closed for ('192.168.0.3', 41053)
+2024-11-09 09:41:59,276 - INFO - New connection from ('192.168.0.3', 37047)
+2024-11-09 09:41:59,374 - ERROR - Error handling client ('192.168.0.3', 37047): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:59,374 - INFO - Connection closed for ('192.168.0.3', 37047)
+2024-11-09 09:41:59,490 - INFO - New connection from ('192.168.0.3', 39259)
+2024-11-09 09:41:59,591 - ERROR - Error handling client ('192.168.0.3', 39259): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:59,591 - INFO - Connection closed for ('192.168.0.3', 39259)
+2024-11-09 09:41:59,697 - INFO - New connection from ('192.168.0.3', 42847)
+2024-11-09 09:41:59,794 - ERROR - Error handling client ('192.168.0.3', 42847): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:41:59,794 - INFO - Connection closed for ('192.168.0.3', 42847)
+2024-11-09 09:41:59,910 - INFO - New connection from ('192.168.0.3', 43171)
+2024-11-09 09:42:00,013 - ERROR - Error handling client ('192.168.0.3', 43171): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:00,013 - INFO - Connection closed for ('192.168.0.3', 43171)
+2024-11-09 09:42:00,125 - INFO - New connection from ('192.168.0.3', 33563)
+2024-11-09 09:42:00,227 - ERROR - Error handling client ('192.168.0.3', 33563): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:00,227 - INFO - Connection closed for ('192.168.0.3', 33563)
+2024-11-09 09:42:00,338 - INFO - New connection from ('192.168.0.3', 43147)
+2024-11-09 09:42:00,435 - ERROR - Error handling client ('192.168.0.3', 43147): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:00,435 - INFO - Connection closed for ('192.168.0.3', 43147)
+2024-11-09 09:42:00,549 - INFO - New connection from ('192.168.0.3', 34557)
+2024-11-09 09:42:00,940 - ERROR - Error handling client ('192.168.0.3', 34557): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:00,942 - INFO - Connection closed for ('192.168.0.3', 34557)
+2024-11-09 09:42:01,664 - INFO - New connection from ('192.168.0.3', 40579)
+2024-11-09 09:42:02,175 - ERROR - Error handling client ('192.168.0.3', 40579): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:02,175 - INFO - Connection closed for ('192.168.0.3', 40579)
+2024-11-09 09:42:02,685 - INFO - New connection from ('192.168.0.3', 39259)
+2024-11-09 09:42:02,930 - ERROR - Error handling client ('192.168.0.3', 39259): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:02,930 - INFO - Connection closed for ('192.168.0.3', 39259)
+2024-11-09 09:42:03,506 - INFO - New connection from ('192.168.0.3', 41393)
+2024-11-09 09:42:03,507 - ERROR - Error handling client ('192.168.0.3', 41393): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:03,507 - INFO - Connection closed for ('192.168.0.3', 41393)
+2024-11-09 09:42:04,025 - INFO - New connection from ('192.168.0.3', 42007)
+2024-11-09 09:42:04,025 - ERROR - Error handling client ('192.168.0.3', 42007): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:04,027 - INFO - Connection closed for ('192.168.0.3', 42007)
+2024-11-09 09:42:04,555 - INFO - New connection from ('192.168.0.3', 37999)
+2024-11-09 09:42:04,555 - ERROR - Error handling client ('192.168.0.3', 37999): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:04,558 - INFO - Connection closed for ('192.168.0.3', 37999)
+2024-11-09 09:42:05,035 - INFO - New connection from ('192.168.0.3', 46667)
+2024-11-09 09:42:05,042 - ERROR - Error handling client ('192.168.0.3', 46667): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:05,042 - INFO - Connection closed for ('192.168.0.3', 46667)
+2024-11-09 09:42:05,611 - INFO - New connection from ('192.168.0.3', 36829)
+2024-11-09 09:42:05,611 - ERROR - Error handling client ('192.168.0.3', 36829): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:05,614 - INFO - Connection closed for ('192.168.0.3', 36829)
+2024-11-09 09:42:06,203 - INFO - New connection from ('192.168.0.3', 42801)
+2024-11-09 09:42:06,208 - ERROR - Error handling client ('192.168.0.3', 42801): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:06,208 - INFO - Connection closed for ('192.168.0.3', 42801)
+2024-11-09 09:42:06,546 - INFO - New connection from ('192.168.0.3', 37577)
+2024-11-09 09:42:06,550 - ERROR - Error handling client ('192.168.0.3', 37577): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:06,550 - INFO - Connection closed for ('192.168.0.3', 37577)
+2024-11-09 09:42:06,660 - INFO - New connection from ('192.168.0.3', 38817)
+2024-11-09 09:42:06,759 - ERROR - Error handling client ('192.168.0.3', 38817): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:06,759 - INFO - Connection closed for ('192.168.0.3', 38817)
+2024-11-09 09:42:06,866 - INFO - New connection from ('192.168.0.3', 35989)
+2024-11-09 09:42:06,966 - ERROR - Error handling client ('192.168.0.3', 35989): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:06,966 - INFO - Connection closed for ('192.168.0.3', 35989)
+2024-11-09 09:42:07,074 - INFO - New connection from ('192.168.0.3', 33489)
+2024-11-09 09:42:07,172 - ERROR - Error handling client ('192.168.0.3', 33489): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:07,172 - INFO - Connection closed for ('192.168.0.3', 33489)
+2024-11-09 09:42:07,285 - INFO - New connection from ('192.168.0.3', 35409)
+2024-11-09 09:42:07,390 - ERROR - Error handling client ('192.168.0.3', 35409): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:07,391 - INFO - Connection closed for ('192.168.0.3', 35409)
+2024-11-09 09:42:07,505 - INFO - New connection from ('192.168.0.3', 40175)
+2024-11-09 09:42:07,603 - ERROR - Error handling client ('192.168.0.3', 40175): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:07,604 - INFO - Connection closed for ('192.168.0.3', 40175)
+2024-11-09 09:42:07,710 - INFO - New connection from ('192.168.0.3', 40757)
+2024-11-09 09:42:07,811 - ERROR - Error handling client ('192.168.0.3', 40757): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:07,811 - INFO - Connection closed for ('192.168.0.3', 40757)
+2024-11-09 09:42:07,927 - INFO - New connection from ('192.168.0.3', 41591)
+2024-11-09 09:42:08,027 - ERROR - Error handling client ('192.168.0.3', 41591): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:08,027 - INFO - Connection closed for ('192.168.0.3', 41591)
+2024-11-09 09:42:08,135 - INFO - New connection from ('192.168.0.3', 46153)
+2024-11-09 09:42:08,236 - ERROR - Error handling client ('192.168.0.3', 46153): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:08,236 - INFO - Connection closed for ('192.168.0.3', 46153)
+2024-11-09 09:42:08,341 - INFO - New connection from ('192.168.0.3', 40793)
+2024-11-09 09:42:08,441 - ERROR - Error handling client ('192.168.0.3', 40793): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:08,441 - INFO - Connection closed for ('192.168.0.3', 40793)
+2024-11-09 09:42:08,550 - INFO - New connection from ('192.168.0.3', 46271)
+2024-11-09 09:42:08,666 - ERROR - Error handling client ('192.168.0.3', 46271): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:08,669 - INFO - Connection closed for ('192.168.0.3', 46271)
+2024-11-09 09:42:08,774 - INFO - New connection from ('192.168.0.3', 39529)
+2024-11-09 09:42:08,874 - ERROR - Error handling client ('192.168.0.3', 39529): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:08,874 - INFO - Connection closed for ('192.168.0.3', 39529)
+2024-11-09 09:42:08,984 - INFO - New connection from ('192.168.0.3', 42681)
+2024-11-09 09:42:09,080 - ERROR - Error handling client ('192.168.0.3', 42681): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:09,080 - INFO - Connection closed for ('192.168.0.3', 42681)
+2024-11-09 09:42:09,188 - INFO - New connection from ('192.168.0.3', 37875)
+2024-11-09 09:42:09,287 - ERROR - Error handling client ('192.168.0.3', 37875): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:09,287 - INFO - Connection closed for ('192.168.0.3', 37875)
+2024-11-09 09:42:09,401 - INFO - New connection from ('192.168.0.3', 35461)
+2024-11-09 09:42:09,495 - ERROR - Error handling client ('192.168.0.3', 35461): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:09,503 - INFO - Connection closed for ('192.168.0.3', 35461)
+2024-11-09 09:42:09,604 - INFO - New connection from ('192.168.0.3', 46431)
+2024-11-09 09:42:09,705 - ERROR - Error handling client ('192.168.0.3', 46431): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:09,705 - INFO - Connection closed for ('192.168.0.3', 46431)
+2024-11-09 09:42:09,819 - INFO - New connection from ('192.168.0.3', 34097)
+2024-11-09 09:42:09,922 - ERROR - Error handling client ('192.168.0.3', 34097): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:09,922 - INFO - Connection closed for ('192.168.0.3', 34097)
+2024-11-09 09:42:10,030 - INFO - New connection from ('192.168.0.3', 46577)
+2024-11-09 09:42:10,130 - ERROR - Error handling client ('192.168.0.3', 46577): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:10,131 - INFO - Connection closed for ('192.168.0.3', 46577)
+2024-11-09 09:42:10,239 - INFO - New connection from ('192.168.0.3', 44053)
+2024-11-09 09:42:10,339 - ERROR - Error handling client ('192.168.0.3', 44053): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:10,340 - INFO - Connection closed for ('192.168.0.3', 44053)
+2024-11-09 09:42:10,448 - INFO - New connection from ('192.168.0.3', 33689)
+2024-11-09 09:42:10,550 - ERROR - Error handling client ('192.168.0.3', 33689): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:10,552 - INFO - Connection closed for ('192.168.0.3', 33689)
+2024-11-09 09:42:10,677 - INFO - New connection from ('192.168.0.3', 38999)
+2024-11-09 09:42:11,186 - ERROR - Error handling client ('192.168.0.3', 38999): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:11,188 - INFO - Connection closed for ('192.168.0.3', 38999)
+2024-11-09 09:42:11,597 - INFO - New connection from ('192.168.0.3', 36093)
+2024-11-09 09:42:12,000 - ERROR - Error handling client ('192.168.0.3', 36093): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:12,000 - INFO - Connection closed for ('192.168.0.3', 36093)
+2024-11-09 09:42:12,145 - INFO - New connection from ('192.168.0.3', 46343)
+2024-11-09 09:42:12,410 - ERROR - Error handling client ('192.168.0.3', 46343): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:12,415 - INFO - Connection closed for ('192.168.0.3', 46343)
+2024-11-09 09:42:12,869 - INFO - New connection from ('192.168.0.3', 46401)
+2024-11-09 09:42:13,227 - ERROR - Error handling client ('192.168.0.3', 46401): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:13,235 - INFO - Connection closed for ('192.168.0.3', 46401)
+2024-11-09 09:42:13,750 - INFO - New connection from ('192.168.0.3', 38665)
+2024-11-09 09:42:14,561 - ERROR - Error handling client ('192.168.0.3', 38665): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:14,561 - INFO - Connection closed for ('192.168.0.3', 38665)
+2024-11-09 09:42:14,952 - INFO - New connection from ('192.168.0.3', 44573)
+2024-11-09 09:42:15,690 - ERROR - Error handling client ('192.168.0.3', 44573): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:15,690 - INFO - Connection closed for ('192.168.0.3', 44573)
+2024-11-09 09:42:16,102 - INFO - New connection from ('192.168.0.3', 39083)
+2024-11-09 09:42:16,394 - ERROR - Error handling client ('192.168.0.3', 39083): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:16,409 - INFO - Connection closed for ('192.168.0.3', 39083)
+2024-11-09 09:42:16,702 - INFO - New connection from ('192.168.0.3', 33423)
+2024-11-09 09:42:17,343 - ERROR - Error handling client ('192.168.0.3', 33423): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:17,343 - INFO - Connection closed for ('192.168.0.3', 33423)
+2024-11-09 09:42:17,637 - INFO - New connection from ('192.168.0.3', 44745)
+2024-11-09 09:42:18,046 - ERROR - Error handling client ('192.168.0.3', 44745): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:18,048 - INFO - Connection closed for ('192.168.0.3', 44745)
+2024-11-09 09:42:18,361 - INFO - New connection from ('192.168.0.3', 34569)
+2024-11-09 09:42:18,581 - ERROR - Error handling client ('192.168.0.3', 34569): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:18,581 - INFO - Connection closed for ('192.168.0.3', 34569)
+2024-11-09 09:42:18,767 - INFO - New connection from ('192.168.0.3', 42893)
+2024-11-09 09:42:19,161 - ERROR - Error handling client ('192.168.0.3', 42893): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:19,161 - INFO - Connection closed for ('192.168.0.3', 42893)
+2024-11-09 09:42:19,674 - INFO - New connection from ('192.168.0.3', 44923)
+2024-11-09 09:42:20,080 - ERROR - Error handling client ('192.168.0.3', 44923): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:20,096 - INFO - Connection closed for ('192.168.0.3', 44923)
+2024-11-09 09:42:20,403 - INFO - New connection from ('192.168.0.3', 37207)
+2024-11-09 09:42:20,600 - ERROR - Error handling client ('192.168.0.3', 37207): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:20,608 - INFO - Connection closed for ('192.168.0.3', 37207)
+2024-11-09 09:42:20,858 - INFO - New connection from ('192.168.0.3', 38727)
+2024-11-09 09:42:21,114 - ERROR - Error handling client ('192.168.0.3', 38727): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:21,117 - INFO - Connection closed for ('192.168.0.3', 38727)
+2024-11-09 09:42:21,432 - INFO - New connection from ('192.168.0.3', 38857)
+2024-11-09 09:42:21,630 - ERROR - Error handling client ('192.168.0.3', 38857): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:21,630 - INFO - Connection closed for ('192.168.0.3', 38857)
+2024-11-09 09:42:22,147 - INFO - New connection from ('192.168.0.3', 45747)
+2024-11-09 09:42:22,444 - ERROR - Error handling client ('192.168.0.3', 45747): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:22,450 - INFO - Connection closed for ('192.168.0.3', 45747)
+2024-11-09 09:42:22,655 - INFO - New connection from ('192.168.0.3', 35457)
+2024-11-09 09:42:22,848 - ERROR - Error handling client ('192.168.0.3', 35457): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:22,860 - INFO - Connection closed for ('192.168.0.3', 35457)
+2024-11-09 09:42:23,269 - INFO - New connection from ('192.168.0.3', 36309)
+2024-11-09 09:42:24,125 - ERROR - Error handling client ('192.168.0.3', 36309): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:24,129 - INFO - Connection closed for ('192.168.0.3', 36309)
+2024-11-09 09:42:24,799 - INFO - New connection from ('192.168.0.3', 38757)
+2024-11-09 09:42:25,009 - ERROR - Error handling client ('192.168.0.3', 38757): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:25,009 - INFO - Connection closed for ('192.168.0.3', 38757)
+2024-11-09 09:42:25,149 - INFO - New connection from ('192.168.0.3', 38545)
+2024-11-09 09:42:25,304 - ERROR - Error handling client ('192.168.0.3', 38545): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:25,319 - INFO - Connection closed for ('192.168.0.3', 38545)
+2024-11-09 09:42:26,042 - INFO - New connection from ('192.168.0.3', 42109)
+2024-11-09 09:42:26,049 - ERROR - Error handling client ('192.168.0.3', 42109): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:26,050 - INFO - Connection closed for ('192.168.0.3', 42109)
+2024-11-09 09:42:26,551 - INFO - New connection from ('192.168.0.3', 38843)
+2024-11-09 09:42:26,748 - ERROR - Error handling client ('192.168.0.3', 38843): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:26,752 - INFO - Connection closed for ('192.168.0.3', 38843)
+2024-11-09 09:42:27,059 - INFO - New connection from ('192.168.0.3', 35757)
+2024-11-09 09:42:27,359 - ERROR - Error handling client ('192.168.0.3', 35757): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:27,367 - INFO - Connection closed for ('192.168.0.3', 35757)
+2024-11-09 09:42:27,675 - INFO - New connection from ('192.168.0.3', 34803)
+2024-11-09 09:42:28,281 - ERROR - Error handling client ('192.168.0.3', 34803): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:28,289 - INFO - Connection closed for ('192.168.0.3', 34803)
+2024-11-09 09:42:28,680 - INFO - New connection from ('192.168.0.3', 36041)
+2024-11-09 09:42:28,899 - ERROR - Error handling client ('192.168.0.3', 36041): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:28,899 - INFO - Connection closed for ('192.168.0.3', 36041)
+2024-11-09 09:42:29,213 - INFO - New connection from ('192.168.0.3', 34385)
+2024-11-09 09:42:29,448 - ERROR - Error handling client ('192.168.0.3', 34385): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:29,453 - INFO - Connection closed for ('192.168.0.3', 34385)
+2024-11-09 09:42:29,925 - INFO - New connection from ('192.168.0.3', 39501)
+2024-11-09 09:42:30,327 - ERROR - Error handling client ('192.168.0.3', 39501): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:30,327 - INFO - Connection closed for ('192.168.0.3', 39501)
+2024-11-09 09:42:31,049 - INFO - New connection from ('192.168.0.3', 40531)
+2024-11-09 09:42:31,049 - ERROR - Error handling client ('192.168.0.3', 40531): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:31,053 - INFO - Connection closed for ('192.168.0.3', 40531)
+2024-11-09 09:42:31,771 - INFO - New connection from ('192.168.0.3', 46065)
+2024-11-09 09:42:31,932 - ERROR - Error handling client ('192.168.0.3', 46065): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:31,932 - INFO - Connection closed for ('192.168.0.3', 46065)
+2024-11-09 09:42:32,389 - INFO - New connection from ('192.168.0.3', 44851)
+2024-11-09 09:42:32,631 - ERROR - Error handling client ('192.168.0.3', 44851): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:32,631 - INFO - Connection closed for ('192.168.0.3', 44851)
+2024-11-09 09:42:33,196 - INFO - New connection from ('192.168.0.3', 35999)
+2024-11-09 09:42:33,699 - ERROR - Error handling client ('192.168.0.3', 35999): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:33,714 - INFO - Connection closed for ('192.168.0.3', 35999)
+2024-11-09 09:42:33,926 - INFO - New connection from ('192.168.0.3', 34243)
+2024-11-09 09:42:34,290 - ERROR - Error handling client ('192.168.0.3', 34243): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:34,297 - INFO - Connection closed for ('192.168.0.3', 34243)
+2024-11-09 09:42:34,839 - INFO - New connection from ('192.168.0.3', 44347)
+2024-11-09 09:42:34,846 - ERROR - Error handling client ('192.168.0.3', 44347): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:34,847 - INFO - Connection closed for ('192.168.0.3', 44347)
+2024-11-09 09:42:35,275 - INFO - New connection from ('192.168.0.3', 36551)
+2024-11-09 09:42:35,290 - ERROR - Error handling client ('192.168.0.3', 36551): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:35,291 - INFO - Connection closed for ('192.168.0.3', 36551)
+2024-11-09 09:42:35,764 - INFO - New connection from ('192.168.0.3', 40169)
+2024-11-09 09:42:36,060 - ERROR - Error handling client ('192.168.0.3', 40169): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:36,069 - INFO - Connection closed for ('192.168.0.3', 40169)
+2024-11-09 09:42:36,786 - INFO - New connection from ('192.168.0.3', 45297)
+2024-11-09 09:42:36,791 - ERROR - Error handling client ('192.168.0.3', 45297): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:36,795 - INFO - Connection closed for ('192.168.0.3', 45297)
+2024-11-09 09:42:37,130 - INFO - New connection from ('192.168.0.3', 33611)
+2024-11-09 09:42:38,232 - ERROR - Error handling client ('192.168.0.3', 33611): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:38,232 - INFO - Connection closed for ('192.168.0.3', 33611)
+2024-11-09 09:42:38,758 - INFO - New connection from ('192.168.0.3', 33857)
+2024-11-09 09:42:38,976 - ERROR - Error handling client ('192.168.0.3', 33857): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:38,976 - INFO - Connection closed for ('192.168.0.3', 33857)
+2024-11-09 09:42:39,341 - INFO - New connection from ('192.168.0.3', 39463)
+2024-11-09 09:42:39,760 - ERROR - Error handling client ('192.168.0.3', 39463): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:39,762 - INFO - Connection closed for ('192.168.0.3', 39463)
+2024-11-09 09:42:40,156 - INFO - New connection from ('192.168.0.3', 38639)
+2024-11-09 09:42:40,548 - ERROR - Error handling client ('192.168.0.3', 38639): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:40,548 - INFO - Connection closed for ('192.168.0.3', 38639)
+2024-11-09 09:42:40,937 - INFO - New connection from ('192.168.0.3', 41773)
+2024-11-09 09:42:41,316 - ERROR - Error handling client ('192.168.0.3', 41773): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:41,319 - INFO - Connection closed for ('192.168.0.3', 41773)
+2024-11-09 09:42:41,648 - INFO - New connection from ('192.168.0.3', 46549)
+2024-11-09 09:42:42,023 - ERROR - Error handling client ('192.168.0.3', 46549): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:42,027 - INFO - Connection closed for ('192.168.0.3', 46549)
+2024-11-09 09:42:42,433 - INFO - New connection from ('192.168.0.3', 34155)
+2024-11-09 09:42:42,514 - ERROR - Error handling client ('192.168.0.3', 34155): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:42,514 - INFO - Connection closed for ('192.168.0.3', 34155)
+2024-11-09 09:42:42,623 - INFO - New connection from ('192.168.0.3', 39791)
+2024-11-09 09:42:42,725 - ERROR - Error handling client ('192.168.0.3', 39791): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:42,725 - INFO - Connection closed for ('192.168.0.3', 39791)
+2024-11-09 09:42:42,836 - INFO - New connection from ('192.168.0.3', 36331)
+2024-11-09 09:42:42,937 - ERROR - Error handling client ('192.168.0.3', 36331): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:42,937 - INFO - Connection closed for ('192.168.0.3', 36331)
+2024-11-09 09:42:43,047 - INFO - New connection from ('192.168.0.3', 44859)
+2024-11-09 09:42:43,148 - ERROR - Error handling client ('192.168.0.3', 44859): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:43,149 - INFO - Connection closed for ('192.168.0.3', 44859)
+2024-11-09 09:42:43,257 - INFO - New connection from ('192.168.0.3', 39915)
+2024-11-09 09:42:43,354 - ERROR - Error handling client ('192.168.0.3', 39915): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:43,354 - INFO - Connection closed for ('192.168.0.3', 39915)
+2024-11-09 09:42:43,466 - INFO - New connection from ('192.168.0.3', 46213)
+2024-11-09 09:42:43,579 - ERROR - Error handling client ('192.168.0.3', 46213): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:43,579 - INFO - Connection closed for ('192.168.0.3', 46213)
+2024-11-09 09:42:43,689 - INFO - New connection from ('192.168.0.3', 36737)
+2024-11-09 09:42:43,786 - ERROR - Error handling client ('192.168.0.3', 36737): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:43,786 - INFO - Connection closed for ('192.168.0.3', 36737)
+2024-11-09 09:42:43,897 - INFO - New connection from ('192.168.0.3', 36755)
+2024-11-09 09:42:43,997 - ERROR - Error handling client ('192.168.0.3', 36755): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:44,000 - INFO - Connection closed for ('192.168.0.3', 36755)
+2024-11-09 09:42:44,104 - INFO - New connection from ('192.168.0.3', 32851)
+2024-11-09 09:42:44,206 - ERROR - Error handling client ('192.168.0.3', 32851): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:44,207 - INFO - Connection closed for ('192.168.0.3', 32851)
+2024-11-09 09:42:44,314 - INFO - New connection from ('192.168.0.3', 40745)
+2024-11-09 09:42:44,428 - ERROR - Error handling client ('192.168.0.3', 40745): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:44,461 - INFO - Connection closed for ('192.168.0.3', 40745)
+2024-11-09 09:42:44,565 - INFO - New connection from ('192.168.0.3', 33223)
+2024-11-09 09:42:44,681 - ERROR - Error handling client ('192.168.0.3', 33223): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:44,682 - INFO - Connection closed for ('192.168.0.3', 33223)
+2024-11-09 09:42:44,787 - INFO - New connection from ('192.168.0.3', 37813)
+2024-11-09 09:42:44,885 - ERROR - Error handling client ('192.168.0.3', 37813): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:44,885 - INFO - Connection closed for ('192.168.0.3', 37813)
+2024-11-09 09:42:44,998 - INFO - New connection from ('192.168.0.3', 41695)
+2024-11-09 09:42:45,098 - ERROR - Error handling client ('192.168.0.3', 41695): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:45,099 - INFO - Connection closed for ('192.168.0.3', 41695)
+2024-11-09 09:42:45,206 - INFO - New connection from ('192.168.0.3', 33539)
+2024-11-09 09:42:45,304 - ERROR - Error handling client ('192.168.0.3', 33539): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:45,310 - INFO - Connection closed for ('192.168.0.3', 33539)
+2024-11-09 09:42:45,416 - INFO - New connection from ('192.168.0.3', 45279)
+2024-11-09 09:42:45,517 - ERROR - Error handling client ('192.168.0.3', 45279): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:45,517 - INFO - Connection closed for ('192.168.0.3', 45279)
+2024-11-09 09:42:45,626 - INFO - New connection from ('192.168.0.3', 45355)
+2024-11-09 09:42:45,726 - ERROR - Error handling client ('192.168.0.3', 45355): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:45,726 - INFO - Connection closed for ('192.168.0.3', 45355)
+2024-11-09 09:42:45,836 - INFO - New connection from ('192.168.0.3', 36783)
+2024-11-09 09:42:45,935 - ERROR - Error handling client ('192.168.0.3', 36783): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:45,935 - INFO - Connection closed for ('192.168.0.3', 36783)
+2024-11-09 09:42:46,045 - INFO - New connection from ('192.168.0.3', 34331)
+2024-11-09 09:42:46,147 - ERROR - Error handling client ('192.168.0.3', 34331): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:46,147 - INFO - Connection closed for ('192.168.0.3', 34331)
+2024-11-09 09:42:46,256 - INFO - New connection from ('192.168.0.3', 38833)
+2024-11-09 09:42:46,354 - ERROR - Error handling client ('192.168.0.3', 38833): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:46,354 - INFO - Connection closed for ('192.168.0.3', 38833)
+2024-11-09 09:42:46,461 - INFO - New connection from ('192.168.0.3', 43035)
+2024-11-09 09:42:46,562 - ERROR - Error handling client ('192.168.0.3', 43035): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:46,562 - INFO - Connection closed for ('192.168.0.3', 43035)
+2024-11-09 09:42:46,666 - INFO - New connection from ('192.168.0.3', 40339)
+2024-11-09 09:42:47,065 - ERROR - Error handling client ('192.168.0.3', 40339): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:47,065 - INFO - Connection closed for ('192.168.0.3', 40339)
+2024-11-09 09:42:47,396 - INFO - New connection from ('192.168.0.3', 34705)
+2024-11-09 09:42:47,872 - ERROR - Error handling client ('192.168.0.3', 34705): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:47,872 - INFO - Connection closed for ('192.168.0.3', 34705)
+2024-11-09 09:42:48,561 - INFO - New connection from ('192.168.0.3', 41255)
+2024-11-09 09:42:48,760 - ERROR - Error handling client ('192.168.0.3', 41255): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:48,768 - INFO - Connection closed for ('192.168.0.3', 41255)
+2024-11-09 09:42:49,075 - INFO - New connection from ('192.168.0.3', 35855)
+2024-11-09 09:42:49,382 - ERROR - Error handling client ('192.168.0.3', 35855): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:49,382 - INFO - Connection closed for ('192.168.0.3', 35855)
+2024-11-09 09:42:49,694 - INFO - New connection from ('192.168.0.3', 41079)
+2024-11-09 09:42:50,292 - ERROR - Error handling client ('192.168.0.3', 41079): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:50,303 - INFO - Connection closed for ('192.168.0.3', 41079)
+2024-11-09 09:42:51,009 - INFO - New connection from ('192.168.0.3', 35461)
+2024-11-09 09:42:51,015 - ERROR - Error handling client ('192.168.0.3', 35461): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:51,015 - INFO - Connection closed for ('192.168.0.3', 35461)
+2024-11-09 09:42:51,580 - INFO - New connection from ('192.168.0.3', 38917)
+2024-11-09 09:42:51,589 - ERROR - Error handling client ('192.168.0.3', 38917): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:51,595 - INFO - Connection closed for ('192.168.0.3', 38917)
+2024-11-09 09:42:52,465 - INFO - New connection from ('192.168.0.3', 34781)
+2024-11-09 09:42:53,600 - ERROR - Error handling client ('192.168.0.3', 34781): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:53,604 - INFO - Connection closed for ('192.168.0.3', 34781)
+2024-11-09 09:42:53,788 - INFO - New connection from ('192.168.0.3', 36459)
+2024-11-09 09:42:54,084 - ERROR - Error handling client ('192.168.0.3', 36459): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:54,084 - INFO - Connection closed for ('192.168.0.3', 36459)
+2024-11-09 09:42:54,440 - INFO - New connection from ('192.168.0.3', 35401)
+2024-11-09 09:42:54,715 - ERROR - Error handling client ('192.168.0.3', 35401): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:54,717 - INFO - Connection closed for ('192.168.0.3', 35401)
+2024-11-09 09:42:54,820 - INFO - New connection from ('192.168.0.3', 40217)
+2024-11-09 09:42:54,926 - ERROR - Error handling client ('192.168.0.3', 40217): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:54,926 - INFO - Connection closed for ('192.168.0.3', 40217)
+2024-11-09 09:42:55,028 - INFO - New connection from ('192.168.0.3', 39941)
+2024-11-09 09:42:55,136 - ERROR - Error handling client ('192.168.0.3', 39941): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:55,136 - INFO - Connection closed for ('192.168.0.3', 39941)
+2024-11-09 09:42:55,243 - INFO - New connection from ('192.168.0.3', 42583)
+2024-11-09 09:42:55,343 - ERROR - Error handling client ('192.168.0.3', 42583): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:55,343 - INFO - Connection closed for ('192.168.0.3', 42583)
+2024-11-09 09:42:55,445 - INFO - New connection from ('192.168.0.3', 44023)
+2024-11-09 09:42:55,553 - ERROR - Error handling client ('192.168.0.3', 44023): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:55,554 - INFO - Connection closed for ('192.168.0.3', 44023)
+2024-11-09 09:42:55,656 - INFO - New connection from ('192.168.0.3', 36585)
+2024-11-09 09:42:55,761 - ERROR - Error handling client ('192.168.0.3', 36585): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:55,761 - INFO - Connection closed for ('192.168.0.3', 36585)
+2024-11-09 09:42:55,871 - INFO - New connection from ('192.168.0.3', 41951)
+2024-11-09 09:42:55,968 - ERROR - Error handling client ('192.168.0.3', 41951): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:55,968 - INFO - Connection closed for ('192.168.0.3', 41951)
+2024-11-09 09:42:56,076 - INFO - New connection from ('192.168.0.3', 40745)
+2024-11-09 09:42:56,176 - ERROR - Error handling client ('192.168.0.3', 40745): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:56,176 - INFO - Connection closed for ('192.168.0.3', 40745)
+2024-11-09 09:42:56,285 - INFO - New connection from ('192.168.0.3', 34573)
+2024-11-09 09:42:56,389 - ERROR - Error handling client ('192.168.0.3', 34573): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:56,389 - INFO - Connection closed for ('192.168.0.3', 34573)
+2024-11-09 09:42:56,497 - INFO - New connection from ('192.168.0.3', 42033)
+2024-11-09 09:42:56,598 - ERROR - Error handling client ('192.168.0.3', 42033): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:56,600 - INFO - Connection closed for ('192.168.0.3', 42033)
+2024-11-09 09:42:56,706 - INFO - New connection from ('192.168.0.3', 35635)
+2024-11-09 09:42:57,057 - ERROR - Error handling client ('192.168.0.3', 35635): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:57,057 - INFO - Connection closed for ('192.168.0.3', 35635)
+2024-11-09 09:42:57,579 - INFO - New connection from ('192.168.0.3', 36651)
+2024-11-09 09:42:57,880 - ERROR - Error handling client ('192.168.0.3', 36651): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:57,882 - INFO - Connection closed for ('192.168.0.3', 36651)
+2024-11-09 09:42:58,605 - INFO - New connection from ('192.168.0.3', 37433)
+2024-11-09 09:42:59,416 - ERROR - Error handling client ('192.168.0.3', 37433): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:42:59,417 - INFO - Connection closed for ('192.168.0.3', 37433)
+2024-11-09 09:42:59,949 - INFO - New connection from ('192.168.0.3', 45505)
+2024-11-09 09:43:00,332 - ERROR - Error handling client ('192.168.0.3', 45505): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:00,342 - INFO - Connection closed for ('192.168.0.3', 45505)
+2024-11-09 09:43:01,057 - INFO - New connection from ('192.168.0.3', 43529)
+2024-11-09 09:43:01,057 - ERROR - Error handling client ('192.168.0.3', 43529): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:01,060 - INFO - Connection closed for ('192.168.0.3', 43529)
+2024-11-09 09:43:01,866 - INFO - New connection from ('192.168.0.3', 43463)
+2024-11-09 09:43:01,866 - ERROR - Error handling client ('192.168.0.3', 43463): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:01,871 - INFO - Connection closed for ('192.168.0.3', 43463)
+2024-11-09 09:43:02,385 - INFO - New connection from ('192.168.0.3', 42933)
+2024-11-09 09:43:02,387 - ERROR - Error handling client ('192.168.0.3', 42933): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:02,388 - INFO - Connection closed for ('192.168.0.3', 42933)
+2024-11-09 09:43:02,749 - INFO - New connection from ('192.168.0.3', 34509)
+2024-11-09 09:43:02,752 - ERROR - Error handling client ('192.168.0.3', 34509): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:02,754 - INFO - Connection closed for ('192.168.0.3', 34509)
+2024-11-09 09:43:03,190 - INFO - New connection from ('192.168.0.3', 38471)
+2024-11-09 09:43:03,206 - ERROR - Error handling client ('192.168.0.3', 38471): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:03,206 - INFO - Connection closed for ('192.168.0.3', 38471)
+2024-11-09 09:43:03,520 - INFO - New connection from ('192.168.0.3', 44329)
+2024-11-09 09:43:03,827 - ERROR - Error handling client ('192.168.0.3', 44329): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:03,829 - INFO - Connection closed for ('192.168.0.3', 44329)
+2024-11-09 09:43:04,236 - INFO - New connection from ('192.168.0.3', 39435)
+2024-11-09 09:43:04,473 - ERROR - Error handling client ('192.168.0.3', 39435): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:04,479 - INFO - Connection closed for ('192.168.0.3', 39435)
+2024-11-09 09:43:05,356 - INFO - New connection from ('192.168.0.3', 43933)
+2024-11-09 09:43:05,389 - ERROR - Error handling client ('192.168.0.3', 43933): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:05,389 - INFO - Connection closed for ('192.168.0.3', 43933)
+2024-11-09 09:43:05,527 - INFO - New connection from ('192.168.0.3', 42233)
+2024-11-09 09:43:05,644 - ERROR - Error handling client ('192.168.0.3', 42233): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:05,649 - INFO - Connection closed for ('192.168.0.3', 42233)
+2024-11-09 09:43:05,984 - INFO - New connection from ('192.168.0.3', 38207)
+2024-11-09 09:43:06,777 - ERROR - Error handling client ('192.168.0.3', 38207): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:06,777 - INFO - Connection closed for ('192.168.0.3', 38207)
+2024-11-09 09:43:07,198 - INFO - New connection from ('192.168.0.3', 36523)
+2024-11-09 09:43:07,200 - ERROR - Error handling client ('192.168.0.3', 36523): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:07,202 - INFO - Connection closed for ('192.168.0.3', 36523)
+2024-11-09 09:43:07,911 - INFO - New connection from ('192.168.0.3', 37243)
+2024-11-09 09:43:07,917 - ERROR - Error handling client ('192.168.0.3', 37243): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:07,919 - INFO - Connection closed for ('192.168.0.3', 37243)
+2024-11-09 09:43:08,827 - INFO - New connection from ('192.168.0.3', 35527)
+2024-11-09 09:43:09,272 - ERROR - Error handling client ('192.168.0.3', 35527): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:09,272 - INFO - Connection closed for ('192.168.0.3', 35527)
+2024-11-09 09:43:09,568 - INFO - New connection from ('192.168.0.3', 33045)
+2024-11-09 09:43:09,656 - ERROR - Error handling client ('192.168.0.3', 33045): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:09,656 - INFO - Connection closed for ('192.168.0.3', 33045)
+2024-11-09 09:43:09,925 - INFO - New connection from ('192.168.0.3', 44383)
+2024-11-09 09:43:10,170 - ERROR - Error handling client ('192.168.0.3', 44383): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:10,172 - INFO - Connection closed for ('192.168.0.3', 44383)
+2024-11-09 09:43:10,687 - INFO - New connection from ('192.168.0.3', 35275)
+2024-11-09 09:43:10,986 - ERROR - Error handling client ('192.168.0.3', 35275): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:10,989 - INFO - Connection closed for ('192.168.0.3', 35275)
+2024-11-09 09:43:11,403 - INFO - New connection from ('192.168.0.3', 45341)
+2024-11-09 09:43:11,804 - ERROR - Error handling client ('192.168.0.3', 45341): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:11,804 - INFO - Connection closed for ('192.168.0.3', 45341)
+2024-11-09 09:43:13,116 - INFO - New connection from ('192.168.0.3', 42713)
+2024-11-09 09:43:13,116 - ERROR - Error handling client ('192.168.0.3', 42713): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:13,116 - INFO - Connection closed for ('192.168.0.3', 42713)
+2024-11-09 09:43:13,749 - INFO - New connection from ('192.168.0.3', 34767)
+2024-11-09 09:43:14,162 - ERROR - Error handling client ('192.168.0.3', 34767): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:14,162 - INFO - Connection closed for ('192.168.0.3', 34767)
+2024-11-09 09:43:14,577 - INFO - New connection from ('192.168.0.3', 38593)
+2024-11-09 09:43:14,804 - ERROR - Error handling client ('192.168.0.3', 38593): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:14,804 - INFO - Connection closed for ('192.168.0.3', 38593)
+2024-11-09 09:43:15,113 - INFO - New connection from ('192.168.0.3', 38385)
+2024-11-09 09:43:15,114 - ERROR - Error handling client ('192.168.0.3', 38385): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:15,114 - INFO - Connection closed for ('192.168.0.3', 38385)
+2024-11-09 09:43:15,703 - INFO - New connection from ('192.168.0.3', 40637)
+2024-11-09 09:43:16,103 - ERROR - Error handling client ('192.168.0.3', 40637): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:16,103 - INFO - Connection closed for ('192.168.0.3', 40637)
+2024-11-09 09:43:16,398 - INFO - New connection from ('192.168.0.3', 36549)
+2024-11-09 09:43:16,501 - ERROR - Error handling client ('192.168.0.3', 36549): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:16,501 - INFO - Connection closed for ('192.168.0.3', 36549)
+2024-11-09 09:43:17,146 - INFO - New connection from ('192.168.0.3', 35221)
+2024-11-09 09:43:17,147 - ERROR - Error handling client ('192.168.0.3', 35221): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:17,149 - INFO - Connection closed for ('192.168.0.3', 35221)
+2024-11-09 09:43:17,888 - INFO - New connection from ('192.168.0.3', 44411)
+2024-11-09 09:43:17,888 - ERROR - Error handling client ('192.168.0.3', 44411): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:17,888 - INFO - Connection closed for ('192.168.0.3', 44411)
+2024-11-09 09:43:18,296 - INFO - New connection from ('192.168.0.3', 34101)
+2024-11-09 09:43:18,299 - ERROR - Error handling client ('192.168.0.3', 34101): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:18,302 - INFO - Connection closed for ('192.168.0.3', 34101)
+2024-11-09 09:43:18,771 - INFO - New connection from ('192.168.0.3', 40219)
+2024-11-09 09:43:18,873 - ERROR - Error handling client ('192.168.0.3', 40219): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:18,873 - INFO - Connection closed for ('192.168.0.3', 40219)
+2024-11-09 09:43:18,980 - INFO - New connection from ('192.168.0.3', 33055)
+2024-11-09 09:43:19,086 - ERROR - Error handling client ('192.168.0.3', 33055): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:19,086 - INFO - Connection closed for ('192.168.0.3', 33055)
+2024-11-09 09:43:19,195 - INFO - New connection from ('192.168.0.3', 40785)
+2024-11-09 09:43:19,300 - ERROR - Error handling client ('192.168.0.3', 40785): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:19,300 - INFO - Connection closed for ('192.168.0.3', 40785)
+2024-11-09 09:43:19,410 - INFO - New connection from ('192.168.0.3', 37487)
+2024-11-09 09:43:19,509 - ERROR - Error handling client ('192.168.0.3', 37487): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:19,514 - INFO - Connection closed for ('192.168.0.3', 37487)
+2024-11-09 09:43:19,623 - INFO - New connection from ('192.168.0.3', 39571)
+2024-11-09 09:43:19,726 - ERROR - Error handling client ('192.168.0.3', 39571): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:19,727 - INFO - Connection closed for ('192.168.0.3', 39571)
+2024-11-09 09:43:19,834 - INFO - New connection from ('192.168.0.3', 36509)
+2024-11-09 09:43:19,932 - ERROR - Error handling client ('192.168.0.3', 36509): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:19,935 - INFO - Connection closed for ('192.168.0.3', 36509)
+2024-11-09 09:43:20,042 - INFO - New connection from ('192.168.0.3', 36641)
+2024-11-09 09:43:20,145 - ERROR - Error handling client ('192.168.0.3', 36641): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:20,145 - INFO - Connection closed for ('192.168.0.3', 36641)
+2024-11-09 09:43:20,266 - INFO - New connection from ('192.168.0.3', 33995)
+2024-11-09 09:43:20,358 - ERROR - Error handling client ('192.168.0.3', 33995): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:20,358 - INFO - Connection closed for ('192.168.0.3', 33995)
+2024-11-09 09:43:20,468 - INFO - New connection from ('192.168.0.3', 43125)
+2024-11-09 09:43:20,570 - ERROR - Error handling client ('192.168.0.3', 43125): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:20,570 - INFO - Connection closed for ('192.168.0.3', 43125)
+2024-11-09 09:43:20,678 - INFO - New connection from ('192.168.0.3', 38291)
+2024-11-09 09:43:20,779 - ERROR - Error handling client ('192.168.0.3', 38291): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:20,779 - INFO - Connection closed for ('192.168.0.3', 38291)
+2024-11-09 09:43:21,130 - INFO - New connection from ('192.168.0.3', 37273)
+2024-11-09 09:43:21,240 - ERROR - Error handling client ('192.168.0.3', 37273): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:21,240 - INFO - Connection closed for ('192.168.0.3', 37273)
+2024-11-09 09:43:21,690 - INFO - New connection from ('192.168.0.3', 34987)
+2024-11-09 09:43:22,245 - ERROR - Error handling client ('192.168.0.3', 34987): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:22,245 - INFO - Connection closed for ('192.168.0.3', 34987)
+2024-11-09 09:43:22,356 - INFO - New connection from ('192.168.0.3', 45649)
+2024-11-09 09:43:22,791 - ERROR - Error handling client ('192.168.0.3', 45649): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:22,791 - INFO - Connection closed for ('192.168.0.3', 45649)
+2024-11-09 09:43:22,905 - INFO - New connection from ('192.168.0.3', 38635)
+2024-11-09 09:43:23,003 - ERROR - Error handling client ('192.168.0.3', 38635): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:23,003 - INFO - Connection closed for ('192.168.0.3', 38635)
+2024-11-09 09:43:23,113 - INFO - New connection from ('192.168.0.3', 40343)
+2024-11-09 09:43:23,214 - ERROR - Error handling client ('192.168.0.3', 40343): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:23,215 - INFO - Connection closed for ('192.168.0.3', 40343)
+2024-11-09 09:43:23,324 - INFO - New connection from ('192.168.0.3', 39693)
+2024-11-09 09:43:23,424 - ERROR - Error handling client ('192.168.0.3', 39693): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:23,427 - INFO - Connection closed for ('192.168.0.3', 39693)
+2024-11-09 09:43:23,533 - INFO - New connection from ('192.168.0.3', 34403)
+2024-11-09 09:43:23,634 - ERROR - Error handling client ('192.168.0.3', 34403): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:23,634 - INFO - Connection closed for ('192.168.0.3', 34403)
+2024-11-09 09:43:23,741 - INFO - New connection from ('192.168.0.3', 37823)
+2024-11-09 09:43:23,841 - ERROR - Error handling client ('192.168.0.3', 37823): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:23,841 - INFO - Connection closed for ('192.168.0.3', 37823)
+2024-11-09 09:43:23,949 - INFO - New connection from ('192.168.0.3', 32805)
+2024-11-09 09:43:24,049 - ERROR - Error handling client ('192.168.0.3', 32805): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:24,049 - INFO - Connection closed for ('192.168.0.3', 32805)
+2024-11-09 09:43:24,157 - INFO - New connection from ('192.168.0.3', 34905)
+2024-11-09 09:43:24,258 - ERROR - Error handling client ('192.168.0.3', 34905): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:24,258 - INFO - Connection closed for ('192.168.0.3', 34905)
+2024-11-09 09:43:24,370 - INFO - New connection from ('192.168.0.3', 35233)
+2024-11-09 09:43:24,477 - ERROR - Error handling client ('192.168.0.3', 35233): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:24,477 - INFO - Connection closed for ('192.168.0.3', 35233)
+2024-11-09 09:43:24,582 - INFO - New connection from ('192.168.0.3', 34849)
+2024-11-09 09:43:24,681 - ERROR - Error handling client ('192.168.0.3', 34849): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:24,681 - INFO - Connection closed for ('192.168.0.3', 34849)
+2024-11-09 09:43:24,787 - INFO - New connection from ('192.168.0.3', 42173)
+2024-11-09 09:43:25,426 - ERROR - Error handling client ('192.168.0.3', 42173): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:25,427 - INFO - Connection closed for ('192.168.0.3', 42173)
+2024-11-09 09:43:25,841 - INFO - New connection from ('192.168.0.3', 34475)
+2024-11-09 09:43:26,551 - ERROR - Error handling client ('192.168.0.3', 34475): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:26,554 - INFO - Connection closed for ('192.168.0.3', 34475)
+2024-11-09 09:43:26,962 - INFO - New connection from ('192.168.0.3', 35967)
+2024-11-09 09:43:26,962 - ERROR - Error handling client ('192.168.0.3', 35967): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:26,963 - INFO - Connection closed for ('192.168.0.3', 35967)
+2024-11-09 09:43:27,519 - INFO - New connection from ('192.168.0.3', 32993)
+2024-11-09 09:43:27,878 - ERROR - Error handling client ('192.168.0.3', 32993): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:27,878 - INFO - Connection closed for ('192.168.0.3', 32993)
+2024-11-09 09:43:28,230 - INFO - New connection from ('192.168.0.3', 36353)
+2024-11-09 09:43:28,657 - ERROR - Error handling client ('192.168.0.3', 36353): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:28,661 - INFO - Connection closed for ('192.168.0.3', 36353)
+2024-11-09 09:43:29,215 - INFO - New connection from ('192.168.0.3', 32841)
+2024-11-09 09:43:29,215 - ERROR - Error handling client ('192.168.0.3', 32841): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:29,216 - INFO - Connection closed for ('192.168.0.3', 32841)
+2024-11-09 09:43:29,684 - INFO - New connection from ('192.168.0.3', 34459)
+2024-11-09 09:43:29,684 - ERROR - Error handling client ('192.168.0.3', 34459): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:29,689 - INFO - Connection closed for ('192.168.0.3', 34459)
+2024-11-09 09:43:30,073 - INFO - New connection from ('192.168.0.3', 42611)
+2024-11-09 09:43:30,073 - ERROR - Error handling client ('192.168.0.3', 42611): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:30,074 - INFO - Connection closed for ('192.168.0.3', 42611)
+2024-11-09 09:43:30,546 - INFO - New connection from ('192.168.0.3', 42337)
+2024-11-09 09:43:30,546 - ERROR - Error handling client ('192.168.0.3', 42337): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:30,546 - INFO - Connection closed for ('192.168.0.3', 42337)
+2024-11-09 09:43:30,762 - INFO - New connection from ('192.168.0.3', 41719)
+2024-11-09 09:43:30,870 - ERROR - Error handling client ('192.168.0.3', 41719): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:30,870 - INFO - Connection closed for ('192.168.0.3', 41719)
+2024-11-09 09:43:30,981 - INFO - New connection from ('192.168.0.3', 34275)
+2024-11-09 09:43:31,077 - ERROR - Error handling client ('192.168.0.3', 34275): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:31,077 - INFO - Connection closed for ('192.168.0.3', 34275)
+2024-11-09 09:43:31,187 - INFO - New connection from ('192.168.0.3', 33011)
+2024-11-09 09:43:31,290 - ERROR - Error handling client ('192.168.0.3', 33011): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:31,290 - INFO - Connection closed for ('192.168.0.3', 33011)
+2024-11-09 09:43:31,407 - INFO - New connection from ('192.168.0.3', 35431)
+2024-11-09 09:43:31,504 - ERROR - Error handling client ('192.168.0.3', 35431): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:31,504 - INFO - Connection closed for ('192.168.0.3', 35431)
+2024-11-09 09:43:31,615 - INFO - New connection from ('192.168.0.3', 38273)
+2024-11-09 09:43:31,719 - ERROR - Error handling client ('192.168.0.3', 38273): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:31,720 - INFO - Connection closed for ('192.168.0.3', 38273)
+2024-11-09 09:43:31,829 - INFO - New connection from ('192.168.0.3', 42275)
+2024-11-09 09:43:31,926 - ERROR - Error handling client ('192.168.0.3', 42275): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:31,926 - INFO - Connection closed for ('192.168.0.3', 42275)
+2024-11-09 09:43:32,038 - INFO - New connection from ('192.168.0.3', 36351)
+2024-11-09 09:43:32,139 - ERROR - Error handling client ('192.168.0.3', 36351): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:32,139 - INFO - Connection closed for ('192.168.0.3', 36351)
+2024-11-09 09:43:32,244 - INFO - New connection from ('192.168.0.3', 37865)
+2024-11-09 09:43:32,346 - ERROR - Error handling client ('192.168.0.3', 37865): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:32,346 - INFO - Connection closed for ('192.168.0.3', 37865)
+2024-11-09 09:43:32,453 - INFO - New connection from ('192.168.0.3', 44799)
+2024-11-09 09:43:32,551 - ERROR - Error handling client ('192.168.0.3', 44799): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:32,551 - INFO - Connection closed for ('192.168.0.3', 44799)
+2024-11-09 09:43:32,658 - INFO - New connection from ('192.168.0.3', 37927)
+2024-11-09 09:43:32,764 - ERROR - Error handling client ('192.168.0.3', 37927): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:32,764 - INFO - Connection closed for ('192.168.0.3', 37927)
+2024-11-09 09:43:32,871 - INFO - New connection from ('192.168.0.3', 41733)
+2024-11-09 09:43:32,970 - ERROR - Error handling client ('192.168.0.3', 41733): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:32,972 - INFO - Connection closed for ('192.168.0.3', 41733)
+2024-11-09 09:43:33,417 - INFO - New connection from ('192.168.0.3', 41757)
+2024-11-09 09:43:33,838 - ERROR - Error handling client ('192.168.0.3', 41757): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:33,840 - INFO - Connection closed for ('192.168.0.3', 41757)
+2024-11-09 09:43:33,950 - INFO - New connection from ('192.168.0.3', 44611)
+2024-11-09 09:43:34,063 - ERROR - Error handling client ('192.168.0.3', 44611): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:34,063 - INFO - Connection closed for ('192.168.0.3', 44611)
+2024-11-09 09:43:34,538 - INFO - New connection from ('192.168.0.3', 38489)
+2024-11-09 09:43:34,890 - ERROR - Error handling client ('192.168.0.3', 38489): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:34,893 - INFO - Connection closed for ('192.168.0.3', 38489)
+2024-11-09 09:43:35,005 - INFO - New connection from ('192.168.0.3', 36549)
+2024-11-09 09:43:35,098 - ERROR - Error handling client ('192.168.0.3', 36549): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:35,102 - INFO - Connection closed for ('192.168.0.3', 36549)
+2024-11-09 09:43:35,239 - INFO - New connection from ('192.168.0.3', 39453)
+2024-11-09 09:43:35,335 - ERROR - Error handling client ('192.168.0.3', 39453): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:35,340 - INFO - Connection closed for ('192.168.0.3', 39453)
+2024-11-09 09:43:35,447 - INFO - New connection from ('192.168.0.3', 34547)
+2024-11-09 09:43:35,548 - ERROR - Error handling client ('192.168.0.3', 34547): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:35,548 - INFO - Connection closed for ('192.168.0.3', 34547)
+2024-11-09 09:43:35,658 - INFO - New connection from ('192.168.0.3', 39299)
+2024-11-09 09:43:35,763 - ERROR - Error handling client ('192.168.0.3', 39299): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:35,763 - INFO - Connection closed for ('192.168.0.3', 39299)
+2024-11-09 09:43:35,872 - INFO - New connection from ('192.168.0.3', 42141)
+2024-11-09 09:43:35,972 - ERROR - Error handling client ('192.168.0.3', 42141): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:35,972 - INFO - Connection closed for ('192.168.0.3', 42141)
+2024-11-09 09:43:36,083 - INFO - New connection from ('192.168.0.3', 41925)
+2024-11-09 09:43:36,182 - ERROR - Error handling client ('192.168.0.3', 41925): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:36,182 - INFO - Connection closed for ('192.168.0.3', 41925)
+2024-11-09 09:43:36,298 - INFO - New connection from ('192.168.0.3', 46729)
+2024-11-09 09:43:36,389 - ERROR - Error handling client ('192.168.0.3', 46729): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:36,395 - INFO - Connection closed for ('192.168.0.3', 46729)
+2024-11-09 09:43:36,501 - INFO - New connection from ('192.168.0.3', 40583)
+2024-11-09 09:43:36,603 - ERROR - Error handling client ('192.168.0.3', 40583): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:36,603 - INFO - Connection closed for ('192.168.0.3', 40583)
+2024-11-09 09:43:36,714 - INFO - New connection from ('192.168.0.3', 41761)
+2024-11-09 09:43:36,813 - ERROR - Error handling client ('192.168.0.3', 41761): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:36,813 - INFO - Connection closed for ('192.168.0.3', 41761)
+2024-11-09 09:43:37,207 - INFO - New connection from ('192.168.0.3', 39517)
+2024-11-09 09:43:37,979 - ERROR - Error handling client ('192.168.0.3', 39517): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:37,981 - INFO - Connection closed for ('192.168.0.3', 39517)
+2024-11-09 09:43:38,742 - INFO - New connection from ('192.168.0.3', 42461)
+2024-11-09 09:43:38,982 - ERROR - Error handling client ('192.168.0.3', 42461): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:38,990 - INFO - Connection closed for ('192.168.0.3', 42461)
+2024-11-09 09:43:39,257 - INFO - New connection from ('192.168.0.3', 40705)
+2024-11-09 09:43:39,456 - ERROR - Error handling client ('192.168.0.3', 40705): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:39,456 - INFO - Connection closed for ('192.168.0.3', 40705)
+2024-11-09 09:43:39,873 - INFO - New connection from ('192.168.0.3', 37623)
+2024-11-09 09:43:40,274 - ERROR - Error handling client ('192.168.0.3', 37623): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:40,279 - INFO - Connection closed for ('192.168.0.3', 37623)
+2024-11-09 09:43:40,684 - INFO - New connection from ('192.168.0.3', 37715)
+2024-11-09 09:43:40,909 - ERROR - Error handling client ('192.168.0.3', 37715): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:40,909 - INFO - Connection closed for ('192.168.0.3', 37715)
+2024-11-09 09:43:41,498 - INFO - New connection from ('192.168.0.3', 41837)
+2024-11-09 09:43:41,505 - ERROR - Error handling client ('192.168.0.3', 41837): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:41,506 - INFO - Connection closed for ('192.168.0.3', 41837)
+2024-11-09 09:43:41,914 - INFO - New connection from ('192.168.0.3', 34249)
+2024-11-09 09:43:42,215 - ERROR - Error handling client ('192.168.0.3', 34249): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:42,215 - INFO - Connection closed for ('192.168.0.3', 34249)
+2024-11-09 09:43:42,639 - INFO - New connection from ('192.168.0.3', 40605)
+2024-11-09 09:43:42,911 - ERROR - Error handling client ('192.168.0.3', 40605): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:42,919 - INFO - Connection closed for ('192.168.0.3', 40605)
+2024-11-09 09:43:43,357 - INFO - New connection from ('192.168.0.3', 35079)
+2024-11-09 09:43:43,357 - ERROR - Error handling client ('192.168.0.3', 35079): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:43,360 - INFO - Connection closed for ('192.168.0.3', 35079)
+2024-11-09 09:43:43,598 - INFO - New connection from ('192.168.0.3', 42337)
+2024-11-09 09:43:43,858 - ERROR - Error handling client ('192.168.0.3', 42337): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:43,859 - INFO - Connection closed for ('192.168.0.3', 42337)
+2024-11-09 09:43:44,473 - INFO - New connection from ('192.168.0.3', 34277)
+2024-11-09 09:43:44,881 - ERROR - Error handling client ('192.168.0.3', 34277): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:44,881 - INFO - Connection closed for ('192.168.0.3', 34277)
+2024-11-09 09:43:45,503 - INFO - New connection from ('192.168.0.3', 37693)
+2024-11-09 09:43:45,697 - ERROR - Error handling client ('192.168.0.3', 37693): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:45,704 - INFO - Connection closed for ('192.168.0.3', 37693)
+2024-11-09 09:43:46,011 - INFO - New connection from ('192.168.0.3', 43563)
+2024-11-09 09:43:46,412 - ERROR - Error handling client ('192.168.0.3', 43563): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:46,421 - INFO - Connection closed for ('192.168.0.3', 43563)
+2024-11-09 09:43:46,725 - INFO - New connection from ('192.168.0.3', 39613)
+2024-11-09 09:43:47,032 - ERROR - Error handling client ('192.168.0.3', 39613): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:47,032 - INFO - Connection closed for ('192.168.0.3', 39613)
+2024-11-09 09:43:47,342 - INFO - New connection from ('192.168.0.3', 45207)
+2024-11-09 09:43:47,648 - ERROR - Error handling client ('192.168.0.3', 45207): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:47,648 - INFO - Connection closed for ('192.168.0.3', 45207)
+2024-11-09 09:43:47,936 - INFO - New connection from ('192.168.0.3', 44141)
+2024-11-09 09:43:48,198 - ERROR - Error handling client ('192.168.0.3', 44141): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:48,198 - INFO - Connection closed for ('192.168.0.3', 44141)
+2024-11-09 09:43:48,780 - INFO - New connection from ('192.168.0.3', 43521)
+2024-11-09 09:43:48,973 - ERROR - Error handling client ('192.168.0.3', 43521): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:48,973 - INFO - Connection closed for ('192.168.0.3', 43521)
+2024-11-09 09:43:49,122 - INFO - New connection from ('192.168.0.3', 44423)
+2024-11-09 09:43:49,491 - ERROR - Error handling client ('192.168.0.3', 44423): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:49,492 - INFO - Connection closed for ('192.168.0.3', 44423)
+2024-11-09 09:43:50,112 - INFO - New connection from ('192.168.0.3', 40627)
+2024-11-09 09:43:50,508 - ERROR - Error handling client ('192.168.0.3', 40627): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:50,516 - INFO - Connection closed for ('192.168.0.3', 40627)
+2024-11-09 09:43:50,834 - INFO - New connection from ('192.168.0.3', 34225)
+2024-11-09 09:43:51,198 - ERROR - Error handling client ('192.168.0.3', 34225): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:51,198 - INFO - Connection closed for ('192.168.0.3', 34225)
+2024-11-09 09:43:51,632 - INFO - New connection from ('192.168.0.3', 44175)
+2024-11-09 09:43:51,737 - ERROR - Error handling client ('192.168.0.3', 44175): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:51,745 - INFO - Connection closed for ('192.168.0.3', 44175)
+2024-11-09 09:43:52,257 - INFO - New connection from ('192.168.0.3', 38885)
+2024-11-09 09:43:52,557 - ERROR - Error handling client ('192.168.0.3', 38885): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:52,565 - INFO - Connection closed for ('192.168.0.3', 38885)
+2024-11-09 09:43:53,068 - INFO - New connection from ('192.168.0.3', 46275)
+2024-11-09 09:43:53,076 - ERROR - Error handling client ('192.168.0.3', 46275): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:53,076 - INFO - Connection closed for ('192.168.0.3', 46275)
+2024-11-09 09:43:53,696 - INFO - New connection from ('192.168.0.3', 40003)
+2024-11-09 09:43:53,930 - ERROR - Error handling client ('192.168.0.3', 40003): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:53,934 - INFO - Connection closed for ('192.168.0.3', 40003)
+2024-11-09 09:43:54,309 - INFO - New connection from ('192.168.0.3', 34101)
+2024-11-09 09:43:54,611 - ERROR - Error handling client ('192.168.0.3', 34101): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:54,612 - INFO - Connection closed for ('192.168.0.3', 34101)
+2024-11-09 09:43:55,115 - INFO - New connection from ('192.168.0.3', 38651)
+2024-11-09 09:43:55,528 - ERROR - Error handling client ('192.168.0.3', 38651): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:55,534 - INFO - Connection closed for ('192.168.0.3', 38651)
+2024-11-09 09:43:55,839 - INFO - New connection from ('192.168.0.3', 39689)
+2024-11-09 09:43:56,245 - ERROR - Error handling client ('192.168.0.3', 39689): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:56,245 - INFO - Connection closed for ('192.168.0.3', 39689)
+2024-11-09 09:43:56,451 - INFO - New connection from ('192.168.0.3', 39157)
+2024-11-09 09:43:56,694 - ERROR - Error handling client ('192.168.0.3', 39157): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:56,694 - INFO - Connection closed for ('192.168.0.3', 39157)
+2024-11-09 09:43:57,063 - INFO - New connection from ('192.168.0.3', 37287)
+2024-11-09 09:43:57,063 - ERROR - Error handling client ('192.168.0.3', 37287): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:57,071 - INFO - Connection closed for ('192.168.0.3', 37287)
+2024-11-09 09:43:57,516 - INFO - New connection from ('192.168.0.3', 42453)
+2024-11-09 09:43:57,518 - ERROR - Error handling client ('192.168.0.3', 42453): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:57,518 - INFO - Connection closed for ('192.168.0.3', 42453)
+2024-11-09 09:43:58,126 - INFO - New connection from ('192.168.0.3', 42051)
+2024-11-09 09:43:58,134 - ERROR - Error handling client ('192.168.0.3', 42051): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:58,136 - INFO - Connection closed for ('192.168.0.3', 42051)
+2024-11-09 09:43:58,711 - INFO - New connection from ('192.168.0.3', 44823)
+2024-11-09 09:43:59,008 - ERROR - Error handling client ('192.168.0.3', 44823): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:59,015 - INFO - Connection closed for ('192.168.0.3', 44823)
+2024-11-09 09:43:59,630 - INFO - New connection from ('192.168.0.3', 41281)
+2024-11-09 09:43:59,935 - ERROR - Error handling client ('192.168.0.3', 41281): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:43:59,935 - INFO - Connection closed for ('192.168.0.3', 41281)
+2024-11-09 09:44:00,347 - INFO - New connection from ('192.168.0.3', 33629)
+2024-11-09 09:44:00,645 - ERROR - Error handling client ('192.168.0.3', 33629): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:00,654 - INFO - Connection closed for ('192.168.0.3', 33629)
+2024-11-09 09:44:01,006 - INFO - New connection from ('192.168.0.3', 33893)
+2024-11-09 09:44:01,472 - ERROR - Error handling client ('192.168.0.3', 33893): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:01,472 - INFO - Connection closed for ('192.168.0.3', 33893)
+2024-11-09 09:44:01,786 - INFO - New connection from ('192.168.0.3', 35437)
+2024-11-09 09:44:02,178 - ERROR - Error handling client ('192.168.0.3', 35437): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:02,185 - INFO - Connection closed for ('192.168.0.3', 35437)
+2024-11-09 09:44:02,605 - INFO - New connection from ('192.168.0.3', 38607)
+2024-11-09 09:44:02,979 - ERROR - Error handling client ('192.168.0.3', 38607): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:02,979 - INFO - Connection closed for ('192.168.0.3', 38607)
+2024-11-09 09:44:03,477 - INFO - New connection from ('192.168.0.3', 45849)
+2024-11-09 09:44:03,820 - ERROR - Error handling client ('192.168.0.3', 45849): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:03,829 - INFO - Connection closed for ('192.168.0.3', 45849)
+2024-11-09 09:44:04,137 - INFO - New connection from ('192.168.0.3', 44157)
+2024-11-09 09:44:04,502 - ERROR - Error handling client ('192.168.0.3', 44157): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:04,502 - INFO - Connection closed for ('192.168.0.3', 44157)
+2024-11-09 09:44:04,854 - INFO - New connection from ('192.168.0.3', 41381)
+2024-11-09 09:44:05,060 - ERROR - Error handling client ('192.168.0.3', 41381): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:05,060 - INFO - Connection closed for ('192.168.0.3', 41381)
+2024-11-09 09:44:05,369 - INFO - New connection from ('192.168.0.3', 41543)
+2024-11-09 09:44:05,869 - ERROR - Error handling client ('192.168.0.3', 41543): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:05,875 - INFO - Connection closed for ('192.168.0.3', 41543)
+2024-11-09 09:44:06,189 - INFO - New connection from ('192.168.0.3', 38573)
+2024-11-09 09:44:06,790 - ERROR - Error handling client ('192.168.0.3', 38573): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:06,798 - INFO - Connection closed for ('192.168.0.3', 38573)
+2024-11-09 09:44:07,047 - INFO - New connection from ('192.168.0.3', 40873)
+2024-11-09 09:44:07,384 - ERROR - Error handling client ('192.168.0.3', 40873): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:07,389 - INFO - Connection closed for ('192.168.0.3', 40873)
+2024-11-09 09:44:07,943 - INFO - New connection from ('192.168.0.3', 40661)
+2024-11-09 09:44:07,946 - ERROR - Error handling client ('192.168.0.3', 40661): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:07,946 - INFO - Connection closed for ('192.168.0.3', 40661)
+2024-11-09 09:44:08,322 - INFO - New connection from ('192.168.0.3', 45049)
+2024-11-09 09:44:08,737 - ERROR - Error handling client ('192.168.0.3', 45049): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:08,737 - INFO - Connection closed for ('192.168.0.3', 45049)
+2024-11-09 09:44:09,148 - INFO - New connection from ('192.168.0.3', 43145)
+2024-11-09 09:44:09,148 - ERROR - Error handling client ('192.168.0.3', 43145): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:09,148 - INFO - Connection closed for ('192.168.0.3', 43145)
+2024-11-09 09:44:09,811 - INFO - New connection from ('192.168.0.3', 39257)
+2024-11-09 09:44:10,175 - ERROR - Error handling client ('192.168.0.3', 39257): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:10,176 - INFO - Connection closed for ('192.168.0.3', 39257)
+2024-11-09 09:44:10,795 - INFO - New connection from ('192.168.0.3', 35211)
+2024-11-09 09:44:11,008 - ERROR - Error handling client ('192.168.0.3', 35211): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:11,008 - INFO - Connection closed for ('192.168.0.3', 35211)
+2024-11-09 09:44:11,401 - INFO - New connection from ('192.168.0.3', 39033)
+2024-11-09 09:44:11,852 - ERROR - Error handling client ('192.168.0.3', 39033): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:11,852 - INFO - Connection closed for ('192.168.0.3', 39033)
+2024-11-09 09:44:12,245 - INFO - New connection from ('192.168.0.3', 39861)
+2024-11-09 09:44:12,453 - ERROR - Error handling client ('192.168.0.3', 39861): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:12,453 - INFO - Connection closed for ('192.168.0.3', 39861)
+2024-11-09 09:44:12,844 - INFO - New connection from ('192.168.0.3', 44071)
+2024-11-09 09:44:13,038 - ERROR - Error handling client ('192.168.0.3', 44071): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:13,045 - INFO - Connection closed for ('192.168.0.3', 44071)
+2024-11-09 09:44:14,164 - INFO - New connection from ('192.168.0.3', 46117)
+2024-11-09 09:44:14,164 - ERROR - Error handling client ('192.168.0.3', 46117): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:14,173 - INFO - Connection closed for ('192.168.0.3', 46117)
+2024-11-09 09:44:14,683 - INFO - New connection from ('192.168.0.3', 36043)
+2024-11-09 09:44:14,981 - ERROR - Error handling client ('192.168.0.3', 36043): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:14,989 - INFO - Connection closed for ('192.168.0.3', 36043)
+2024-11-09 09:44:15,214 - INFO - New connection from ('192.168.0.3', 41193)
+2024-11-09 09:44:15,500 - ERROR - Error handling client ('192.168.0.3', 41193): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:15,501 - INFO - Connection closed for ('192.168.0.3', 41193)
+2024-11-09 09:44:15,915 - INFO - New connection from ('192.168.0.3', 37615)
+2024-11-09 09:44:16,216 - ERROR - Error handling client ('192.168.0.3', 37615): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:16,218 - INFO - Connection closed for ('192.168.0.3', 37615)
+2024-11-09 09:44:16,475 - INFO - New connection from ('192.168.0.3', 33443)
+2024-11-09 09:44:16,934 - ERROR - Error handling client ('192.168.0.3', 33443): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:16,934 - INFO - Connection closed for ('192.168.0.3', 33443)
+2024-11-09 09:44:17,139 - INFO - New connection from ('192.168.0.3', 36397)
+2024-11-09 09:44:17,441 - ERROR - Error handling client ('192.168.0.3', 36397): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:17,441 - INFO - Connection closed for ('192.168.0.3', 36397)
+2024-11-09 09:44:17,585 - INFO - New connection from ('192.168.0.3', 34697)
+2024-11-09 09:44:17,746 - ERROR - Error handling client ('192.168.0.3', 34697): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:17,756 - INFO - Connection closed for ('192.168.0.3', 34697)
+2024-11-09 09:44:18,168 - INFO - New connection from ('192.168.0.3', 34573)
+2024-11-09 09:44:18,468 - ERROR - Error handling client ('192.168.0.3', 34573): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:18,472 - INFO - Connection closed for ('192.168.0.3', 34573)
+2024-11-09 09:44:19,115 - INFO - New connection from ('192.168.0.3', 46443)
+2024-11-09 09:44:19,115 - ERROR - Error handling client ('192.168.0.3', 46443): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:19,115 - INFO - Connection closed for ('192.168.0.3', 46443)
+2024-11-09 09:44:19,496 - INFO - New connection from ('192.168.0.3', 42811)
+2024-11-09 09:44:19,857 - ERROR - Error handling client ('192.168.0.3', 42811): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:19,859 - INFO - Connection closed for ('192.168.0.3', 42811)
+2024-11-09 09:44:20,217 - INFO - New connection from ('192.168.0.3', 45281)
+2024-11-09 09:44:20,922 - ERROR - Error handling client ('192.168.0.3', 45281): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:20,929 - INFO - Connection closed for ('192.168.0.3', 45281)
+2024-11-09 09:44:21,342 - INFO - New connection from ('192.168.0.3', 35161)
+2024-11-09 09:44:22,052 - ERROR - Error handling client ('192.168.0.3', 35161): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:22,055 - INFO - Connection closed for ('192.168.0.3', 35161)
+2024-11-09 09:44:22,324 - INFO - New connection from ('192.168.0.3', 44069)
+2024-11-09 09:44:22,561 - ERROR - Error handling client ('192.168.0.3', 44069): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:22,568 - INFO - Connection closed for ('192.168.0.3', 44069)
+2024-11-09 09:44:22,899 - INFO - New connection from ('192.168.0.3', 46149)
+2024-11-09 09:44:23,379 - ERROR - Error handling client ('192.168.0.3', 46149): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:23,385 - INFO - Connection closed for ('192.168.0.3', 46149)
+2024-11-09 09:44:23,802 - INFO - New connection from ('192.168.0.3', 39403)
+2024-11-09 09:44:24,039 - ERROR - Error handling client ('192.168.0.3', 39403): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:24,039 - INFO - Connection closed for ('192.168.0.3', 39403)
+2024-11-09 09:44:24,621 - INFO - New connection from ('192.168.0.3', 37155)
+2024-11-09 09:44:25,066 - ERROR - Error handling client ('192.168.0.3', 37155): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:25,074 - INFO - Connection closed for ('192.168.0.3', 37155)
+2024-11-09 09:44:25,849 - INFO - New connection from ('192.168.0.3', 37605)
+2024-11-09 09:44:26,148 - ERROR - Error handling client ('192.168.0.3', 37605): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:26,151 - INFO - Connection closed for ('192.168.0.3', 37605)
+2024-11-09 09:44:26,554 - INFO - New connection from ('192.168.0.3', 43737)
+2024-11-09 09:44:26,561 - ERROR - Error handling client ('192.168.0.3', 43737): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:26,564 - INFO - Connection closed for ('192.168.0.3', 43737)
+2024-11-09 09:44:26,873 - INFO - New connection from ('192.168.0.3', 40407)
+2024-11-09 09:44:27,072 - ERROR - Error handling client ('192.168.0.3', 40407): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:27,075 - INFO - Connection closed for ('192.168.0.3', 40407)
+2024-11-09 09:44:27,399 - INFO - New connection from ('192.168.0.3', 35905)
+2024-11-09 09:44:27,686 - ERROR - Error handling client ('192.168.0.3', 35905): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:27,688 - INFO - Connection closed for ('192.168.0.3', 35905)
+2024-11-09 09:44:27,900 - INFO - New connection from ('192.168.0.3', 34005)
+2024-11-09 09:44:28,404 - ERROR - Error handling client ('192.168.0.3', 34005): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:28,406 - INFO - Connection closed for ('192.168.0.3', 34005)
+2024-11-09 09:44:28,712 - INFO - New connection from ('192.168.0.3', 42485)
+2024-11-09 09:44:29,072 - ERROR - Error handling client ('192.168.0.3', 42485): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:29,078 - INFO - Connection closed for ('192.168.0.3', 42485)
+2024-11-09 09:44:29,329 - INFO - New connection from ('192.168.0.3', 38581)
+2024-11-09 09:44:29,566 - ERROR - Error handling client ('192.168.0.3', 38581): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:29,566 - INFO - Connection closed for ('192.168.0.3', 38581)
+2024-11-09 09:44:30,046 - INFO - New connection from ('192.168.0.3', 38223)
+2024-11-09 09:44:30,282 - ERROR - Error handling client ('192.168.0.3', 38223): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:30,282 - INFO - Connection closed for ('192.168.0.3', 38223)
+2024-11-09 09:44:30,758 - INFO - New connection from ('192.168.0.3', 39353)
+2024-11-09 09:44:30,759 - ERROR - Error handling client ('192.168.0.3', 39353): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:30,759 - INFO - Connection closed for ('192.168.0.3', 39353)
+2024-11-09 09:44:31,097 - INFO - New connection from ('192.168.0.3', 45469)
+2024-11-09 09:44:31,365 - ERROR - Error handling client ('192.168.0.3', 45469): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:31,374 - INFO - Connection closed for ('192.168.0.3', 45469)
+2024-11-09 09:44:31,782 - INFO - New connection from ('192.168.0.3', 37391)
+2024-11-09 09:44:31,996 - ERROR - Error handling client ('192.168.0.3', 37391): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:31,996 - INFO - Connection closed for ('192.168.0.3', 37391)
+2024-11-09 09:44:32,409 - INFO - New connection from ('192.168.0.3', 35521)
+2024-11-09 09:44:32,624 - ERROR - Error handling client ('192.168.0.3', 35521): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:32,624 - INFO - Connection closed for ('192.168.0.3', 35521)
+2024-11-09 09:44:33,247 - INFO - New connection from ('192.168.0.3', 36839)
+2024-11-09 09:44:33,253 - ERROR - Error handling client ('192.168.0.3', 36839): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:33,253 - INFO - Connection closed for ('192.168.0.3', 36839)
+2024-11-09 09:44:33,782 - INFO - New connection from ('192.168.0.3', 39721)
+2024-11-09 09:44:34,744 - ERROR - Error handling client ('192.168.0.3', 39721): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:34,753 - INFO - Connection closed for ('192.168.0.3', 39721)
+2024-11-09 09:44:35,156 - INFO - New connection from ('192.168.0.3', 44463)
+2024-11-09 09:44:35,224 - ERROR - Error handling client ('192.168.0.3', 44463): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:35,229 - INFO - Connection closed for ('192.168.0.3', 44463)
+2024-11-09 09:44:35,576 - INFO - New connection from ('192.168.0.3', 46315)
+2024-11-09 09:44:35,674 - ERROR - Error handling client ('192.168.0.3', 46315): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:35,674 - INFO - Connection closed for ('192.168.0.3', 46315)
+2024-11-09 09:44:35,981 - INFO - New connection from ('192.168.0.3', 35105)
+2024-11-09 09:44:36,180 - ERROR - Error handling client ('192.168.0.3', 35105): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:36,189 - INFO - Connection closed for ('192.168.0.3', 35105)
+2024-11-09 09:44:37,312 - INFO - New connection from ('192.168.0.3', 41389)
+2024-11-09 09:44:37,930 - ERROR - Error handling client ('192.168.0.3', 41389): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:37,930 - INFO - Connection closed for ('192.168.0.3', 41389)
+2024-11-09 09:44:38,444 - INFO - New connection from ('192.168.0.3', 43371)
+2024-11-09 09:44:38,740 - ERROR - Error handling client ('192.168.0.3', 43371): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:38,747 - INFO - Connection closed for ('192.168.0.3', 43371)
+2024-11-09 09:44:39,253 - INFO - New connection from ('192.168.0.3', 46627)
+2024-11-09 09:44:39,565 - ERROR - Error handling client ('192.168.0.3', 46627): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:39,567 - INFO - Connection closed for ('192.168.0.3', 46627)
+2024-11-09 09:44:40,584 - INFO - New connection from ('192.168.0.3', 45307)
+2024-11-09 09:44:40,590 - ERROR - Error handling client ('192.168.0.3', 45307): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:40,590 - INFO - Connection closed for ('192.168.0.3', 45307)
+2024-11-09 09:44:41,004 - INFO - New connection from ('192.168.0.3', 38369)
+2024-11-09 09:44:41,201 - ERROR - Error handling client ('192.168.0.3', 38369): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:41,204 - INFO - Connection closed for ('192.168.0.3', 38369)
+2024-11-09 09:44:41,395 - INFO - New connection from ('192.168.0.3', 39989)
+2024-11-09 09:44:41,822 - ERROR - Error handling client ('192.168.0.3', 39989): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:41,822 - INFO - Connection closed for ('192.168.0.3', 39989)
+2024-11-09 09:44:42,375 - INFO - New connection from ('192.168.0.3', 37139)
+2024-11-09 09:44:42,735 - ERROR - Error handling client ('192.168.0.3', 37139): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:42,735 - INFO - Connection closed for ('192.168.0.3', 37139)
+2024-11-09 09:44:42,990 - INFO - New connection from ('192.168.0.3', 44809)
+2024-11-09 09:44:43,248 - ERROR - Error handling client ('192.168.0.3', 44809): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:43,252 - INFO - Connection closed for ('192.168.0.3', 44809)
+2024-11-09 09:44:43,597 - INFO - New connection from ('192.168.0.3', 42609)
+2024-11-09 09:44:43,918 - ERROR - Error handling client ('192.168.0.3', 42609): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:43,924 - INFO - Connection closed for ('192.168.0.3', 42609)
+2024-11-09 09:44:44,280 - INFO - New connection from ('192.168.0.3', 34403)
+2024-11-09 09:44:44,679 - ERROR - Error handling client ('192.168.0.3', 34403): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:44,686 - INFO - Connection closed for ('192.168.0.3', 34403)
+2024-11-09 09:44:44,941 - INFO - New connection from ('192.168.0.3', 46443)
+2024-11-09 09:44:45,396 - ERROR - Error handling client ('192.168.0.3', 46443): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:45,404 - INFO - Connection closed for ('192.168.0.3', 46443)
+2024-11-09 09:44:45,709 - INFO - New connection from ('192.168.0.3', 41391)
+2024-11-09 09:44:46,220 - ERROR - Error handling client ('192.168.0.3', 41391): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:46,222 - INFO - Connection closed for ('192.168.0.3', 41391)
+2024-11-09 09:44:46,534 - INFO - New connection from ('192.168.0.3', 46657)
+2024-11-09 09:44:46,832 - ERROR - Error handling client ('192.168.0.3', 46657): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:46,832 - INFO - Connection closed for ('192.168.0.3', 46657)
+2024-11-09 09:44:47,232 - INFO - New connection from ('192.168.0.3', 40709)
+2024-11-09 09:44:47,552 - ERROR - Error handling client ('192.168.0.3', 40709): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:47,553 - INFO - Connection closed for ('192.168.0.3', 40709)
+2024-11-09 09:44:47,965 - INFO - New connection from ('192.168.0.3', 46235)
+2024-11-09 09:44:48,268 - ERROR - Error handling client ('192.168.0.3', 46235): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:48,269 - INFO - Connection closed for ('192.168.0.3', 46235)
+2024-11-09 09:44:48,500 - INFO - New connection from ('192.168.0.3', 34555)
+2024-11-09 09:44:48,876 - ERROR - Error handling client ('192.168.0.3', 34555): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:48,884 - INFO - Connection closed for ('192.168.0.3', 34555)
+2024-11-09 09:44:49,328 - INFO - New connection from ('192.168.0.3', 44077)
+2024-11-09 09:44:49,334 - ERROR - Error handling client ('192.168.0.3', 44077): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:49,334 - INFO - Connection closed for ('192.168.0.3', 44077)
+2024-11-09 09:44:49,696 - INFO - New connection from ('192.168.0.3', 45905)
+2024-11-09 09:44:49,705 - ERROR - Error handling client ('192.168.0.3', 45905): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:49,706 - INFO - Connection closed for ('192.168.0.3', 45905)
+2024-11-09 09:44:50,108 - INFO - New connection from ('192.168.0.3', 40689)
+2024-11-09 09:44:50,114 - ERROR - Error handling client ('192.168.0.3', 40689): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:50,114 - INFO - Connection closed for ('192.168.0.3', 40689)
+2024-11-09 09:44:50,600 - INFO - New connection from ('192.168.0.3', 37431)
+2024-11-09 09:44:51,033 - ERROR - Error handling client ('192.168.0.3', 37431): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:51,035 - INFO - Connection closed for ('192.168.0.3', 37431)
+2024-11-09 09:44:51,280 - INFO - New connection from ('192.168.0.3', 33693)
+2024-11-09 09:44:51,747 - ERROR - Error handling client ('192.168.0.3', 33693): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:51,752 - INFO - Connection closed for ('192.168.0.3', 33693)
+2024-11-09 09:44:52,366 - INFO - New connection from ('192.168.0.3', 39675)
+2024-11-09 09:44:53,076 - ERROR - Error handling client ('192.168.0.3', 39675): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:53,082 - INFO - Connection closed for ('192.168.0.3', 39675)
+2024-11-09 09:44:53,291 - INFO - New connection from ('192.168.0.3', 38171)
+2024-11-09 09:44:53,800 - ERROR - Error handling client ('192.168.0.3', 38171): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:53,800 - INFO - Connection closed for ('192.168.0.3', 38171)
+2024-11-09 09:44:54,418 - INFO - New connection from ('192.168.0.3', 33415)
+2024-11-09 09:44:54,924 - ERROR - Error handling client ('192.168.0.3', 33415): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:54,925 - INFO - Connection closed for ('192.168.0.3', 33415)
+2024-11-09 09:44:55,238 - INFO - New connection from ('192.168.0.3', 33029)
+2024-11-09 09:44:56,563 - ERROR - Error handling client ('192.168.0.3', 33029): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:56,568 - INFO - Connection closed for ('192.168.0.3', 33029)
+2024-11-09 09:44:57,172 - INFO - New connection from ('192.168.0.3', 38253)
+2024-11-09 09:44:57,383 - ERROR - Error handling client ('192.168.0.3', 38253): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:57,383 - INFO - Connection closed for ('192.168.0.3', 38253)
+2024-11-09 09:44:57,695 - INFO - New connection from ('192.168.0.3', 39865)
+2024-11-09 09:44:58,194 - ERROR - Error handling client ('192.168.0.3', 39865): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:58,203 - INFO - Connection closed for ('192.168.0.3', 39865)
+2024-11-09 09:44:58,618 - INFO - New connection from ('192.168.0.3', 35431)
+2024-11-09 09:44:59,017 - ERROR - Error handling client ('192.168.0.3', 35431): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:59,017 - INFO - Connection closed for ('192.168.0.3', 35431)
+2024-11-09 09:44:59,638 - INFO - New connection from ('192.168.0.3', 35953)
+2024-11-09 09:44:59,640 - ERROR - Error handling client ('192.168.0.3', 35953): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:44:59,640 - INFO - Connection closed for ('192.168.0.3', 35953)
+2024-11-09 09:44:59,934 - INFO - New connection from ('192.168.0.3', 44055)
+2024-11-09 09:45:00,185 - ERROR - Error handling client ('192.168.0.3', 44055): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:00,185 - INFO - Connection closed for ('192.168.0.3', 44055)
+2024-11-09 09:45:00,463 - INFO - New connection from ('192.168.0.3', 41553)
+2024-11-09 09:45:00,696 - ERROR - Error handling client ('192.168.0.3', 41553): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:00,701 - INFO - Connection closed for ('192.168.0.3', 41553)
+2024-11-09 09:45:01,071 - INFO - New connection from ('192.168.0.3', 34767)
+2024-11-09 09:45:01,677 - ERROR - Error handling client ('192.168.0.3', 34767): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:01,677 - INFO - Connection closed for ('192.168.0.3', 34767)
+2024-11-09 09:45:02,099 - INFO - New connection from ('192.168.0.3', 36105)
+2024-11-09 09:45:02,499 - ERROR - Error handling client ('192.168.0.3', 36105): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:02,505 - INFO - Connection closed for ('192.168.0.3', 36105)
+2024-11-09 09:45:02,805 - INFO - New connection from ('192.168.0.3', 37517)
+2024-11-09 09:45:03,178 - ERROR - Error handling client ('192.168.0.3', 37517): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:03,178 - INFO - Connection closed for ('192.168.0.3', 37517)
+2024-11-09 09:45:03,418 - INFO - New connection from ('192.168.0.3', 41887)
+2024-11-09 09:45:03,527 - ERROR - Error handling client ('192.168.0.3', 41887): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:03,527 - INFO - Connection closed for ('192.168.0.3', 41887)
+2024-11-09 09:45:03,904 - INFO - New connection from ('192.168.0.3', 37669)
+2024-11-09 09:45:04,136 - ERROR - Error handling client ('192.168.0.3', 37669): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:04,145 - INFO - Connection closed for ('192.168.0.3', 37669)
+2024-11-09 09:45:04,454 - INFO - New connection from ('192.168.0.3', 46801)
+2024-11-09 09:45:05,050 - ERROR - Error handling client ('192.168.0.3', 46801): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:05,050 - INFO - Connection closed for ('192.168.0.3', 46801)
+2024-11-09 09:45:05,205 - INFO - New connection from ('192.168.0.3', 37393)
+2024-11-09 09:45:05,471 - ERROR - Error handling client ('192.168.0.3', 37393): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:05,474 - INFO - Connection closed for ('192.168.0.3', 37393)
+2024-11-09 09:45:05,788 - INFO - New connection from ('192.168.0.3', 41481)
+2024-11-09 09:45:05,943 - ERROR - Error handling client ('192.168.0.3', 41481): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:05,943 - INFO - Connection closed for ('192.168.0.3', 41481)
+2024-11-09 09:45:06,399 - INFO - New connection from ('192.168.0.3', 40797)
+2024-11-09 09:45:06,695 - ERROR - Error handling client ('192.168.0.3', 40797): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:06,695 - INFO - Connection closed for ('192.168.0.3', 40797)
+2024-11-09 09:45:06,928 - INFO - New connection from ('192.168.0.3', 38949)
+2024-11-09 09:45:07,193 - ERROR - Error handling client ('192.168.0.3', 38949): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:07,193 - INFO - Connection closed for ('192.168.0.3', 38949)
+2024-11-09 09:45:07,302 - INFO - New connection from ('192.168.0.3', 37555)
+2024-11-09 09:45:07,397 - ERROR - Error handling client ('192.168.0.3', 37555): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:07,397 - INFO - Connection closed for ('192.168.0.3', 37555)
+2024-11-09 09:45:07,508 - INFO - New connection from ('192.168.0.3', 34825)
+2024-11-09 09:45:07,612 - ERROR - Error handling client ('192.168.0.3', 34825): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:07,612 - INFO - Connection closed for ('192.168.0.3', 34825)
+2024-11-09 09:45:07,720 - INFO - New connection from ('192.168.0.3', 41933)
+2024-11-09 09:45:07,819 - ERROR - Error handling client ('192.168.0.3', 41933): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:07,822 - INFO - Connection closed for ('192.168.0.3', 41933)
+2024-11-09 09:45:07,931 - INFO - New connection from ('192.168.0.3', 39647)
+2024-11-09 09:45:08,029 - ERROR - Error handling client ('192.168.0.3', 39647): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:08,029 - INFO - Connection closed for ('192.168.0.3', 39647)
+2024-11-09 09:45:08,140 - INFO - New connection from ('192.168.0.3', 36729)
+2024-11-09 09:45:08,241 - ERROR - Error handling client ('192.168.0.3', 36729): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:08,242 - INFO - Connection closed for ('192.168.0.3', 36729)
+2024-11-09 09:45:08,349 - INFO - New connection from ('192.168.0.3', 36935)
+2024-11-09 09:45:08,446 - ERROR - Error handling client ('192.168.0.3', 36935): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:08,452 - INFO - Connection closed for ('192.168.0.3', 36935)
+2024-11-09 09:45:08,559 - INFO - New connection from ('192.168.0.3', 40811)
+2024-11-09 09:45:08,654 - ERROR - Error handling client ('192.168.0.3', 40811): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:08,654 - INFO - Connection closed for ('192.168.0.3', 40811)
+2024-11-09 09:45:08,764 - INFO - New connection from ('192.168.0.3', 42903)
+2024-11-09 09:45:08,864 - ERROR - Error handling client ('192.168.0.3', 42903): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:08,864 - INFO - Connection closed for ('192.168.0.3', 42903)
+2024-11-09 09:45:08,975 - INFO - New connection from ('192.168.0.3', 45947)
+2024-11-09 09:45:09,081 - ERROR - Error handling client ('192.168.0.3', 45947): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:09,081 - INFO - Connection closed for ('192.168.0.3', 45947)
+2024-11-09 09:45:09,188 - INFO - New connection from ('192.168.0.3', 40631)
+2024-11-09 09:45:09,669 - ERROR - Error handling client ('192.168.0.3', 40631): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:09,669 - INFO - Connection closed for ('192.168.0.3', 40631)
+2024-11-09 09:45:09,988 - INFO - New connection from ('192.168.0.3', 43247)
+2024-11-09 09:45:10,280 - ERROR - Error handling client ('192.168.0.3', 43247): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:10,287 - INFO - Connection closed for ('192.168.0.3', 43247)
+2024-11-09 09:45:10,514 - INFO - New connection from ('192.168.0.3', 40207)
+2024-11-09 09:45:10,795 - ERROR - Error handling client ('192.168.0.3', 40207): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:10,795 - INFO - Connection closed for ('192.168.0.3', 40207)
+2024-11-09 09:45:11,210 - INFO - New connection from ('192.168.0.3', 36517)
+2024-11-09 09:45:11,307 - ERROR - Error handling client ('192.168.0.3', 36517): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:11,307 - INFO - Connection closed for ('192.168.0.3', 36517)
+2024-11-09 09:45:11,422 - INFO - New connection from ('192.168.0.3', 35853)
+2024-11-09 09:45:11,523 - ERROR - Error handling client ('192.168.0.3', 35853): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:11,523 - INFO - Connection closed for ('192.168.0.3', 35853)
+2024-11-09 09:45:11,629 - INFO - New connection from ('192.168.0.3', 43965)
+2024-11-09 09:45:11,729 - ERROR - Error handling client ('192.168.0.3', 43965): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:11,729 - INFO - Connection closed for ('192.168.0.3', 43965)
+2024-11-09 09:45:11,845 - INFO - New connection from ('192.168.0.3', 41971)
+2024-11-09 09:45:11,945 - ERROR - Error handling client ('192.168.0.3', 41971): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:11,945 - INFO - Connection closed for ('192.168.0.3', 41971)
+2024-11-09 09:45:12,054 - INFO - New connection from ('192.168.0.3', 40267)
+2024-11-09 09:45:12,151 - ERROR - Error handling client ('192.168.0.3', 40267): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:12,151 - INFO - Connection closed for ('192.168.0.3', 40267)
+2024-11-09 09:45:12,263 - INFO - New connection from ('192.168.0.3', 45015)
+2024-11-09 09:45:12,365 - ERROR - Error handling client ('192.168.0.3', 45015): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:12,365 - INFO - Connection closed for ('192.168.0.3', 45015)
+2024-11-09 09:45:12,471 - INFO - New connection from ('192.168.0.3', 33837)
+2024-11-09 09:45:12,570 - ERROR - Error handling client ('192.168.0.3', 33837): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:12,570 - INFO - Connection closed for ('192.168.0.3', 33837)
+2024-11-09 09:45:12,677 - INFO - New connection from ('192.168.0.3', 37269)
+2024-11-09 09:45:12,777 - ERROR - Error handling client ('192.168.0.3', 37269): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:12,777 - INFO - Connection closed for ('192.168.0.3', 37269)
+2024-11-09 09:45:12,889 - INFO - New connection from ('192.168.0.3', 43957)
+2024-11-09 09:45:12,986 - ERROR - Error handling client ('192.168.0.3', 43957): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:12,986 - INFO - Connection closed for ('192.168.0.3', 43957)
+2024-11-09 09:45:13,099 - INFO - New connection from ('192.168.0.3', 38461)
+2024-11-09 09:45:13,193 - ERROR - Error handling client ('192.168.0.3', 38461): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:13,201 - INFO - Connection closed for ('192.168.0.3', 38461)
+2024-11-09 09:45:13,550 - INFO - New connection from ('192.168.0.3', 35799)
+2024-11-09 09:45:13,740 - ERROR - Error handling client ('192.168.0.3', 35799): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:13,740 - INFO - Connection closed for ('192.168.0.3', 35799)
+2024-11-09 09:45:14,271 - INFO - New connection from ('192.168.0.3', 46481)
+2024-11-09 09:45:15,219 - ERROR - Error handling client ('192.168.0.3', 46481): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:15,222 - INFO - Connection closed for ('192.168.0.3', 46481)
+2024-11-09 09:45:15,532 - INFO - New connection from ('192.168.0.3', 44419)
+2024-11-09 09:45:15,929 - ERROR - Error handling client ('192.168.0.3', 44419): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:15,936 - INFO - Connection closed for ('192.168.0.3', 44419)
+2024-11-09 09:45:16,197 - INFO - New connection from ('192.168.0.3', 34423)
+2024-11-09 09:45:16,482 - ERROR - Error handling client ('192.168.0.3', 34423): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:16,485 - INFO - Connection closed for ('192.168.0.3', 34423)
+2024-11-09 09:45:17,453 - INFO - New connection from ('192.168.0.3', 44721)
+2024-11-09 09:45:17,456 - ERROR - Error handling client ('192.168.0.3', 44721): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:17,456 - INFO - Connection closed for ('192.168.0.3', 44721)
+2024-11-09 09:45:17,999 - INFO - New connection from ('192.168.0.3', 40305)
+2024-11-09 09:45:18,006 - ERROR - Error handling client ('192.168.0.3', 40305): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:18,008 - INFO - Connection closed for ('192.168.0.3', 40305)
+2024-11-09 09:45:18,367 - INFO - New connection from ('192.168.0.3', 35685)
+2024-11-09 09:45:18,919 - ERROR - Error handling client ('192.168.0.3', 35685): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:18,926 - INFO - Connection closed for ('192.168.0.3', 35685)
+2024-11-09 09:45:19,394 - INFO - New connection from ('192.168.0.3', 34511)
+2024-11-09 09:45:19,702 - ERROR - Error handling client ('192.168.0.3', 34511): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:19,708 - INFO - Connection closed for ('192.168.0.3', 34511)
+2024-11-09 09:45:20,121 - INFO - New connection from ('192.168.0.3', 33457)
+2024-11-09 09:45:20,729 - ERROR - Error handling client ('192.168.0.3', 33457): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:20,731 - INFO - Connection closed for ('192.168.0.3', 33457)
+2024-11-09 09:45:21,087 - INFO - New connection from ('192.168.0.3', 34749)
+2024-11-09 09:45:21,237 - ERROR - Error handling client ('192.168.0.3', 34749): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:21,237 - INFO - Connection closed for ('192.168.0.3', 34749)
+2024-11-09 09:45:21,647 - INFO - New connection from ('192.168.0.3', 45845)
+2024-11-09 09:45:21,956 - ERROR - Error handling client ('192.168.0.3', 45845): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:21,956 - INFO - Connection closed for ('192.168.0.3', 45845)
+2024-11-09 09:45:22,566 - INFO - New connection from ('192.168.0.3', 39015)
+2024-11-09 09:45:22,566 - ERROR - Error handling client ('192.168.0.3', 39015): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:22,566 - INFO - Connection closed for ('192.168.0.3', 39015)
+2024-11-09 09:45:22,982 - INFO - New connection from ('192.168.0.3', 35303)
+2024-11-09 09:45:22,982 - ERROR - Error handling client ('192.168.0.3', 35303): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:22,984 - INFO - Connection closed for ('192.168.0.3', 35303)
+2024-11-09 09:45:23,287 - INFO - New connection from ('192.168.0.3', 36311)
+2024-11-09 09:45:24,008 - ERROR - Error handling client ('192.168.0.3', 36311): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:24,011 - INFO - Connection closed for ('192.168.0.3', 36311)
+2024-11-09 09:45:24,373 - INFO - New connection from ('192.168.0.3', 33573)
+2024-11-09 09:45:25,122 - ERROR - Error handling client ('192.168.0.3', 33573): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:25,123 - INFO - Connection closed for ('192.168.0.3', 33573)
+2024-11-09 09:45:25,877 - INFO - New connection from ('192.168.0.3', 40159)
+2024-11-09 09:45:26,156 - ERROR - Error handling client ('192.168.0.3', 40159): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:26,156 - INFO - Connection closed for ('192.168.0.3', 40159)
+2024-11-09 09:45:27,191 - INFO - New connection from ('192.168.0.3', 44811)
+2024-11-09 09:45:27,893 - ERROR - Error handling client ('192.168.0.3', 44811): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:27,899 - INFO - Connection closed for ('192.168.0.3', 44811)
+2024-11-09 09:45:28,522 - INFO - New connection from ('192.168.0.3', 40271)
+2024-11-09 09:45:28,914 - ERROR - Error handling client ('192.168.0.3', 40271): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:28,918 - INFO - Connection closed for ('192.168.0.3', 40271)
+2024-11-09 09:45:29,244 - INFO - New connection from ('192.168.0.3', 39955)
+2024-11-09 09:45:30,088 - ERROR - Error handling client ('192.168.0.3', 39955): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:30,089 - INFO - Connection closed for ('192.168.0.3', 39955)
+2024-11-09 09:45:30,870 - INFO - New connection from ('192.168.0.3', 45949)
+2024-11-09 09:45:31,246 - ERROR - Error handling client ('192.168.0.3', 45949): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:31,246 - INFO - Connection closed for ('192.168.0.3', 45949)
+2024-11-09 09:45:31,376 - INFO - New connection from ('192.168.0.3', 34425)
+2024-11-09 09:45:32,400 - ERROR - Error handling client ('192.168.0.3', 34425): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:32,402 - INFO - Connection closed for ('192.168.0.3', 34425)
+2024-11-09 09:45:33,229 - INFO - New connection from ('192.168.0.3', 38699)
+2024-11-09 09:45:33,735 - ERROR - Error handling client ('192.168.0.3', 38699): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:33,736 - INFO - Connection closed for ('192.168.0.3', 38699)
+2024-11-09 09:45:34,860 - INFO - New connection from ('192.168.0.3', 38385)
+2024-11-09 09:45:35,075 - ERROR - Error handling client ('192.168.0.3', 38385): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:35,075 - INFO - Connection closed for ('192.168.0.3', 38385)
+2024-11-09 09:45:35,682 - INFO - New connection from ('192.168.0.3', 38027)
+2024-11-09 09:45:36,910 - ERROR - Error handling client ('192.168.0.3', 38027): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:36,910 - INFO - Connection closed for ('192.168.0.3', 38027)
+2024-11-09 09:45:37,457 - INFO - New connection from ('192.168.0.3', 41329)
+2024-11-09 09:45:37,457 - ERROR - Error handling client ('192.168.0.3', 41329): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:37,457 - INFO - Connection closed for ('192.168.0.3', 41329)
+2024-11-09 09:45:38,240 - INFO - New connection from ('192.168.0.3', 44783)
+2024-11-09 09:45:38,240 - ERROR - Error handling client ('192.168.0.3', 44783): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:38,242 - INFO - Connection closed for ('192.168.0.3', 44783)
+2024-11-09 09:45:38,932 - INFO - New connection from ('192.168.0.3', 46451)
+2024-11-09 09:45:38,932 - ERROR - Error handling client ('192.168.0.3', 46451): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:38,932 - INFO - Connection closed for ('192.168.0.3', 46451)
+2024-11-09 09:45:39,361 - INFO - New connection from ('192.168.0.3', 46703)
+2024-11-09 09:45:39,407 - ERROR - Error handling client ('192.168.0.3', 46703): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:39,407 - INFO - Connection closed for ('192.168.0.3', 46703)
+2024-11-09 09:45:40,128 - INFO - New connection from ('192.168.0.3', 35097)
+2024-11-09 09:45:41,056 - ERROR - Error handling client ('192.168.0.3', 35097): 'IntelligentServer' object has no attribute '_process_data'
+2024-11-09 09:45:41,056 - INFO - Connection closed for ('192.168.0.3', 35097)

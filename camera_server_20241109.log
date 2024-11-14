@@ -1,0 +1,78 @@
+2024-11-09 09:52:48,478 - INFO - [IntelligentServer] - Server initialized - IP: 192.168.0.6, Port: 5196
+2024-11-09 09:52:48,478 - INFO - [IntelligentServer] - Platform: UV-V2, Camera: ZP4BV-BP, Device: EZIPC0
+2024-11-09 09:52:48,478 - INFO - [IntelligentServer] - Server started successfully
+2024-11-09 09:52:59,323 - INFO - [IntelligentServer] - New connection from ('192.168.0.3', 33675)
+2024-11-09 09:52:59,328 - ERROR - [IntelligentServer] - Protocol error: Invalid magic number
+2024-11-09 09:53:09,255 - ERROR - [IntelligentServer] - Protocol error: Invalid magic number
+2024-11-09 09:53:19,778 - ERROR - [IntelligentServer] - Protocol error: Invalid magic number
+2024-11-09 09:53:29,590 - INFO - [IntelligentServer] - Connection closed for ('192.168.0.3', 33675)
+2024-11-09 09:53:29,595 - INFO - [IntelligentServer] - Server stopped
+2024-11-09 09:53:29,599 - INFO - [IntelligentServer] - Server stopped
+2024-11-09 09:56:40,777 - INFO - [CameraServer] - Server started on 192.168.0.6:5196
+2024-11-09 09:56:41,997 - INFO - [CameraServer] - New connection from ('192.168.0.3', 35217)
+2024-11-09 09:56:42,008 - ERROR - [Client_192.168.0.3:35217] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:56:52,346 - ERROR - [Client_192.168.0.3:35217] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:57:02,490 - ERROR - [Client_192.168.0.3:35217] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:57:12,316 - INFO - [Client_192.168.0.3:35217] - Client disconnected
+2024-11-09 09:57:12,319 - INFO - [CameraServer] - New connection from ('192.168.0.3', 42431)
+2024-11-09 09:57:12,424 - ERROR - [Client_192.168.0.3:42431] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:57:22,713 - ERROR - [Client_192.168.0.3:42431] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:57:32,528 - ERROR - [Client_192.168.0.3:42431] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:57:42,587 - WARNING - [Client_192.168.0.3:42431] - Heartbeat timeout
+2024-11-09 09:57:42,587 - INFO - [Client_192.168.0.3:42431] - Client disconnected
+2024-11-09 09:57:42,679 - INFO - [CameraServer] - New connection from ('192.168.0.3', 33601)
+2024-11-09 09:57:42,783 - ERROR - [Client_192.168.0.3:33601] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:57:53,168 - ERROR - [Client_192.168.0.3:33601] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:58:02,938 - ERROR - [Client_192.168.0.3:33601] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:58:12,997 - WARNING - [Client_192.168.0.3:33601] - Heartbeat timeout
+2024-11-09 09:58:12,997 - INFO - [Client_192.168.0.3:33601] - Client disconnected
+2024-11-09 09:58:13,038 - INFO - [CameraServer] - New connection from ('192.168.0.3', 39571)
+2024-11-09 09:58:13,140 - ERROR - [Client_192.168.0.3:39571] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:58:23,184 - ERROR - [Client_192.168.0.3:39571] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:58:33,235 - ERROR - [Client_192.168.0.3:39571] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:58:43,282 - WARNING - [Client_192.168.0.3:39571] - Heartbeat timeout
+2024-11-09 09:58:43,283 - INFO - [Client_192.168.0.3:39571] - Client disconnected
+2024-11-09 09:58:43,390 - INFO - [CameraServer] - New connection from ('192.168.0.3', 41637)
+2024-11-09 09:58:43,492 - ERROR - [Client_192.168.0.3:41637] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:58:53,542 - ERROR - [Client_192.168.0.3:41637] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:59:03,594 - ERROR - [Client_192.168.0.3:41637] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:59:13,661 - WARNING - [Client_192.168.0.3:41637] - Heartbeat timeout
+2024-11-09 09:59:13,661 - INFO - [Client_192.168.0.3:41637] - Client disconnected
+2024-11-09 09:59:13,751 - INFO - [CameraServer] - New connection from ('192.168.0.3', 37107)
+2024-11-09 09:59:13,853 - ERROR - [Client_192.168.0.3:37107] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:59:23,901 - ERROR - [Client_192.168.0.3:37107] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:59:33,953 - ERROR - [Client_192.168.0.3:37107] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:59:44,047 - WARNING - [Client_192.168.0.3:37107] - Heartbeat timeout
+2024-11-09 09:59:44,048 - INFO - [Client_192.168.0.3:37107] - Client disconnected
+2024-11-09 09:59:44,120 - INFO - [CameraServer] - New connection from ('192.168.0.3', 46357)
+2024-11-09 09:59:44,212 - ERROR - [Client_192.168.0.3:46357] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 09:59:54,264 - ERROR - [Client_192.168.0.3:46357] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:00:04,320 - ERROR - [Client_192.168.0.3:46357] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:00:14,414 - WARNING - [Client_192.168.0.3:46357] - Heartbeat timeout
+2024-11-09 10:00:14,414 - INFO - [Client_192.168.0.3:46357] - Client disconnected
+2024-11-09 10:00:14,496 - INFO - [CameraServer] - New connection from ('192.168.0.3', 43825)
+2024-11-09 10:00:14,598 - ERROR - [Client_192.168.0.3:43825] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:00:24,654 - ERROR - [Client_192.168.0.3:43825] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:00:34,703 - ERROR - [Client_192.168.0.3:43825] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:00:44,792 - WARNING - [Client_192.168.0.3:43825] - Heartbeat timeout
+2024-11-09 10:00:44,792 - INFO - [Client_192.168.0.3:43825] - Client disconnected
+2024-11-09 10:00:44,873 - INFO - [CameraServer] - New connection from ('192.168.0.3', 42057)
+2024-11-09 10:00:44,972 - ERROR - [Client_192.168.0.3:42057] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:00:55,023 - ERROR - [Client_192.168.0.3:42057] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:01:05,074 - ERROR - [Client_192.168.0.3:42057] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:01:15,142 - WARNING - [Client_192.168.0.3:42057] - Heartbeat timeout
+2024-11-09 10:01:15,143 - INFO - [Client_192.168.0.3:42057] - Client disconnected
+2024-11-09 10:01:15,239 - INFO - [CameraServer] - New connection from ('192.168.0.3', 45017)
+2024-11-09 10:01:15,341 - ERROR - [Client_192.168.0.3:45017] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:01:25,387 - ERROR - [Client_192.168.0.3:45017] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:01:35,427 - ERROR - [Client_192.168.0.3:45017] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:01:45,487 - WARNING - [Client_192.168.0.3:45017] - Heartbeat timeout
+2024-11-09 10:01:45,488 - INFO - [Client_192.168.0.3:45017] - Client disconnected
+2024-11-09 10:01:45,584 - INFO - [CameraServer] - New connection from ('192.168.0.3', 38995)
+2024-11-09 10:01:45,686 - ERROR - [Client_192.168.0.3:38995] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:01:55,739 - ERROR - [Client_192.168.0.3:38995] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:02:05,778 - ERROR - [Client_192.168.0.3:38995] - Protocol error: Invalid magic number: 0xaa77
+2024-11-09 10:02:15,796 - ERROR - [Client_192.168.0.3:38995] - Error receiving data: [WinError 10038] An operation was attempted on something that is not a socket
+2024-11-09 10:02:15,796 - INFO - [CameraServer] - Server stopped
+2024-11-09 10:02:15,796 - INFO - [Client_192.168.0.3:38995] - Client disconnected
+2024-11-09 10:02:15,799 - INFO - [CameraServer] - Server stopped

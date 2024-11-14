@@ -1,0 +1,126 @@
+2024-11-09 10:02:18 - INFO - [root] - Starting server on 192.168.0.6:5196
+2024-11-09 10:02:18 - INFO - [CameraServer] - Server started on 192.168.0.6:5196
+2024-11-09 10:02:19 - INFO - [Client_192.168.0.3:34433] - New connection established
+2024-11-09 10:02:20 - DEBUG - [Client_192.168.0.3:34433] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:02:30 - DEBUG - [Client_192.168.0.3:34433] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:02:40 - DEBUG - [Client_192.168.0.3:34433] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:02:50 - WARNING - [Client_192.168.0.3:34433] - Heartbeat timeout
+2024-11-09 10:02:50 - INFO - [Client_192.168.0.3:34433] - Connection closed
+2024-11-09 10:02:50 - INFO - [Client_192.168.0.3:46773] - New connection established
+2024-11-09 10:02:50 - DEBUG - [Client_192.168.0.3:46773] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:02:52 - INFO - [Client_192.168.0.3:46773] - Connection closed
+2024-11-09 10:02:58 - INFO - [Client_192.168.0.3:34581] - New connection established
+2024-11-09 10:02:59 - DEBUG - [Client_192.168.0.3:34581] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:03:08 - DEBUG - [Client_192.168.0.3:34581] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:03:18 - DEBUG - [Client_192.168.0.3:34581] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:03:28 - INFO - [Client_192.168.0.3:34581] - Connection closed
+2024-11-09 10:03:28 - INFO - [Client_192.168.0.3:37841] - New connection established
+2024-11-09 10:03:29 - DEBUG - [Client_192.168.0.3:37841] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:03:38 - DEBUG - [Client_192.168.0.3:37841] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:03:49 - DEBUG - [Client_192.168.0.3:37841] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:03:59 - WARNING - [Client_192.168.0.3:37841] - Heartbeat timeout
+2024-11-09 10:03:59 - INFO - [Client_192.168.0.3:37841] - Connection closed
+2024-11-09 10:03:59 - INFO - [Client_192.168.0.3:43243] - New connection established
+2024-11-09 10:03:59 - DEBUG - [Client_192.168.0.3:43243] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:04:09 - DEBUG - [Client_192.168.0.3:43243] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:04:19 - DEBUG - [Client_192.168.0.3:43243] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:04:29 - WARNING - [Client_192.168.0.3:43243] - Heartbeat timeout
+2024-11-09 10:04:29 - INFO - [Client_192.168.0.3:43243] - Connection closed
+2024-11-09 10:04:29 - INFO - [Client_192.168.0.3:37807] - New connection established
+2024-11-09 10:04:29 - DEBUG - [Client_192.168.0.3:37807] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:04:39 - DEBUG - [Client_192.168.0.3:37807] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:04:49 - DEBUG - [Client_192.168.0.3:37807] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:04:59 - WARNING - [Client_192.168.0.3:37807] - Heartbeat timeout
+2024-11-09 10:04:59 - INFO - [Client_192.168.0.3:37807] - Connection closed
+2024-11-09 10:04:59 - INFO - [Client_192.168.0.3:37111] - New connection established
+2024-11-09 10:04:59 - DEBUG - [Client_192.168.0.3:37111] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:05:10 - DEBUG - [Client_192.168.0.3:37111] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:05:20 - DEBUG - [Client_192.168.0.3:37111] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:05:30 - WARNING - [Client_192.168.0.3:37111] - Heartbeat timeout
+2024-11-09 10:05:30 - INFO - [Client_192.168.0.3:37111] - Connection closed
+2024-11-09 10:05:30 - INFO - [Client_192.168.0.3:33947] - New connection established
+2024-11-09 10:05:30 - DEBUG - [Client_192.168.0.3:33947] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:05:40 - DEBUG - [Client_192.168.0.3:33947] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:05:50 - DEBUG - [Client_192.168.0.3:33947] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:06:00 - WARNING - [Client_192.168.0.3:33947] - Heartbeat timeout
+2024-11-09 10:06:00 - INFO - [Client_192.168.0.3:33947] - Connection closed
+2024-11-09 10:06:00 - INFO - [Client_192.168.0.3:36351] - New connection established
+2024-11-09 10:06:00 - DEBUG - [Client_192.168.0.3:36351] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:06:10 - DEBUG - [Client_192.168.0.3:36351] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:06:20 - DEBUG - [Client_192.168.0.3:36351] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:06:30 - WARNING - [Client_192.168.0.3:36351] - Heartbeat timeout
+2024-11-09 10:06:30 - INFO - [Client_192.168.0.3:36351] - Connection closed
+2024-11-09 10:06:30 - INFO - [Client_192.168.0.3:39589] - New connection established
+2024-11-09 10:06:31 - DEBUG - [Client_192.168.0.3:39589] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:06:41 - DEBUG - [Client_192.168.0.3:39589] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:06:51 - DEBUG - [Client_192.168.0.3:39589] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:07:01 - WARNING - [Client_192.168.0.3:39589] - Heartbeat timeout
+2024-11-09 10:07:01 - INFO - [Client_192.168.0.3:39589] - Connection closed
+2024-11-09 10:07:01 - INFO - [Client_192.168.0.3:40889] - New connection established
+2024-11-09 10:07:01 - DEBUG - [Client_192.168.0.3:40889] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:07:11 - DEBUG - [Client_192.168.0.3:40889] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:07:18 - INFO - [CameraServer] - Server stopped
+2024-11-09 10:07:18 - INFO - [root] - Shutting down server...
+2024-11-09 10:39:45 - INFO - [root] - Starting server on 192.168.0.6:5196
+2024-11-09 10:39:45 - INFO - [CameraServer] - Server started on 192.168.0.6:5196
+2024-11-09 10:40:03 - INFO - [Client_192.168.0.3:37427] - New connection established
+2024-11-09 10:40:03 - DEBUG - [Client_192.168.0.3:37427] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:40:13 - DEBUG - [Client_192.168.0.3:37427] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:40:23 - DEBUG - [Client_192.168.0.3:37427] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:40:33 - WARNING - [Client_192.168.0.3:37427] - Heartbeat timeout
+2024-11-09 10:40:33 - INFO - [Client_192.168.0.3:37427] - Connection closed
+2024-11-09 10:40:34 - INFO - [Client_192.168.0.3:33923] - New connection established
+2024-11-09 10:40:34 - DEBUG - [Client_192.168.0.3:33923] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:40:44 - DEBUG - [Client_192.168.0.3:33923] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:40:54 - DEBUG - [Client_192.168.0.3:33923] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:41:04 - WARNING - [Client_192.168.0.3:33923] - Heartbeat timeout
+2024-11-09 10:41:04 - INFO - [Client_192.168.0.3:33923] - Connection closed
+2024-11-09 10:41:04 - INFO - [Client_192.168.0.3:45795] - New connection established
+2024-11-09 10:41:04 - DEBUG - [Client_192.168.0.3:45795] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:41:14 - DEBUG - [Client_192.168.0.3:45795] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:41:24 - DEBUG - [Client_192.168.0.3:45795] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:41:34 - WARNING - [Client_192.168.0.3:45795] - Heartbeat timeout
+2024-11-09 10:41:34 - INFO - [Client_192.168.0.3:45795] - Connection closed
+2024-11-09 10:41:34 - INFO - [Client_192.168.0.3:45843] - New connection established
+2024-11-09 10:41:34 - DEBUG - [Client_192.168.0.3:45843] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:41:44 - DEBUG - [Client_192.168.0.3:45843] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:41:54 - DEBUG - [Client_192.168.0.3:45843] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:42:04 - WARNING - [Client_192.168.0.3:45843] - Heartbeat timeout
+2024-11-09 10:42:04 - INFO - [Client_192.168.0.3:45843] - Connection closed
+2024-11-09 10:42:05 - INFO - [Client_192.168.0.3:38661] - New connection established
+2024-11-09 10:42:05 - DEBUG - [Client_192.168.0.3:38661] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:42:18 - DEBUG - [Client_192.168.0.3:38661] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:42:25 - DEBUG - [Client_192.168.0.3:38661] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:42:35 - WARNING - [Client_192.168.0.3:38661] - Heartbeat timeout
+2024-11-09 10:42:35 - INFO - [Client_192.168.0.3:38661] - Connection closed
+2024-11-09 10:42:35 - INFO - [Client_192.168.0.3:39453] - New connection established
+2024-11-09 10:42:35 - DEBUG - [Client_192.168.0.3:39453] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:42:53 - DEBUG - [Client_192.168.0.3:39453] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:42:55 - DEBUG - [Client_192.168.0.3:39453] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:43:05 - WARNING - [Client_192.168.0.3:39453] - Heartbeat timeout
+2024-11-09 10:43:05 - INFO - [Client_192.168.0.3:39453] - Connection closed
+2024-11-09 10:43:05 - INFO - [Client_192.168.0.3:45071] - New connection established
+2024-11-09 10:43:05 - DEBUG - [Client_192.168.0.3:45071] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:43:16 - DEBUG - [Client_192.168.0.3:45071] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:43:25 - DEBUG - [Client_192.168.0.3:45071] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:43:36 - WARNING - [Client_192.168.0.3:45071] - Heartbeat timeout
+2024-11-09 10:43:36 - INFO - [Client_192.168.0.3:45071] - Connection closed
+2024-11-09 10:43:36 - INFO - [Client_192.168.0.3:41723] - New connection established
+2024-11-09 10:43:36 - DEBUG - [Client_192.168.0.3:41723] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:43:46 - DEBUG - [Client_192.168.0.3:41723] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:43:56 - DEBUG - [Client_192.168.0.3:41723] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:44:06 - WARNING - [Client_192.168.0.3:41723] - Heartbeat timeout
+2024-11-09 10:44:06 - INFO - [Client_192.168.0.3:41723] - Connection closed
+2024-11-09 10:44:06 - INFO - [Client_192.168.0.3:42317] - New connection established
+2024-11-09 10:44:06 - DEBUG - [Client_192.168.0.3:42317] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:44:16 - DEBUG - [Client_192.168.0.3:42317] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:44:26 - DEBUG - [Client_192.168.0.3:42317] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:44:36 - WARNING - [Client_192.168.0.3:42317] - Heartbeat timeout
+2024-11-09 10:44:36 - INFO - [Client_192.168.0.3:42317] - Connection closed
+2024-11-09 10:44:36 - INFO - [Client_192.168.0.3:43327] - New connection established
+2024-11-09 10:44:36 - DEBUG - [Client_192.168.0.3:43327] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:44:46 - DEBUG - [Client_192.168.0.3:43327] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:44:56 - DEBUG - [Client_192.168.0.3:43327] - Parsed header - Magic: 0xAA77, Length: 43639, Command: 0x0000 (UNKNOWN)
+2024-11-09 10:45:05 - INFO - [CameraServer] - Server stopped
+2024-11-09 10:45:05 - INFO - [Client_192.168.0.3:43327] - Connection closed
+2024-11-09 10:45:05 - INFO - [root] - Shutting down server...
