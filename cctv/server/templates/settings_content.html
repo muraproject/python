@@ -1,0 +1,258 @@
+<!-- templates/settings_content.html -->
+<div class="bg-white rounded-lg shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-semibold mb-4">Konfigurasi Kamera</h2>
+    
+    <!-- Info Penggunaan Mode -->
+    <div class="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-blue-50 p-4 rounded-lg">
+            <h3 class="font-semibold mb-2">Mode yang Digunakan:</h3>
+            <ul id="modeUsage" class="text-sm space-y-2">
+                <li class="flex justify-between">
+                    <span>Counting Kendaraan:</span>
+                    <span><span id="countVehicle">0</span>/3</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>Api dan Asap:</span>
+                    <span><span id="countSmoke">0</span>/6</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>Counting Orang Lewat:</span>
+                    <span id="countPeoplePass">0</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>Counting Orang Area:</span>
+                    <span id="countPeopleArea">0</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>People Cross:</span>
+                    <span id="countPeopleCross">0</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>In Area:</span>
+                    <span id="countInArea">0</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>Out Area:</span>
+                    <span id="countOutArea">0</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>Intrusion:</span>
+                    <span id="countIntrusion">0</span>
+                </li>
+                <li class="flex justify-between">
+                    <span>Face Detection:</span>
+                    <span id="countFace">0</span>
+                </li>
+            </ul>
+        </div>
+        <div class="bg-yellow-50 p-4 rounded-lg">
+            <h3 class="font-semibold mb-2">Informasi:</h3>
+            <ul class="text-sm space-y-2">
+                <li>• Maksimal 3 kamera untuk Counting Kendaraan</li>
+                <li>• Maksimal 6 kamera untuk Api dan Asap</li>
+                <li>• Setiap kamera hanya dapat menggunakan 1 mode</li>
+                <li>• Mode yang tersedia:</li>
+                <ul class="pl-4 space-y-1 mt-1">
+                    <li>- Counting Kendaraan</li>
+                    <li>- Counting Orang Lewat</li>
+                    <li>- Counting Orang Area</li>
+                    <li>- Api dan Asap</li>
+                    <li>- People Cross</li>
+                    <li>- In Area</li>
+                    <li>- Out Area</li>
+                    <li>- Intrusion</li>
+                    <li>- Face Detection</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Table Kamera -->
+    <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">No</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nama Kamera</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">IP Address</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Mode</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="cameraTableBody" class="bg-white divide-y divide-gray-200">
+                <!-- Data kamera akan di-render disini -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Template untuk baris kamera (akan digunakan oleh JavaScript) -->
+<template id="cameraRowTemplate">
+    <tr class="hover:bg-gray-50" data-camera-id="{id}">
+        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{number}</td>
+        <td class="px-6 py-4 whitespace-nowrap">
+            <input type="text" class="border-gray-300 rounded-md w-full"
+                   value="{name}" placeholder="Nama Kamera"
+                   onchange="updateCamera({id}, 'name', this.value)">
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap">
+            <input type="text" class="border-gray-300 rounded-md w-full" 
+                   value="{ip}" placeholder="192.168.1.x"
+                   pattern="^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$"
+                   onchange="updateCamera({id}, 'ip', this.value)">
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap">
+            <select class="border-gray-300 rounded-md w-full" 
+                    onchange="updateCamera({id}, 'mode', this.value)">
+                <option value="">Pilih Mode</option>
+                <option value="Counting Kendaraan" {selected-counting-kendaraan}>Counting Kendaraan</option>
+                <option value="Counting Orang Lewat" {selected-counting-orang-lewat}>Counting Orang Lewat</option>
+                <option value="Counting Orang Area" {selected-counting-orang-area}>Counting Orang Area</option>
+                <option value="Api dan Asap" {selected-api-asap}>Api dan Asap</option>
+                <option value="People Cross" {selected-people-cross}>People Cross</option>
+                <option value="In Area" {selected-in-area}>In Area</option>
+                <option value="Out Area" {selected-out-area}>Out Area</option>
+                <option value="Intrusion" {selected-intrusion}>Intrusion</option>
+                <option value="Face Detection" {selected-face}>Face Detection</option>
+            </select>
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap">
+            <label class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" class="sr-only peer" {checked}
+                       onchange="updateCamera({id}, 'enabled', this.checked)">
+                <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 
+                           peer-focus:ring-blue-300 peer-checked:after:translate-x-full 
+                           peer-checked:after:border-white after:content-[''] after:absolute 
+                           after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 
+                           after:border after:rounded-full after:h-5 after:w-5 after:transition-all 
+                           peer-checked:bg-blue-600"></div>
+            </label>
+        </td>
+        <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+            <button onclick="resetCamera({id})" 
+                    class="text-red-600 hover:text-red-900 transition-colors">
+                Reset
+            </button>
+        </td>
+    </tr>
+</template>
+
+<script>
+    // Konstanta untuk mode kamera
+    const CAMERA_MODES = {
+        'Counting Kendaraan': { max: 3, counterId: 'countVehicle' },
+        'Api dan Asap': { max: 6, counterId: 'countSmoke' },
+        'Counting Orang Lewat': { counterId: 'countPeoplePass' },
+        'Counting Orang Area': { counterId: 'countPeopleArea' },
+        'People Cross': { counterId: 'countPeopleCross' },
+        'In Area': { counterId: 'countInArea' },
+        'Out Area': { counterId: 'countOutArea' },
+        'Intrusion': { counterId: 'countIntrusion' },
+        'Face Detection': { counterId: 'countFace' }
+    };
+
+    // Fungsi untuk memuat data kamera
+    async function loadCameraData() {
+        try {
+            const response = await fetch('/api/camera-settings');
+            const cameras = await response.json();
+            renderCameraTable(cameras);
+            updateModeCounters(cameras);
+        } catch (error) {
+            console.error('Error loading camera data:', error);
+            alert('Gagal memuat data kamera');
+        }
+    }
+
+    // Fungsi untuk render tabel kamera
+    function renderCameraTable(cameras) {
+        const tbody = document.getElementById('cameraTableBody');
+        const template = document.getElementById('cameraRowTemplate').innerHTML;
+        
+        tbody.innerHTML = cameras.map((camera, index) => {
+            let row = template.replace(/{id}/g, camera.id)
+                             .replace('{number}', index + 1)
+                             .replace('{name}', camera.name)
+                             .replace('{ip}', camera.ip)
+                             .replace('{checked}', camera.enabled ? 'checked' : '');
+            
+            // Set selected option untuk mode
+            Object.keys(CAMERA_MODES).forEach(mode => {
+                const slug = mode.toLowerCase().replace(/[& ]/g, '-');
+                row = row.replace(`{selected-${slug}}`, 
+                    camera.mode === mode ? 'selected' : '');
+            });
+            
+            return row;
+        }).join('');
+    }
+
+    // Fungsi untuk update counter mode
+    function updateModeCounters(cameras) {
+        const modeCounts = {};
+        cameras.forEach(camera => {
+            if (camera.mode) {
+                modeCounts[camera.mode] = (modeCounts[camera.mode] || 0) + 1;
+            }
+        });
+
+        Object.entries(CAMERA_MODES).forEach(([mode, config]) => {
+            const count = modeCounts[mode] || 0;
+            const counterElement = document.getElementById(config.counterId);
+            if (counterElement) {
+                counterElement.textContent = count;
+            }
+        });
+    }
+
+    // Fungsi untuk update kamera
+    async function updateCamera(id, field, value) {
+        try {
+            const response = await fetch(`/api/camera-settings/${id}`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ [field]: value })
+            });
+
+            if (!response.ok) {
+                const error = await response.json();
+                alert(error.error || 'Gagal mengupdate kamera');
+                loadCameraData(); // Reload data untuk mengembalikan state
+                return;
+            }
+
+            // Reload data untuk update counters
+            loadCameraData();
+        } catch (error) {
+            console.error('Error updating camera:', error);
+            alert('Gagal mengupdate kamera');
+            loadCameraData();
+        }
+    }
+
+    // Fungsi untuk reset kamera
+    async function resetCamera(id) {
+        if (!confirm('Anda yakin ingin mereset kamera ini?')) return;
+        
+        try {
+            const response = await fetch(`/api/camera-settings/${id}/reset`, {
+                method: 'POST'
+            });
+            
+            if (!response.ok) {
+                throw new Error('Gagal mereset kamera');
+            }
+            
+            loadCameraData();
+        } catch (error) {
+            console.error('Error resetting camera:', error);
+            alert('Gagal mereset kamera');
+        }
+    }
+
+    // Load data saat halaman dimuat
+    document.addEventListener('DOMContentLoaded', loadCameraData);
+</script>
