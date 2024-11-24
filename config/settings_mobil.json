@@ -14,9 +14,9 @@
         "down5": 0.6,
         "down6": 0.7
     },
-    "video_source": "mobil3.mp4",
-    "camera_name": "Camera 2",
-    "camera_mode": "Counting Kendaraan",
+    "video_source": null,
+    "camera_name": null,
+    "camera_mode": null,
     "display": {
         "width": 720,
         "height": 480

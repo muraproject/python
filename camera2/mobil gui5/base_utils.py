@@ -368,7 +368,7 @@ class APIManager:
                 self.cameras = data.get("cameras", [])
                 self.last_update = datetime.now()
                 if self.cameras:
-                    self.current_camera = self.cameras[0]  # Always use first camera
+                    self.current_camera = self.cameras[1]  # Always use first camera
                 return self.cameras
             return []
         except Exception as e:
