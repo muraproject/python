@@ -14,9 +14,12 @@
         "down5": 0.6,
         "down6": 0.7
     },
-    "video_source": "https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8",
+    "video_source": "mobil3.mp4",
+    "camera_name": "Camera 2",
+    "camera_mode": "Counting Kendaraan",
     "display": {
         "width": 720,
         "height": 480
-    }
+    },
+    "camera_row": 1
 }

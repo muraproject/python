@@ -431,3 +431,90 @@
 2024-11-23 09:49:19,794 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:49:19] "[33mGET /api/processor=Counting%20Kendaraan HTTP/1.1[0m" 404 -
 2024-11-23 09:49:46,405 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:49:46] "GET /api/data/all HTTP/1.1" 200 -
 2024-11-23 09:50:04,920 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:50:04] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:56:21,539 - engineio.server - INFO - Server initialized for threading.
+2024-11-23 09:56:21,558 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-23 09:56:21,582 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.10:5000
+2024-11-23 09:56:21,582 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-23 09:56:21,584 - werkzeug - INFO -  * Restarting with stat
+2024-11-23 09:56:22,245 - engineio.server - INFO - Server initialized for threading.
+2024-11-23 09:56:22,258 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-23 09:56:22,265 - werkzeug - WARNING -  * Debugger is active!
+2024-11-23 09:56:22,266 - werkzeug - INFO -  * Debugger PIN: 681-652-974
+2024-11-23 09:56:25,983 - __main__ - INFO - Accessing settings page
+2024-11-23 09:56:25,994 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:25] "GET /settings HTTP/1.1" 200 -
+2024-11-23 09:56:26,011 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:26] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2024-11-23 09:56:26,195 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:26] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:56:31,032 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Api dan Asap'}
+2024-11-23 09:56:31,038 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:31] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-23 09:56:31,048 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:31] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:56:34,048 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Api dan Asap'}
+2024-11-23 09:56:34,053 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:34] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-23 09:56:34,071 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:34] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:56:47,975 - __main__ - INFO - Accessing settings page
+2024-11-23 09:56:47,985 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 09:56:47] "GET /settings HTTP/1.1" 200 -
+2024-11-23 09:56:48,022 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 09:56:48] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2024-11-23 09:56:48,435 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 09:56:48] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:56:48,859 - engineio.server - INFO - Qxfka3PrascT1F51AAAA: Sending packet OPEN data {'sid': 'Qxfka3PrascT1F51AAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2024-11-23 09:56:48,860 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:48] "GET /socket.io/?EIO=4&transport=polling&t=PDMyrY_ HTTP/1.1" 200 -
+2024-11-23 09:56:48,883 - engineio.server - INFO - Qxfka3PrascT1F51AAAA: Received packet MESSAGE data 0
+2024-11-23 09:56:48,888 - __main__ - INFO - Client connected
+2024-11-23 09:56:48,888 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2024-11-23 09:56:48,892 - engineio.server - INFO - Qxfka3PrascT1F51AAAA: Received request to upgrade to websocket
+2024-11-23 09:56:48,892 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:48] "GET /socket.io/?EIO=4&transport=polling&t=PDMyrZg&sid=Qxfka3PrascT1F51AAAA HTTP/1.1" 200 -
+2024-11-23 09:56:48,892 - engineio.server - INFO - Qxfka3PrascT1F51AAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2024-11-23 09:56:48,899 - engineio.server - INFO - Qxfka3PrascT1F51AAAA: Sending packet MESSAGE data 0{"sid":"DmFHKgKsl_iVoo8tAAAB"}
+2024-11-23 09:56:48,901 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:48] "POST /socket.io/?EIO=4&transport=polling&t=PDMyrZb&sid=Qxfka3PrascT1F51AAAA HTTP/1.1" 200 -
+2024-11-23 09:56:48,919 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:48] "GET /socket.io/?EIO=4&transport=polling&t=PDMyra9&sid=Qxfka3PrascT1F51AAAA HTTP/1.1" 200 -
+2024-11-23 09:56:48,931 - engineio.server - INFO - Qxfka3PrascT1F51AAAA: Upgrade to websocket successful
+2024-11-23 09:56:52,739 - __main__ - INFO - Client disconnected
+2024-11-23 09:56:52,740 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:52] "GET /socket.io/?EIO=4&transport=websocket&sid=Qxfka3PrascT1F51AAAA HTTP/1.1" 200 -
+2024-11-23 09:56:52,754 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:52] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 09:56:57,986 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:57] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 09:56:59,646 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:56:59] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 09:57:03,614 - __main__ - INFO - Accessing settings page
+2024-11-23 09:57:03,616 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:03] "GET /settings HTTP/1.1" 200 -
+2024-11-23 09:57:03,668 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:03] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2024-11-23 09:57:03,863 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:03] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:57:07,823 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Api dan Asap'}
+2024-11-23 09:57:07,823 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:07] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-23 09:57:07,840 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:07] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:57:11,732 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Api dan Asap'}
+2024-11-23 09:57:11,736 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:11] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-23 09:57:11,755 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:11] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:57:18,912 - __main__ - INFO - Accessing settings page
+2024-11-23 09:57:18,915 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:18] "GET /settings HTTP/1.1" 200 -
+2024-11-23 09:57:18,935 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:18] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2024-11-23 09:57:19,012 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:19] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 09:57:58,384 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Face Detection'}
+2024-11-23 09:57:58,387 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:58] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-23 09:57:58,393 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 09:57:58] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 10:11:24,214 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:11:24] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 10:11:30,407 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:11:30] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 10:11:33,176 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:11:33] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 10:11:46,112 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:11:46] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 10:11:50,846 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Counting Kendaraan'}
+2024-11-23 10:11:50,848 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:11:50] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-23 10:11:50,848 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:11:50] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 10:11:58,870 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:11:58] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-23 10:13:30,900 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-23 10:13:30,900 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:13:30] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-23 10:13:35,991 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-23 10:13:35,992 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:13:35] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-23 10:13:44,254 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Api dan Asap'}
+2024-11-23 10:13:44,259 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:13:44] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-23 10:13:44,271 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:13:44] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 10:13:46,866 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-23 10:13:46,867 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:13:46] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-23 10:14:26,473 - __main__ - INFO - Retrieved 1 cameras for mode: Api dan Asap
+2024-11-23 10:14:26,476 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:14:26] "GET /api/processor?mode=Api%20dan%20Asap HTTP/1.1" 200 -
+2024-11-23 10:14:30,108 - __main__ - INFO - Retrieved 1 cameras for mode: Api dan Asap
+2024-11-23 10:14:30,109 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:14:30] "GET /api/processor?mode=Api%20dan%20Asap HTTP/1.1" 200 -
+2024-11-23 10:14:36,135 - __main__ - INFO - Accessing settings page
+2024-11-23 10:14:36,135 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:14:36] "GET /settings HTTP/1.1" 200 -
+2024-11-23 10:14:36,180 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:14:36] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2024-11-23 10:14:36,316 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:14:36] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-23 10:14:38,841 - __main__ - INFO - Retrieved 1 cameras for mode: Api dan Asap
+2024-11-23 10:14:38,842 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:14:38] "GET /api/processor?mode=Api%20dan%20Asap HTTP/1.1" 200 -

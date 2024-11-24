@@ -85,7 +85,7 @@ class SettingsManager:
                 'down1': 0.20, 'down2': 0.30, 'down3': 0.40,
                 'down4': 0.50, 'down5': 0.60, 'down6': 0.70
             },
-            'video_source': 'https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8',
+            'video_source': 'mobil2.mp4',
             'display': {
                 'width': 640,    # Ukuran lebar yang lebih kecil
                 'height': 480    # Ukuran tinggi yang lebih kecil
