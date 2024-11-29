@@ -518,3 +518,49 @@
 2024-11-23 10:14:36,316 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:14:36] "GET /api/camera-settings HTTP/1.1" 200 -
 2024-11-23 10:14:38,841 - __main__ - INFO - Retrieved 1 cameras for mode: Api dan Asap
 2024-11-23 10:14:38,842 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:14:38] "GET /api/processor?mode=Api%20dan%20Asap HTTP/1.1" 200 -
+2024-11-29 20:50:39,195 - engineio.server - INFO - Server initialized for threading.
+2024-11-29 20:50:39,246 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-29 20:50:39,291 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.10:5000
+2024-11-29 20:50:39,296 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-29 20:50:39,298 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 20:50:40,640 - engineio.server - INFO - Server initialized for threading.
+2024-11-29 20:50:40,662 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-29 20:50:40,670 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 20:50:40,672 - werkzeug - INFO -  * Debugger PIN: 130-926-363
+2024-11-29 20:51:01,619 - __main__ - INFO - Retrieved 1 cameras for mode: Api dan Asap
+2024-11-29 20:51:01,620 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:01] "GET /api/processor?mode=Api%20dan%20Asap HTTP/1.1" 200 -
+2024-11-29 20:51:01,728 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-29 20:51:10,519 - __main__ - INFO - Accessing monitoring page
+2024-11-29 20:51:10,601 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:10] "GET / HTTP/1.1" 200 -
+2024-11-29 20:51:10,632 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:10] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2024-11-29 20:51:11,888 - engineio.server - INFO - fDFiQVHVV0-HVITyAAAA: Sending packet OPEN data {'sid': 'fDFiQVHVV0-HVITyAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2024-11-29 20:51:11,896 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:11] "GET /socket.io/?EIO=4&transport=polling&t=PDuC9mE HTTP/1.1" 200 -
+2024-11-29 20:51:11,976 - engineio.server - INFO - fDFiQVHVV0-HVITyAAAA: Received packet MESSAGE data 0
+2024-11-29 20:51:11,984 - __main__ - INFO - Client connected
+2024-11-29 20:51:11,985 - engineio.server - INFO - fDFiQVHVV0-HVITyAAAA: Received request to upgrade to websocket
+2024-11-29 20:51:11,994 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:11] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-29 20:51:11,987 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2024-11-29 20:51:12,015 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:12] "GET /socket.io/?EIO=4&transport=polling&t=PDuC9nc&sid=fDFiQVHVV0-HVITyAAAA HTTP/1.1" 200 -
+2024-11-29 20:51:12,015 - engineio.server - INFO - fDFiQVHVV0-HVITyAAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2024-11-29 20:51:12,021 - engineio.server - INFO - fDFiQVHVV0-HVITyAAAA: Sending packet MESSAGE data 0{"sid":"3ydCDnu0GaY2lTQgAAAB"}
+2024-11-29 20:51:12,026 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:12] "POST /socket.io/?EIO=4&transport=polling&t=PDuC9na&sid=fDFiQVHVV0-HVITyAAAA HTTP/1.1" 200 -
+2024-11-29 20:51:12,065 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:12] "GET /socket.io/?EIO=4&transport=polling&t=PDuC9oz&sid=fDFiQVHVV0-HVITyAAAA HTTP/1.1" 200 -
+2024-11-29 20:51:12,105 - engineio.server - INFO - fDFiQVHVV0-HVITyAAAA: Upgrade to websocket successful
+2024-11-29 20:51:14,560 - __main__ - INFO - Client disconnected
+2024-11-29 20:51:14,565 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:14] "GET /socket.io/?EIO=4&transport=websocket&sid=fDFiQVHVV0-HVITyAAAA HTTP/1.1" 200 -
+2024-11-29 20:51:14,586 - __main__ - INFO - Accessing settings page
+2024-11-29 20:51:14,649 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:14] "GET /settings HTTP/1.1" 200 -
+2024-11-29 20:51:14,685 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:14] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2024-11-29 20:51:14,829 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:14] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-29 20:51:22,082 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Counting Kendaraan'}
+2024-11-29 20:51:22,087 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:22] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-29 20:51:22,095 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:22] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-29 20:51:29,531 - __main__ - INFO - Camera 2 settings updated: {'mode': 'Counting Kendaraan'}
+2024-11-29 20:51:29,535 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:29] "PATCH /api/camera-settings/2 HTTP/1.1" 200 -
+2024-11-29 20:51:29,549 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:29] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-29 20:51:30,826 - __main__ - INFO - Camera 2 settings updated: {'enabled': True}
+2024-11-29 20:51:30,831 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:30] "PATCH /api/camera-settings/2 HTTP/1.1" 200 -
+2024-11-29 20:51:30,841 - werkzeug - INFO - 192.168.0.10 - - [29/Nov/2024 20:51:30] "GET /api/camera-settings HTTP/1.1" 200 -
