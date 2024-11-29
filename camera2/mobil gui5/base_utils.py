@@ -167,55 +167,8 @@ class DataManager:
         """
         self.current_counts = self.initialize_counts()
 
-class SettingsManager:
-    """
-    Class untuk mengelola pengaturan aplikasi
-    """
-    def __init__(self):
-        self.settings_file = "config/settings_mobil.json"
-        self.api_manager = APIManager()
-        self.gpu_processor = None
-        self.tracker = None
-        self.default_settings = {
-            'interval': 300,
-            'lines': {
-                'up1': 0.15, 'up2': 0.25, 'up3': 0.35,
-                'up4': 0.45, 'up5': 0.55, 'up6': 0.65,
-                'down1': 0.20, 'down2': 0.30, 'down3': 0.40,
-                'down4': 0.50, 'down5': 0.60, 'down6': 0.70
-            },
-            'video_source': None,
-            'camera_row': 1,
-            'camera_name': None,
-            'camera_mode': None,
-            'display': {
-                'width': 640,
-                'height': 480
-            }
-        }
-        self.ensure_config_dir()
-        self.settings = self.load_settings()
-
-    def ensure_config_dir(self):
-        """
-        Memastikan direktori config ada
-        """
-        os.makedirs(os.path.dirname(self.settings_file), exist_ok=True)
 
 
-    def save_settings(self, settings):
-        """
-        Simpan settings ke file
-        """
-        with open(self.settings_file, 'w') as f:
-            json.dump(settings, f, indent=4)
-        self.settings = settings
-
-    # Di base_utils.py, modifikasi SettingsManager:
-
-# Di base_utils.py, perbaikan untuk SettingsManager:
-
-# Modifikasi di base_utils.py
 
 class SettingsManager:
     def __init__(self):
