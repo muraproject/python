@@ -14,9 +14,9 @@
         "down5": 0.6,
         "down6": 0.7
     },
-    "video_source": null,
-    "camera_name": null,
-    "camera_mode": null,
+    "video_source": "rtsp://admin:admin!123@103.82.93.205:555/video1",
+    "camera_name": "Camera 2",
+    "camera_mode": "Counting Kendaraan",
     "display": {
         "width": 720,
         "height": 480

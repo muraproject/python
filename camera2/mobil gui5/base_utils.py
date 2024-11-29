@@ -295,11 +295,7 @@ class SettingsManager:
             print(f"Error saving settings: {e}")
 
     def update_video_source(self):
-        """
-        Update video source berdasarkan data API
-        """
         try:
-            # Force refresh camera list
             cameras = self.api_manager.get_cameras()
             if not cameras:
                 self.settings['video_source'] = None
@@ -308,39 +304,22 @@ class SettingsManager:
                 self.save_settings(self.settings)
                 return False
 
-            # Get first available camera
-            camera = cameras[0]
+            # Gunakan data dari response API
+            camera = cameras[1]  # Index tetap 0
             
             if camera:
-                # Store previous settings
-                previous_settings = {
-                    'video_source': self.settings.get('video_source'),
-                    'camera_name': self.settings.get('camera_name'),
-                    'camera_mode': self.settings.get('camera_mode')
-                }
-                
-                # Update settings
                 self.settings['video_source'] = camera['ip']
-                self.settings['camera_name'] = camera['name']
+                self.settings['camera_name'] = camera['name']  # Menggunakan name dari API
                 self.settings['camera_mode'] = camera['mode']
                 
-                # Save settings
                 self.save_settings(self.settings)
-                
-                # Check if anything changed
-                changed = any(
-                    previous_settings[key] != self.settings[key]
-                    for key in previous_settings
-                )
-                
-                print(f"Camera updated: {camera['name']} - {camera['ip']}")
+                print(f"Kamera diperbarui: {camera['name']} - {camera['ip']}")
                 return True
             return False
                 
         except Exception as e:
-            print(f"Error updating video source: {e}")
+            print(f"Error memperbarui sumber video: {e}")
             return False
-
     def get_display_size(self):
         """
         Get current display size settings

@@ -4,20 +4,13 @@ import subprocess
 import time
 
 def restart_app():
-    """Helper function to restart the main application"""
     try:
         print("Restarting application...")
-        
-        # Get current script path
-        main_script = os.path.abspath("camera2/mobil gui5/yolo_gui_mobil.py")
-        
-        # Start new process
+        # Gunakan path absolut dari temporary directory
+        main_script = os.path.join(os.path.dirname(sys.argv[0]), "yolo_gui_mobil.py")
         python = sys.executable
         subprocess.Popen([python, main_script])
-        
-        # Exit current process
         sys.exit(0)
-        
     except Exception as e:
         print(f"Error during restart: {e}")
         time.sleep(3)
