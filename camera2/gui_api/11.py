@@ -13,7 +13,7 @@ import os
 import requests
 
 class APIHandler:
-    def __init__(self, base_url="http://192.168.0.4:5000"):
+    def __init__(self, base_url="http://103.139.192.236:5000"):
         self.base_url = base_url
         self.last_check = 0
         self.check_interval = 2
