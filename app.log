@@ -518,3 +518,234 @@
 2024-11-23 10:14:36,316 - werkzeug - INFO - 192.168.0.10 - - [23/Nov/2024 10:14:36] "GET /api/camera-settings HTTP/1.1" 200 -
 2024-11-23 10:14:38,841 - __main__ - INFO - Retrieved 1 cameras for mode: Api dan Asap
 2024-11-23 10:14:38,842 - werkzeug - INFO - 127.0.0.1 - - [23/Nov/2024 10:14:38] "GET /api/processor?mode=Api%20dan%20Asap HTTP/1.1" 200 -
+2024-11-28 11:20:52,780 - engineio.server - INFO - Server initialized for threading.
+2024-11-28 11:20:52,820 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-28 11:20:52,843 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-11-28 11:20:52,850 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-28 11:20:52,850 - werkzeug - INFO -  * Restarting with stat
+2024-11-28 11:20:53,874 - engineio.server - INFO - Server initialized for threading.
+2024-11-28 11:20:53,880 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-28 11:20:53,893 - werkzeug - WARNING -  * Debugger is active!
+2024-11-28 11:20:53,896 - werkzeug - INFO -  * Debugger PIN: 224-155-926
+2024-11-28 11:22:44,544 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:22:44,544 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:22:44] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:22:49,559 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:22:49,574 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:22:49] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:22:54,581 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:22:54,581 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:22:54] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:22:59,585 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:22:59,585 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:22:59] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:01,012 - __main__ - INFO - Accessing monitoring page
+2024-11-28 11:23:01,195 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:01] "GET / HTTP/1.1" 200 -
+2024-11-28 11:23:01,225 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:01] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2024-11-28 11:23:02,004 - engineio.server - INFO - CdgihKmTSG29YcY5AAAA: Sending packet OPEN data {'sid': 'CdgihKmTSG29YcY5AAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2024-11-28 11:23:02,005 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:02] "GET /socket.io/?EIO=4&transport=polling&t=PDn0XHo HTTP/1.1" 200 -
+2024-11-28 11:23:02,053 - engineio.server - INFO - CdgihKmTSG29YcY5AAAA: Received packet MESSAGE data 0
+2024-11-28 11:23:02,053 - __main__ - INFO - Client connected
+2024-11-28 11:23:02,053 - engineio.server - INFO - CdgihKmTSG29YcY5AAAA: Received request to upgrade to websocket
+2024-11-28 11:23:02,059 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2024-11-28 11:23:02,068 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:02] "GET /socket.io/?EIO=4&transport=polling&t=PDn0XIc&sid=CdgihKmTSG29YcY5AAAA HTTP/1.1" 200 -
+2024-11-28 11:23:02,066 - engineio.server - INFO - CdgihKmTSG29YcY5AAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2024-11-28 11:23:02,071 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:02] "GET /api/data/all HTTP/1.1" 200 -
+2024-11-28 11:23:02,071 - engineio.server - INFO - CdgihKmTSG29YcY5AAAA: Sending packet MESSAGE data 0{"sid":"8RPkLQuasHgcJ4uOAAAB"}
+2024-11-28 11:23:02,072 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:02] "POST /socket.io/?EIO=4&transport=polling&t=PDn0XIb&sid=CdgihKmTSG29YcY5AAAA HTTP/1.1" 200 -
+2024-11-28 11:23:02,097 - engineio.server - INFO - CdgihKmTSG29YcY5AAAA: Upgrade to websocket successful
+2024-11-28 11:23:02,180 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-28 11:23:03,797 - __main__ - INFO - Client disconnected
+2024-11-28 11:23:03,797 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:03] "GET /socket.io/?EIO=4&transport=websocket&sid=CdgihKmTSG29YcY5AAAA HTTP/1.1" 200 -
+2024-11-28 11:23:03,804 - __main__ - INFO - Accessing settings page
+2024-11-28 11:23:03,834 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:03] "GET /settings HTTP/1.1" 200 -
+2024-11-28 11:23:03,850 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:03] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2024-11-28 11:23:03,933 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:03] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:23:04,609 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:04,610 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:04] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:09,624 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:09,624 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:09] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:14,638 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:14,638 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:14] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:19,659 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:19,659 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:19] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:24,679 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:24,679 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:24] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:29,687 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:29,687 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:29] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:34,694 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:34,695 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:34] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:39,708 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:39,710 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:39] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:43,802 - __main__ - INFO - Camera 1 settings updated: {'ip': 'https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8'}
+2024-11-28 11:23:43,817 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:43] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-28 11:23:43,818 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:43] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:23:44,720 - __main__ - INFO - Retrieved 0 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:44,720 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:44] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:47,302 - __main__ - INFO - Camera 1 settings updated: {'mode': 'Counting Kendaraan'}
+2024-11-28 11:23:47,305 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:47] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-28 11:23:47,316 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:47] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:23:49,735 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:49,735 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:49] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:54,751 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:54,751 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:54] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:23:59,772 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:23:59,772 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:23:59] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:04,800 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:04,801 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:04] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:09,809 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:09,809 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:09] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:14,824 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:14,824 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:14] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:19,836 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:19,837 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:19] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:24,840 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:24,840 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:24] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:29,860 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:29,860 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:29] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:34,877 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:34,877 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:34] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:39,894 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:39,894 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:39] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:44,911 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:44,912 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:44] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:49,916 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:49,916 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:49] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:53,459 - __main__ - INFO - Camera 2 settings updated: {'ip': 'https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8'}
+2024-11-28 11:24:53,459 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:53] "PATCH /api/camera-settings/2 HTTP/1.1" 200 -
+2024-11-28 11:24:53,475 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:53] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:24:54,940 - __main__ - INFO - Retrieved 1 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:54,940 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:54] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:24:55,778 - __main__ - INFO - Camera 2 settings updated: {'mode': 'Counting Kendaraan'}
+2024-11-28 11:24:55,778 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:55] "PATCH /api/camera-settings/2 HTTP/1.1" 200 -
+2024-11-28 11:24:55,778 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:55] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:24:56,916 - __main__ - INFO - Camera 2 settings updated: {'enabled': True}
+2024-11-28 11:24:56,918 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:56] "PATCH /api/camera-settings/2 HTTP/1.1" 200 -
+2024-11-28 11:24:56,922 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:56] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:24:59,945 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:24:59,945 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:24:59] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:05,449 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:05,449 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:05] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:10,456 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:10,456 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:10] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:15,505 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:15,505 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:15] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:20,515 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:20,515 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:20] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:25,560 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:25,561 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:25] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:30,568 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:30,568 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:30] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:35,584 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:35,584 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:35] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:40,593 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:40,593 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:40] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:45,617 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:45,618 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:45] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:50,628 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:50,628 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:50] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:25:55,644 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:25:55,644 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:25:55] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:00,264 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:00,266 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:00] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:03,287 - __main__ - INFO - Camera 2 settings updated: {'ip': 'https://wxyz.nganjukkab.go.id/PasarSukomoro/streams/A5wi1bgyVti1mWba1711937120689.m3u8'}
+2024-11-28 11:26:03,287 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:03] "PATCH /api/camera-settings/2 HTTP/1.1" 200 -
+2024-11-28 11:26:03,302 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:03] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:26:05,271 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:05,271 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:05] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:10,062 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:10,063 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:10] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:15,068 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:15,068 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:15] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:20,061 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:20,061 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:20] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:25,013 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:25,014 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:25] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:29,867 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:29,867 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:29] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:34,731 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:34,732 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:34] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:39,568 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:39,568 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:39] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:41,204 - __main__ - INFO - Camera 1 settings updated: {'ip': 'https://wxyz.nganjukkab.go.id/PasarSukomoro/streams/A5wi1bgyVti1mWba1711937120689.m3u8'}
+2024-11-28 11:26:41,204 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:41] "PATCH /api/camera-settings/1 HTTP/1.1" 200 -
+2024-11-28 11:26:41,220 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:41] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-11-28 11:26:44,931 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:44,931 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:44] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:49,278 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:49,279 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:49] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:54,272 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:54,283 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:54] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:26:59,282 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:26:59,282 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:26:59] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:04,284 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:04,284 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:04] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:09,302 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:09,302 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:09] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:14,318 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:14,318 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:14] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:14,648 - socketio.server - INFO - emitting event "new_data" to all [/]
+2024-11-28 11:27:14,648 - __main__ - INFO - New data saved: {'id': 7, 'camera_name': 'Camera 1', 'mode': 'Counting Kendaraan', 'result': '{"car_up": 1, "car_down": 1, "bus_up": 0, "bus_down": 0, "truck_up": 0, "truck_down": 0, "person_motor_up": 2, "person_motor_down": 2}', 'timestamp': '2024-11-28 04:27:14'}
+2024-11-28 11:27:14,648 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:14] "GET /api/save?camera_name=Camera+1&mode=Counting+Kendaraan&result={"car_up":+1,+"car_down":+1,+"bus_up":+0,+"bus_down":+0,+"truck_up":+0,+"truck_down":+0,+"person_motor_up":+2,+"person_motor_down":+2} HTTP/1.1" 200 -
+2024-11-28 11:27:19,346 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:19,346 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:19] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:24,364 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:24,364 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:24] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:29,381 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:29,384 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:29] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:34,389 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:34,389 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:34] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:34,709 - socketio.server - INFO - emitting event "new_data" to all [/]
+2024-11-28 11:27:34,709 - __main__ - INFO - New data saved: {'id': 8, 'camera_name': 'Camera 1', 'mode': 'Counting Kendaraan', 'result': '{"car_up": 3, "car_down": 2, "bus_up": 1, "bus_down": 1, "truck_up": 0, "truck_down": 0, "person_motor_up": 3, "person_motor_down": 2}', 'timestamp': '2024-11-28 04:27:34'}
+2024-11-28 11:27:34,709 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:34] "GET /api/save?camera_name=Camera+1&mode=Counting+Kendaraan&result={"car_up":+3,+"car_down":+2,+"bus_up":+1,+"bus_down":+1,+"truck_up":+0,+"truck_down":+0,+"person_motor_up":+3,+"person_motor_down":+2} HTTP/1.1" 200 -
+2024-11-28 11:27:39,395 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:39,395 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:39] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:44,417 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:44,418 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:44] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:49,427 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:49,427 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:49] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:54,445 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:54,445 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:54] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:27:54,801 - socketio.server - INFO - emitting event "new_data" to all [/]
+2024-11-28 11:27:54,801 - __main__ - INFO - New data saved: {'id': 9, 'camera_name': 'Camera 1', 'mode': 'Counting Kendaraan', 'result': '{"car_up": 0, "car_down": 1, "bus_up": 0, "bus_down": 0, "truck_up": 0, "truck_down": 0, "person_motor_up": 2, "person_motor_down": 1}', 'timestamp': '2024-11-28 04:27:54'}
+2024-11-28 11:27:54,801 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:54] "GET /api/save?camera_name=Camera+1&mode=Counting+Kendaraan&result={"car_up":+0,+"car_down":+1,+"bus_up":+0,+"bus_down":+0,+"truck_up":+0,+"truck_down":+0,+"person_motor_up":+2,+"person_motor_down":+1} HTTP/1.1" 200 -
+2024-11-28 11:27:59,461 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:27:59,461 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:27:59] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:28:04,474 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:28:04,475 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:28:04] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:28:09,482 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:28:09,483 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:28:09] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:28:14,503 - __main__ - INFO - Retrieved 2 cameras for mode: Counting Kendaraan
+2024-11-28 11:28:14,504 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:28:14] "GET /api/processor?mode=Counting%20Kendaraan HTTP/1.1" 200 -
+2024-11-28 11:28:14,775 - socketio.server - INFO - emitting event "new_data" to all [/]
+2024-11-28 11:28:14,775 - __main__ - INFO - New data saved: {'id': 10, 'camera_name': 'Camera 1', 'mode': 'Counting Kendaraan', 'result': '{"car_up": 2, "car_down": 3, "bus_up": 1, "bus_down": 2, "truck_up": 1, "truck_down": 3, "person_motor_up": 2, "person_motor_down": 2}', 'timestamp': '2024-11-28 04:28:14'}
+2024-11-28 11:28:14,791 - werkzeug - INFO - 192.168.0.113 - - [28/Nov/2024 11:28:14] "GET /api/save?camera_name=Camera+1&mode=Counting+Kendaraan&result={"car_up":+2,+"car_down":+3,+"bus_up":+1,+"bus_down":+2,+"truck_up":+1,+"truck_down":+3,+"person_motor_up":+2,+"person_motor_down":+2} HTTP/1.1" 200 -
+2024-11-28 12:45:23,812 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\cv2\\version.py', reloading
+2024-11-28 12:45:24,010 - werkzeug - INFO -  * Restarting with stat
+2024-11-28 12:45:26,400 - engineio.server - INFO - Server initialized for threading.
+2024-11-28 12:45:26,418 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-28 12:45:26,425 - werkzeug - WARNING -  * Debugger is active!
+2024-11-28 12:45:26,428 - werkzeug - INFO -  * Debugger PIN: 224-155-926
+2024-11-28 12:45:29,770 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PIL\\XpmImagePlugin.py', reloading
+2024-11-28 12:45:29,922 - werkzeug - INFO -  * Restarting with stat
+2024-11-28 12:45:31,009 - engineio.server - INFO - Server initialized for threading.
+2024-11-28 12:45:31,025 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-28 12:45:31,039 - werkzeug - WARNING -  * Debugger is active!
+2024-11-28 12:45:31,042 - werkzeug - INFO -  * Debugger PIN: 224-155-926
+2024-11-28 12:45:42,180 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\ultralytics\\models\\yolo\\detect\\__init__.py', reloading
+2024-11-28 12:45:42,315 - werkzeug - INFO -  * Restarting with stat
+2024-11-28 12:45:43,357 - engineio.server - INFO - Server initialized for threading.
+2024-11-28 12:45:43,371 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-28 12:45:43,377 - werkzeug - WARNING -  * Debugger is active!
+2024-11-28 12:45:43,379 - werkzeug - INFO -  * Debugger PIN: 224-155-926
+2024-11-28 12:45:56,616 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\numpy\\_distributor_init.py', reloading
+2024-11-28 12:45:56,716 - werkzeug - INFO -  * Restarting with stat
+2024-11-28 12:45:57,729 - engineio.server - INFO - Server initialized for threading.
+2024-11-28 12:45:57,751 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-11-28 12:45:57,757 - werkzeug - WARNING -  * Debugger is active!
+2024-11-28 12:45:57,760 - werkzeug - INFO -  * Debugger PIN: 224-155-926
+2024-12-02 11:22:22,555 - werkzeug - INFO -  * Detected change in 'C:\\Users\\LENOVO\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\cv2\\__init__.py', reloading
+2024-12-02 11:22:23,163 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:22:27,448 - engineio.server - INFO - Server initialized for threading.
+2024-12-02 11:22:27,492 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-12-02 11:22:27,506 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:22:27,509 - werkzeug - INFO -  * Debugger PIN: 224-155-926

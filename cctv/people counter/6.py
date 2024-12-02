@@ -20,8 +20,8 @@ class VideoProcessorApp:
         self.window.title("Video Processor")
         
         # API Configuration
-        self.api_url = "http://192.168.0.4:5000/api/processor?mode=Counting%20Orang%20Lewat"
-        self.save_api_url = "http://192.168.0.4:5000/api/save"
+        self.api_url = "http://103.139.192.236:5000/api/processor?mode=Counting%20Orang%20Lewat"
+        self.save_api_url = "http://103.139.192.236:5000/api/save"
         self.api_check_interval = 5  # seconds
         
         # Camera Index
