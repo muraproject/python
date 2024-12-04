@@ -450,6 +450,7 @@ if __name__ == "__main__":
         root.title("Video Processor")
         
         # Create application instance
+        
         app = VideoProcessorApp(root)
         
         # Set window close handler
