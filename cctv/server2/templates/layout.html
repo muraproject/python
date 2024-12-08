@@ -1,0 +1,94 @@
+<!-- layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Camera System</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="flex h-screen bg-gray-100">
+        <!-- Sidebar -->
+        <aside id="sidebar" class="w-64 transition-transform duration-300 ease-in-out bg-white border-r" aria-label="Sidebar">
+            <div class="flex items-center justify-between p-4 border-b">
+                <h1 class="text-2xl font-semibold">AI Camera System</h1>
+                <button id="sidebarToggle" class="p-2 rounded-lg hover:bg-gray-100 lg:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="py-4">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="/monitoring" 
+                           class="flex items-center px-4 py-3 hover:bg-blue-700 hover:text-white transition-colors {% if page == 'monitoring' %}bg-blue-700 text-white{% endif %}">
+                            <span>Monitoring</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/settings" 
+                           class="flex items-center px-4 py-3 hover:bg-blue-700 hover:text-white transition-colors {% if page == 'settings' %}bg-blue-700 text-white{% endif %}">
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col overflow-hidden">
+            <!-- Top bar with toggle button -->
+            <div class="bg-white border-b px-4 py-2">
+                <button id="mobileSidebarToggle" class="p-2 rounded-lg hover:bg-gray-100">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Main content area -->
+            <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100">
+                <div class="container mx-auto px-6 py-8">
+                    {% if page == 'monitoring' %}
+                        {% include 'monitoring_content.html' %}
+                    {% elif page == 'settings' %}
+                        {% include 'settings_content.html' %}
+                    {% endif %}
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        // Sidebar toggle functionality
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const mobileSidebarToggle = document.getElementById('mobileSidebarToggle');
+
+        function toggleSidebar() {
+            sidebar.classList.toggle('-translate-x-full');
+        }
+
+        sidebarToggle.addEventListener('click', toggleSidebar);
+        mobileSidebarToggle.addEventListener('click', toggleSidebar);
+
+        // Hide sidebar on mobile by default
+        if (window.innerWidth < 1024) {
+            sidebar.classList.add('-translate-x-full');
+        }
+
+        // Adjust sidebar visibility on window resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 1024) {
+                sidebar.classList.remove('-translate-x-full');
+            } else {
+                sidebar.classList.add('-translate-x-full');
+            }
+        });
+    </script>
+</body>
+</html>

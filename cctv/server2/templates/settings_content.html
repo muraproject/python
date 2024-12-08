@@ -1,0 +1,281 @@
+<!-- settings_content.html -->
+<div class="bg-white rounded-lg shadow-md p-6 mb-6">
+    <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-semibold">Konfigurasi Kamera</h2>
+        <button data-modal-target="addCameraModal" data-modal-toggle="addCameraModal" 
+                class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+            Tambah Kamera
+        </button>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div class="bg-blue-50 p-4 rounded-lg">
+            <h3 class="font-semibold mb-2">Mode yang Digunakan:</h3>
+            <ul class="space-y-1">
+                <li>Counting Kendaraan: <span id="countVehicle">0</span>/3</li>
+                <li>Api dan Asap: <span id="countSmoke">0</span>/6</li>
+                <li>Counting Orang Lewat: <span id="countPeoplePass">0</span></li>
+                <li>Counting Orang Area: <span id="countPeopleArea">0</span></li>
+                <li>People Cross: <span id="countPeopleCross">0</span></li>
+                <li>In Area: <span id="countInArea">0</span></li>
+                <li>Out Area: <span id="countOutArea">0</span></li>
+                <li>Intrusion: <span id="countIntrusion">0</span></li>
+                <li>Face Detection: <span id="countFace">0</span></li>
+            </ul>
+        </div>
+
+        <div class="bg-yellow-50 p-4 rounded-lg">
+            <h3 class="font-semibold mb-2">Informasi:</h3>
+            <ul class="space-y-1">
+                <li>• Maksimal 3 kamera untuk Counting Kendaraan</li>
+                <li>• Maksimal 6 kamera untuk Api dan Asap</li>
+                <li>• Setiap kamera hanya dapat menggunakan 1 mode</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left text-gray-500">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                <tr>
+                    <th scope="col" class="px-6 py-3">No</th>
+                    <th scope="col" class="px-6 py-3">Nama Kamera</th>
+                    <th scope="col" class="px-6 py-3">IP Address</th>
+                    <th scope="col" class="px-6 py-3">Mode</th>
+                    <th scope="col" class="px-6 py-3">Status</th>
+                    <th scope="col" class="px-6 py-3 text-right">Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="cameraTableBody">
+                <!-- Table content will be dynamically populated -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Add Camera Modal -->
+<div id="addCameraModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative w-full max-w-md max-h-full">
+        <div class="relative bg-white rounded-lg shadow">
+            <div class="flex items-start justify-between p-4 border-b rounded-t">
+                <h3 class="text-xl font-semibold text-gray-900" id="modalTitle">
+                    Tambah Kamera
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="addCameraModal">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                </button>
+            </div>
+            <form id="cameraForm" class="p-6">
+                <input type="hidden" id="cameraId" name="cameraId">
+                <div class="mb-4">
+                    <label for="cameraName" class="block mb-2 text-sm font-medium text-gray-900">Nama Kamera</label>
+                    <input type="text" id="cameraName" name="cameraName" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
+                </div>
+                <div class="mb-4">
+                    <label for="ipAddress" class="block mb-2 text-sm font-medium text-gray-900">IP Address</label>
+                    <input type="text" id="ipAddress" name="ipAddress" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
+                </div>
+                <div class="mb-4">
+                    <label for="mode" class="block mb-2 text-sm font-medium text-gray-900">Mode</label>
+                    <select id="mode" name="mode" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                        <option value="">Pilih Mode</option>
+                        <option value="Counting Kendaraan">Counting Kendaraan</option>
+                        <option value="Api dan Asap">Api dan Asap</option>
+                        <option value="Counting Orang Lewat">Counting Orang Lewat</option>
+                        <option value="Counting Orang Area">Counting Orang Area</option>
+                        <option value="People Cross">People Cross</option>
+                        <option value="In Area">In Area</option>
+                        <option value="Out Area">Out Area</option>
+                        <option value="Intrusion">Intrusion</option>
+                        <option value="Face Detection">Face Detection</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" id="enabled" name="enabled" class="sr-only peer">
+                        <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+                        <span class="ml-3 text-sm font-medium text-gray-900">Status</span>
+                    </label>
+                </div>
+                <div class="flex items-center justify-end p-6 space-x-2 border-t border-gray-200 rounded-b">
+                    <button data-modal-hide="addCameraModal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10">Batal</button>
+                    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Simpan</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div id="deleteModal" tabindex="-1" class="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative w-full max-w-md max-h-full">
+        <div class="relative bg-white rounded-lg shadow">
+            <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="deleteModal">
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                </svg>
+            </button>
+            <div class="p-6 text-center">
+                <!-- Continuing from previous code -->
+                <svg class="mx-auto mb-4 text-gray-400 w-12 h-12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+                <h3 class="mb-5 text-lg font-normal text-gray-500">Apakah anda yakin ingin menghapus kamera ini?</h3>
+                <button data-modal-hide="deleteModal" type="button" class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">
+                    Ya, Hapus
+                </button>
+                <button data-modal-hide="deleteModal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900">
+                    Batal
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Function to populate table row template
+    function createTableRow(camera, index) {
+        return `
+            <tr class="bg-white border-b">
+                <td class="px-6 py-4">${index + 1}</td>
+                <td class="px-6 py-4">${camera.name}</td>
+                <td class="px-6 py-4">${camera.ip}</td>
+                <td class="px-6 py-4">${camera.mode || '-'}</td>
+                <td class="px-6 py-4">
+                    <span class="px-2 py-1 rounded-full text-xs ${camera.enabled ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}">
+                        ${camera.enabled ? 'Aktif' : 'Nonaktif'}
+                    </span>
+                </td>
+                <td class="px-6 py-4 text-right">
+                    <button onclick="editCamera(${camera.id})" class="font-medium text-blue-600 hover:underline mr-2">Edit</button>
+                    <button onclick="deleteCamera(${camera.id})" class="font-medium text-red-600 hover:underline">Hapus</button>
+                </td>
+            </tr>
+        `;
+    }
+
+    // Function to handle edit camera
+    function editCamera(id) {
+        fetch(`/api/camera-settings/${id}`)
+            .then(response => response.json())
+            .then(camera => {
+                document.getElementById('modalTitle').textContent = 'Edit Kamera';
+                document.getElementById('cameraId').value = camera.id;
+                document.getElementById('cameraName').value = camera.name;
+                document.getElementById('ipAddress').value = camera.ip;
+                document.getElementById('mode').value = camera.mode || '';
+                document.getElementById('enabled').checked = camera.enabled;
+                
+                // Show modal
+                const modal = document.getElementById('addCameraModal');
+                if (modal) {
+                    const modalInstance = new Modal(modal);
+                    modalInstance.show();
+                }
+            });
+    }
+
+    // Function to handle delete camera
+    function deleteCamera(id) {
+        const modal = document.getElementById('deleteModal');
+        if (modal) {
+            const modalInstance = new Modal(modal);
+            modalInstance.show();
+            
+            // Add event listener for delete confirmation
+            modal.querySelector('.bg-red-600').onclick = () => {
+                fetch(`/api/camera-settings/${id}`, {
+                    method: 'DELETE'  // Ubah dari POST ke DELETE
+                })
+                .then(response => response.json())
+                .then(() => {
+                    modalInstance.hide();
+                    loadCameras(); // Refresh the table
+                });
+            };
+        }
+    }
+    // Function to load cameras
+    function loadCameras() {
+        fetch('/api/camera-settings')
+            .then(response => response.json())
+            .then(cameras => {
+                const tableBody = document.getElementById('cameraTableBody');
+                tableBody.innerHTML = cameras.map(createTableRow).join('');
+                updateCameraCounts(cameras);
+            });
+    }
+
+    // Function to update camera counts
+    function updateCameraCounts(cameras) {
+        const counts = {
+            'Counting Kendaraan': 0,
+            'Api dan Asap': 0,
+            'Counting Orang Lewat': 0,
+            'Counting Orang Area': 0,
+            'People Cross': 0,
+            'In Area': 0,
+            'Out Area': 0,
+            'Intrusion': 0,
+            'Face Detection': 0
+        };
+
+        cameras.forEach(camera => {
+            if (camera.mode && camera.enabled) {
+                counts[camera.mode]++;
+            }
+        });
+
+        document.getElementById('countVehicle').textContent = counts['Counting Kendaraan'];
+        document.getElementById('countSmoke').textContent = counts['Api dan Asap'];
+        document.getElementById('countPeoplePass').textContent = counts['Counting Orang Lewat'];
+        document.getElementById('countPeopleArea').textContent = counts['Counting Orang Area'];
+        document.getElementById('countPeopleCross').textContent = counts['People Cross'];
+        document.getElementById('countInArea').textContent = counts['In Area'];
+        document.getElementById('countOutArea').textContent = counts['Out Area'];
+        document.getElementById('countIntrusion').textContent = counts['Intrusion'];
+        document.getElementById('countFace').textContent = counts['Face Detection'];
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+        loadCameras();
+
+        // Handle form submission
+        document.getElementById('cameraForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const cameraId = formData.get('cameraId');
+            
+            const data = {
+                name: formData.get('cameraName'),
+                ip: formData.get('ipAddress'),
+                mode: formData.get('mode'),
+                enabled: formData.get('enabled') === 'on'
+            };
+
+            const method = cameraId ? 'PATCH' : 'POST';
+            const url = cameraId ? `/api/camera-settings/${cameraId}` : '/api/camera-settings';
+
+            fetch(url, {
+                method: method,
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(() => {
+                const modal = document.getElementById('addCameraModal');
+                if (modal) {
+                    const modalInstance = new Modal(modal);
+                    modalInstance.hide();
+                }
+                loadCameras();
+                e.target.reset();
+            });
+        });
+    });
+</script>
