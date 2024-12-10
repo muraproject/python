@@ -773,3 +773,9 @@
 2024-12-02 11:31:49,305 - __main__ - INFO - Starting application on 0.0.0.0:5000
 2024-12-02 11:31:49,310 - werkzeug - WARNING -  * Debugger is active!
 2024-12-02 11:31:49,313 - werkzeug - INFO -  * Debugger PIN: 224-155-926
+2024-12-02 11:32:22,527 - werkzeug - INFO -  * Detected change in 'd:\\rifai\\python\\cctv\\server\\main.py', reloading
+2024-12-02 11:32:22,654 - werkzeug - INFO -  * Restarting with stat
+2024-12-02 11:32:23,656 - engineio.server - INFO - Server initialized for threading.
+2024-12-02 11:32:23,676 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-12-02 11:32:23,683 - werkzeug - WARNING -  * Debugger is active!
+2024-12-02 11:32:23,686 - werkzeug - INFO -  * Debugger PIN: 224-155-926
