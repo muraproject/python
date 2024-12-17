@@ -1,0 +1,335 @@
+<!-- monitoring_content.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <!-- Filter Section -->
+        <div class="mb-6">
+            <h2 class="text-xl font-semibold mb-4">Filter Data</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Camera Filter -->
+                <div>
+                    <label for="cameraFilter" class="block text-sm font-medium text-gray-700 mb-2">Kamera</label>
+                    <select id="cameraFilter" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                        <option value="">Semua Kamera</option>
+                    </select>
+                </div>
+
+                <!-- Mode Filter -->
+                <div>
+                    <label for="modeFilter" class="block text-sm font-medium text-gray-700 mb-2">Mode</label>
+                    <select id="modeFilter" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                        <option value="">Semua Mode</option>
+                        <option value="Counting Kendaraan">Counting Kendaraan</option>
+                        <option value="Counting Orang Lewat">Counting Orang Lewat</option>
+                        <option value="Counting Orang Area">Counting Orang Area</option>
+                        <option value="Api dan Asap">Api dan Asap</option>
+                        <option value="People Cross">People Cross</option>
+                        <option value="In Area">In Area</option>
+                        <option value="Out Area">Out Area</option>
+                        <option value="Intrusion">Intrusion</option>
+                        <option value="Face Detection">Face Detection</option>
+                    </select>
+                </div>
+
+                <!-- Export Button -->
+                <div class="flex items-end">
+                    <button onclick="exportData()" class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
+                        Export to Excel
+                    </button>
+                </div>
+            </div>
+
+            <!-- Date Range Filter -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                <div>
+                    <label for="startDate" class="block text-sm font-medium text-gray-700 mb-2">Tanggal Mulai</label>
+                    <input type="datetime-local" id="startDate" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                </div>
+                <div>
+                    <label for="endDate" class="block text-sm font-medium text-gray-700 mb-2">Tanggal Selesai</label>
+                    <input type="datetime-local" id="endDate" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loadingIndicator" class="hidden">
+            <div class="flex justify-center items-center py-4">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left text-gray-500">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">No.</th>
+                        <th scope="col" class="px-6 py-3">Nama Kamera</th>
+                        <th scope="col" class="px-6 py-3">Mode</th>
+                        <th scope="col" class="px-6 py-3">Hasil</th>
+                        <th scope="col" class="px-6 py-3">Waktu</th>
+                    </tr>
+                </thead>
+                <tbody id="monitoringTableBody">
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- No Data Message -->
+        <div id="noDataMessage" class="hidden">
+            <div class="text-center py-4 text-gray-500">
+                Tidak ada data yang ditemukan
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4 mt-4">
+            <div class="flex items-center gap-2">
+                <label class="text-sm text-gray-700">Rows per page:</label>
+                <select id="rowsPerPage" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2">
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+            <div class="flex items-center gap-2">
+                <button id="prevPage" class="px-3 py-1 border rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed">
+                    Previous
+                </button>
+                <span class="text-sm text-gray-700">
+                    Page <span id="currentPage">1</span> of <span id="totalPages">1</span>
+                    (<span id="totalRecords">0</span> records)
+                </span>
+                <button id="nextPage" class="px-3 py-1 border rounded-lg hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed">
+                    Next
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentPage = 1;
+        let totalPages = 1;
+        let rowsPerPage = 10;
+        let totalRecords = 0;
+        let isLoading = false;
+
+        // Function to show/hide loading indicator
+        function setLoading(loading) {
+            isLoading = loading;
+            const indicator = document.getElementById('loadingIndicator');
+            if (loading) {
+                indicator.classList.remove('hidden');
+            } else {
+                indicator.classList.add('hidden');
+            }
+        }
+
+        // Function to format date
+        function formatDate(dateString) {
+            const options = {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            };
+            return new Date(dateString).toLocaleString('id-ID', options);
+        }
+
+        // Function to update table
+        function updateTable(data) {
+            const tableBody = document.getElementById('monitoringTableBody');
+            const noDataMessage = document.getElementById('noDataMessage');
+
+            if (data.length === 0) {
+                tableBody.innerHTML = '';
+                noDataMessage.classList.remove('hidden');
+            } else {
+                noDataMessage.classList.add('hidden');
+                tableBody.innerHTML = data.map((item, index) => `
+                    <tr class="bg-white border-b hover:bg-gray-50">
+                        <td class="px-6 py-4">${((currentPage - 1) * rowsPerPage) + index + 1}</td>
+                        <td class="px-6 py-4">${item.camera_name}</td>
+                        <td class="px-6 py-4">
+                            <span class="px-2 py-1 rounded-full text-xs 
+                                ${getModeBadgeColor(item.mode)}">
+                                ${item.mode}
+                            </span>
+                        </td>
+                        <td class="px-6 py-4">${item.result}</td>
+                        <td class="px-6 py-4">${formatDate(item.timestamp)}</td>
+                    </tr>
+                `).join('');
+            }
+
+            // Update pagination info
+            document.getElementById('currentPage').textContent = currentPage;
+            document.getElementById('totalPages').textContent = totalPages;
+            document.getElementById('totalRecords').textContent = totalRecords;
+            
+            // Update button states
+            document.getElementById('prevPage').disabled = currentPage === 1;
+            document.getElementById('nextPage').disabled = currentPage === totalPages;
+        }
+
+        // Function to get badge color based on mode
+        function getModeBadgeColor(mode) {
+            const colors = {
+                'Counting Kendaraan': 'bg-blue-100 text-blue-800',
+                'Counting Orang Lewat': 'bg-green-100 text-green-800',
+                'Counting Orang Area': 'bg-yellow-100 text-yellow-800',
+                'Api dan Asap': 'bg-red-100 text-red-800',
+                'People Cross': 'bg-purple-100 text-purple-800',
+                'In Area': 'bg-indigo-100 text-indigo-800',
+                'Out Area': 'bg-pink-100 text-pink-800',
+                'Intrusion': 'bg-orange-100 text-orange-800',
+                'Face Detection': 'bg-teal-100 text-teal-800'
+            };
+            return colors[mode] || 'bg-gray-100 text-gray-800';
+        }
+
+        // Function to load data from server
+        function loadData() {
+            if (isLoading) return;
+            
+            setLoading(true);
+            const camera = document.getElementById('cameraFilter').value;
+            const mode = document.getElementById('modeFilter').value;
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+
+            const params = new URLSearchParams({
+                page: currentPage,
+                per_page: rowsPerPage
+            });
+
+            if (camera) params.append('camera', camera);
+            if (mode) params.append('mode', mode);
+            if (startDate) params.append('start_date', startDate);
+            if (endDate) params.append('end_date', endDate);
+
+            fetch(`/api/data/all?${params.toString()}`)
+                .then(response => response.json())
+                .then(response => {
+                    totalPages = response.pages;
+                    totalRecords = response.total;
+                    updateTable(response.data);
+                })
+                .catch(error => {
+                    console.error('Error loading data:', error);
+                    // Show error message to user
+                    alert('Error loading data. Please try again.');
+                })
+                .finally(() => {
+                    setLoading(false);
+                });
+        }
+
+        // Function to export data
+        function exportData() {
+            const camera = document.getElementById('cameraFilter').value;
+            const mode = document.getElementById('modeFilter').value;
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+
+            const params = new URLSearchParams({
+                export: 'true'
+            });
+
+            if (camera) params.append('camera', camera);
+            if (mode) params.append('mode', mode);
+            if (startDate) params.append('start_date', startDate);
+            if (endDate) params.append('end_date', endDate);
+
+            window.location.href = `/api/data/export?${params.toString()}`;
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            // Load initial data
+            loadData();
+
+            // Initialize camera filter options
+            fetch('/api/camera-settings')
+                .then(response => response.json())
+                .then(cameras => {
+                    const cameraFilter = document.getElementById('cameraFilter');
+                    cameras.forEach(camera => {
+                        const option = document.createElement('option');
+                        option.value = camera.name;
+                        option.textContent = camera.name;
+                        cameraFilter.appendChild(option);
+                    });
+                })
+                .catch(error => console.error('Error loading cameras:', error));
+
+            // Pagination event listeners
+            document.getElementById('prevPage').addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    loadData();
+                }
+            });
+
+            document.getElementById('nextPage').addEventListener('click', () => {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    loadData();
+                }
+            });
+
+            document.getElementById('rowsPerPage').addEventListener('change', (e) => {
+                rowsPerPage = parseInt(e.target.value);
+                currentPage = 1;
+                loadData();
+            });
+
+            // Filter event listeners
+            const filters = ['cameraFilter', 'modeFilter', 'startDate', 'endDate'];
+            filters.forEach(filterId => {
+                document.getElementById(filterId)?.addEventListener('change', () => {
+                    currentPage = 1;
+                    loadData();
+                });
+            });
+        });
+
+        // Socket.IO setup for real-time updates
+        const socket = io();
+        
+        socket.on('connect', () => {
+            console.log('Connected to WebSocket server');
+        });
+
+        socket.on('new_data', (data) => {
+            // Only reload if we're on the first page and the data matches our filters
+            if (currentPage === 1) {
+                const camera = document.getElementById('cameraFilter').value;
+                const mode = document.getElementById('modeFilter').value;
+                
+                if ((!camera || data.camera_name === camera) && 
+                    (!mode || data.mode === mode)) {
+                    loadData();
+                }
+            }
+        });
+
+        socket.on('connect_error', (error) => {
+            console.error('Socket connection error:', error);
+        });
+    </script>
+</body>
+</html>
