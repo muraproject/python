@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect x="0" y="0" width="128" height="128" rx="24" fill="#0066cc"/>
+    
+    <!-- BPJS Letters -->
+    <text x="64" y="50" font-family="Arial Black, sans-serif" font-size="32" fill="white" text-anchor="middle">BPJS</text>
+    
+    <!-- Search/Check symbol -->
+    <circle cx="64" cy="78" r="20" fill="none" stroke="white" stroke-width="6"/>
+    <path d="M78 92 L98 112" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Checkmark -->
+    <path d="M60 78 L68 86 L82 72" stroke="#4CAF50" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

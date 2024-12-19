@@ -779,3 +779,63 @@
 2024-12-02 11:32:23,676 - __main__ - INFO - Starting application on 0.0.0.0:5000
 2024-12-02 11:32:23,683 - werkzeug - WARNING -  * Debugger is active!
 2024-12-02 11:32:23,686 - werkzeug - INFO -  * Debugger PIN: 224-155-926
+2024-12-19 14:09:29,634 - engineio.server - INFO - Server initialized for threading.
+2024-12-19 14:09:29,750 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-12-19 14:09:29,803 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.113:5000
+2024-12-19 14:09:29,804 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-19 14:09:29,805 - werkzeug - INFO -  * Restarting with stat
+2024-12-19 14:09:30,899 - engineio.server - INFO - Server initialized for threading.
+2024-12-19 14:09:30,918 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-12-19 14:09:30,923 - werkzeug - WARNING -  * Debugger is active!
+2024-12-19 14:09:30,926 - werkzeug - INFO -  * Debugger PIN: 146-020-446
+2024-12-19 14:09:46,020 - __main__ - INFO - Accessing monitoring page
+2024-12-19 14:09:46,169 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "GET / HTTP/1.1" 200 -
+2024-12-19 14:09:46,329 - engineio.server - INFO - YitK49baobLKhK_cAAAA: Sending packet OPEN data {'sid': 'YitK49baobLKhK_cAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2024-12-19 14:09:46,332 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "GET /socket.io/?EIO=4&transport=polling&t=PFTm4VP HTTP/1.1" 200 -
+2024-12-19 14:09:46,371 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2024-12-19 14:09:46,371 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-12-19 14:09:46,371 - engineio.server - INFO - YitK49baobLKhK_cAAAA: Received packet MESSAGE data 0
+2024-12-19 14:09:46,371 - engineio.server - INFO - YitK49baobLKhK_cAAAA: Received request to upgrade to websocket
+2024-12-19 14:09:46,379 - __main__ - INFO - Client connected
+2024-12-19 14:09:46,387 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-19 14:09:46,385 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2024-12-19 14:09:46,389 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "GET /socket.io/?EIO=4&transport=polling&t=PFTm4V-&sid=YitK49baobLKhK_cAAAA HTTP/1.1" 200 -
+2024-12-19 14:09:46,388 - engineio.server - INFO - YitK49baobLKhK_cAAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2024-12-19 14:09:46,390 - engineio.server - INFO - YitK49baobLKhK_cAAAA: Sending packet MESSAGE data 0{"sid":"cGsT7gNbxjJGzTmCAAAB"}
+2024-12-19 14:09:46,390 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "POST /socket.io/?EIO=4&transport=polling&t=PFTm4Vx&sid=YitK49baobLKhK_cAAAA HTTP/1.1" 200 -
+2024-12-19 14:09:46,419 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:46] "GET /socket.io/?EIO=4&transport=polling&t=PFTm4Wm&sid=YitK49baobLKhK_cAAAA HTTP/1.1" 200 -
+2024-12-19 14:09:46,419 - engineio.server - INFO - YitK49baobLKhK_cAAAA: Upgrade to websocket successful
+2024-12-19 14:09:50,639 - __main__ - INFO - Client disconnected
+2024-12-19 14:09:50,639 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:50] "GET /socket.io/?EIO=4&transport=websocket&sid=YitK49baobLKhK_cAAAA HTTP/1.1" 200 -
+2024-12-19 14:09:50,649 - __main__ - INFO - Accessing settings page
+2024-12-19 14:09:50,689 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:50] "GET /settings HTTP/1.1" 200 -
+2024-12-19 14:09:50,720 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:09:50] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-12-19 14:10:07,608 - __main__ - INFO - Accessing monitoring page
+2024-12-19 14:10:07,608 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:07] "GET /monitoring HTTP/1.1" 200 -
+2024-12-19 14:10:07,624 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Sending packet OPEN data {'sid': '0Km-rRZX1IeQr61fAAAC', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2024-12-19 14:10:07,625 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:07] "GET /socket.io/?EIO=4&transport=polling&t=PFTm9i6 HTTP/1.1" 200 -
+2024-12-19 14:10:07,632 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Received packet MESSAGE data 0
+2024-12-19 14:10:07,636 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:07] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-12-19 14:10:07,633 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Received request to upgrade to websocket
+2024-12-19 14:10:07,637 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:07] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2024-12-19 14:10:07,638 - __main__ - INFO - Client connected
+2024-12-19 14:10:07,640 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2024-12-19 14:10:07,642 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:07] "GET /socket.io/?EIO=4&transport=polling&t=PFTm9iE&sid=0Km-rRZX1IeQr61fAAAC HTTP/1.1" 200 -
+2024-12-19 14:10:07,642 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2024-12-19 14:10:07,642 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Sending packet MESSAGE data 0{"sid":"nyZYv384WZKoGcozAAAD"}
+2024-12-19 14:10:07,642 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:07] "POST /socket.io/?EIO=4&transport=polling&t=PFTm9iD&sid=0Km-rRZX1IeQr61fAAAC HTTP/1.1" 200 -
+2024-12-19 14:10:07,650 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Upgrade to websocket successful
+2024-12-19 14:10:18,012 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:18] "GET /api/data/all?page=1&per_page=50 HTTP/1.1" 200 -
+2024-12-19 14:10:31,219 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:31] "GET /api/data/all?page=1&per_page=50&mode=Counting+Kendaraan HTTP/1.1" 200 -
+2024-12-19 14:10:32,626 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Sending packet PING data None
+2024-12-19 14:10:32,626 - engineio.server - INFO - 0Km-rRZX1IeQr61fAAAC: Received packet PONG data 
+2024-12-19 14:10:33,874 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:33] "GET /api/data/all?page=1&per_page=50&mode=In+Area HTTP/1.1" 200 -
+2024-12-19 14:10:35,700 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:35] "GET /api/data/all?page=1&per_page=50&mode=Counting+Orang+Lewat HTTP/1.1" 200 -
+2024-12-19 14:10:37,689 - __main__ - INFO - Client disconnected
+2024-12-19 14:10:37,690 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:37] "GET /socket.io/?EIO=4&transport=websocket&sid=0Km-rRZX1IeQr61fAAAC HTTP/1.1" 200 -
+2024-12-19 14:10:37,699 - __main__ - INFO - Accessing settings page
+2024-12-19 14:10:37,701 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:37] "GET /settings HTTP/1.1" 200 -
+2024-12-19 14:10:37,731 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:37] "GET /api/camera-settings HTTP/1.1" 200 -
