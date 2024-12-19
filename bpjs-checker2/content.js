@@ -98,7 +98,8 @@ function checkKPJ() {
                 let result;
                 if(data.ret === "0" && data.data && data.data[0]) {
                     const tk = data.data[0];
-                    result = `${kpj}&${tk.tgl_lahir.split('-')[1]}-${tk.tgl_lahir.split('-')[2]}&${tk.nomor_identitas}&${tk.nama_tk}&${tk.tempat_lahir}&${tk.alamat}&${tk.tgl_lahir}&0&${tk.jenis_identitas}&${tk.jenis_kelamin}&${tk.email}&${tk.handphone}`;
+                    // result = `${kpj}&${tk.tgl_lahir.split('-')[1]}-${tk.tgl_lahir.split('-')[2]}&${tk.nomor_identitas}&${tk.nama_tk}&${tk.tempat_lahir}&${tk.alamat}&${tk.tgl_lahir}&0&${tk.jenis_identitas}&${tk.jenis_kelamin}&${tk.email}&${tk.handphone}`;
+                    result = `${kpj}&${tk.nama_tk}&${tk.nomor_identitas}&${tk.tgl_lahir.split('-')[0]}-${tk.tgl_lahir.split('-')[1]}-${tk.tgl_lahir.split('-')[2]}`;
                 } else {
                     result = `KPJ ${kpj} sudah tidak dapat digunakan.`;
                 }

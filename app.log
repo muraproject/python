@@ -839,3 +839,15 @@
 2024-12-19 14:10:37,699 - __main__ - INFO - Accessing settings page
 2024-12-19 14:10:37,701 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:37] "GET /settings HTTP/1.1" 200 -
 2024-12-19 14:10:37,731 - werkzeug - INFO - 192.168.0.113 - - [19/Dec/2024 14:10:37] "GET /api/camera-settings HTTP/1.1" 200 -
+2024-12-19 19:26:35,243 - engineio.server - INFO - Server initialized for threading.
+2024-12-19 19:26:35,272 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-12-19 19:26:35,385 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.22.71:5000
+2024-12-19 19:26:35,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-19 19:26:35,385 - werkzeug - INFO -  * Restarting with stat
+2024-12-19 19:26:36,204 - engineio.server - INFO - Server initialized for threading.
+2024-12-19 19:26:36,231 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2024-12-19 19:26:36,247 - werkzeug - WARNING -  * Debugger is active!
+2024-12-19 19:26:36,247 - werkzeug - INFO -  * Debugger PIN: 218-434-407
