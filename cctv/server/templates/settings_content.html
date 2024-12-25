@@ -109,12 +109,12 @@
                 <option value="Counting Kendaraan" {selected-counting-kendaraan}>Counting Kendaraan</option>
                 <option value="Counting Orang Lewat" {selected-counting-orang-lewat}>Counting Orang Lewat</option>
                 <option value="Counting Orang Area" {selected-counting-orang-area}>Counting Orang Area</option>
-                <option value="Api dan Asap" {selected-api-asap}>Api dan Asap</option>
+                <option value="Api dan Asap" {selected-api-dan-asap}>Api dan Asap</option>
                 <option value="People Cross" {selected-people-cross}>People Cross</option>
                 <option value="In Area" {selected-in-area}>In Area</option>
                 <option value="Out Area" {selected-out-area}>Out Area</option>
                 <option value="Intrusion" {selected-intrusion}>Intrusion</option>
-                <option value="Face Detection" {selected-face}>Face Detection</option>
+                <option value="Face Detection" {selected-face-detection}>Face Detection</option>
             </select>
         </td>
         <td class="px-6 py-4 whitespace-nowrap">
@@ -180,8 +180,12 @@
             // Set selected option untuk mode
             Object.keys(CAMERA_MODES).forEach(mode => {
                 const slug = mode.toLowerCase().replace(/[& ]/g, '-');
+                // console.log(slug);
                 row = row.replace(`{selected-${slug}}`, 
                     camera.mode === mode ? 'selected' : '');
+                if(camera.mode === mode){
+                    // console.log(":"+camera.mode + ":"+ mode+":");
+                }
             });
             
             return row;
@@ -194,14 +198,17 @@
         cameras.forEach(camera => {
             if (camera.mode) {
                 modeCounts[camera.mode] = (modeCounts[camera.mode] || 0) + 1;
+                
             }
         });
 
         Object.entries(CAMERA_MODES).forEach(([mode, config]) => {
             const count = modeCounts[mode] || 0;
             const counterElement = document.getElementById(config.counterId);
+            
             if (counterElement) {
                 counterElement.textContent = count;
+                
             }
         });
     }
