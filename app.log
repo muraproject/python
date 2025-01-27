@@ -5025,3 +5025,251 @@
 2024-11-24 21:20:58,610 - __main__ - INFO - Client disconnected
 2024-11-24 21:20:58,610 - engineio.server - INFO - rQXyCZTFuV30QbEwAAAK: Client is gone, closing socket
 2024-11-24 21:20:58,619 - werkzeug - INFO - 192.168.0.5 - - [24/Nov/2024 21:20:58] "GET /socket.io/?EIO=4&transport=websocket&sid=rQXyCZTFuV30QbEwAAAK HTTP/1.1" 200 -
+2025-01-23 19:45:28,098 - engineio.server - INFO - Server initialized for threading.
+2025-01-23 19:45:28,298 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-01-23 19:45:34,504 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+2025-01-23 19:45:34,514 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 19:45:34,530 - werkzeug - INFO -  * Restarting with stat
+2025-01-23 19:45:36,301 - engineio.server - INFO - Server initialized for threading.
+2025-01-23 19:45:36,326 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-01-23 19:45:36,331 - werkzeug - WARNING -  * Debugger is active!
+2025-01-23 19:45:36,340 - werkzeug - INFO -  * Debugger PIN: 702-004-127
+2025-01-23 19:45:54,091 - __main__ - INFO - Accessing monitoring page
+2025-01-23 19:45:54,103 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:54] "GET / HTTP/1.1" 200 -
+2025-01-23 19:45:54,178 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:54] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2025-01-23 19:45:55,734 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Sending packet OPEN data {'sid': 'KYtr66UOJBKTEqTXAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 19:45:55,735 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:55] "GET /socket.io/?EIO=4&transport=polling&t=PIJCfwK HTTP/1.1" 200 -
+2025-01-23 19:45:55,785 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Received packet MESSAGE data 0
+2025-01-23 19:45:55,787 - __main__ - INFO - Client connected
+2025-01-23 19:45:55,787 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Received request to upgrade to websocket
+2025-01-23 19:45:55,787 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 19:45:55,792 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:55] "GET /socket.io/?EIO=4&transport=polling&t=PIJCfx5&sid=KYtr66UOJBKTEqTXAAAA HTTP/1.1" 200 -
+2025-01-23 19:45:55,787 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 19:45:55,801 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Sending packet MESSAGE data 0{"sid":"3d4XzbyqOR0VlA6CAAAB"}
+2025-01-23 19:45:55,802 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:55] "POST /socket.io/?EIO=4&transport=polling&t=PIJCfx1&sid=KYtr66UOJBKTEqTXAAAA HTTP/1.1" 200 -
+2025-01-23 19:45:55,813 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:55] "GET /api/data/all HTTP/1.1" 200 -
+2025-01-23 19:45:55,815 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:55] "GET /socket.io/?EIO=4&transport=polling&t=PIJCfxR&sid=KYtr66UOJBKTEqTXAAAA HTTP/1.1" 200 -
+2025-01-23 19:45:55,945 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Upgrade to websocket successful
+2025-01-23 19:45:56,533 - werkzeug - INFO - 10.2.0.2 - - [23/Jan/2025 19:45:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-23 19:46:20,735 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Sending packet PING data None
+2025-01-23 19:46:20,737 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Received packet PONG data 
+2025-01-23 19:46:45,740 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Sending packet PING data None
+2025-01-23 19:46:45,741 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Received packet PONG data 
+2025-01-23 19:47:10,742 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Sending packet PING data None
+2025-01-23 19:47:10,742 - engineio.server - INFO - KYtr66UOJBKTEqTXAAAA: Received packet PONG data 
+2025-01-23 20:59:25,677 - engineio.server - INFO - Server initialized for threading.
+2025-01-23 20:59:25,725 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-01-23 20:59:25,744 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.244:5000
+2025-01-23 20:59:25,747 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-23 20:59:25,747 - werkzeug - INFO -  * Restarting with stat
+2025-01-23 20:59:26,478 - engineio.server - INFO - Server initialized for threading.
+2025-01-23 20:59:26,487 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-01-23 20:59:26,499 - werkzeug - WARNING -  * Debugger is active!
+2025-01-23 20:59:26,502 - werkzeug - INFO -  * Debugger PIN: 702-004-127
+2025-01-23 20:59:32,538 - __main__ - INFO - Accessing monitoring page
+2025-01-23 20:59:32,696 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:32] "GET / HTTP/1.1" 200 -
+2025-01-23 20:59:34,429 - engineio.server - INFO - vIESJIuXWSeRiVAIAAAA: Sending packet OPEN data {'sid': 'vIESJIuXWSeRiVAIAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 20:59:34,431 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:34] "GET /socket.io/?EIO=4&transport=polling&t=PIJTWhO HTTP/1.1" 200 -
+2025-01-23 20:59:35,002 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:35] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2025-01-23 20:59:35,010 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:35] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-01-23 20:59:35,036 - engineio.server - INFO - vIESJIuXWSeRiVAIAAAA: Received packet MESSAGE data 0
+2025-01-23 20:59:35,036 - __main__ - INFO - Client connected
+2025-01-23 20:59:35,036 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 20:59:35,036 - engineio.server - INFO - vIESJIuXWSeRiVAIAAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 20:59:35,036 - engineio.server - INFO - vIESJIuXWSeRiVAIAAAA: Sending packet MESSAGE data 0{"sid":"TVtlG_XhNvcf612IAAAB"}
+2025-01-23 20:59:35,036 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:35] "POST /socket.io/?EIO=4&transport=polling&t=PIJTWku&sid=vIESJIuXWSeRiVAIAAAA HTTP/1.1" 200 -
+2025-01-23 20:59:35,068 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:35] "GET /socket.io/?EIO=4&transport=polling&t=PIJTWkw&sid=vIESJIuXWSeRiVAIAAAA HTTP/1.1" 200 -
+2025-01-23 20:59:35,067 - engineio.server - INFO - vIESJIuXWSeRiVAIAAAA: Received request to upgrade to websocket
+2025-01-23 20:59:36,218 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:36] "GET /socket.io/?EIO=4&transport=polling&t=PIJTWzj&sid=vIESJIuXWSeRiVAIAAAA HTTP/1.1" 200 -
+2025-01-23 20:59:36,347 - engineio.server - INFO - vIESJIuXWSeRiVAIAAAA: Upgrade to websocket successful
+2025-01-23 20:59:42,303 - __main__ - INFO - Accessing monitoring page
+2025-01-23 20:59:42,303 - __main__ - INFO - Client disconnected
+2025-01-23 20:59:42,306 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:42] "GET /socket.io/?EIO=4&transport=websocket&sid=vIESJIuXWSeRiVAIAAAA HTTP/1.1" 200 -
+2025-01-23 20:59:42,309 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:42] "GET / HTTP/1.1" 200 -
+2025-01-23 20:59:43,509 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Sending packet OPEN data {'sid': 'qDt-8MOUfqaIHJ8CAAAC', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 20:59:43,511 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:43] "GET /socket.io/?EIO=4&transport=polling&t=PIJTYoH HTTP/1.1" 200 -
+2025-01-23 20:59:44,186 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:44] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-01-23 20:59:44,190 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:44] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2025-01-23 20:59:45,067 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Received packet MESSAGE data 0
+2025-01-23 20:59:45,067 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Received request to upgrade to websocket
+2025-01-23 20:59:45,071 - __main__ - INFO - Client connected
+2025-01-23 20:59:45,075 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 20:59:45,078 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:45] "GET /socket.io/?EIO=4&transport=polling&t=PIJTZ0O&sid=qDt-8MOUfqaIHJ8CAAAC HTTP/1.1" 200 -
+2025-01-23 20:59:45,078 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 20:59:45,078 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Sending packet MESSAGE data 0{"sid":"2uLA99eAVSrW6bjWAAAD"}
+2025-01-23 20:59:45,082 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:45] "POST /socket.io/?EIO=4&transport=polling&t=PIJTZ0N&sid=qDt-8MOUfqaIHJ8CAAAC HTTP/1.1" 200 -
+2025-01-23 20:59:46,255 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 20:59:46] "GET /socket.io/?EIO=4&transport=polling&t=PIJTZTD&sid=qDt-8MOUfqaIHJ8CAAAC HTTP/1.1" 200 -
+2025-01-23 20:59:46,389 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Upgrade to websocket successful
+2025-01-23 21:00:08,513 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Sending packet PING data None
+2025-01-23 21:00:09,710 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Received packet PONG data 
+2025-01-23 21:00:34,713 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Sending packet PING data None
+2025-01-23 21:00:35,292 - engineio.server - INFO - qDt-8MOUfqaIHJ8CAAAC: Received packet PONG data 
+2025-01-23 21:00:52,922 - __main__ - INFO - Client disconnected
+2025-01-23 21:00:52,925 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:52] "GET /socket.io/?EIO=4&transport=websocket&sid=qDt-8MOUfqaIHJ8CAAAC HTTP/1.1" 200 -
+2025-01-23 21:00:53,542 - __main__ - INFO - Accessing monitoring page
+2025-01-23 21:00:53,545 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:53] "GET / HTTP/1.1" 200 -
+2025-01-23 21:00:54,395 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet OPEN data {'sid': '7alQvRhmHPuKmRlmAAAE', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 21:00:54,397 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:54] "GET /socket.io/?EIO=4&transport=polling&t=PIJTq9L HTTP/1.1" 200 -
+2025-01-23 21:00:54,525 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:54] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-01-23 21:00:54,534 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:54] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2025-01-23 21:00:54,643 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet MESSAGE data 0
+2025-01-23 21:00:54,646 - __main__ - INFO - Client connected
+2025-01-23 21:00:54,646 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 21:00:54,646 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:00:54,649 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet MESSAGE data 0{"sid":"1pHDUIQSrC8VTbC7AAAF"}
+2025-01-23 21:00:54,649 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:54] "POST /socket.io/?EIO=4&transport=polling&t=PIJTqFN&sid=7alQvRhmHPuKmRlmAAAE HTTP/1.1" 200 -
+2025-01-23 21:00:54,669 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received request to upgrade to websocket
+2025-01-23 21:00:54,674 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:54] "GET /socket.io/?EIO=4&transport=polling&t=PIJTqFR&sid=7alQvRhmHPuKmRlmAAAE HTTP/1.1" 200 -
+2025-01-23 21:00:54,908 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:00:54] "GET /socket.io/?EIO=4&transport=polling&t=PIJTqJV&sid=7alQvRhmHPuKmRlmAAAE HTTP/1.1" 200 -
+2025-01-23 21:00:55,018 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Upgrade to websocket successful
+2025-01-23 21:01:19,398 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:01:20,077 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:01:45,080 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:01:45,759 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:02:10,762 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:02:11,432 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:02:36,435 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:02:36,888 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:03:01,892 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:03:02,249 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:03:27,256 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:03:28,036 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:03:53,038 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:03:53,813 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:04:18,817 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:04:19,276 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:04:44,279 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:04:45,048 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:05:10,050 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Sending packet PING data None
+2025-01-23 21:05:10,459 - engineio.server - INFO - 7alQvRhmHPuKmRlmAAAE: Received packet PONG data 
+2025-01-23 21:05:30,607 - __main__ - INFO - Client disconnected
+2025-01-23 21:05:30,609 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:30] "GET /socket.io/?EIO=4&transport=websocket&sid=7alQvRhmHPuKmRlmAAAE HTTP/1.1" 200 -
+2025-01-23 21:05:30,732 - __main__ - INFO - Accessing monitoring page
+2025-01-23 21:05:30,734 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:30] "GET / HTTP/1.1" 200 -
+2025-01-23 21:05:31,237 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet OPEN data {'sid': 'tdghF9bb3czqr3VoAAAG', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 21:05:31,243 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:31] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2025-01-23 21:05:31,243 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:31] "GET /socket.io/?EIO=4&transport=polling&t=PIJUtoB HTTP/1.1" 200 -
+2025-01-23 21:05:31,517 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:31] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-01-23 21:05:31,640 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet MESSAGE data 0
+2025-01-23 21:05:31,643 - __main__ - INFO - Client connected
+2025-01-23 21:05:31,644 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received request to upgrade to websocket
+2025-01-23 21:05:31,644 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 21:05:31,647 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:31] "GET /socket.io/?EIO=4&transport=polling&t=PIJUtt7&sid=tdghF9bb3czqr3VoAAAG HTTP/1.1" 200 -
+2025-01-23 21:05:31,647 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:05:31,650 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet MESSAGE data 0{"sid":"TuYJNZxfi6id5yqEAAAH"}
+2025-01-23 21:05:31,652 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:31] "POST /socket.io/?EIO=4&transport=polling&t=PIJUtt4&sid=tdghF9bb3czqr3VoAAAG HTTP/1.1" 200 -
+2025-01-23 21:05:31,891 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:05:31] "GET /socket.io/?EIO=4&transport=polling&t=PIJUtxI&sid=tdghF9bb3czqr3VoAAAG HTTP/1.1" 200 -
+2025-01-23 21:05:32,013 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Upgrade to websocket successful
+2025-01-23 21:05:56,245 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:05:56,776 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:06:21,779 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:06:22,317 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:06:47,320 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:06:47,873 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:07:12,881 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:07:13,245 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:07:38,248 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:07:38,975 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:08:03,978 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:08:04,675 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:08:29,680 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:08:29,789 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:08:54,796 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:08:55,483 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Received packet PONG data 
+2025-01-23 21:09:20,487 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet PING data None
+2025-01-23 21:09:37,267 - __main__ - INFO - Accessing monitoring page
+2025-01-23 21:09:37,267 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:37] "GET / HTTP/1.1" 200 -
+2025-01-23 21:09:38,719 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet OPEN data {'sid': 'UwFCCJAkAn5hUbriAAAI', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 21:09:38,726 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:38] "GET /socket.io/?EIO=4&transport=polling&t=PIJVq7J HTTP/1.1" 200 -
+2025-01-23 21:09:38,734 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:38] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2025-01-23 21:09:38,966 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:38] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-01-23 21:09:39,544 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received request to upgrade to websocket
+2025-01-23 21:09:39,544 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet MESSAGE data 0
+2025-01-23 21:09:39,544 - __main__ - INFO - Client connected
+2025-01-23 21:09:39,544 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 21:09:39,551 - engineio.server - INFO - tdghF9bb3czqr3VoAAAG: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:09:39,552 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:39] "GET /socket.io/?EIO=4&transport=polling&t=PIJVqGi&sid=UwFCCJAkAn5hUbriAAAI HTTP/1.1" 200 -
+2025-01-23 21:09:39,552 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:09:39,552 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet MESSAGE data 0{"sid":"zyGWUgLu59nlsPuvAAAJ"}
+2025-01-23 21:09:39,556 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:39] "POST /socket.io/?EIO=4&transport=polling&t=PIJVqGd&sid=UwFCCJAkAn5hUbriAAAI HTTP/1.1" 200 -
+2025-01-23 21:09:39,811 - __main__ - INFO - Client disconnected
+2025-01-23 21:09:39,811 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:39] "GET /socket.io/?EIO=4&transport=websocket&sid=tdghF9bb3czqr3VoAAAG HTTP/1.1" 200 -
+2025-01-23 21:09:40,336 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:09:40] "GET /socket.io/?EIO=4&transport=polling&t=PIJVqVh&sid=UwFCCJAkAn5hUbriAAAI HTTP/1.1" 200 -
+2025-01-23 21:09:40,451 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Upgrade to websocket successful
+2025-01-23 21:10:03,729 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:10:04,274 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:10:29,281 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:10:30,134 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:10:55,138 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:10:56,108 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:11:21,116 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:11:22,091 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:11:47,093 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:11:48,006 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:12:13,011 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:12:13,566 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:12:38,578 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:12:38,703 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:13:03,707 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:13:03,834 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:13:28,836 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:13:28,928 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:13:53,931 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:13:54,419 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:14:19,422 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:14:19,516 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:14:44,523 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:14:44,630 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:15:09,633 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:15:10,361 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:15:24,692 - __main__ - INFO - Accessing monitoring page
+2025-01-23 21:15:24,695 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:24] "GET / HTTP/1.1" 200 -
+2025-01-23 21:15:25,609 - engineio.server - INFO - kKxBnXtwnbevyCnJAAAK: Sending packet OPEN data {'sid': 'kKxBnXtwnbevyCnJAAAK', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 21:15:25,609 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:25] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2025-01-23 21:15:25,609 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:25] "GET /socket.io/?EIO=4&transport=polling&t=PIJX6rA HTTP/1.1" 200 -
+2025-01-23 21:15:25,926 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:25] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-01-23 21:15:25,926 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-23 21:15:26,131 - engineio.server - INFO - kKxBnXtwnbevyCnJAAAK: Received packet MESSAGE data 0
+2025-01-23 21:15:26,136 - __main__ - INFO - Client connected
+2025-01-23 21:15:26,136 - engineio.server - INFO - kKxBnXtwnbevyCnJAAAK: Received request to upgrade to websocket
+2025-01-23 21:15:26,136 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 21:15:26,140 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:15:26,143 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:26] "GET /socket.io/?EIO=4&transport=polling&t=PIJX6zc&sid=kKxBnXtwnbevyCnJAAAK HTTP/1.1" 200 -
+2025-01-23 21:15:26,142 - engineio.server - INFO - kKxBnXtwnbevyCnJAAAK: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:15:26,143 - engineio.server - INFO - kKxBnXtwnbevyCnJAAAK: Sending packet MESSAGE data 0{"sid":"gzv4eE5J2b5kzkvrAAAL"}
+2025-01-23 21:15:26,146 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:26] "POST /socket.io/?EIO=4&transport=polling&t=PIJX6zR&sid=kKxBnXtwnbevyCnJAAAK HTTP/1.1" 200 -
+2025-01-23 21:15:26,533 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:26] "GET /socket.io/?EIO=4&transport=polling&t=PIJX73W&sid=kKxBnXtwnbevyCnJAAAK HTTP/1.1" 200 -
+2025-01-23 21:15:26,803 - engineio.server - INFO - kKxBnXtwnbevyCnJAAAK: Upgrade to websocket successful
+2025-01-23 21:15:28,792 - __main__ - INFO - Client disconnected
+2025-01-23 21:15:28,792 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:28] "GET /socket.io/?EIO=4&transport=websocket&sid=kKxBnXtwnbevyCnJAAAK HTTP/1.1" 200 -
+2025-01-23 21:15:29,087 - __main__ - INFO - Accessing monitoring page
+2025-01-23 21:15:29,090 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:29] "GET / HTTP/1.1" 200 -
+2025-01-23 21:15:29,701 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Sending packet OPEN data {'sid': 'VIq_PIeu1Ldu11h5AAAM', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000}
+2025-01-23 21:15:29,701 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:29] "GET /api/data/all?page=1&per_page=10 HTTP/1.1" 200 -
+2025-01-23 21:15:29,701 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:29] "GET /socket.io/?EIO=4&transport=polling&t=PIJX7sJ HTTP/1.1" 200 -
+2025-01-23 21:15:29,863 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:29] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-01-23 21:15:30,007 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Received packet MESSAGE data 0
+2025-01-23 21:15:30,016 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Received request to upgrade to websocket
+2025-01-23 21:15:30,016 - __main__ - INFO - Client connected
+2025-01-23 21:15:30,020 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-01-23 21:15:30,020 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:15:30,020 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:30] "GET /socket.io/?EIO=4&transport=polling&t=PIJX7xm&sid=VIq_PIeu1Ldu11h5AAAM HTTP/1.1" 200 -
+2025-01-23 21:15:30,020 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-01-23 21:15:30,028 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Sending packet MESSAGE data 0{"sid":"z6wG2d0FniTIaOYGAAAN"}
+2025-01-23 21:15:30,030 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:30] "POST /socket.io/?EIO=4&transport=polling&t=PIJX7xj&sid=VIq_PIeu1Ldu11h5AAAM HTTP/1.1" 200 -
+2025-01-23 21:15:30,273 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:15:30] "GET /socket.io/?EIO=4&transport=polling&t=PIJX80I&sid=VIq_PIeu1Ldu11h5AAAM HTTP/1.1" 200 -
+2025-01-23 21:15:30,384 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Upgrade to websocket successful
+2025-01-23 21:15:35,364 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:15:35,749 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:15:54,714 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Sending packet PING data None
+2025-01-23 21:15:55,032 - engineio.server - INFO - VIq_PIeu1Ldu11h5AAAM: Received packet PONG data 
+2025-01-23 21:16:00,752 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Sending packet PING data None
+2025-01-23 21:16:01,246 - engineio.server - INFO - UwFCCJAkAn5hUbriAAAI: Received packet PONG data 
+2025-01-23 21:16:12,409 - __main__ - INFO - Client disconnected
+2025-01-23 21:16:12,409 - werkzeug - INFO - 10.1.1.69 - - [23/Jan/2025 21:16:12] "GET /socket.io/?EIO=4&transport=websocket&sid=UwFCCJAkAn5hUbriAAAI HTTP/1.1" 200 -
