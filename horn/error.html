@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul Telolet - Belum Terkoneksi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        /* LED Matrix Background Effect */
+        .led-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(50, 1fr);
+            grid-template-rows: repeat(50, 1fr);
+            z-index: 0;
+        }
+        
+        .led {
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+        
+        /* Digital Circuit Lines */
+        .circuit-lines {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.2;
+        }
+        
+        .circuit-line {
+            position: absolute;
+            background: linear-gradient(90deg, transparent, #0066cc, transparent);
+            height: 1px;
+            width: 100%;
+            animation: circuit-flow 8s infinite linear;
+        }
+        
+        .circuit-line-vertical {
+            position: absolute;
+            background: linear-gradient(180deg, transparent, #0066cc, transparent);
+            width: 1px;
+            height: 100%;
+            animation: circuit-flow-vertical 12s infinite linear;
+        }
+        
+        @keyframes circuit-flow {
+            0% { transform: translateX(-100%); opacity: 0; }
+            10% { opacity: 0.8; }
+            90% { opacity: 0.8; }
+            100% { transform: translateX(100%); opacity: 0; }
+        }
+        
+        @keyframes circuit-flow-vertical {
+            0% { transform: translateY(-100%); opacity: 0; }
+            10% { opacity: 0.8; }
+            90% { opacity: 0.8; }
+            100% { transform: translateY(100%); opacity: 0; }
+        }
+        
+        .container {
+            z-index: 2;
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(20, 20, 30, 0.85);
+            border: 1px solid rgba(0, 150, 255, 0.3);
+            border-radius: 8px;
+            box-shadow: 
+                0 0 15px rgba(0, 100, 255, 0.5),
+                inset 0 0 8px rgba(0, 150, 255, 0.3);
+            width: 90%;
+            max-width: 800px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* LED Strip on Container */
+        .led-strip {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right, 
+                #ff0000, #ff7700, #ffff00, #00ff00, 
+                #0000ff, #8a2be2, #ff00ff, #ff0000);
+            background-size: 200% 100%;
+            animation: led-strip-flow 5s linear infinite;
+        }
+        
+        .led-strip-bottom {
+            top: unset;
+            bottom: 0;
+            animation-direction: reverse;
+        }
+        
+        .led-strip-left {
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(to bottom, 
+                #ff0000, #ff7700, #ffff00, #00ff00, 
+                #0000ff, #8a2be2, #ff00ff, #ff0000);
+            background-size: 100% 200%;
+            animation: led-strip-flow-vertical 5s linear infinite;
+        }
+        
+        .led-strip-right {
+            width: 5px;
+            height: 100%;
+            left: unset;
+            right: 0;
+            background: linear-gradient(to bottom, 
+                #ff0000, #ff7700, #ffff00, #00ff00, 
+                #0000ff, #8a2be2, #ff00ff, #ff0000);
+            background-size: 100% 200%;
+            animation: led-strip-flow-vertical 5s linear infinite;
+            animation-direction: reverse;
+        }
+        
+        @keyframes led-strip-flow {
+            0% { background-position: 0% 0; }
+            100% { background-position: 200% 0; }
+        }
+        
+        @keyframes led-strip-flow-vertical {
+            0% { background-position: 0 0%; }
+            100% { background-position: 0 200%; }
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(0, 150, 255, 0.7);
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .status {
+            color: #ff3333;
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            margin-bottom: 2.5rem;
+        }
+        
+        .status::before {
+            content: "●";
+            animation: blink 1.5s infinite;
+            margin-right: 8px;
+            font-size: 0.8em;
+            vertical-align: middle;
+        }
+        
+        @keyframes blink {
+            0% { opacity: 1; color: #ff0000; }
+            49% { opacity: 1; color: #ff0000; }
+            50% { opacity: 0.5; color: #990000; }
+            100% { opacity: 1; color: #ff0000; }
+        }
+        
+        .instruction {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            color: #cccccc;
+            margin-bottom: 1.5rem;
+        }
+        
+        .wifi-name {
+            font-size: 2rem;
+            color: #33ff33;
+            text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+            font-family: 'Courier New', monospace;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 255, 0, 0.3);
+            display: inline-block;
+        }
+        
+        .wifi-icon {
+            font-size: 2.5rem;
+            margin: 1rem 0;
+            animation: wifi-pulse 2s infinite;
+        }
+        
+        @keyframes wifi-pulse {
+            0% { opacity: 0.7; }
+            50% { opacity: 1; }
+            100% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<body>
+    <div class="led-grid" id="ledGrid"></div>
+    <div class="circuit-lines" id="circuitLines"></div>
+    
+    <div class="container">
+        <div class="led-strip"></div>
+        <div class="led-strip-bottom"></div>
+        <div class="led-strip-left"></div>
+        <div class="led-strip-right"></div>
+        
+        <h1>MODUL TELOLET</h1>
+        <div class="status">BELUM TERKONEKSI</div>
+        
+        <p class="instruction">Sambungkan HP dengan WiFi modul dengan nama:</p>
+        
+        <div class="wifi-icon">📶</div>
+        <div class="wifi-name">"Telolet Basuri V1"</div>
+    </div>
+
+    <script>
+        // Create LED grid
+        function createLedGrid() {
+            const ledGrid = document.getElementById('ledGrid');
+            const rows = 50;
+            const cols = 50;
+            
+            for (let i = 0; i < rows * cols; i++) {
+                const led = document.createElement('div');
+                led.classList.add('led');
+                ledGrid.appendChild(led);
+                
+                // Random blinking effect
+                setInterval(() => {
+                    const randomOpacity = Math.random() > 0.995 ? (Math.random() * 0.7 + 0.2) : 0;
+                    const randomColor = getRandomLedColor();
+                    led.style.opacity = randomOpacity;
+                    led.style.backgroundColor = randomColor;
+                    
+                    if (randomOpacity > 0) {
+                        setTimeout(() => {
+                            led.style.opacity = 0;
+                        }, Math.random() * 200 + 50);
+                    }
+                }, Math.random() * 500 + 100);
+            }
+        }
+        
+        // Create circuit lines
+        function createCircuitLines() {
+            const circuitLinesContainer = document.getElementById('circuitLines');
+            const horizontalLines = 15;
+            const verticalLines = 15;
+            
+            // Horizontal lines
+            for (let i = 0; i < horizontalLines; i++) {
+                const line = document.createElement('div');
+                line.classList.add('circuit-line');
+                line.style.top = `${Math.random() * 100}%`;
+                line.style.animationDelay = `${Math.random() * 8}s`;
+                line.style.height = `${Math.random() > 0.7 ? 2 : 1}px`;
+                circuitLinesContainer.appendChild(line);
+            }
+            
+            // Vertical lines
+            for (let i = 0; i < verticalLines; i++) {
+                const line = document.createElement('div');
+                line.classList.add('circuit-line-vertical');
+                line.style.left = `${Math.random() * 100}%`;
+                line.style.animationDelay = `${Math.random() * 12}s`;
+                line.style.width = `${Math.random() > 0.7 ? 2 : 1}px`;
+                circuitLinesContainer.appendChild(line);
+            }
+        }
+        
+        // Generate random LED color (blue/cyan hues for tech feel)
+        function getRandomLedColor() {
+            const colors = [
+                '#0077ff', // Blue
+                '#00aaff', // Light Blue
+                '#00ffff', // Cyan
+                '#33ddff', // Sky Blue
+                '#0066cc', // Medium Blue
+                '#ffffff'  // White (rare)
+            ];
+            
+            // Colors weighted by index (earlier colors more common)
+            const randomIndex = Math.floor(Math.pow(Math.random(), 2) * colors.length);
+            return colors[randomIndex];
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            createLedGrid();
+            createCircuitLines();
+        });
+    </script>
+</body>
+</html>
