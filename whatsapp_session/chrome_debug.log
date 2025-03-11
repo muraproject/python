@@ -1,0 +1,11 @@
+[16592:16660:0115/200141.569:WARNING:chrome_main_delegate.cc(672)] This is Chrome version 131.0.6778.265 (not a warning)
+[16592:16660:0115/200141.647:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[8336:9124:0115/200142.101:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[8336:9124:0115/200142.101:ERROR:direct_composition_support.cc(1034)] QueryInterface to IDCompositionDevice4 failed: No such interface supported (0x80004002)
+[16592:16660:0115/200143.333:INFO:CONSOLE(156)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yH/r/88Y2H2qUupc.js (156)
+[16592:16660:0115/200151.082:ERROR:usb_descriptors.cc(146)] Failed to read length for configuration 1.
+[16592:16660:0115/200151.082:ERROR:usb_descriptors.cc(146)] Failed to read length for configuration 2.
+[16592:16660:0115/200151.082:ERROR:usb_descriptors.cc(146)] Failed to read length for configuration 3.
+[16592:16660:0115/200151.082:ERROR:usb_descriptors.cc(105)] Failed to read all configuration descriptors. Expected 4, got 1.
+[16592:16660:0115/200151.082:ERROR:device_event_log_impl.cc(201)] [20:01:51.085] USB: usb_device_win.cc:95 Failed to read descriptors from \\?\usb#vid_0bdb&pid_193e#4d6ebfe6deaea1m0#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+[16592:10468:0115/200151.389:ERROR:cpu_probe_win.cc(112)] PdhAddEnglishCounter failed: Error (0x13D) while retrieving error. (0xC0000BB8)
