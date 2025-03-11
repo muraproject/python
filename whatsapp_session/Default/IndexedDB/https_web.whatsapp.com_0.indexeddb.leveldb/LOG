@@ -1,0 +1,13 @@
+2025/01/15-20:01:43.382 1460 Reusing MANIFEST C:\Users\THINKPAD\Documents\GitHub\python\whatsapp_session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/15-20:01:43.385 1460 Recovering log #326
+2025/01/15-20:01:43.436 1460 Reusing old log C:\Users\THINKPAD\Documents\GitHub\python\whatsapp_session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000326.log 
+2025/01/15-20:01:44.308 bd8 Level-0 table #331: started
+2025/01/15-20:01:44.328 bd8 Level-0 table #331: 310585 bytes OK
+2025/01/15-20:01:44.330 bd8 Delete type=0 #326
+2025/01/15-20:01:44.331 bd8 Manual compaction at level-0 from '\x003\x00\x00\x00' @ 72057594037927935 : 1 .. '\x004\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/15-20:01:46.629 1460 Compacting 1@1 + 1@2 files
+2025/01/15-20:01:46.697 1460 Generated table #332@1: 21653 keys, 937236 bytes
+2025/01/15-20:01:46.697 1460 Compacted 1@1 + 1@2 files => 937236 bytes
+2025/01/15-20:01:46.699 1460 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/15-20:01:46.700 1460 Delete type=2 #328
+2025/01/15-20:01:46.700 1460 Delete type=2 #331
