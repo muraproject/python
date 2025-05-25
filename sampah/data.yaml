@@ -1,0 +1,7 @@
+names:
+- container
+- sampah_overload
+nc: 2
+test: ./images/test
+train: ./images/train
+val: ./images/val

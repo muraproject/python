@@ -1,0 +1,147 @@
+2025-05-13 15:49:17,074 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 15:49:17,098 - __main__ - INFO - Initializing default camera settings...
+2025-05-13 15:49:17,104 - __main__ - INFO - Default camera settings initialized successfully
+2025-05-13 15:49:17,104 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 15:49:17,122 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://17.12.89.3:5000
+2025-05-13 15:49:17,123 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 15:49:17,123 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 15:49:18,209 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 15:49:18,232 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 15:49:18,238 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 15:49:18,240 - werkzeug - INFO -  * Debugger PIN: 187-523-131
+2025-05-13 15:56:11,216 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\python\\server3\\dashboard.py', reloading
+2025-05-13 15:56:11,352 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 15:56:12,509 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 15:56:12,530 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 15:56:12,536 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 15:56:12,538 - werkzeug - INFO -  * Debugger PIN: 187-523-131
+2025-05-13 15:56:58,336 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Administrator\\Documents\\python\\server3\\dashboard.py', reloading
+2025-05-13 15:56:58,475 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 15:56:59,677 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 15:56:59,705 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 15:56:59,713 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 15:56:59,715 - werkzeug - INFO -  * Debugger PIN: 187-523-131
+2025-05-13 15:58:52,709 - engineio.server - INFO - FDkdNhF4OCM5WXrLAAAA: Sending packet OPEN data {'sid': 'FDkdNhF4OCM5WXrLAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-05-13 15:58:52,713 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 15:58:52] "GET /socket.io/?EIO=4&transport=polling&t=PR8S6gU HTTP/1.1" 200 -
+2025-05-13 15:58:52,723 - engineio.server - INFO - FDkdNhF4OCM5WXrLAAAA: Received packet MESSAGE data 0
+2025-05-13 15:58:52,727 - __main__ - INFO - Client connected
+2025-05-13 15:58:52,728 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-05-13 15:58:52,731 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 15:58:52] "GET /socket.io/?EIO=4&transport=polling&t=PR8S6gl&sid=FDkdNhF4OCM5WXrLAAAA HTTP/1.1" 200 -
+2025-05-13 15:58:52,731 - engineio.server - INFO - FDkdNhF4OCM5WXrLAAAA: Received request to upgrade to websocket
+2025-05-13 15:58:52,731 - engineio.server - INFO - FDkdNhF4OCM5WXrLAAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-05-13 15:58:52,736 - engineio.server - INFO - FDkdNhF4OCM5WXrLAAAA: Sending packet MESSAGE data 0{"sid":"XIP80kerolfxMvccAAAB"}
+2025-05-13 15:58:52,744 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 15:58:52] "GET /socket.io/?EIO=4&transport=polling&t=PR8S6h3&sid=FDkdNhF4OCM5WXrLAAAA HTTP/1.1" 200 -
+2025-05-13 15:58:52,744 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 15:58:52] "POST /socket.io/?EIO=4&transport=polling&t=PR8S6gj&sid=FDkdNhF4OCM5WXrLAAAA HTTP/1.1" 200 -
+2025-05-13 15:58:52,753 - engineio.server - INFO - FDkdNhF4OCM5WXrLAAAA: Upgrade to websocket successful
+2025-05-13 16:00:52,380 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 16:00:52,400 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 16:00:52,414 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://17.12.89.3:5000
+2025-05-13 16:00:52,415 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 16:00:52,415 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 16:00:53,481 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 16:00:53,500 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 16:00:53,505 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 16:00:53,507 - werkzeug - INFO -  * Debugger PIN: 187-523-131
+2025-05-13 16:00:55,087 - engineio.server - INFO - M3eCcz2lm4k4f1QfAAAA: Sending packet OPEN data {'sid': 'M3eCcz2lm4k4f1QfAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-05-13 16:00:55,090 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:55] "GET /socket.io/?EIO=4&transport=polling&t=PR8SaYd HTTP/1.1" 200 -
+2025-05-13 16:00:55,098 - engineio.server - INFO - M3eCcz2lm4k4f1QfAAAA: Received packet MESSAGE data 0
+2025-05-13 16:00:55,101 - __main__ - INFO - Client connected
+2025-05-13 16:00:55,103 - engineio.server - INFO - M3eCcz2lm4k4f1QfAAAA: Received request to upgrade to websocket
+2025-05-13 16:00:55,103 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-05-13 16:00:55,108 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:55] "GET /socket.io/?EIO=4&transport=polling&t=PR8SaYv&sid=M3eCcz2lm4k4f1QfAAAA HTTP/1.1" 200 -
+2025-05-13 16:00:55,107 - engineio.server - INFO - M3eCcz2lm4k4f1QfAAAA: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-05-13 16:00:55,111 - engineio.server - INFO - M3eCcz2lm4k4f1QfAAAA: Sending packet MESSAGE data 0{"sid":"nFV6EsNWziekfl4PAAAB"}
+2025-05-13 16:00:55,116 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:55] "POST /socket.io/?EIO=4&transport=polling&t=PR8SaYs&sid=M3eCcz2lm4k4f1QfAAAA HTTP/1.1" 200 -
+2025-05-13 16:00:55,122 - engineio.server - INFO - M3eCcz2lm4k4f1QfAAAA: Upgrade to websocket successful
+2025-05-13 16:00:59,235 - __main__ - INFO - Client disconnected
+2025-05-13 16:00:59,236 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "GET /socket.io/?EIO=4&transport=websocket&sid=M3eCcz2lm4k4f1QfAAAA HTTP/1.1" 200 -
+2025-05-13 16:00:59,242 - __main__ - INFO - Accessing monitoring page
+2025-05-13 16:00:59,264 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "GET /monitoring HTTP/1.1" 200 -
+2025-05-13 16:00:59,296 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2025-05-13 16:00:59,488 - engineio.server - INFO - _VYqKGfzlfonwG4yAAAC: Sending packet OPEN data {'sid': '_VYqKGfzlfonwG4yAAAC', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-05-13 16:00:59,493 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "GET /socket.io/?EIO=4&transport=polling&t=PR8SbdP HTTP/1.1" 200 -
+2025-05-13 16:00:59,518 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2025-05-13 16:00:59,541 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "GET /api/data/all HTTP/1.1" 200 -
+2025-05-13 16:00:59,542 - engineio.server - INFO - _VYqKGfzlfonwG4yAAAC: Received packet MESSAGE data 0
+2025-05-13 16:00:59,545 - engineio.server - INFO - _VYqKGfzlfonwG4yAAAC: Received request to upgrade to websocket
+2025-05-13 16:00:59,548 - __main__ - INFO - Client connected
+2025-05-13 16:00:59,552 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-05-13 16:00:59,554 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "GET /socket.io/?EIO=4&transport=polling&t=PR8SbeA&sid=_VYqKGfzlfonwG4yAAAC HTTP/1.1" 200 -
+2025-05-13 16:00:59,553 - engineio.server - INFO - _VYqKGfzlfonwG4yAAAC: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-05-13 16:00:59,555 - engineio.server - INFO - _VYqKGfzlfonwG4yAAAC: Sending packet MESSAGE data 0{"sid":"WUI4Yvhq14Za4DGTAAAD"}
+2025-05-13 16:00:59,561 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "GET /socket.io/?EIO=4&transport=polling&t=PR8Sbec&sid=_VYqKGfzlfonwG4yAAAC HTTP/1.1" 200 -
+2025-05-13 16:00:59,562 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:00:59] "POST /socket.io/?EIO=4&transport=polling&t=PR8Sbe9&sid=_VYqKGfzlfonwG4yAAAC HTTP/1.1" 200 -
+2025-05-13 16:00:59,571 - engineio.server - INFO - _VYqKGfzlfonwG4yAAAC: Upgrade to websocket successful
+2025-05-13 16:01:13,096 - __main__ - INFO - Client disconnected
+2025-05-13 16:01:13,097 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:13] "GET /socket.io/?EIO=4&transport=websocket&sid=_VYqKGfzlfonwG4yAAAC HTTP/1.1" 200 -
+2025-05-13 16:01:13,106 - __main__ - INFO - Accessing settings page
+2025-05-13 16:01:13,118 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:13] "GET /settings HTTP/1.1" 200 -
+2025-05-13 16:01:13,162 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:13] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:13,343 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:13] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:13,357 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:13] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-05-13 16:01:16,335 - __main__ - INFO - Accessing monitoring page
+2025-05-13 16:01:16,338 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "GET /monitoring HTTP/1.1" 200 -
+2025-05-13 16:01:16,386 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:16,554 - engineio.server - INFO - bbmpeu8LnGljiCEBAAAE: Sending packet OPEN data {'sid': 'bbmpeu8LnGljiCEBAAAE', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-05-13 16:01:16,557 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "GET /socket.io/?EIO=4&transport=polling&t=PR8Sfo5 HTTP/1.1" 200 -
+2025-05-13 16:01:16,611 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:16,624 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "GET /api/data/all HTTP/1.1" 200 -
+2025-05-13 16:01:16,630 - engineio.server - INFO - bbmpeu8LnGljiCEBAAAE: Received packet MESSAGE data 0
+2025-05-13 16:01:16,632 - __main__ - INFO - Client connected
+2025-05-13 16:01:16,633 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-05-13 16:01:16,635 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "GET /socket.io/?EIO=4&transport=polling&t=PR8SfpE&sid=bbmpeu8LnGljiCEBAAAE HTTP/1.1" 200 -
+2025-05-13 16:01:16,634 - engineio.server - INFO - bbmpeu8LnGljiCEBAAAE: Received request to upgrade to websocket
+2025-05-13 16:01:16,634 - engineio.server - INFO - bbmpeu8LnGljiCEBAAAE: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-05-13 16:01:16,643 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "GET /socket.io/?EIO=4&transport=polling&t=PR8SfpU&sid=bbmpeu8LnGljiCEBAAAE HTTP/1.1" 200 -
+2025-05-13 16:01:16,643 - engineio.server - INFO - bbmpeu8LnGljiCEBAAAE: Sending packet MESSAGE data 0{"sid":"djJ3Rb1wFOyLuA-OAAAF"}
+2025-05-13 16:01:16,645 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:16] "POST /socket.io/?EIO=4&transport=polling&t=PR8SfpC&sid=bbmpeu8LnGljiCEBAAAE HTTP/1.1" 200 -
+2025-05-13 16:01:16,654 - engineio.server - INFO - bbmpeu8LnGljiCEBAAAE: Upgrade to websocket successful
+2025-05-13 16:01:23,021 - __main__ - INFO - Client disconnected
+2025-05-13 16:01:23,023 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:23] "GET /socket.io/?EIO=4&transport=websocket&sid=bbmpeu8LnGljiCEBAAAE HTTP/1.1" 200 -
+2025-05-13 16:01:23,033 - __main__ - INFO - Accessing settings page
+2025-05-13 16:01:23,034 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:23] "GET /settings HTTP/1.1" 200 -
+2025-05-13 16:01:23,074 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:23] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:23,259 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:23] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:23,275 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:23] "GET /api/camera-settings HTTP/1.1" 200 -
+2025-05-13 16:01:28,216 - __main__ - INFO - Accessing monitoring page
+2025-05-13 16:01:28,218 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "GET /monitoring HTTP/1.1" 200 -
+2025-05-13 16:01:28,260 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:28,431 - engineio.server - INFO - ggixOS_L9Wh2Piw2AAAG: Sending packet OPEN data {'sid': 'ggixOS_L9Wh2Piw2AAAG', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-05-13 16:01:28,435 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "GET /socket.io/?EIO=4&transport=polling&t=PR8Sihh HTTP/1.1" 200 -
+2025-05-13 16:01:28,467 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "[33mGET /static/js/monitoring.js HTTP/1.1[0m" 404 -
+2025-05-13 16:01:28,488 - engineio.server - INFO - ggixOS_L9Wh2Piw2AAAG: Received packet MESSAGE data 0
+2025-05-13 16:01:28,491 - __main__ - INFO - Client connected
+2025-05-13 16:01:28,492 - socketio.server - INFO - emitting event "connect_response" to all [/]
+2025-05-13 16:01:28,494 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "GET /api/data/all HTTP/1.1" 200 -
+2025-05-13 16:01:28,496 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "GET /socket.io/?EIO=4&transport=polling&t=PR8SiiQ&sid=ggixOS_L9Wh2Piw2AAAG HTTP/1.1" 200 -
+2025-05-13 16:01:28,495 - engineio.server - INFO - ggixOS_L9Wh2Piw2AAAG: Received request to upgrade to websocket
+2025-05-13 16:01:28,496 - engineio.server - INFO - ggixOS_L9Wh2Piw2AAAG: Sending packet MESSAGE data 2["connect_response",{"data":"Connected successfully!"}]
+2025-05-13 16:01:28,511 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "GET /socket.io/?EIO=4&transport=polling&t=PR8Siiu&sid=ggixOS_L9Wh2Piw2AAAG HTTP/1.1" 200 -
+2025-05-13 16:01:28,507 - engineio.server - INFO - ggixOS_L9Wh2Piw2AAAG: Sending packet MESSAGE data 0{"sid":"JwYus-T7wmOiZwg0AAAH"}
+2025-05-13 16:01:28,513 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:28] "POST /socket.io/?EIO=4&transport=polling&t=PR8SiiP&sid=ggixOS_L9Wh2Piw2AAAG HTTP/1.1" 200 -
+2025-05-13 16:01:28,522 - engineio.server - INFO - ggixOS_L9Wh2Piw2AAAG: Upgrade to websocket successful
+2025-05-13 16:01:32,840 - __main__ - INFO - Client disconnected
+2025-05-13 16:01:32,841 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:01:32] "GET /socket.io/?EIO=4&transport=websocket&sid=ggixOS_L9Wh2Piw2AAAG HTTP/1.1" 200 -
+2025-05-13 16:02:10,689 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 16:02:10,709 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 16:02:10,727 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://17.12.89.3:5000
+2025-05-13 16:02:10,727 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 16:02:10,727 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 16:02:11,780 - engineio.server - INFO - Server initialized for threading.
+2025-05-13 16:02:11,811 - __main__ - INFO - Starting application on 0.0.0.0:5000
+2025-05-13 16:02:11,816 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 16:02:11,817 - werkzeug - INFO -  * Debugger PIN: 187-523-131
+2025-05-13 16:02:17,166 - __main__ - INFO - Accessing settings page
+2025-05-13 16:02:17,185 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:02:17] "GET /settings HTTP/1.1" 200 -
+2025-05-13 16:02:17,216 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:02:17] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2025-05-13 16:02:17,400 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:02:17] "[33mGET /static/js/settings.js HTTP/1.1[0m" 404 -
+2025-05-13 16:02:17,414 - werkzeug - INFO - 17.12.89.3 - - [13/May/2025 16:02:17] "GET /api/camera-settings HTTP/1.1" 200 -

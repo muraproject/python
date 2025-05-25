@@ -1,0 +1,1090 @@
+2025-05-25 10:16:47,651 - INFO -    Testing TCP: ffprobe -v quiet -rtsp_transport...
+2025-05-25 10:16:50,941 - ERROR - FFmpeg error: [rtsp @ 000001d5e1c29480] method SETUP failed: 500 Internal Server Error
+[in#0 @ 000001d5e1c1b700] Error opening input: Server returned 5XX Server Error reply
+Error opening input file rtsp://admin:VGOUNZ@103.122.66.243:8088/stream2.
+Error opening input files: Server returned 5XX Server Error reply
+
+2025-05-25 10:16:50,985 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.4:5003
+2025-05-25 10:16:50,985 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 10:16:57,060 - INFO - 127.0.0.1 - - [25/May/2025 10:16:57] "GET / HTTP/1.1" 200 -
+2025-05-25 10:16:57,149 - INFO - 127.0.0.1 - - [25/May/2025 10:16:57] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:16:57,149 - INFO - 127.0.0.1 - - [25/May/2025 10:16:57] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:16:57,155 - INFO - 127.0.0.1 - - [25/May/2025 10:16:57] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:16:59,167 - INFO - 127.0.0.1 - - [25/May/2025 10:16:59] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:16:59,168 - INFO - 127.0.0.1 - - [25/May/2025 10:16:59] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:16:59,172 - INFO - 127.0.0.1 - - [25/May/2025 10:16:59] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:01,405 - INFO - 127.0.0.1 - - [25/May/2025 10:17:01] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:01,409 - INFO - 127.0.0.1 - - [25/May/2025 10:17:01] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:01,415 - INFO - 127.0.0.1 - - [25/May/2025 10:17:01] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:03,416 - INFO - 127.0.0.1 - - [25/May/2025 10:17:03] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:03,420 - INFO - 127.0.0.1 - - [25/May/2025 10:17:03] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:03,425 - INFO - 127.0.0.1 - - [25/May/2025 10:17:03] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:05,159 - ERROR - Flask error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-05-25 10:17:05,161 - INFO - 127.0.0.1 - - [25/May/2025 10:17:05] "[35m[1mHEAD /hls/stream.m3u8 HTTP/1.1[0m" 500 -
+2025-05-25 10:17:09,111 - INFO - 127.0.0.1 - - [25/May/2025 10:17:09] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:09,111 - INFO - 127.0.0.1 - - [25/May/2025 10:17:09] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:09,113 - INFO - 127.0.0.1 - - [25/May/2025 10:17:09] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:11,353 - INFO - 127.0.0.1 - - [25/May/2025 10:17:11] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:11,355 - INFO - 127.0.0.1 - - [25/May/2025 10:17:11] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:11,358 - INFO - 127.0.0.1 - - [25/May/2025 10:17:11] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:13,536 - INFO - 127.0.0.1 - - [25/May/2025 10:17:13] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:13,536 - INFO - 127.0.0.1 - - [25/May/2025 10:17:13] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:13,538 - INFO - 127.0.0.1 - - [25/May/2025 10:17:13] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:15,539 - INFO - 127.0.0.1 - - [25/May/2025 10:17:15] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:15,540 - INFO - 127.0.0.1 - - [25/May/2025 10:17:15] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:15,543 - INFO - 127.0.0.1 - - [25/May/2025 10:17:15] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:17,555 - INFO - 127.0.0.1 - - [25/May/2025 10:17:17] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:17,557 - INFO - 127.0.0.1 - - [25/May/2025 10:17:17] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:17,561 - INFO - 127.0.0.1 - - [25/May/2025 10:17:17] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:19,582 - INFO - 127.0.0.1 - - [25/May/2025 10:17:19] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:19,586 - INFO - 127.0.0.1 - - [25/May/2025 10:17:19] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:19,594 - INFO - 127.0.0.1 - - [25/May/2025 10:17:19] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:21,612 - INFO - 127.0.0.1 - - [25/May/2025 10:17:21] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:21,615 - INFO - 127.0.0.1 - - [25/May/2025 10:17:21] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:21,620 - INFO - 127.0.0.1 - - [25/May/2025 10:17:21] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:23,630 - INFO - 127.0.0.1 - - [25/May/2025 10:17:23] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:23,631 - INFO - 127.0.0.1 - - [25/May/2025 10:17:23] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:23,635 - INFO - 127.0.0.1 - - [25/May/2025 10:17:23] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:25,646 - INFO - 127.0.0.1 - - [25/May/2025 10:17:25] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:25,649 - INFO - 127.0.0.1 - - [25/May/2025 10:17:25] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:25,657 - INFO - 127.0.0.1 - - [25/May/2025 10:17:25] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:27,668 - INFO - 127.0.0.1 - - [25/May/2025 10:17:27] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:27,672 - INFO - 127.0.0.1 - - [25/May/2025 10:17:27] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:27,677 - INFO - 127.0.0.1 - - [25/May/2025 10:17:27] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:29,554 - INFO - 127.0.0.1 - - [25/May/2025 10:17:29] "GET / HTTP/1.1" 200 -
+2025-05-25 10:17:29,648 - INFO - 127.0.0.1 - - [25/May/2025 10:17:29] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:29,649 - INFO - 127.0.0.1 - - [25/May/2025 10:17:29] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:29,650 - INFO - 127.0.0.1 - - [25/May/2025 10:17:29] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:31,637 - INFO - 127.0.0.1 - - [25/May/2025 10:17:31] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:31,640 - INFO - 127.0.0.1 - - [25/May/2025 10:17:31] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:31,643 - INFO - 127.0.0.1 - - [25/May/2025 10:17:31] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:34,490 - INFO - 127.0.0.1 - - [25/May/2025 10:17:34] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:34,490 - INFO - 127.0.0.1 - - [25/May/2025 10:17:34] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:34,492 - INFO - 127.0.0.1 - - [25/May/2025 10:17:34] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:36,530 - INFO - 127.0.0.1 - - [25/May/2025 10:17:36] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:17:36,532 - INFO - 127.0.0.1 - - [25/May/2025 10:17:36] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:17:36,542 - INFO - 127.0.0.1 - - [25/May/2025 10:17:36] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:17:37,630 - ERROR - Flask error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-05-25 10:17:37,631 - INFO - 127.0.0.1 - - [25/May/2025 10:17:37] "[35m[1mHEAD /hls/stream.m3u8 HTTP/1.1[0m" 500 -
+2025-05-25 10:19:44,670 - INFO -    Testing TCP: ffprobe -v quiet -rtsp_transport...
+2025-05-25 10:19:48,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.4:5003
+2025-05-25 10:19:48,015 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 10:19:50,999 - INFO - FFmpeg: Stream mapping:
+2025-05-25 10:20:00,516 - INFO - FFmpeg: elapsed=0:00:00.51 frame=   14 fps=0.0 q=24.0 size=N/A time=00:00:00.56 bitrate=N/A speed=1.08x
+2025-05-25 10:20:01,017 - INFO - FFmpeg: elapsed=0:00:01.03 frame=   27 fps= 26 q=24.0 size=N/A time=00:00:01.08 bitrate=N/A speed=1.05x
+2025-05-25 10:20:01,519 - INFO - FFmpeg: elapsed=0:00:01.54 frame=   34 fps= 22 q=23.0 size=N/A time=00:00:01.36 bitrate=N/A speed=0.882x
+2025-05-25 10:20:02,025 - INFO - FFmpeg: elapsed=0:00:02.07 frame=   53 fps= 26 q=23.0 size=N/A time=00:00:02.12 bitrate=N/A speed=1.02x
+2025-05-25 10:20:02,530 - INFO - FFmpeg: elapsed=0:00:02.58 frame=   67 fps= 26 q=23.0 size=N/A time=00:00:02.68 bitrate=N/A speed=1.04x
+2025-05-25 10:20:03,033 - INFO - FFmpeg: elapsed=0:00:03.10 frame=   79 fps= 25 q=23.0 size=N/A time=00:00:03.16 bitrate=N/A speed=1.02x
+2025-05-25 10:20:03,536 - INFO - FFmpeg: elapsed=0:00:03.61 frame=   80 fps= 22 q=23.0 size=N/A time=00:00:03.20 bitrate=N/A speed=0.885x
+2025-05-25 10:20:04,037 - INFO - FFmpeg: elapsed=0:00:04.12 frame=  105 fps= 25 q=23.0 size=N/A time=00:00:04.20 bitrate=N/A speed=1.02x
+2025-05-25 10:20:04,539 - INFO - FFmpeg: elapsed=0:00:04.63 frame=  117 fps= 25 q=23.0 size=N/A time=00:00:04.68 bitrate=N/A speed=1.01x
+2025-05-25 10:20:04,555 - INFO - 127.0.0.1 - - [25/May/2025 10:20:04] "GET / HTTP/1.1" 200 -
+2025-05-25 10:20:04,697 - INFO - 127.0.0.1 - - [25/May/2025 10:20:04] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:04,698 - INFO - 127.0.0.1 - - [25/May/2025 10:20:04] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:04,701 - INFO - 127.0.0.1 - - [25/May/2025 10:20:04] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:05,043 - INFO - FFmpeg: elapsed=0:00:05.15 frame=  129 fps= 25 q=23.0 size=N/A time=00:00:05.16 bitrate=N/A speed=   1x
+2025-05-25 10:20:05,545 - INFO - FFmpeg: elapsed=0:00:05.67 frame=  134 fps= 24 q=22.0 size=N/A time=00:00:05.36 bitrate=N/A speed=0.944x
+2025-05-25 10:20:06,046 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_000.ts' for writing
+2025-05-25 10:20:06,548 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:06,765 - INFO - 127.0.0.1 - - [25/May/2025 10:20:06] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:06,767 - INFO - 127.0.0.1 - - [25/May/2025 10:20:06] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:06,776 - INFO - 127.0.0.1 - - [25/May/2025 10:20:06] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:07,051 - INFO - FFmpeg: elapsed=0:00:06.19 frame=  156 fps= 25 q=22.0 size=N/A time=00:00:06.24 bitrate=N/A speed=1.01x
+2025-05-25 10:20:07,552 - INFO - FFmpeg: elapsed=0:00:06.70 frame=  169 fps= 25 q=23.0 size=N/A time=00:00:06.76 bitrate=N/A speed=1.01x
+2025-05-25 10:20:08,053 - INFO - FFmpeg: elapsed=0:00:07.21 frame=  179 fps= 25 q=23.0 size=N/A time=00:00:07.16 bitrate=N/A speed=0.992x
+2025-05-25 10:20:08,555 - INFO - FFmpeg: elapsed=0:00:07.73 frame=  194 fps= 25 q=27.0 size=N/A time=00:00:07.76 bitrate=N/A speed=   1x
+2025-05-25 10:20:08,788 - INFO - 127.0.0.1 - - [25/May/2025 10:20:08] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:08,789 - INFO - 127.0.0.1 - - [25/May/2025 10:20:08] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:08,791 - INFO - 127.0.0.1 - - [25/May/2025 10:20:08] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:09,056 - INFO - FFmpeg: elapsed=0:00:08.25 frame=  209 fps= 25 q=26.0 size=N/A time=00:00:08.36 bitrate=N/A speed=1.01x
+2025-05-25 10:20:09,558 - INFO - FFmpeg: elapsed=0:00:08.77 frame=  221 fps= 25 q=26.0 size=N/A time=00:00:08.84 bitrate=N/A speed=1.01x
+2025-05-25 10:20:10,060 - INFO - FFmpeg: elapsed=0:00:09.28 frame=  233 fps= 25 q=26.0 size=N/A time=00:00:09.32 bitrate=N/A speed=   1x
+2025-05-25 10:20:10,561 - INFO - FFmpeg: elapsed=0:00:09.79 frame=  247 fps= 25 q=26.0 size=N/A time=00:00:09.88 bitrate=N/A speed=1.01x
+2025-05-25 10:20:10,813 - INFO - 127.0.0.1 - - [25/May/2025 10:20:10] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:10,813 - INFO - 127.0.0.1 - - [25/May/2025 10:20:10] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:10,815 - INFO - 127.0.0.1 - - [25/May/2025 10:20:10] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:11,063 - INFO - FFmpeg: elapsed=0:00:10.30 frame=  259 fps= 25 q=26.0 size=N/A time=00:00:10.36 bitrate=N/A speed=1.01x
+2025-05-25 10:20:11,564 - INFO - FFmpeg: elapsed=0:00:10.83 frame=  272 fps= 25 q=25.0 size=N/A time=00:00:10.88 bitrate=N/A speed=   1x
+2025-05-25 10:20:12,064 - INFO - FFmpeg: elapsed=0:00:11.34 frame=  285 fps= 25 q=25.0 size=N/A time=00:00:11.40 bitrate=N/A speed=   1x
+2025-05-25 10:20:12,566 - INFO - FFmpeg: elapsed=0:00:11.86 frame=  299 fps= 25 q=25.0 size=N/A time=00:00:11.96 bitrate=N/A speed=1.01x
+2025-05-25 10:20:12,801 - INFO - 127.0.0.1 - - [25/May/2025 10:20:12] "HEAD /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:12,817 - INFO - 127.0.0.1 - - [25/May/2025 10:20:12] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:12,828 - INFO - 127.0.0.1 - - [25/May/2025 10:20:12] "GET /hls/seg_001.ts HTTP/1.1" 200 -
+2025-05-25 10:20:12,831 - INFO - 127.0.0.1 - - [25/May/2025 10:20:12] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:12,833 - INFO - 127.0.0.1 - - [25/May/2025 10:20:12] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:12,839 - INFO - 127.0.0.1 - - [25/May/2025 10:20:12] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:13,067 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_001.ts' for writing
+2025-05-25 10:20:13,189 - INFO - 127.0.0.1 - - [25/May/2025 10:20:13] "GET /hls/seg_002.ts HTTP/1.1" 200 -
+2025-05-25 10:20:13,433 - INFO - 127.0.0.1 - - [25/May/2025 10:20:13] "GET /hls/seg_003.ts HTTP/1.1" 200 -
+2025-05-25 10:20:13,568 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:14,069 - INFO - FFmpeg: elapsed=0:00:12.37 frame=  311 fps= 25 q=25.0 size=N/A time=00:00:12.44 bitrate=N/A speed=   1x
+2025-05-25 10:20:14,570 - INFO - FFmpeg: elapsed=0:00:12.89 frame=  324 fps= 25 q=25.0 size=N/A time=00:00:12.96 bitrate=N/A speed=1.01x
+2025-05-25 10:20:14,888 - INFO - 127.0.0.1 - - [25/May/2025 10:20:14] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:14,929 - INFO - 127.0.0.1 - - [25/May/2025 10:20:14] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:14,938 - INFO - 127.0.0.1 - - [25/May/2025 10:20:14] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:15,073 - INFO - FFmpeg: elapsed=0:00:13.40 frame=  337 fps= 25 q=25.0 size=N/A time=00:00:13.48 bitrate=N/A speed=1.01x
+2025-05-25 10:20:15,574 - INFO - FFmpeg: elapsed=0:00:13.92 frame=  350 fps= 25 q=25.0 size=N/A time=00:00:14.00 bitrate=N/A speed=1.01x
+2025-05-25 10:20:16,075 - INFO - FFmpeg: elapsed=0:00:14.44 frame=  363 fps= 25 q=26.0 size=N/A time=00:00:14.52 bitrate=N/A speed=1.01x
+2025-05-25 10:20:16,577 - INFO - FFmpeg: elapsed=0:00:14.95 frame=  375 fps= 25 q=25.0 size=N/A time=00:00:15.00 bitrate=N/A speed=   1x
+2025-05-25 10:20:16,851 - INFO - 127.0.0.1 - - [25/May/2025 10:20:16] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:16,851 - INFO - 127.0.0.1 - - [25/May/2025 10:20:16] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:16,854 - INFO - 127.0.0.1 - - [25/May/2025 10:20:16] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:17,079 - INFO - FFmpeg: elapsed=0:00:15.47 frame=  387 fps= 25 q=24.0 size=N/A time=00:00:15.48 bitrate=N/A speed=   1x
+2025-05-25 10:20:17,581 - INFO - FFmpeg: elapsed=0:00:15.98 frame=  402 fps= 25 q=26.0 size=N/A time=00:00:16.08 bitrate=N/A speed=1.01x
+2025-05-25 10:20:18,083 - INFO - FFmpeg: elapsed=0:00:16.49 frame=  414 fps= 25 q=26.0 size=N/A time=00:00:16.56 bitrate=N/A speed=   1x
+2025-05-25 10:20:18,585 - INFO - FFmpeg: elapsed=0:00:17.01 frame=  426 fps= 25 q=25.0 size=N/A time=00:00:17.04 bitrate=N/A speed=   1x
+2025-05-25 10:20:18,855 - INFO - 127.0.0.1 - - [25/May/2025 10:20:18] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:18,858 - INFO - 127.0.0.1 - - [25/May/2025 10:20:18] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:18,862 - INFO - 127.0.0.1 - - [25/May/2025 10:20:18] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:19,090 - INFO - FFmpeg: elapsed=0:00:17.52 frame=  440 fps= 25 q=23.0 size=N/A time=00:00:17.60 bitrate=N/A speed=   1x
+2025-05-25 10:20:19,591 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_002.ts' for writing
+2025-05-25 10:20:20,092 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:20,593 - INFO - FFmpeg: elapsed=0:00:18.05 frame=  453 fps= 25 q=26.0 size=N/A time=00:00:18.12 bitrate=N/A speed=   1x
+2025-05-25 10:20:20,861 - INFO - 127.0.0.1 - - [25/May/2025 10:20:20] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:20,861 - INFO - 127.0.0.1 - - [25/May/2025 10:20:20] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:20,865 - INFO - 127.0.0.1 - - [25/May/2025 10:20:20] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:21,094 - INFO - FFmpeg: elapsed=0:00:18.56 frame=  465 fps= 25 q=26.0 size=N/A time=00:00:18.60 bitrate=N/A speed=   1x
+2025-05-25 10:20:21,595 - INFO - FFmpeg: elapsed=0:00:19.08 frame=  479 fps= 25 q=25.0 size=N/A time=00:00:19.16 bitrate=N/A speed=   1x
+2025-05-25 10:20:22,106 - INFO - FFmpeg: elapsed=0:00:19.59 frame=  491 fps= 25 q=32.0 size=N/A time=00:00:19.64 bitrate=N/A speed=   1x
+2025-05-25 10:20:22,607 - INFO - FFmpeg: elapsed=0:00:20.11 frame=  504 fps= 25 q=24.0 size=N/A time=00:00:20.16 bitrate=N/A speed=   1x
+2025-05-25 10:20:22,863 - INFO - 127.0.0.1 - - [25/May/2025 10:20:22] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:22,864 - INFO - 127.0.0.1 - - [25/May/2025 10:20:22] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:22,871 - INFO - 127.0.0.1 - - [25/May/2025 10:20:22] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:23,109 - INFO - FFmpeg: elapsed=0:00:20.62 frame=  518 fps= 25 q=23.0 size=N/A time=00:00:20.72 bitrate=N/A speed=   1x
+2025-05-25 10:20:23,610 - INFO - FFmpeg: elapsed=0:00:21.13 frame=  529 fps= 25 q=23.0 size=N/A time=00:00:21.16 bitrate=N/A speed=   1x
+2025-05-25 10:20:24,111 - INFO - FFmpeg: elapsed=0:00:21.65 frame=  543 fps= 25 q=28.0 size=N/A time=00:00:21.72 bitrate=N/A speed=   1x
+2025-05-25 10:20:24,612 - INFO - FFmpeg: elapsed=0:00:22.18 frame=  556 fps= 25 q=23.0 size=N/A time=00:00:22.24 bitrate=N/A speed=   1x
+2025-05-25 10:20:24,819 - INFO - 127.0.0.1 - - [25/May/2025 10:20:24] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:24,830 - INFO - 127.0.0.1 - - [25/May/2025 10:20:24] "GET /hls/seg_004.ts HTTP/1.1" 200 -
+2025-05-25 10:20:24,877 - INFO - 127.0.0.1 - - [25/May/2025 10:20:24] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:24,882 - INFO - 127.0.0.1 - - [25/May/2025 10:20:24] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:24,887 - INFO - 127.0.0.1 - - [25/May/2025 10:20:24] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:25,114 - INFO - FFmpeg: elapsed=0:00:22.69 frame=  569 fps= 25 q=23.0 size=N/A time=00:00:22.76 bitrate=N/A speed=   1x
+2025-05-25 10:20:25,124 - INFO - 127.0.0.1 - - [25/May/2025 10:20:25] "GET /hls/seg_005.ts HTTP/1.1" 200 -
+2025-05-25 10:20:25,614 - INFO - FFmpeg: elapsed=0:00:23.20 frame=  579 fps= 25 q=26.0 size=N/A time=00:00:23.16 bitrate=N/A speed=0.998x
+2025-05-25 10:20:26,116 - INFO - FFmpeg: elapsed=0:00:23.72 frame=  594 fps= 25 q=28.0 size=N/A time=00:00:23.76 bitrate=N/A speed=   1x
+2025-05-25 10:20:26,617 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_003.ts' for writing
+2025-05-25 10:20:26,884 - INFO - 127.0.0.1 - - [25/May/2025 10:20:26] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:26,885 - INFO - 127.0.0.1 - - [25/May/2025 10:20:26] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:26,888 - INFO - 127.0.0.1 - - [25/May/2025 10:20:26] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:27,119 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:27,620 - INFO - FFmpeg: elapsed=0:00:24.24 frame=  608 fps= 25 q=25.0 size=N/A time=00:00:24.32 bitrate=N/A speed=   1x
+2025-05-25 10:20:28,121 - INFO - FFmpeg: elapsed=0:00:24.75 frame=  621 fps= 25 q=25.0 size=N/A time=00:00:24.84 bitrate=N/A speed=   1x
+2025-05-25 10:20:28,623 - INFO - FFmpeg: elapsed=0:00:25.27 frame=  632 fps= 25 q=26.0 size=N/A time=00:00:25.28 bitrate=N/A speed=   1x
+2025-05-25 10:20:28,875 - INFO - 127.0.0.1 - - [25/May/2025 10:20:28] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:28,876 - INFO - 127.0.0.1 - - [25/May/2025 10:20:28] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:28,880 - INFO - 127.0.0.1 - - [25/May/2025 10:20:28] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:29,125 - INFO - FFmpeg: elapsed=0:00:25.78 frame=  646 fps= 25 q=27.0 size=N/A time=00:00:25.84 bitrate=N/A speed=   1x
+2025-05-25 10:20:29,626 - INFO - FFmpeg: elapsed=0:00:26.30 frame=  660 fps= 25 q=24.0 size=N/A time=00:00:26.40 bitrate=N/A speed=   1x
+2025-05-25 10:20:30,129 - INFO - FFmpeg: elapsed=0:00:26.81 frame=  672 fps= 25 q=24.0 size=N/A time=00:00:26.88 bitrate=N/A speed=   1x
+2025-05-25 10:20:30,630 - INFO - FFmpeg: elapsed=0:00:27.32 frame=  685 fps= 25 q=23.0 size=N/A time=00:00:27.28 bitrate=N/A speed=0.998x
+2025-05-25 10:20:30,819 - INFO - 127.0.0.1 - - [25/May/2025 10:20:30] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:30,827 - INFO - 127.0.0.1 - - [25/May/2025 10:20:30] "GET /hls/seg_006.ts HTTP/1.1" 200 -
+2025-05-25 10:20:30,911 - INFO - 127.0.0.1 - - [25/May/2025 10:20:30] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:30,912 - INFO - 127.0.0.1 - - [25/May/2025 10:20:30] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:30,916 - INFO - 127.0.0.1 - - [25/May/2025 10:20:30] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:31,133 - INFO - FFmpeg: elapsed=0:00:27.87 frame=  699 fps= 25 q=26.0 size=N/A time=00:00:27.96 bitrate=N/A speed=   1x
+2025-05-25 10:20:31,634 - INFO - FFmpeg: elapsed=0:00:28.38 frame=  712 fps= 25 q=25.0 size=N/A time=00:00:28.48 bitrate=N/A speed=   1x
+2025-05-25 10:20:32,136 - INFO - FFmpeg: elapsed=0:00:28.90 frame=  724 fps= 25 q=24.0 size=N/A time=00:00:28.96 bitrate=N/A speed=   1x
+2025-05-25 10:20:32,640 - INFO - FFmpeg: elapsed=0:00:29.41 frame=  737 fps= 25 q=25.0 size=N/A time=00:00:29.48 bitrate=N/A speed=   1x
+2025-05-25 10:20:32,894 - INFO - 127.0.0.1 - - [25/May/2025 10:20:32] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:32,894 - INFO - 127.0.0.1 - - [25/May/2025 10:20:32] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:32,898 - INFO - 127.0.0.1 - - [25/May/2025 10:20:32] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:33,141 - INFO - FFmpeg: elapsed=0:00:29.93 frame=  750 fps= 25 q=25.0 size=N/A time=00:00:30.00 bitrate=N/A speed=   1x
+2025-05-25 10:20:33,642 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_004.ts' for writing
+2025-05-25 10:20:34,143 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:34,644 - INFO - FFmpeg: elapsed=0:00:30.46 frame=  763 fps= 25 q=24.0 size=N/A time=00:00:30.52 bitrate=N/A speed=   1x
+2025-05-25 10:20:34,899 - INFO - 127.0.0.1 - - [25/May/2025 10:20:34] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:34,901 - INFO - 127.0.0.1 - - [25/May/2025 10:20:34] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:34,904 - INFO - 127.0.0.1 - - [25/May/2025 10:20:34] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:35,145 - INFO - FFmpeg: elapsed=0:00:30.97 frame=  776 fps= 25 q=23.0 size=N/A time=00:00:31.04 bitrate=N/A speed=   1x
+2025-05-25 10:20:35,646 - INFO - FFmpeg: elapsed=0:00:31.48 frame=  789 fps= 25 q=24.0 size=N/A time=00:00:31.56 bitrate=N/A speed=   1x
+2025-05-25 10:20:36,148 - INFO - FFmpeg: elapsed=0:00:32.00 frame=  801 fps= 25 q=25.0 size=N/A time=00:00:32.04 bitrate=N/A speed=   1x
+2025-05-25 10:20:36,650 - INFO - FFmpeg: elapsed=0:00:32.52 frame=  815 fps= 25 q=24.0 size=N/A time=00:00:32.60 bitrate=N/A speed=   1x
+2025-05-25 10:20:36,829 - INFO - 127.0.0.1 - - [25/May/2025 10:20:36] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:36,840 - INFO - 127.0.0.1 - - [25/May/2025 10:20:36] "GET /hls/seg_007.ts HTTP/1.1" 200 -
+2025-05-25 10:20:37,005 - INFO - 127.0.0.1 - - [25/May/2025 10:20:37] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:37,015 - INFO - 127.0.0.1 - - [25/May/2025 10:20:37] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:37,019 - INFO - 127.0.0.1 - - [25/May/2025 10:20:37] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:37,151 - INFO - FFmpeg: elapsed=0:00:33.03 frame=  828 fps= 25 q=23.0 size=N/A time=00:00:33.12 bitrate=N/A speed=   1x
+2025-05-25 10:20:37,653 - INFO - FFmpeg: elapsed=0:00:33.55 frame=  840 fps= 25 q=21.0 size=N/A time=00:00:33.60 bitrate=N/A speed=   1x
+2025-05-25 10:20:38,154 - INFO - FFmpeg: elapsed=0:00:34.06 frame=  853 fps= 25 q=22.0 size=N/A time=00:00:34.12 bitrate=N/A speed=   1x
+2025-05-25 10:20:38,655 - INFO - FFmpeg: elapsed=0:00:34.57 frame=  866 fps= 25 q=22.0 size=N/A time=00:00:34.64 bitrate=N/A speed=   1x
+2025-05-25 10:20:38,918 - INFO - 127.0.0.1 - - [25/May/2025 10:20:38] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:38,920 - INFO - 127.0.0.1 - - [25/May/2025 10:20:38] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:38,922 - INFO - 127.0.0.1 - - [25/May/2025 10:20:38] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:39,159 - INFO - FFmpeg: elapsed=0:00:35.09 frame=  878 fps= 25 q=22.0 size=N/A time=00:00:35.12 bitrate=N/A speed=   1x
+2025-05-25 10:20:39,660 - INFO - FFmpeg: elapsed=0:00:35.61 frame=  893 fps= 25 q=28.0 size=N/A time=00:00:35.72 bitrate=N/A speed=   1x
+2025-05-25 10:20:40,162 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_005.ts' for writing
+2025-05-25 10:20:40,664 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:40,925 - INFO - 127.0.0.1 - - [25/May/2025 10:20:40] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:40,925 - INFO - 127.0.0.1 - - [25/May/2025 10:20:40] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:40,928 - INFO - 127.0.0.1 - - [25/May/2025 10:20:40] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:41,165 - INFO - FFmpeg: elapsed=0:00:36.12 frame=  905 fps= 25 q=23.0 size=N/A time=00:00:36.20 bitrate=N/A speed=   1x
+2025-05-25 10:20:41,666 - INFO - FFmpeg: elapsed=0:00:36.64 frame=  917 fps= 25 q=23.0 size=N/A time=00:00:36.68 bitrate=N/A speed=   1x
+2025-05-25 10:20:42,167 - INFO - FFmpeg: elapsed=0:00:37.15 frame=  929 fps= 25 q=26.0 size=N/A time=00:00:37.16 bitrate=N/A speed=   1x
+2025-05-25 10:20:42,668 - INFO - FFmpeg: elapsed=0:00:37.68 frame=  943 fps= 25 q=30.0 size=N/A time=00:00:37.72 bitrate=N/A speed=   1x
+2025-05-25 10:20:42,821 - INFO - 127.0.0.1 - - [25/May/2025 10:20:42] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:42,831 - INFO - 127.0.0.1 - - [25/May/2025 10:20:42] "GET /hls/seg_008.ts HTTP/1.1" 200 -
+2025-05-25 10:20:42,933 - INFO - 127.0.0.1 - - [25/May/2025 10:20:42] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:42,933 - INFO - 127.0.0.1 - - [25/May/2025 10:20:42] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:42,937 - INFO - 127.0.0.1 - - [25/May/2025 10:20:42] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:43,169 - INFO - FFmpeg: elapsed=0:00:38.19 frame=  956 fps= 25 q=25.0 size=N/A time=00:00:38.24 bitrate=N/A speed=   1x
+2025-05-25 10:20:43,669 - INFO - FFmpeg: elapsed=0:00:38.70 frame=  970 fps= 25 q=23.0 size=N/A time=00:00:38.80 bitrate=N/A speed=   1x
+2025-05-25 10:20:44,171 - INFO - FFmpeg: elapsed=0:00:39.22 frame=  979 fps= 25 q=23.0 size=N/A time=00:00:39.16 bitrate=N/A speed=0.998x
+2025-05-25 10:20:44,672 - INFO - FFmpeg: elapsed=0:00:39.73 frame=  995 fps= 25 q=25.0 size=N/A time=00:00:39.80 bitrate=N/A speed=   1x
+2025-05-25 10:20:44,954 - INFO - 127.0.0.1 - - [25/May/2025 10:20:44] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:44,955 - INFO - 127.0.0.1 - - [25/May/2025 10:20:44] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:44,959 - INFO - 127.0.0.1 - - [25/May/2025 10:20:44] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:45,174 - INFO - FFmpeg: elapsed=0:00:40.24 frame= 1008 fps= 25 q=23.0 size=N/A time=00:00:40.32 bitrate=N/A speed=   1x
+2025-05-25 10:20:45,675 - INFO - FFmpeg: elapsed=0:00:40.76 frame= 1020 fps= 25 q=24.0 size=N/A time=00:00:40.80 bitrate=N/A speed=   1x
+2025-05-25 10:20:46,177 - INFO - FFmpeg: elapsed=0:00:41.28 frame= 1029 fps= 25 q=24.0 size=N/A time=00:00:41.16 bitrate=N/A speed=0.997x
+2025-05-25 10:20:46,678 - INFO - FFmpeg: elapsed=0:00:41.80 frame= 1047 fps= 25 q=23.0 size=N/A time=00:00:41.88 bitrate=N/A speed=   1x
+2025-05-25 10:20:46,962 - INFO - 127.0.0.1 - - [25/May/2025 10:20:46] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:46,964 - INFO - 127.0.0.1 - - [25/May/2025 10:20:46] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:46,969 - INFO - 127.0.0.1 - - [25/May/2025 10:20:46] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:47,179 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_006.ts' for writing
+2025-05-25 10:20:47,680 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:48,181 - INFO - FFmpeg: elapsed=0:00:42.31 frame= 1059 fps= 25 q=22.0 size=N/A time=00:00:42.36 bitrate=N/A speed=   1x
+2025-05-25 10:20:48,684 - INFO - FFmpeg: elapsed=0:00:42.82 frame= 1071 fps= 25 q=23.0 size=N/A time=00:00:42.84 bitrate=N/A speed=   1x
+2025-05-25 10:20:48,837 - INFO - 127.0.0.1 - - [25/May/2025 10:20:48] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:48,860 - INFO - 127.0.0.1 - - [25/May/2025 10:20:48] "GET /hls/seg_009.ts HTTP/1.1" 200 -
+2025-05-25 10:20:49,040 - INFO - 127.0.0.1 - - [25/May/2025 10:20:49] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:49,095 - INFO - 127.0.0.1 - - [25/May/2025 10:20:49] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:49,114 - INFO - 127.0.0.1 - - [25/May/2025 10:20:49] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:49,186 - INFO - FFmpeg: elapsed=0:00:43.33 frame= 1079 fps= 25 q=27.0 size=N/A time=00:00:43.16 bitrate=N/A speed=0.996x
+2025-05-25 10:20:49,284 - INFO - 127.0.0.1 - - [25/May/2025 10:20:49] "GET / HTTP/1.1" 200 -
+2025-05-25 10:20:49,412 - INFO - 127.0.0.1 - - [25/May/2025 10:20:49] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:49,414 - INFO - 127.0.0.1 - - [25/May/2025 10:20:49] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:49,422 - INFO - 127.0.0.1 - - [25/May/2025 10:20:49] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:49,687 - INFO - FFmpeg: elapsed=0:00:43.85 frame= 1098 fps= 25 q=25.0 size=N/A time=00:00:43.92 bitrate=N/A speed=   1x
+2025-05-25 10:20:50,188 - INFO - FFmpeg: elapsed=0:00:44.38 frame= 1111 fps= 25 q=23.0 size=N/A time=00:00:44.44 bitrate=N/A speed=   1x
+2025-05-25 10:20:50,690 - INFO - FFmpeg: elapsed=0:00:44.89 frame= 1124 fps= 25 q=22.0 size=N/A time=00:00:44.96 bitrate=N/A speed=   1x
+2025-05-25 10:20:51,192 - INFO - FFmpeg: elapsed=0:00:45.41 frame= 1137 fps= 25 q=22.0 size=N/A time=00:00:45.48 bitrate=N/A speed=   1x
+2025-05-25 10:20:51,237 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "HEAD /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:51,253 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "[36mGET /hls/stream.m3u8 HTTP/1.1[0m" 304 -
+2025-05-25 10:20:51,266 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "[36mGET /hls/seg_007.ts HTTP/1.1[0m" 304 -
+2025-05-25 10:20:51,416 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:51,416 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:51,419 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:51,503 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "[36mGET /hls/seg_008.ts HTTP/1.1[0m" 304 -
+2025-05-25 10:20:51,668 - INFO - 127.0.0.1 - - [25/May/2025 10:20:51] "[36mGET /hls/seg_009.ts HTTP/1.1[0m" 304 -
+2025-05-25 10:20:51,695 - INFO - FFmpeg: elapsed=0:00:45.92 frame= 1150 fps= 25 q=22.0 size=N/A time=00:00:46.00 bitrate=N/A speed=   1x
+2025-05-25 10:20:52,201 - INFO - FFmpeg: elapsed=0:00:46.44 frame= 1162 fps= 25 q=22.0 size=N/A time=00:00:46.48 bitrate=N/A speed=   1x
+2025-05-25 10:20:52,703 - INFO - FFmpeg: elapsed=0:00:46.95 frame= 1176 fps= 25 q=22.0 size=N/A time=00:00:47.04 bitrate=N/A speed=   1x
+2025-05-25 10:20:53,205 - INFO - FFmpeg: elapsed=0:00:47.46 frame= 1180 fps= 25 q=22.0 size=N/A time=00:00:47.20 bitrate=N/A speed=0.994x
+2025-05-25 10:20:53,423 - INFO - 127.0.0.1 - - [25/May/2025 10:20:53] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:53,424 - INFO - 127.0.0.1 - - [25/May/2025 10:20:53] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:53,426 - INFO - 127.0.0.1 - - [25/May/2025 10:20:53] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:53,709 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_007.ts' for writing
+2025-05-25 10:20:54,211 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:20:54,713 - INFO - FFmpeg: elapsed=0:00:47.98 frame= 1201 fps= 25 q=22.0 size=N/A time=00:00:48.04 bitrate=N/A speed=   1x
+2025-05-25 10:20:55,214 - INFO - FFmpeg: elapsed=0:00:48.50 frame= 1214 fps= 25 q=22.0 size=N/A time=00:00:48.56 bitrate=N/A speed=   1x
+2025-05-25 10:20:55,438 - INFO - 127.0.0.1 - - [25/May/2025 10:20:55] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:55,440 - INFO - 127.0.0.1 - - [25/May/2025 10:20:55] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:55,444 - INFO - 127.0.0.1 - - [25/May/2025 10:20:55] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:55,715 - INFO - FFmpeg: elapsed=0:00:49.02 frame= 1228 fps= 25 q=22.0 size=N/A time=00:00:49.12 bitrate=N/A speed=   1x
+2025-05-25 10:20:56,217 - INFO - FFmpeg: elapsed=0:00:49.53 frame= 1234 fps= 25 q=22.0 size=N/A time=00:00:49.36 bitrate=N/A speed=0.996x
+2025-05-25 10:20:56,719 - INFO - FFmpeg: elapsed=0:00:50.04 frame= 1253 fps= 25 q=22.0 size=N/A time=00:00:50.12 bitrate=N/A speed=   1x
+2025-05-25 10:20:57,220 - INFO - FFmpeg: elapsed=0:00:50.56 frame= 1266 fps= 25 q=22.0 size=N/A time=00:00:50.64 bitrate=N/A speed=   1x
+2025-05-25 10:20:57,417 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "HEAD /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:57,430 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:20:57,444 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "[36mGET /hls/seg_008.ts HTTP/1.1[0m" 304 -
+2025-05-25 10:20:57,448 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:57,450 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:57,456 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:57,682 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "[36mGET /hls/seg_009.ts HTTP/1.1[0m" 304 -
+2025-05-25 10:20:57,722 - INFO - FFmpeg: elapsed=0:00:51.07 frame= 1279 fps= 25 q=22.0 size=N/A time=00:00:51.16 bitrate=N/A speed=   1x
+2025-05-25 10:20:57,860 - INFO - 127.0.0.1 - - [25/May/2025 10:20:57] "GET /hls/seg_010.ts HTTP/1.1" 200 -
+2025-05-25 10:20:58,224 - INFO - FFmpeg: elapsed=0:00:51.58 frame= 1290 fps= 25 q=19.0 size=N/A time=00:00:51.60 bitrate=N/A speed=   1x
+2025-05-25 10:20:58,726 - INFO - FFmpeg: elapsed=0:00:52.10 frame= 1305 fps= 25 q=22.0 size=N/A time=00:00:52.20 bitrate=N/A speed=   1x
+2025-05-25 10:20:59,228 - INFO - FFmpeg: elapsed=0:00:52.62 frame= 1317 fps= 25 q=22.0 size=N/A time=00:00:52.68 bitrate=N/A speed=   1x
+2025-05-25 10:20:59,463 - INFO - 127.0.0.1 - - [25/May/2025 10:20:59] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:20:59,464 - INFO - 127.0.0.1 - - [25/May/2025 10:20:59] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:20:59,466 - INFO - 127.0.0.1 - - [25/May/2025 10:20:59] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:20:59,729 - INFO - FFmpeg: elapsed=0:00:53.14 frame= 1329 fps= 25 q=27.0 size=N/A time=00:00:53.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:00,230 - INFO - FFmpeg: elapsed=0:00:53.66 frame= 1344 fps= 25 q=28.0 size=N/A time=00:00:53.76 bitrate=N/A speed=   1x
+2025-05-25 10:21:00,732 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_008.ts' for writing
+2025-05-25 10:21:01,234 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:01,474 - INFO - 127.0.0.1 - - [25/May/2025 10:21:01] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:01,476 - INFO - 127.0.0.1 - - [25/May/2025 10:21:01] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:01,482 - INFO - 127.0.0.1 - - [25/May/2025 10:21:01] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:01,735 - INFO - FFmpeg: elapsed=0:00:54.17 frame= 1356 fps= 25 q=25.0 size=N/A time=00:00:54.24 bitrate=N/A speed=   1x
+2025-05-25 10:21:02,237 - INFO - FFmpeg: elapsed=0:00:54.68 frame= 1368 fps= 25 q=24.0 size=N/A time=00:00:54.72 bitrate=N/A speed=   1x
+2025-05-25 10:21:02,739 - INFO - FFmpeg: elapsed=0:00:55.20 frame= 1379 fps= 25 q=24.0 size=N/A time=00:00:55.16 bitrate=N/A speed=0.999x
+2025-05-25 10:21:03,241 - INFO - FFmpeg: elapsed=0:00:55.71 frame= 1394 fps= 25 q=28.0 size=N/A time=00:00:55.76 bitrate=N/A speed=   1x
+2025-05-25 10:21:03,484 - INFO - 127.0.0.1 - - [25/May/2025 10:21:03] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:03,484 - INFO - 127.0.0.1 - - [25/May/2025 10:21:03] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:03,487 - INFO - 127.0.0.1 - - [25/May/2025 10:21:03] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:03,742 - INFO - FFmpeg: elapsed=0:00:56.23 frame= 1408 fps= 25 q=25.0 size=N/A time=00:00:56.32 bitrate=N/A speed=   1x
+2025-05-25 10:21:04,244 - INFO - FFmpeg: elapsed=0:00:56.76 frame= 1421 fps= 25 q=26.0 size=N/A time=00:00:56.84 bitrate=N/A speed=   1x
+2025-05-25 10:21:04,747 - INFO - FFmpeg: elapsed=0:00:57.27 frame= 1429 fps= 25 q=24.0 size=N/A time=00:00:57.16 bitrate=N/A speed=0.998x
+2025-05-25 10:21:05,248 - INFO - FFmpeg: elapsed=0:00:57.78 frame= 1445 fps= 25 q=27.0 size=N/A time=00:00:57.80 bitrate=N/A speed=   1x
+2025-05-25 10:21:05,487 - INFO - 127.0.0.1 - - [25/May/2025 10:21:05] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:05,487 - INFO - 127.0.0.1 - - [25/May/2025 10:21:05] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:05,489 - INFO - 127.0.0.1 - - [25/May/2025 10:21:05] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:05,749 - INFO - FFmpeg: elapsed=0:00:58.29 frame= 1460 fps= 25 q=25.0 size=N/A time=00:00:58.40 bitrate=N/A speed=   1x
+2025-05-25 10:21:06,250 - INFO - FFmpeg: elapsed=0:00:58.81 frame= 1472 fps= 25 q=23.0 size=N/A time=00:00:58.88 bitrate=N/A speed=   1x
+2025-05-25 10:21:06,751 - INFO - FFmpeg: elapsed=0:00:59.32 frame= 1479 fps= 25 q=23.0 size=N/A time=00:00:59.16 bitrate=N/A speed=0.997x
+2025-05-25 10:21:07,253 - INFO - FFmpeg: elapsed=0:00:59.83 frame= 1498 fps= 25 q=24.0 size=N/A time=00:00:59.92 bitrate=N/A speed=   1x
+2025-05-25 10:21:07,496 - INFO - 127.0.0.1 - - [25/May/2025 10:21:07] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:07,498 - INFO - 127.0.0.1 - - [25/May/2025 10:21:07] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:07,502 - INFO - 127.0.0.1 - - [25/May/2025 10:21:07] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:07,754 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_009.ts' for writing
+2025-05-25 10:21:08,256 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:08,759 - INFO - FFmpeg: elapsed=0:01:00.35 frame= 1511 fps= 25 q=23.0 size=N/A time=00:01:00.44 bitrate=N/A speed=   1x
+2025-05-25 10:21:09,276 - INFO - FFmpeg: elapsed=0:01:00.88 frame= 1523 fps= 25 q=23.0 size=N/A time=00:01:00.92 bitrate=N/A speed=   1x
+2025-05-25 10:21:09,441 - INFO - 127.0.0.1 - - [25/May/2025 10:21:09] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:09,451 - INFO - 127.0.0.1 - - [25/May/2025 10:21:09] "GET /hls/seg_011.ts HTTP/1.1" 200 -
+2025-05-25 10:21:09,527 - INFO - 127.0.0.1 - - [25/May/2025 10:21:09] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:09,528 - INFO - 127.0.0.1 - - [25/May/2025 10:21:09] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:09,559 - INFO - 127.0.0.1 - - [25/May/2025 10:21:09] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:09,778 - INFO - FFmpeg: elapsed=0:01:01.39 frame= 1529 fps= 25 q=23.0 size=N/A time=00:01:01.16 bitrate=N/A speed=0.996x
+2025-05-25 10:21:09,810 - INFO - 127.0.0.1 - - [25/May/2025 10:21:09] "GET /hls/seg_012.ts HTTP/1.1" 200 -
+2025-05-25 10:21:10,280 - INFO - FFmpeg: elapsed=0:01:01.90 frame= 1549 fps= 25 q=23.0 size=N/A time=00:01:01.96 bitrate=N/A speed=   1x
+2025-05-25 10:21:10,782 - INFO - FFmpeg: elapsed=0:01:02.42 frame= 1562 fps= 25 q=23.0 size=N/A time=00:01:02.48 bitrate=N/A speed=   1x
+2025-05-25 10:21:11,283 - INFO - FFmpeg: elapsed=0:01:02.94 frame= 1575 fps= 25 q=23.0 size=N/A time=00:01:03.00 bitrate=N/A speed=   1x
+2025-05-25 10:21:11,509 - INFO - 127.0.0.1 - - [25/May/2025 10:21:11] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:11,509 - INFO - 127.0.0.1 - - [25/May/2025 10:21:11] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:11,514 - INFO - 127.0.0.1 - - [25/May/2025 10:21:11] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:11,784 - INFO - FFmpeg: elapsed=0:01:03.45 frame= 1583 fps= 25 q=23.0 size=N/A time=00:01:03.32 bitrate=N/A speed=0.998x
+2025-05-25 10:21:12,285 - INFO - FFmpeg: elapsed=0:01:03.96 frame= 1600 fps= 25 q=23.0 size=N/A time=00:01:04.00 bitrate=N/A speed=   1x
+2025-05-25 10:21:12,787 - INFO - FFmpeg: elapsed=0:01:04.48 frame= 1613 fps= 25 q=23.0 size=N/A time=00:01:04.52 bitrate=N/A speed=   1x
+2025-05-25 10:21:13,288 - INFO - FFmpeg: elapsed=0:01:05.00 frame= 1627 fps= 25 q=23.0 size=N/A time=00:01:05.08 bitrate=N/A speed=   1x
+2025-05-25 10:21:13,536 - INFO - 127.0.0.1 - - [25/May/2025 10:21:13] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:13,540 - INFO - 127.0.0.1 - - [25/May/2025 10:21:13] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:13,543 - INFO - 127.0.0.1 - - [25/May/2025 10:21:13] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:13,790 - INFO - FFmpeg: elapsed=0:01:05.52 frame= 1639 fps= 25 q=23.0 size=N/A time=00:01:05.56 bitrate=N/A speed=   1x
+2025-05-25 10:21:14,291 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_010.ts' for writing
+2025-05-25 10:21:14,793 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:15,294 - INFO - FFmpeg: elapsed=0:01:06.04 frame= 1653 fps= 25 q=23.0 size=N/A time=00:01:06.12 bitrate=N/A speed=   1x
+2025-05-25 10:21:15,443 - INFO - 127.0.0.1 - - [25/May/2025 10:21:15] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:15,452 - INFO - 127.0.0.1 - - [25/May/2025 10:21:15] "GET /hls/seg_013.ts HTTP/1.1" 200 -
+2025-05-25 10:21:15,548 - INFO - 127.0.0.1 - - [25/May/2025 10:21:15] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:15,553 - INFO - 127.0.0.1 - - [25/May/2025 10:21:15] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:15,558 - INFO - 127.0.0.1 - - [25/May/2025 10:21:15] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:15,796 - INFO - FFmpeg: elapsed=0:01:06.55 frame= 1665 fps= 25 q=27.0 size=N/A time=00:01:06.60 bitrate=N/A speed=   1x
+2025-05-25 10:21:16,298 - INFO - FFmpeg: elapsed=0:01:07.06 frame= 1678 fps= 25 q=26.0 size=N/A time=00:01:07.12 bitrate=N/A speed=   1x
+2025-05-25 10:21:16,800 - INFO - FFmpeg: elapsed=0:01:07.57 frame= 1691 fps= 25 q=33.0 size=N/A time=00:01:07.64 bitrate=N/A speed=   1x
+2025-05-25 10:21:17,301 - INFO - FFmpeg: elapsed=0:01:08.09 frame= 1704 fps= 25 q=27.0 size=N/A time=00:01:08.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:17,549 - INFO - 127.0.0.1 - - [25/May/2025 10:21:17] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:17,551 - INFO - 127.0.0.1 - - [25/May/2025 10:21:17] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:17,556 - INFO - 127.0.0.1 - - [25/May/2025 10:21:17] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:17,803 - INFO - FFmpeg: elapsed=0:01:08.61 frame= 1717 fps= 25 q=28.0 size=N/A time=00:01:08.68 bitrate=N/A speed=   1x
+2025-05-25 10:21:18,304 - INFO - FFmpeg: elapsed=0:01:09.12 frame= 1729 fps= 25 q=30.0 size=N/A time=00:01:09.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:18,805 - INFO - FFmpeg: elapsed=0:01:09.64 frame= 1743 fps= 25 q=32.0 size=N/A time=00:01:09.72 bitrate=N/A speed=   1x
+2025-05-25 10:21:19,306 - INFO - FFmpeg: elapsed=0:01:10.15 frame= 1756 fps= 25 q=29.0 size=N/A time=00:01:10.24 bitrate=N/A speed=   1x
+2025-05-25 10:21:19,575 - INFO - 127.0.0.1 - - [25/May/2025 10:21:19] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:19,577 - INFO - 127.0.0.1 - - [25/May/2025 10:21:19] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:19,583 - INFO - 127.0.0.1 - - [25/May/2025 10:21:19] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:19,808 - INFO - FFmpeg: elapsed=0:01:10.67 frame= 1768 fps= 25 q=29.0 size=N/A time=00:01:10.72 bitrate=N/A speed=   1x
+2025-05-25 10:21:20,309 - INFO - FFmpeg: elapsed=0:01:11.19 frame= 1779 fps= 25 q=25.0 size=N/A time=00:01:11.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:20,811 - INFO - FFmpeg: elapsed=0:01:11.70 frame= 1794 fps= 25 q=28.0 size=N/A time=00:01:11.76 bitrate=N/A speed=   1x
+2025-05-25 10:21:21,312 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_011.ts' for writing
+2025-05-25 10:21:21,440 - INFO - 127.0.0.1 - - [25/May/2025 10:21:21] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:21,453 - INFO - 127.0.0.1 - - [25/May/2025 10:21:21] "GET /hls/seg_014.ts HTTP/1.1" 200 -
+2025-05-25 10:21:21,582 - INFO - 127.0.0.1 - - [25/May/2025 10:21:21] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:21,583 - INFO - 127.0.0.1 - - [25/May/2025 10:21:21] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:21,588 - INFO - 127.0.0.1 - - [25/May/2025 10:21:21] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:21,814 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:22,316 - INFO - FFmpeg: elapsed=0:01:12.22 frame= 1807 fps= 25 q=24.0 size=N/A time=00:01:12.28 bitrate=N/A speed=   1x
+2025-05-25 10:21:22,817 - INFO - FFmpeg: elapsed=0:01:12.73 frame= 1820 fps= 25 q=23.0 size=N/A time=00:01:12.80 bitrate=N/A speed=   1x
+2025-05-25 10:21:23,318 - INFO - FFmpeg: elapsed=0:01:13.24 frame= 1829 fps= 25 q=23.0 size=N/A time=00:01:13.16 bitrate=N/A speed=0.999x
+2025-05-25 10:21:23,588 - INFO - 127.0.0.1 - - [25/May/2025 10:21:23] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:23,591 - INFO - 127.0.0.1 - - [25/May/2025 10:21:23] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:23,597 - INFO - 127.0.0.1 - - [25/May/2025 10:21:23] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:23,820 - INFO - FFmpeg: elapsed=0:01:13.76 frame= 1845 fps= 25 q=27.0 size=N/A time=00:01:13.80 bitrate=N/A speed=   1x
+2025-05-25 10:21:24,321 - INFO - FFmpeg: elapsed=0:01:14.28 frame= 1859 fps= 25 q=23.0 size=N/A time=00:01:14.36 bitrate=N/A speed=   1x
+2025-05-25 10:21:24,822 - INFO - FFmpeg: elapsed=0:01:14.80 frame= 1872 fps= 25 q=23.0 size=N/A time=00:01:14.88 bitrate=N/A speed=   1x
+2025-05-25 10:21:25,323 - INFO - FFmpeg: elapsed=0:01:15.31 frame= 1879 fps= 25 q=24.0 size=N/A time=00:01:15.16 bitrate=N/A speed=0.998x
+2025-05-25 10:21:25,597 - INFO - 127.0.0.1 - - [25/May/2025 10:21:25] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:25,598 - INFO - 127.0.0.1 - - [25/May/2025 10:21:25] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:25,603 - INFO - 127.0.0.1 - - [25/May/2025 10:21:25] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:25,825 - INFO - FFmpeg: elapsed=0:01:15.83 frame= 1898 fps= 25 q=24.0 size=N/A time=00:01:15.92 bitrate=N/A speed=   1x
+2025-05-25 10:21:26,326 - INFO - FFmpeg: elapsed=0:01:16.34 frame= 1911 fps= 25 q=23.0 size=N/A time=00:01:16.44 bitrate=N/A speed=   1x
+2025-05-25 10:21:26,827 - INFO - FFmpeg: elapsed=0:01:16.86 frame= 1923 fps= 25 q=22.0 size=N/A time=00:01:16.92 bitrate=N/A speed=   1x
+2025-05-25 10:21:27,328 - INFO - FFmpeg: elapsed=0:01:17.37 frame= 1931 fps= 25 q=22.0 size=N/A time=00:01:17.20 bitrate=N/A speed=0.998x
+2025-05-25 10:21:27,431 - INFO - 127.0.0.1 - - [25/May/2025 10:21:27] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:27,441 - INFO - 127.0.0.1 - - [25/May/2025 10:21:27] "GET /hls/seg_015.ts HTTP/1.1" 200 -
+2025-05-25 10:21:27,615 - INFO - 127.0.0.1 - - [25/May/2025 10:21:27] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:27,624 - INFO - 127.0.0.1 - - [25/May/2025 10:21:27] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:27,627 - INFO - 127.0.0.1 - - [25/May/2025 10:21:27] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:27,830 - INFO - FFmpeg: elapsed=0:01:17.88 frame= 1949 fps= 25 q=23.0 size=N/A time=00:01:17.96 bitrate=N/A speed=   1x
+2025-05-25 10:21:28,331 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_012.ts' for writing
+2025-05-25 10:21:28,833 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:29,344 - INFO - FFmpeg: elapsed=0:01:18.40 frame= 1961 fps= 25 q=22.0 size=N/A time=00:01:18.44 bitrate=N/A speed=   1x
+2025-05-25 10:21:29,614 - INFO - 127.0.0.1 - - [25/May/2025 10:21:29] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:29,614 - INFO - 127.0.0.1 - - [25/May/2025 10:21:29] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:29,620 - INFO - 127.0.0.1 - - [25/May/2025 10:21:29] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:29,845 - INFO - FFmpeg: elapsed=0:01:18.92 frame= 1975 fps= 25 q=22.0 size=N/A time=00:01:19.00 bitrate=N/A speed=   1x
+2025-05-25 10:21:30,346 - INFO - FFmpeg: elapsed=0:01:19.44 frame= 1983 fps= 25 q=22.0 size=N/A time=00:01:19.32 bitrate=N/A speed=0.998x
+2025-05-25 10:21:30,848 - INFO - FFmpeg: elapsed=0:01:19.95 frame= 2001 fps= 25 q=22.0 size=N/A time=00:01:20.04 bitrate=N/A speed=   1x
+2025-05-25 10:21:31,349 - INFO - FFmpeg: elapsed=0:01:20.46 frame= 2013 fps= 25 q=22.0 size=N/A time=00:01:20.52 bitrate=N/A speed=   1x
+2025-05-25 10:21:31,617 - INFO - 127.0.0.1 - - [25/May/2025 10:21:31] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:31,619 - INFO - 127.0.0.1 - - [25/May/2025 10:21:31] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:31,632 - INFO - 127.0.0.1 - - [25/May/2025 10:21:31] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:31,851 - INFO - FFmpeg: elapsed=0:01:23.03 frame= 2077 fps= 25 q=22.0 size=N/A time=00:01:23.08 bitrate=N/A speed=   1x
+2025-05-25 10:21:32,358 - INFO - FFmpeg: elapsed=0:01:23.54 frame= 2087 fps= 25 q=22.0 size=N/A time=00:01:23.48 bitrate=N/A speed=0.999x
+2025-05-25 10:21:32,859 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_013.ts' for writing
+2025-05-25 10:21:33,361 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:33,859 - INFO - 127.0.0.1 - - [25/May/2025 10:21:33] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:33,861 - INFO - 127.0.0.1 - - [25/May/2025 10:21:33] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:33,863 - INFO - FFmpeg: elapsed=0:01:24.05 frame= 2103 fps= 25 q=22.0 size=N/A time=00:01:24.12 bitrate=N/A speed=   1x
+2025-05-25 10:21:33,865 - INFO - 127.0.0.1 - - [25/May/2025 10:21:33] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:33,869 - INFO - 127.0.0.1 - - [25/May/2025 10:21:33] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:33,883 - INFO - 127.0.0.1 - - [25/May/2025 10:21:33] "GET /hls/seg_016.ts HTTP/1.1" 200 -
+2025-05-25 10:21:34,366 - INFO - FFmpeg: elapsed=0:01:24.57 frame= 2115 fps= 25 q=22.0 size=N/A time=00:01:24.60 bitrate=N/A speed=   1x
+2025-05-25 10:21:34,867 - INFO - FFmpeg: elapsed=0:01:25.08 frame= 2129 fps= 25 q=22.0 size=N/A time=00:01:25.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:35,368 - INFO - FFmpeg: elapsed=0:01:25.61 frame= 2142 fps= 25 q=30.0 size=N/A time=00:01:25.68 bitrate=N/A speed=   1x
+2025-05-25 10:21:35,870 - INFO - FFmpeg: elapsed=0:01:26.13 frame= 2155 fps= 25 q=26.0 size=N/A time=00:01:26.20 bitrate=N/A speed=   1x
+2025-05-25 10:21:35,927 - INFO - 127.0.0.1 - - [25/May/2025 10:21:35] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:35,931 - INFO - 127.0.0.1 - - [25/May/2025 10:21:35] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:35,934 - INFO - 127.0.0.1 - - [25/May/2025 10:21:35] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:36,371 - INFO - FFmpeg: elapsed=0:01:26.64 frame= 2167 fps= 25 q=26.0 size=N/A time=00:01:26.68 bitrate=N/A speed=   1x
+2025-05-25 10:21:36,873 - INFO - FFmpeg: elapsed=0:01:27.16 frame= 2179 fps= 25 q=28.0 size=N/A time=00:01:27.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:37,375 - INFO - FFmpeg: elapsed=0:01:27.66 frame= 2193 fps= 25 q=29.0 size=N/A time=00:01:27.72 bitrate=N/A speed=   1x
+2025-05-25 10:21:37,876 - INFO - FFmpeg: elapsed=0:01:28.18 frame= 2206 fps= 25 q=23.0 size=N/A time=00:01:28.24 bitrate=N/A speed=   1x
+2025-05-25 10:21:37,960 - INFO - 127.0.0.1 - - [25/May/2025 10:21:37] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:37,961 - INFO - 127.0.0.1 - - [25/May/2025 10:21:37] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:37,963 - INFO - 127.0.0.1 - - [25/May/2025 10:21:37] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:38,378 - INFO - FFmpeg: elapsed=0:01:28.70 frame= 2219 fps= 25 q=24.0 size=N/A time=00:01:28.76 bitrate=N/A speed=   1x
+2025-05-25 10:21:38,880 - INFO - FFmpeg: elapsed=0:01:29.21 frame= 2229 fps= 25 q=24.0 size=N/A time=00:01:29.16 bitrate=N/A speed=0.999x
+2025-05-25 10:21:39,381 - INFO - FFmpeg: elapsed=0:01:29.74 frame= 2245 fps= 25 q=27.0 size=N/A time=00:01:29.80 bitrate=N/A speed=   1x
+2025-05-25 10:21:39,882 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_014.ts' for writing
+2025-05-25 10:21:40,140 - INFO - 127.0.0.1 - - [25/May/2025 10:21:40] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:40,140 - INFO - 127.0.0.1 - - [25/May/2025 10:21:40] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:40,141 - INFO - 127.0.0.1 - - [25/May/2025 10:21:40] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:40,147 - INFO - 127.0.0.1 - - [25/May/2025 10:21:40] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:40,156 - INFO - 127.0.0.1 - - [25/May/2025 10:21:40] "GET /hls/seg_017.ts HTTP/1.1" 200 -
+2025-05-25 10:21:40,412 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:40,925 - INFO - FFmpeg: elapsed=0:01:30.25 frame= 2258 fps= 25 q=25.0 size=N/A time=00:01:30.32 bitrate=N/A speed=   1x
+2025-05-25 10:21:41,427 - INFO - FFmpeg: elapsed=0:01:30.77 frame= 2271 fps= 25 q=25.0 size=N/A time=00:01:30.84 bitrate=N/A speed=   1x
+2025-05-25 10:21:41,927 - INFO - FFmpeg: elapsed=0:01:31.28 frame= 2284 fps= 25 q=26.0 size=N/A time=00:01:31.36 bitrate=N/A speed=   1x
+2025-05-25 10:21:42,179 - INFO - 127.0.0.1 - - [25/May/2025 10:21:42] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:42,179 - INFO - 127.0.0.1 - - [25/May/2025 10:21:42] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:42,182 - INFO - 127.0.0.1 - - [25/May/2025 10:21:42] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:42,428 - INFO - FFmpeg: elapsed=0:01:31.79 frame= 2296 fps= 25 q=27.0 size=N/A time=00:01:31.84 bitrate=N/A speed=   1x
+2025-05-25 10:21:42,930 - INFO - FFmpeg: elapsed=0:01:32.31 frame= 2310 fps= 25 q=26.0 size=N/A time=00:01:32.40 bitrate=N/A speed=   1x
+2025-05-25 10:21:43,431 - INFO - FFmpeg: elapsed=0:01:32.82 frame= 2323 fps= 25 q=26.0 size=N/A time=00:01:32.92 bitrate=N/A speed=   1x
+2025-05-25 10:21:43,933 - INFO - FFmpeg: elapsed=0:01:33.34 frame= 2335 fps= 25 q=25.0 size=N/A time=00:01:33.40 bitrate=N/A speed=   1x
+2025-05-25 10:21:44,227 - INFO - 127.0.0.1 - - [25/May/2025 10:21:44] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:44,228 - INFO - 127.0.0.1 - - [25/May/2025 10:21:44] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:44,234 - INFO - 127.0.0.1 - - [25/May/2025 10:21:44] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:44,435 - INFO - FFmpeg: elapsed=0:01:33.86 frame= 2348 fps= 25 q=26.0 size=N/A time=00:01:33.92 bitrate=N/A speed=   1x
+2025-05-25 10:21:44,937 - INFO - FFmpeg: elapsed=0:01:34.38 frame= 2361 fps= 25 q=26.0 size=N/A time=00:01:34.44 bitrate=N/A speed=   1x
+2025-05-25 10:21:45,438 - INFO - FFmpeg: elapsed=0:01:34.89 frame= 2374 fps= 25 q=26.0 size=N/A time=00:01:34.96 bitrate=N/A speed=   1x
+2025-05-25 10:21:45,940 - INFO - FFmpeg: elapsed=0:01:35.40 frame= 2386 fps= 25 q=25.0 size=N/A time=00:01:35.44 bitrate=N/A speed=   1x
+2025-05-25 10:21:46,304 - INFO - 127.0.0.1 - - [25/May/2025 10:21:46] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:46,306 - INFO - 127.0.0.1 - - [25/May/2025 10:21:46] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:46,308 - INFO - 127.0.0.1 - - [25/May/2025 10:21:46] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:46,314 - INFO - 127.0.0.1 - - [25/May/2025 10:21:46] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:46,321 - INFO - 127.0.0.1 - - [25/May/2025 10:21:46] "GET /hls/seg_018.ts HTTP/1.1" 200 -
+2025-05-25 10:21:46,441 - INFO - FFmpeg: elapsed=0:01:35.92 frame= 2400 fps= 25 q=25.0 size=N/A time=00:01:36.00 bitrate=N/A speed=   1x
+2025-05-25 10:21:46,943 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_015.ts' for writing
+2025-05-25 10:21:47,444 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:47,946 - INFO - FFmpeg: elapsed=0:01:36.43 frame= 2413 fps= 25 q=23.0 size=N/A time=00:01:36.52 bitrate=N/A speed=   1x
+2025-05-25 10:21:48,338 - INFO - 127.0.0.1 - - [25/May/2025 10:21:48] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:48,341 - INFO - 127.0.0.1 - - [25/May/2025 10:21:48] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:48,344 - INFO - 127.0.0.1 - - [25/May/2025 10:21:48] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:48,447 - INFO - FFmpeg: elapsed=0:01:36.95 frame= 2425 fps= 25 q=23.0 size=N/A time=00:01:37.00 bitrate=N/A speed=   1x
+2025-05-25 10:21:48,949 - INFO - FFmpeg: elapsed=0:01:37.46 frame= 2436 fps= 25 q=23.0 size=N/A time=00:01:37.44 bitrate=N/A speed=   1x
+2025-05-25 10:21:49,451 - INFO - FFmpeg: elapsed=0:01:37.99 frame= 2452 fps= 25 q=23.0 size=N/A time=00:01:38.08 bitrate=N/A speed=   1x
+2025-05-25 10:21:49,952 - INFO - FFmpeg: elapsed=0:01:38.50 frame= 2464 fps= 25 q=22.0 size=N/A time=00:01:38.56 bitrate=N/A speed=   1x
+2025-05-25 10:21:50,367 - INFO - 127.0.0.1 - - [25/May/2025 10:21:50] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:50,368 - INFO - 127.0.0.1 - - [25/May/2025 10:21:50] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:50,373 - INFO - 127.0.0.1 - - [25/May/2025 10:21:50] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:50,454 - INFO - FFmpeg: elapsed=0:01:39.02 frame= 2477 fps= 25 q=22.0 size=N/A time=00:01:39.08 bitrate=N/A speed=   1x
+2025-05-25 10:21:50,955 - INFO - FFmpeg: elapsed=0:01:39.53 frame= 2483 fps= 25 q=22.0 size=N/A time=00:01:39.32 bitrate=N/A speed=0.998x
+2025-05-25 10:21:51,456 - INFO - FFmpeg: elapsed=0:01:40.04 frame= 2503 fps= 25 q=22.0 size=N/A time=00:01:40.12 bitrate=N/A speed=   1x
+2025-05-25 10:21:51,957 - INFO - FFmpeg: elapsed=0:01:40.56 frame= 2516 fps= 25 q=22.0 size=N/A time=00:01:40.64 bitrate=N/A speed=   1x
+2025-05-25 10:21:52,408 - INFO - 127.0.0.1 - - [25/May/2025 10:21:52] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:52,409 - INFO - 127.0.0.1 - - [25/May/2025 10:21:52] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:52,411 - INFO - 127.0.0.1 - - [25/May/2025 10:21:52] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:52,416 - INFO - 127.0.0.1 - - [25/May/2025 10:21:52] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:52,424 - INFO - 127.0.0.1 - - [25/May/2025 10:21:52] "GET /hls/seg_019.ts HTTP/1.1" 200 -
+2025-05-25 10:21:52,459 - INFO - FFmpeg: elapsed=0:01:41.07 frame= 2528 fps= 25 q=22.0 size=N/A time=00:01:41.12 bitrate=N/A speed=   1x
+2025-05-25 10:21:52,961 - INFO - FFmpeg: elapsed=0:01:41.59 frame= 2541 fps= 25 q=32.0 size=N/A time=00:01:41.64 bitrate=N/A speed=   1x
+2025-05-25 10:21:53,462 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_016.ts' for writing
+2025-05-25 10:21:53,963 - INFO - FFmpeg: elapsed=0:01:42.10 frame= 2551 fps= 25 q=23.0 size=N/A time=00:01:42.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:54,437 - INFO - 127.0.0.1 - - [25/May/2025 10:21:54] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:54,438 - INFO - 127.0.0.1 - - [25/May/2025 10:21:54] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:54,440 - INFO - 127.0.0.1 - - [25/May/2025 10:21:54] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:54,465 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:54,966 - INFO - FFmpeg: elapsed=0:01:44.61 frame= 2607 fps= 25 q=22.0 size=N/A time=00:01:44.28 bitrate=N/A speed=0.997x
+2025-05-25 10:21:55,466 - INFO - FFmpeg: elapsed=0:01:45.12 frame= 2629 fps= 25 q=22.0 size=N/A time=00:01:45.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:55,968 - INFO - FFmpeg: elapsed=0:01:45.63 frame= 2642 fps= 25 q=30.0 size=N/A time=00:01:45.68 bitrate=N/A speed=   1x
+2025-05-25 10:21:56,463 - INFO - 127.0.0.1 - - [25/May/2025 10:21:56] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:56,466 - INFO - 127.0.0.1 - - [25/May/2025 10:21:56] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:56,469 - INFO - FFmpeg: elapsed=0:01:46.15 frame= 2655 fps= 25 q=26.0 size=N/A time=00:01:46.20 bitrate=N/A speed=   1x
+2025-05-25 10:21:56,472 - INFO - 127.0.0.1 - - [25/May/2025 10:21:56] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:56,972 - INFO - FFmpeg: elapsed=0:01:46.67 frame= 2669 fps= 25 q=24.0 size=N/A time=00:01:46.76 bitrate=N/A speed=   1x
+2025-05-25 10:21:57,465 - INFO - 127.0.0.1 - - [25/May/2025 10:21:57] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:21:57,473 - INFO - FFmpeg: elapsed=0:01:47.19 frame= 2679 fps= 25 q=22.0 size=N/A time=00:01:47.16 bitrate=N/A speed=   1x
+2025-05-25 10:21:57,477 - INFO - 127.0.0.1 - - [25/May/2025 10:21:57] "GET /hls/seg_020.ts HTTP/1.1" 200 -
+2025-05-25 10:21:57,974 - INFO - FFmpeg: elapsed=0:01:47.70 frame= 2694 fps= 25 q=26.0 size=N/A time=00:01:47.76 bitrate=N/A speed=   1x
+2025-05-25 10:21:58,475 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_017.ts' for writing
+2025-05-25 10:21:58,489 - INFO - 127.0.0.1 - - [25/May/2025 10:21:58] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:21:58,490 - INFO - 127.0.0.1 - - [25/May/2025 10:21:58] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:21:58,498 - INFO - 127.0.0.1 - - [25/May/2025 10:21:58] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:21:58,977 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:21:59,478 - INFO - FFmpeg: elapsed=0:01:48.21 frame= 2707 fps= 25 q=22.0 size=N/A time=00:01:48.28 bitrate=N/A speed=   1x
+2025-05-25 10:21:59,979 - INFO - FFmpeg: elapsed=0:01:48.73 frame= 2720 fps= 25 q=22.0 size=N/A time=00:01:48.80 bitrate=N/A speed=   1x
+2025-05-25 10:22:00,481 - INFO - FFmpeg: elapsed=0:01:49.24 frame= 2729 fps= 25 q=22.0 size=N/A time=00:01:49.16 bitrate=N/A speed=0.999x
+2025-05-25 10:22:00,509 - INFO - 127.0.0.1 - - [25/May/2025 10:22:00] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:00,511 - INFO - 127.0.0.1 - - [25/May/2025 10:22:00] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:00,514 - INFO - 127.0.0.1 - - [25/May/2025 10:22:00] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:00,982 - INFO - FFmpeg: elapsed=0:01:49.76 frame= 2745 fps= 25 q=25.0 size=N/A time=00:01:49.80 bitrate=N/A speed=   1x
+2025-05-25 10:22:01,484 - INFO - FFmpeg: elapsed=0:01:50.27 frame= 2758 fps= 25 q=22.0 size=N/A time=00:01:50.32 bitrate=N/A speed=   1x
+2025-05-25 10:22:01,985 - INFO - FFmpeg: elapsed=0:01:50.79 frame= 2772 fps= 25 q=22.0 size=N/A time=00:01:50.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:02,487 - INFO - FFmpeg: elapsed=0:01:51.30 frame= 2779 fps= 25 q=22.0 size=N/A time=00:01:51.16 bitrate=N/A speed=0.999x
+2025-05-25 10:22:02,538 - INFO - 127.0.0.1 - - [25/May/2025 10:22:02] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:02,539 - INFO - 127.0.0.1 - - [25/May/2025 10:22:02] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:02,546 - INFO - 127.0.0.1 - - [25/May/2025 10:22:02] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:02,989 - INFO - FFmpeg: elapsed=0:01:51.83 frame= 2797 fps= 25 q=23.0 size=N/A time=00:01:51.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:03,490 - INFO - FFmpeg: elapsed=0:01:52.35 frame= 2810 fps= 25 q=26.0 size=N/A time=00:01:52.40 bitrate=N/A speed=   1x
+2025-05-25 10:22:03,536 - INFO - 127.0.0.1 - - [25/May/2025 10:22:03] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:03,543 - INFO - 127.0.0.1 - - [25/May/2025 10:22:03] "GET /hls/seg_021.ts HTTP/1.1" 200 -
+2025-05-25 10:22:03,991 - INFO - FFmpeg: elapsed=0:01:52.86 frame= 2824 fps= 25 q=24.0 size=N/A time=00:01:52.96 bitrate=N/A speed=   1x
+2025-05-25 10:22:04,493 - INFO - FFmpeg: elapsed=0:01:53.37 frame= 2835 fps= 25 q=23.0 size=N/A time=00:01:53.40 bitrate=N/A speed=   1x
+2025-05-25 10:22:04,554 - INFO - 127.0.0.1 - - [25/May/2025 10:22:04] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:04,557 - INFO - 127.0.0.1 - - [25/May/2025 10:22:04] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:04,567 - INFO - 127.0.0.1 - - [25/May/2025 10:22:04] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:04,995 - INFO - FFmpeg: elapsed=0:01:53.89 frame= 2850 fps= 25 q=23.0 size=N/A time=00:01:54.00 bitrate=N/A speed=   1x
+2025-05-25 10:22:05,496 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_018.ts' for writing
+2025-05-25 10:22:05,998 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:06,498 - INFO - FFmpeg: elapsed=0:01:54.40 frame= 2862 fps= 25 q=23.0 size=N/A time=00:01:54.48 bitrate=N/A speed=   1x
+2025-05-25 10:22:06,582 - INFO - 127.0.0.1 - - [25/May/2025 10:22:06] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:06,582 - INFO - 127.0.0.1 - - [25/May/2025 10:22:06] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:06,585 - INFO - 127.0.0.1 - - [25/May/2025 10:22:06] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:07,000 - INFO - FFmpeg: elapsed=0:01:54.91 frame= 2874 fps= 25 q=23.0 size=N/A time=00:01:54.96 bitrate=N/A speed=   1x
+2025-05-25 10:22:07,501 - INFO - FFmpeg: elapsed=0:01:55.43 frame= 2888 fps= 25 q=23.0 size=N/A time=00:01:55.52 bitrate=N/A speed=   1x
+2025-05-25 10:22:08,003 - INFO - FFmpeg: elapsed=0:01:55.96 frame= 2900 fps= 25 q=23.0 size=N/A time=00:01:56.00 bitrate=N/A speed=   1x
+2025-05-25 10:22:08,504 - INFO - FFmpeg: elapsed=0:01:56.47 frame= 2913 fps= 25 q=22.0 size=N/A time=00:01:56.52 bitrate=N/A speed=   1x
+2025-05-25 10:22:08,609 - INFO - 127.0.0.1 - - [25/May/2025 10:22:08] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:08,611 - INFO - 127.0.0.1 - - [25/May/2025 10:22:08] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:08,626 - INFO - 127.0.0.1 - - [25/May/2025 10:22:08] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:09,006 - INFO - FFmpeg: elapsed=0:01:56.98 frame= 2927 fps= 25 q=22.0 size=N/A time=00:01:57.08 bitrate=N/A speed=   1x
+2025-05-25 10:22:09,507 - INFO - FFmpeg: elapsed=0:01:57.49 frame= 2938 fps= 25 q=22.0 size=N/A time=00:01:57.52 bitrate=N/A speed=   1x
+2025-05-25 10:22:09,615 - INFO - 127.0.0.1 - - [25/May/2025 10:22:09] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:09,623 - INFO - 127.0.0.1 - - [25/May/2025 10:22:09] "GET /hls/seg_022.ts HTTP/1.1" 200 -
+2025-05-25 10:22:10,008 - INFO - FFmpeg: elapsed=0:01:58.01 frame= 2951 fps= 25 q=22.0 size=N/A time=00:01:58.04 bitrate=N/A speed=   1x
+2025-05-25 10:22:10,510 - INFO - FFmpeg: elapsed=0:01:58.52 frame= 2965 fps= 25 q=22.0 size=N/A time=00:01:58.60 bitrate=N/A speed=   1x
+2025-05-25 10:22:10,643 - INFO - 127.0.0.1 - - [25/May/2025 10:22:10] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:10,643 - INFO - 127.0.0.1 - - [25/May/2025 10:22:10] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:10,646 - INFO - 127.0.0.1 - - [25/May/2025 10:22:10] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:11,012 - INFO - FFmpeg: elapsed=0:01:59.04 frame= 2978 fps= 25 q=22.0 size=N/A time=00:01:59.12 bitrate=N/A speed=   1x
+2025-05-25 10:22:11,514 - INFO - FFmpeg: elapsed=0:01:59.57 frame= 2987 fps= 25 q=23.0 size=N/A time=00:01:59.48 bitrate=N/A speed=0.999x
+2025-05-25 10:22:12,018 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_019.ts' for writing
+2025-05-25 10:22:12,520 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:12,657 - INFO - 127.0.0.1 - - [25/May/2025 10:22:12] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:12,658 - INFO - 127.0.0.1 - - [25/May/2025 10:22:12] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:12,660 - INFO - 127.0.0.1 - - [25/May/2025 10:22:12] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:13,021 - INFO - FFmpeg: elapsed=0:02:00.08 frame= 3004 fps= 25 q=23.0 size=N/A time=00:02:00.16 bitrate=N/A speed=   1x
+2025-05-25 10:22:13,522 - INFO - FFmpeg: elapsed=0:02:00.59 frame= 3016 fps= 25 q=23.0 size=N/A time=00:02:00.64 bitrate=N/A speed=   1x
+2025-05-25 10:22:14,024 - INFO - FFmpeg: elapsed=0:02:01.11 frame= 3029 fps= 25 q=22.0 size=N/A time=00:02:01.12 bitrate=N/A speed=   1x
+2025-05-25 10:22:14,525 - INFO - FFmpeg: elapsed=0:02:01.62 frame= 3037 fps= 25 q=22.0 size=N/A time=00:02:01.48 bitrate=N/A speed=0.999x
+2025-05-25 10:22:14,789 - INFO - 127.0.0.1 - - [25/May/2025 10:22:14] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:14,793 - INFO - 127.0.0.1 - - [25/May/2025 10:22:14] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:14,805 - INFO - 127.0.0.1 - - [25/May/2025 10:22:14] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:15,026 - INFO - FFmpeg: elapsed=0:02:02.13 frame= 3055 fps= 25 q=22.0 size=N/A time=00:02:02.20 bitrate=N/A speed=   1x
+2025-05-25 10:22:15,528 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_020.ts' for writing
+2025-05-25 10:22:15,790 - INFO - 127.0.0.1 - - [25/May/2025 10:22:15] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:15,800 - INFO - 127.0.0.1 - - [25/May/2025 10:22:15] "GET /hls/seg_023.ts HTTP/1.1" 200 -
+2025-05-25 10:22:15,933 - INFO - 127.0.0.1 - - [25/May/2025 10:22:15] "[36mGET /hls/seg_023.ts HTTP/1.1[0m" 304 -
+2025-05-25 10:22:16,029 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:16,531 - INFO - FFmpeg: elapsed=0:02:06.72 frame= 3169 fps= 25 q=22.0 size=N/A time=00:02:06.76 bitrate=N/A speed=   1x
+2025-05-25 10:22:16,804 - INFO - 127.0.0.1 - - [25/May/2025 10:22:16] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:16,805 - INFO - 127.0.0.1 - - [25/May/2025 10:22:16] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:16,809 - INFO - 127.0.0.1 - - [25/May/2025 10:22:16] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:17,034 - INFO - FFmpeg: elapsed=0:02:07.23 frame= 3179 fps= 25 q=22.0 size=N/A time=00:02:07.16 bitrate=N/A speed=0.999x
+2025-05-25 10:22:17,536 - INFO - FFmpeg: elapsed=0:02:07.75 frame= 3195 fps= 25 q=25.0 size=N/A time=00:02:07.80 bitrate=N/A speed=   1x
+2025-05-25 10:22:18,037 - INFO - FFmpeg: elapsed=0:02:08.26 frame= 3207 fps= 25 q=22.0 size=N/A time=00:02:08.28 bitrate=N/A speed=   1x
+2025-05-25 10:22:18,539 - INFO - FFmpeg: elapsed=0:02:08.77 frame= 3222 fps= 25 q=24.0 size=N/A time=00:02:08.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:18,826 - INFO - 127.0.0.1 - - [25/May/2025 10:22:18] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:18,833 - INFO - 127.0.0.1 - - [25/May/2025 10:22:18] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:18,845 - INFO - 127.0.0.1 - - [25/May/2025 10:22:18] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:19,040 - INFO - FFmpeg: elapsed=0:02:09.29 frame= 3229 fps= 25 q=26.0 size=N/A time=00:02:09.16 bitrate=N/A speed=0.999x
+2025-05-25 10:22:19,541 - INFO - FFmpeg: elapsed=0:02:09.81 frame= 3247 fps= 25 q=26.0 size=N/A time=00:02:09.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:20,045 - INFO - FFmpeg: elapsed=0:02:10.32 frame= 3260 fps= 25 q=24.0 size=N/A time=00:02:10.40 bitrate=N/A speed=   1x
+2025-05-25 10:22:20,547 - INFO - FFmpeg: elapsed=0:02:10.83 frame= 3272 fps= 25 q=24.0 size=N/A time=00:02:10.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:20,855 - INFO - 127.0.0.1 - - [25/May/2025 10:22:20] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:20,855 - INFO - 127.0.0.1 - - [25/May/2025 10:22:20] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:20,857 - INFO - 127.0.0.1 - - [25/May/2025 10:22:20] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:21,049 - INFO - FFmpeg: elapsed=0:02:11.36 frame= 3286 fps= 25 q=24.0 size=N/A time=00:02:11.44 bitrate=N/A speed=   1x
+2025-05-25 10:22:21,549 - INFO - FFmpeg: elapsed=0:02:11.87 frame= 3299 fps= 25 q=25.0 size=N/A time=00:02:11.96 bitrate=N/A speed=   1x
+2025-05-25 10:22:21,862 - INFO - 127.0.0.1 - - [25/May/2025 10:22:21] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:21,874 - INFO - 127.0.0.1 - - [25/May/2025 10:22:21] "GET /hls/seg_024.ts HTTP/1.1" 200 -
+2025-05-25 10:22:22,051 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_021.ts' for writing
+2025-05-25 10:22:22,552 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:22,873 - INFO - 127.0.0.1 - - [25/May/2025 10:22:22] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:22,876 - INFO - 127.0.0.1 - - [25/May/2025 10:22:22] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:22,882 - INFO - 127.0.0.1 - - [25/May/2025 10:22:22] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:23,054 - INFO - FFmpeg: elapsed=0:02:12.38 frame= 3311 fps= 25 q=23.0 size=N/A time=00:02:12.44 bitrate=N/A speed=   1x
+2025-05-25 10:22:23,570 - INFO - FFmpeg: elapsed=0:02:12.90 frame= 3323 fps= 25 q=23.0 size=N/A time=00:02:12.92 bitrate=N/A speed=   1x
+2025-05-25 10:22:24,179 - INFO - FFmpeg: elapsed=0:02:13.42 frame= 3337 fps= 25 q=23.0 size=N/A time=00:02:13.48 bitrate=N/A speed=   1x
+2025-05-25 10:22:24,681 - INFO - FFmpeg: elapsed=0:02:13.93 frame= 3350 fps= 25 q=23.0 size=N/A time=00:02:14.00 bitrate=N/A speed=   1x
+2025-05-25 10:22:25,182 - INFO - FFmpeg: elapsed=0:02:14.45 frame= 3362 fps= 25 q=22.0 size=N/A time=00:02:14.48 bitrate=N/A speed=   1x
+2025-05-25 10:22:25,683 - INFO - FFmpeg: elapsed=0:02:14.96 frame= 3376 fps= 25 q=22.0 size=N/A time=00:02:15.04 bitrate=N/A speed=   1x
+2025-05-25 10:22:25,953 - INFO - 127.0.0.1 - - [25/May/2025 10:22:25] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:25,953 - INFO - 127.0.0.1 - - [25/May/2025 10:22:25] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:25,958 - INFO - 127.0.0.1 - - [25/May/2025 10:22:25] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:26,185 - INFO - FFmpeg: elapsed=0:02:15.47 frame= 3388 fps= 25 q=22.0 size=N/A time=00:02:15.52 bitrate=N/A speed=   1x
+2025-05-25 10:22:26,686 - INFO - FFmpeg: elapsed=0:02:15.99 frame= 3400 fps= 25 q=22.0 size=N/A time=00:02:16.00 bitrate=N/A speed=   1x
+2025-05-25 10:22:27,187 - INFO - FFmpeg: elapsed=0:02:16.51 frame= 3415 fps= 25 q=21.0 size=N/A time=00:02:16.60 bitrate=N/A speed=   1x
+2025-05-25 10:22:27,689 - INFO - FFmpeg: elapsed=0:02:17.02 frame= 3427 fps= 25 q=21.0 size=N/A time=00:02:17.08 bitrate=N/A speed=   1x
+2025-05-25 10:22:27,983 - INFO - 127.0.0.1 - - [25/May/2025 10:22:27] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:27,998 - INFO - 127.0.0.1 - - [25/May/2025 10:22:27] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:28,002 - INFO - 127.0.0.1 - - [25/May/2025 10:22:28] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:28,011 - INFO - 127.0.0.1 - - [25/May/2025 10:22:28] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:28,024 - INFO - 127.0.0.1 - - [25/May/2025 10:22:28] "GET /hls/seg_025.ts HTTP/1.1" 200 -
+2025-05-25 10:22:28,190 - INFO - FFmpeg: elapsed=0:02:17.55 frame= 3437 fps= 25 q=21.0 size=N/A time=00:02:17.48 bitrate=N/A speed=0.999x
+2025-05-25 10:22:28,694 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_022.ts' for writing
+2025-05-25 10:22:29,195 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:29,697 - INFO - FFmpeg: elapsed=0:02:18.07 frame= 3454 fps= 25 q=21.0 size=N/A time=00:02:18.16 bitrate=N/A speed=   1x
+2025-05-25 10:22:30,198 - INFO - FFmpeg: elapsed=0:02:18.58 frame= 3466 fps= 25 q=21.0 size=N/A time=00:02:18.64 bitrate=N/A speed=   1x
+2025-05-25 10:22:30,531 - INFO - 127.0.0.1 - - [25/May/2025 10:22:30] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:30,531 - INFO - 127.0.0.1 - - [25/May/2025 10:22:30] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:30,536 - INFO - 127.0.0.1 - - [25/May/2025 10:22:30] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:30,700 - INFO - FFmpeg: elapsed=0:02:19.10 frame= 3479 fps= 25 q=21.0 size=N/A time=00:02:19.16 bitrate=N/A speed=   1x
+2025-05-25 10:22:31,202 - INFO - FFmpeg: elapsed=0:02:19.63 frame= 3493 fps= 25 q=28.0 size=N/A time=00:02:19.72 bitrate=N/A speed=   1x
+2025-05-25 10:22:31,703 - INFO - FFmpeg: elapsed=0:02:20.14 frame= 3505 fps= 25 q=22.0 size=N/A time=00:02:20.20 bitrate=N/A speed=   1x
+2025-05-25 10:22:32,204 - INFO - FFmpeg: elapsed=0:02:20.65 frame= 3518 fps= 25 q=25.0 size=N/A time=00:02:20.72 bitrate=N/A speed=   1x
+2025-05-25 10:22:32,544 - INFO - 127.0.0.1 - - [25/May/2025 10:22:32] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:32,545 - INFO - 127.0.0.1 - - [25/May/2025 10:22:32] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:32,550 - INFO - 127.0.0.1 - - [25/May/2025 10:22:32] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:32,710 - INFO - FFmpeg: elapsed=0:02:21.17 frame= 3529 fps= 25 q=21.0 size=N/A time=00:02:21.16 bitrate=N/A speed=   1x
+2025-05-25 10:22:33,185 - INFO - 127.0.0.1 - - [25/May/2025 10:22:33] "GET / HTTP/1.1" 200 -
+2025-05-25 10:22:33,215 - INFO - FFmpeg: elapsed=0:02:21.68 frame= 3544 fps= 25 q=26.0 size=N/A time=00:02:21.76 bitrate=N/A speed=   1x
+2025-05-25 10:22:33,340 - INFO - 127.0.0.1 - - [25/May/2025 10:22:33] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:33,340 - INFO - 127.0.0.1 - - [25/May/2025 10:22:33] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:33,343 - INFO - 127.0.0.1 - - [25/May/2025 10:22:33] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:33,723 - INFO - FFmpeg: elapsed=0:02:22.19 frame= 3557 fps= 25 q=22.0 size=N/A time=00:02:22.28 bitrate=N/A speed=   1x
+2025-05-25 10:22:34,224 - INFO - FFmpeg: elapsed=0:02:22.71 frame= 3569 fps= 25 q=22.0 size=N/A time=00:02:22.76 bitrate=N/A speed=   1x
+2025-05-25 10:22:34,725 - INFO - FFmpeg: elapsed=0:02:23.24 frame= 3579 fps= 25 q=22.0 size=N/A time=00:02:23.16 bitrate=N/A speed=0.999x
+2025-05-25 10:22:35,226 - INFO - FFmpeg: elapsed=0:02:23.75 frame= 3596 fps= 25 q=23.0 size=N/A time=00:02:23.84 bitrate=N/A speed=   1x
+2025-05-25 10:22:35,350 - INFO - 127.0.0.1 - - [25/May/2025 10:22:35] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:35,352 - INFO - 127.0.0.1 - - [25/May/2025 10:22:35] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:35,358 - INFO - 127.0.0.1 - - [25/May/2025 10:22:35] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:35,727 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_023.ts' for writing
+2025-05-25 10:22:36,229 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:36,730 - INFO - FFmpeg: elapsed=0:02:24.27 frame= 3609 fps= 25 q=22.0 size=N/A time=00:02:24.36 bitrate=N/A speed=   1x
+2025-05-25 10:22:37,231 - INFO - FFmpeg: elapsed=0:02:24.80 frame= 3621 fps= 25 q=25.0 size=N/A time=00:02:24.84 bitrate=N/A speed=   1x
+2025-05-25 10:22:37,443 - INFO - 127.0.0.1 - - [25/May/2025 10:22:37] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:37,444 - INFO - 127.0.0.1 - - [25/May/2025 10:22:37] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:37,472 - INFO - 127.0.0.1 - - [25/May/2025 10:22:37] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:37,734 - INFO - FFmpeg: elapsed=0:02:28.27 frame= 3708 fps= 25 q=25.0 size=N/A time=00:02:28.32 bitrate=N/A speed=   1x
+2025-05-25 10:22:38,244 - INFO - FFmpeg: elapsed=0:02:28.79 frame= 3722 fps= 25 q=25.0 size=N/A time=00:02:28.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:38,745 - INFO - FFmpeg: elapsed=0:02:29.30 frame= 3732 fps= 25 q=24.0 size=N/A time=00:02:29.28 bitrate=N/A speed=   1x
+2025-05-25 10:22:39,247 - INFO - FFmpeg: elapsed=0:02:29.82 frame= 3748 fps= 25 q=26.0 size=N/A time=00:02:29.92 bitrate=N/A speed=   1x
+2025-05-25 10:22:39,430 - INFO - 127.0.0.1 - - [25/May/2025 10:22:39] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:39,431 - INFO - 127.0.0.1 - - [25/May/2025 10:22:39] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:39,436 - INFO - 127.0.0.1 - - [25/May/2025 10:22:39] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:39,748 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_024.ts' for writing
+2025-05-25 10:22:40,251 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:40,752 - INFO - FFmpeg: elapsed=0:02:30.34 frame= 3760 fps= 25 q=24.0 size=N/A time=00:02:30.40 bitrate=N/A speed=   1x
+2025-05-25 10:22:41,253 - INFO - FFmpeg: elapsed=0:02:30.85 frame= 3772 fps= 25 q=25.0 size=N/A time=00:02:30.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:41,441 - INFO - 127.0.0.1 - - [25/May/2025 10:22:41] "HEAD /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:41,442 - INFO - 127.0.0.1 - - [25/May/2025 10:22:41] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:41,443 - INFO - 127.0.0.1 - - [25/May/2025 10:22:41] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:41,450 - INFO - 127.0.0.1 - - [25/May/2025 10:22:41] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:41,459 - INFO - 127.0.0.1 - - [25/May/2025 10:22:41] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:41,471 - INFO - 127.0.0.1 - - [25/May/2025 10:22:41] "GET /hls/seg_026.ts HTTP/1.1" 200 -
+2025-05-25 10:22:41,753 - INFO - 127.0.0.1 - - [25/May/2025 10:22:41] "GET /hls/seg_027.ts HTTP/1.1" 200 -
+2025-05-25 10:22:41,755 - INFO - FFmpeg: elapsed=0:02:31.37 frame= 3786 fps= 25 q=27.0 size=N/A time=00:02:31.44 bitrate=N/A speed=   1x
+2025-05-25 10:22:42,047 - INFO - 127.0.0.1 - - [25/May/2025 10:22:42] "GET /hls/seg_028.ts HTTP/1.1" 200 -
+2025-05-25 10:22:42,257 - INFO - FFmpeg: elapsed=0:02:31.89 frame= 3799 fps= 25 q=28.0 size=N/A time=00:02:31.96 bitrate=N/A speed=   1x
+2025-05-25 10:22:42,758 - INFO - FFmpeg: elapsed=0:02:32.41 frame= 3811 fps= 25 q=30.0 size=N/A time=00:02:32.44 bitrate=N/A speed=   1x
+2025-05-25 10:22:43,259 - INFO - FFmpeg: elapsed=0:02:32.92 frame= 3825 fps= 25 q=30.0 size=N/A time=00:02:33.00 bitrate=N/A speed=   1x
+2025-05-25 10:22:43,444 - INFO - 127.0.0.1 - - [25/May/2025 10:22:43] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:43,445 - INFO - 127.0.0.1 - - [25/May/2025 10:22:43] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:43,449 - INFO - 127.0.0.1 - - [25/May/2025 10:22:43] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:43,761 - INFO - FFmpeg: elapsed=0:02:33.43 frame= 3837 fps= 25 q=30.0 size=N/A time=00:02:33.48 bitrate=N/A speed=   1x
+2025-05-25 10:22:44,263 - INFO - FFmpeg: elapsed=0:02:33.95 frame= 3850 fps= 25 q=28.0 size=N/A time=00:02:34.00 bitrate=N/A speed=   1x
+2025-05-25 10:22:44,764 - INFO - FFmpeg: elapsed=0:02:34.47 frame= 3864 fps= 25 q=26.0 size=N/A time=00:02:34.56 bitrate=N/A speed=   1x
+2025-05-25 10:22:45,265 - INFO - FFmpeg: elapsed=0:02:34.99 frame= 3876 fps= 25 q=26.0 size=N/A time=00:02:35.04 bitrate=N/A speed=   1x
+2025-05-25 10:22:45,452 - INFO - 127.0.0.1 - - [25/May/2025 10:22:45] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:45,453 - INFO - 127.0.0.1 - - [25/May/2025 10:22:45] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:45,455 - INFO - 127.0.0.1 - - [25/May/2025 10:22:45] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:45,766 - INFO - FFmpeg: elapsed=0:02:35.50 frame= 3889 fps= 25 q=24.0 size=N/A time=00:02:35.56 bitrate=N/A speed=   1x
+2025-05-25 10:22:46,268 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_025.ts' for writing
+2025-05-25 10:22:46,769 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:47,269 - INFO - FFmpeg: elapsed=0:02:36.01 frame= 3902 fps= 25 q=25.0 size=N/A time=00:02:36.08 bitrate=N/A speed=   1x
+2025-05-25 10:22:47,465 - INFO - 127.0.0.1 - - [25/May/2025 10:22:47] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:47,465 - INFO - 127.0.0.1 - - [25/May/2025 10:22:47] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:47,468 - INFO - 127.0.0.1 - - [25/May/2025 10:22:47] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:47,770 - INFO - FFmpeg: elapsed=0:02:36.53 frame= 3915 fps= 25 q=25.0 size=N/A time=00:02:36.60 bitrate=N/A speed=   1x
+2025-05-25 10:22:48,271 - INFO - FFmpeg: elapsed=0:02:37.05 frame= 3928 fps= 25 q=24.0 size=N/A time=00:02:37.12 bitrate=N/A speed=   1x
+2025-05-25 10:22:48,772 - INFO - FFmpeg: elapsed=0:02:37.56 frame= 3941 fps= 25 q=33.0 size=N/A time=00:02:37.64 bitrate=N/A speed=   1x
+2025-05-25 10:22:49,273 - INFO - FFmpeg: elapsed=0:02:38.08 frame= 3953 fps= 25 q=25.0 size=N/A time=00:02:38.12 bitrate=N/A speed=   1x
+2025-05-25 10:22:49,478 - INFO - 127.0.0.1 - - [25/May/2025 10:22:49] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:49,482 - INFO - 127.0.0.1 - - [25/May/2025 10:22:49] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:49,486 - INFO - 127.0.0.1 - - [25/May/2025 10:22:49] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:49,775 - INFO - FFmpeg: elapsed=0:02:38.59 frame= 3966 fps= 25 q=25.0 size=N/A time=00:02:38.64 bitrate=N/A speed=   1x
+2025-05-25 10:22:50,277 - INFO - FFmpeg: elapsed=0:02:39.11 frame= 3979 fps= 25 q=26.0 size=N/A time=00:02:39.16 bitrate=N/A speed=   1x
+2025-05-25 10:22:50,787 - INFO - FFmpeg: elapsed=0:02:39.63 frame= 3992 fps= 25 q=31.0 size=N/A time=00:02:39.68 bitrate=N/A speed=   1x
+2025-05-25 10:22:51,291 - INFO - FFmpeg: elapsed=0:02:40.13 frame= 4006 fps= 25 q=27.0 size=N/A time=00:02:40.24 bitrate=N/A speed=   1x
+2025-05-25 10:22:51,484 - INFO - 127.0.0.1 - - [25/May/2025 10:22:51] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:51,485 - INFO - 127.0.0.1 - - [25/May/2025 10:22:51] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:51,490 - INFO - 127.0.0.1 - - [25/May/2025 10:22:51] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:51,792 - INFO - FFmpeg: elapsed=0:02:40.65 frame= 4018 fps= 25 q=28.0 size=N/A time=00:02:40.72 bitrate=N/A speed=   1x
+2025-05-25 10:22:52,294 - INFO - FFmpeg: elapsed=0:02:41.16 frame= 4029 fps= 25 q=30.0 size=N/A time=00:02:41.16 bitrate=N/A speed=   1x
+2025-05-25 10:22:52,795 - INFO - FFmpeg: elapsed=0:02:41.68 frame= 4044 fps= 25 q=30.0 size=N/A time=00:02:41.76 bitrate=N/A speed=   1x
+2025-05-25 10:22:53,296 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_026.ts' for writing
+2025-05-25 10:22:53,473 - INFO - 127.0.0.1 - - [25/May/2025 10:22:53] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:53,501 - INFO - 127.0.0.1 - - [25/May/2025 10:22:53] "GET /hls/seg_029.ts HTTP/1.1" 200 -
+2025-05-25 10:22:53,511 - INFO - 127.0.0.1 - - [25/May/2025 10:22:53] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:53,515 - INFO - 127.0.0.1 - - [25/May/2025 10:22:53] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:53,521 - INFO - 127.0.0.1 - - [25/May/2025 10:22:53] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:53,763 - INFO - 127.0.0.1 - - [25/May/2025 10:22:53] "GET /hls/seg_030.ts HTTP/1.1" 200 -
+2025-05-25 10:22:53,797 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:22:54,301 - INFO - FFmpeg: elapsed=0:02:42.21 frame= 4057 fps= 25 q=26.0 size=N/A time=00:02:42.28 bitrate=N/A speed=   1x
+2025-05-25 10:22:54,803 - INFO - FFmpeg: elapsed=0:02:42.72 frame= 4070 fps= 25 q=26.0 size=N/A time=00:02:42.80 bitrate=N/A speed=   1x
+2025-05-25 10:22:55,304 - INFO - FFmpeg: elapsed=0:02:43.24 frame= 4079 fps= 25 q=27.0 size=N/A time=00:02:43.16 bitrate=N/A speed=   1x
+2025-05-25 10:22:55,511 - INFO - 127.0.0.1 - - [25/May/2025 10:22:55] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:55,511 - INFO - 127.0.0.1 - - [25/May/2025 10:22:55] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:55,513 - INFO - 127.0.0.1 - - [25/May/2025 10:22:55] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:55,806 - INFO - FFmpeg: elapsed=0:02:43.75 frame= 4095 fps= 25 q=29.0 size=N/A time=00:02:43.80 bitrate=N/A speed=   1x
+2025-05-25 10:22:56,308 - INFO - FFmpeg: elapsed=0:02:44.26 frame= 4107 fps= 25 q=26.0 size=N/A time=00:02:44.28 bitrate=N/A speed=   1x
+2025-05-25 10:22:56,809 - INFO - FFmpeg: elapsed=0:02:44.78 frame= 4122 fps= 25 q=26.0 size=N/A time=00:02:44.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:57,311 - INFO - FFmpeg: elapsed=0:02:45.29 frame= 4129 fps= 25 q=26.0 size=N/A time=00:02:45.16 bitrate=N/A speed=0.999x
+2025-05-25 10:22:57,515 - INFO - 127.0.0.1 - - [25/May/2025 10:22:57] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:57,517 - INFO - 127.0.0.1 - - [25/May/2025 10:22:57] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:57,524 - INFO - 127.0.0.1 - - [25/May/2025 10:22:57] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:57,812 - INFO - FFmpeg: elapsed=0:02:45.81 frame= 4147 fps= 25 q=26.0 size=N/A time=00:02:45.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:58,314 - INFO - FFmpeg: elapsed=0:02:46.33 frame= 4160 fps= 25 q=25.0 size=N/A time=00:02:46.40 bitrate=N/A speed=   1x
+2025-05-25 10:22:58,816 - INFO - FFmpeg: elapsed=0:02:46.84 frame= 4172 fps= 25 q=25.0 size=N/A time=00:02:46.88 bitrate=N/A speed=   1x
+2025-05-25 10:22:59,318 - INFO - FFmpeg: elapsed=0:02:47.35 frame= 4185 fps= 25 q=25.0 size=N/A time=00:02:47.40 bitrate=N/A speed=   1x
+2025-05-25 10:22:59,468 - INFO - 127.0.0.1 - - [25/May/2025 10:22:59] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:22:59,478 - INFO - 127.0.0.1 - - [25/May/2025 10:22:59] "GET /hls/seg_031.ts HTTP/1.1" 200 -
+2025-05-25 10:22:59,530 - INFO - 127.0.0.1 - - [25/May/2025 10:22:59] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:22:59,531 - INFO - 127.0.0.1 - - [25/May/2025 10:22:59] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:22:59,537 - INFO - 127.0.0.1 - - [25/May/2025 10:22:59] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:22:59,819 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_027.ts' for writing
+2025-05-25 10:23:00,320 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:00,822 - INFO - FFmpeg: elapsed=0:02:50.49 frame= 4257 fps= 25 q=28.0 size=N/A time=00:02:50.28 bitrate=N/A speed=0.999x
+2025-05-25 10:23:01,323 - INFO - FFmpeg: elapsed=0:02:51.00 frame= 4277 fps= 25 q=26.0 size=N/A time=00:02:51.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:01,527 - INFO - 127.0.0.1 - - [25/May/2025 10:23:01] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:01,528 - INFO - 127.0.0.1 - - [25/May/2025 10:23:01] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:01,531 - INFO - 127.0.0.1 - - [25/May/2025 10:23:01] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:01,825 - INFO - FFmpeg: elapsed=0:02:51.51 frame= 4290 fps= 25 q=23.0 size=N/A time=00:02:51.60 bitrate=N/A speed=   1x
+2025-05-25 10:23:02,326 - INFO - FFmpeg: elapsed=0:02:52.03 frame= 4302 fps= 25 q=28.0 size=N/A time=00:02:52.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:02,827 - INFO - FFmpeg: elapsed=0:02:52.55 frame= 4315 fps= 25 q=28.0 size=N/A time=00:02:52.60 bitrate=N/A speed=   1x
+2025-05-25 10:23:03,329 - INFO - FFmpeg: elapsed=0:02:53.06 frame= 4329 fps= 25 q=25.0 size=N/A time=00:02:53.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:03,530 - INFO - 127.0.0.1 - - [25/May/2025 10:23:03] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:03,531 - INFO - 127.0.0.1 - - [25/May/2025 10:23:03] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:03,536 - INFO - 127.0.0.1 - - [25/May/2025 10:23:03] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:03,830 - INFO - FFmpeg: elapsed=0:02:53.57 frame= 4341 fps= 25 q=33.0 size=N/A time=00:02:53.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:04,331 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_028.ts' for writing
+2025-05-25 10:23:04,832 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:05,334 - INFO - FFmpeg: elapsed=0:02:54.10 frame= 4354 fps= 25 q=26.0 size=N/A time=00:02:54.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:05,460 - INFO - 127.0.0.1 - - [25/May/2025 10:23:05] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:05,480 - INFO - 127.0.0.1 - - [25/May/2025 10:23:05] "GET /hls/seg_032.ts HTTP/1.1" 200 -
+2025-05-25 10:23:05,554 - INFO - 127.0.0.1 - - [25/May/2025 10:23:05] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:05,556 - INFO - 127.0.0.1 - - [25/May/2025 10:23:05] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:05,561 - INFO - 127.0.0.1 - - [25/May/2025 10:23:05] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:05,835 - INFO - FFmpeg: elapsed=0:02:54.62 frame= 4367 fps= 25 q=25.0 size=N/A time=00:02:54.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:06,336 - INFO - FFmpeg: elapsed=0:02:55.15 frame= 4379 fps= 25 q=25.0 size=N/A time=00:02:55.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:06,836 - INFO - FFmpeg: elapsed=0:02:55.66 frame= 4394 fps= 25 q=28.0 size=N/A time=00:02:55.76 bitrate=N/A speed=   1x
+2025-05-25 10:23:07,338 - INFO - FFmpeg: elapsed=0:02:56.18 frame= 4406 fps= 25 q=24.0 size=N/A time=00:02:56.24 bitrate=N/A speed=   1x
+2025-05-25 10:23:07,546 - INFO - 127.0.0.1 - - [25/May/2025 10:23:07] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:07,546 - INFO - 127.0.0.1 - - [25/May/2025 10:23:07] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:07,549 - INFO - 127.0.0.1 - - [25/May/2025 10:23:07] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:07,838 - INFO - FFmpeg: elapsed=0:02:56.70 frame= 4418 fps= 25 q=24.0 size=N/A time=00:02:56.72 bitrate=N/A speed=   1x
+2025-05-25 10:23:08,339 - INFO - FFmpeg: elapsed=0:02:57.21 frame= 4429 fps= 25 q=24.0 size=N/A time=00:02:57.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:08,840 - INFO - FFmpeg: elapsed=0:02:57.74 frame= 4445 fps= 25 q=28.0 size=N/A time=00:02:57.80 bitrate=N/A speed=   1x
+2025-05-25 10:23:09,342 - INFO - FFmpeg: elapsed=0:02:58.25 frame= 4457 fps= 25 q=24.0 size=N/A time=00:02:58.28 bitrate=N/A speed=   1x
+2025-05-25 10:23:09,557 - INFO - 127.0.0.1 - - [25/May/2025 10:23:09] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:09,557 - INFO - 127.0.0.1 - - [25/May/2025 10:23:09] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:09,562 - INFO - 127.0.0.1 - - [25/May/2025 10:23:09] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:09,844 - INFO - FFmpeg: elapsed=0:02:58.76 frame= 4470 fps= 25 q=23.0 size=N/A time=00:02:58.80 bitrate=N/A speed=   1x
+2025-05-25 10:23:10,345 - INFO - FFmpeg: elapsed=0:02:59.28 frame= 4479 fps= 25 q=23.0 size=N/A time=00:02:59.16 bitrate=N/A speed=0.999x
+2025-05-25 10:23:10,875 - INFO - FFmpeg: elapsed=0:02:59.80 frame= 4496 fps= 25 q=24.0 size=N/A time=00:02:59.84 bitrate=N/A speed=   1x
+2025-05-25 10:23:11,396 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_029.ts' for writing
+2025-05-25 10:23:11,466 - INFO - 127.0.0.1 - - [25/May/2025 10:23:11] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:11,485 - INFO - 127.0.0.1 - - [25/May/2025 10:23:11] "GET /hls/seg_033.ts HTTP/1.1" 200 -
+2025-05-25 10:23:11,589 - INFO - 127.0.0.1 - - [25/May/2025 10:23:11] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:11,590 - INFO - 127.0.0.1 - - [25/May/2025 10:23:11] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:11,592 - INFO - 127.0.0.1 - - [25/May/2025 10:23:11] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:11,897 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:12,398 - INFO - FFmpeg: elapsed=0:03:00.31 frame= 4509 fps= 25 q=24.0 size=N/A time=00:03:00.36 bitrate=N/A speed=   1x
+2025-05-25 10:23:12,899 - INFO - FFmpeg: elapsed=0:03:00.82 frame= 4522 fps= 25 q=22.0 size=N/A time=00:03:00.88 bitrate=N/A speed=   1x
+2025-05-25 10:23:13,401 - INFO - FFmpeg: elapsed=0:03:01.35 frame= 4534 fps= 25 q=23.0 size=N/A time=00:03:01.36 bitrate=N/A speed=   1x
+2025-05-25 10:23:13,580 - INFO - 127.0.0.1 - - [25/May/2025 10:23:13] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:13,581 - INFO - 127.0.0.1 - - [25/May/2025 10:23:13] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:13,586 - INFO - 127.0.0.1 - - [25/May/2025 10:23:13] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:13,903 - INFO - FFmpeg: elapsed=0:03:01.85 frame= 4548 fps= 25 q=23.0 size=N/A time=00:03:01.92 bitrate=N/A speed=   1x
+2025-05-25 10:23:14,404 - INFO - FFmpeg: elapsed=0:03:02.37 frame= 4560 fps= 25 q=22.0 size=N/A time=00:03:02.40 bitrate=N/A speed=   1x
+2025-05-25 10:23:14,905 - INFO - FFmpeg: elapsed=0:03:02.89 frame= 4574 fps= 25 q=22.0 size=N/A time=00:03:02.96 bitrate=N/A speed=   1x
+2025-05-25 10:23:15,406 - INFO - FFmpeg: elapsed=0:03:03.40 frame= 4579 fps= 25 q=22.0 size=N/A time=00:03:03.16 bitrate=N/A speed=0.999x
+2025-05-25 10:23:15,595 - INFO - 127.0.0.1 - - [25/May/2025 10:23:15] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:15,601 - INFO - 127.0.0.1 - - [25/May/2025 10:23:15] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:15,608 - INFO - 127.0.0.1 - - [25/May/2025 10:23:15] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:15,907 - INFO - FFmpeg: elapsed=0:03:03.92 frame= 4599 fps= 25 q=22.0 size=N/A time=00:03:03.96 bitrate=N/A speed=   1x
+2025-05-25 10:23:16,409 - INFO - FFmpeg: elapsed=0:03:04.44 frame= 4613 fps= 25 q=22.0 size=N/A time=00:03:04.52 bitrate=N/A speed=   1x
+2025-05-25 10:23:16,910 - INFO - FFmpeg: elapsed=0:03:04.95 frame= 4626 fps= 25 q=22.0 size=N/A time=00:03:05.04 bitrate=N/A speed=   1x
+2025-05-25 10:23:17,412 - INFO - FFmpeg: elapsed=0:03:05.46 frame= 4637 fps= 25 q=22.0 size=N/A time=00:03:05.48 bitrate=N/A speed=   1x
+2025-05-25 10:23:17,471 - INFO - 127.0.0.1 - - [25/May/2025 10:23:17] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:17,483 - INFO - 127.0.0.1 - - [25/May/2025 10:23:17] "GET /hls/seg_034.ts HTTP/1.1" 200 -
+2025-05-25 10:23:17,598 - INFO - 127.0.0.1 - - [25/May/2025 10:23:17] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:17,600 - INFO - 127.0.0.1 - - [25/May/2025 10:23:17] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:17,603 - INFO - 127.0.0.1 - - [25/May/2025 10:23:17] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:17,914 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_030.ts' for writing
+2025-05-25 10:23:18,416 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:18,917 - INFO - FFmpeg: elapsed=0:03:05.99 frame= 4652 fps= 25 q=22.0 size=N/A time=00:03:06.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:19,419 - INFO - FFmpeg: elapsed=0:03:06.50 frame= 4664 fps= 25 q=22.0 size=N/A time=00:03:06.56 bitrate=N/A speed=   1x
+2025-05-25 10:23:19,595 - INFO - 127.0.0.1 - - [25/May/2025 10:23:19] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:19,596 - INFO - 127.0.0.1 - - [25/May/2025 10:23:19] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:19,600 - INFO - 127.0.0.1 - - [25/May/2025 10:23:19] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:19,921 - INFO - FFmpeg: elapsed=0:03:07.02 frame= 4676 fps= 25 q=22.0 size=N/A time=00:03:07.04 bitrate=N/A speed=   1x
+2025-05-25 10:23:20,422 - INFO - FFmpeg: elapsed=0:03:07.53 frame= 4691 fps= 25 q=32.0 size=N/A time=00:03:07.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:20,924 - INFO - FFmpeg: elapsed=0:03:08.04 frame= 4703 fps= 25 q=23.0 size=N/A time=00:03:08.12 bitrate=N/A speed=   1x
+2025-05-25 10:23:21,425 - INFO - FFmpeg: elapsed=0:03:08.56 frame= 4715 fps= 25 q=26.0 size=N/A time=00:03:08.60 bitrate=N/A speed=   1x
+2025-05-25 10:23:21,611 - INFO - 127.0.0.1 - - [25/May/2025 10:23:21] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:21,612 - INFO - 127.0.0.1 - - [25/May/2025 10:23:21] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:21,616 - INFO - 127.0.0.1 - - [25/May/2025 10:23:21] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:21,926 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_031.ts' for writing
+2025-05-25 10:23:22,427 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:22,928 - INFO - FFmpeg: elapsed=0:03:12.58 frame= 4816 fps= 25 q=25.0 size=N/A time=00:03:12.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:23,429 - INFO - FFmpeg: elapsed=0:03:13.09 frame= 4829 fps= 25 q=24.0 size=N/A time=00:03:13.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:23,465 - INFO - 127.0.0.1 - - [25/May/2025 10:23:23] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:23,483 - INFO - 127.0.0.1 - - [25/May/2025 10:23:23] "GET /hls/seg_035.ts HTTP/1.1" 200 -
+2025-05-25 10:23:23,632 - INFO - 127.0.0.1 - - [25/May/2025 10:23:23] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:23,633 - INFO - 127.0.0.1 - - [25/May/2025 10:23:23] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:23,665 - INFO - 127.0.0.1 - - [25/May/2025 10:23:23] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:23,930 - INFO - FFmpeg: elapsed=0:03:13.61 frame= 4842 fps= 25 q=31.0 size=N/A time=00:03:13.68 bitrate=N/A speed=   1x
+2025-05-25 10:23:24,431 - INFO - FFmpeg: elapsed=0:03:14.12 frame= 4854 fps= 25 q=24.0 size=N/A time=00:03:14.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:24,932 - INFO - FFmpeg: elapsed=0:03:14.64 frame= 4868 fps= 25 q=23.0 size=N/A time=00:03:14.72 bitrate=N/A speed=   1x
+2025-05-25 10:23:25,434 - INFO - FFmpeg: elapsed=0:03:15.15 frame= 4879 fps= 25 q=24.0 size=N/A time=00:03:15.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:25,629 - INFO - 127.0.0.1 - - [25/May/2025 10:23:25] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:25,631 - INFO - 127.0.0.1 - - [25/May/2025 10:23:25] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:25,635 - INFO - 127.0.0.1 - - [25/May/2025 10:23:25] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:25,936 - INFO - FFmpeg: elapsed=0:03:15.68 frame= 4893 fps= 25 q=28.0 size=N/A time=00:03:15.72 bitrate=N/A speed=   1x
+2025-05-25 10:23:26,438 - INFO - FFmpeg: elapsed=0:03:16.19 frame= 4907 fps= 25 q=25.0 size=N/A time=00:03:16.28 bitrate=N/A speed=   1x
+2025-05-25 10:23:26,939 - INFO - FFmpeg: elapsed=0:03:16.70 frame= 4920 fps= 25 q=25.0 size=N/A time=00:03:16.80 bitrate=N/A speed=   1x
+2025-05-25 10:23:27,440 - INFO - FFmpeg: elapsed=0:03:17.22 frame= 4929 fps= 25 q=24.0 size=N/A time=00:03:17.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:27,637 - INFO - 127.0.0.1 - - [25/May/2025 10:23:27] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:27,639 - INFO - 127.0.0.1 - - [25/May/2025 10:23:27] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:27,645 - INFO - 127.0.0.1 - - [25/May/2025 10:23:27] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:27,942 - INFO - FFmpeg: elapsed=0:03:17.73 frame= 4945 fps= 25 q=27.0 size=N/A time=00:03:17.80 bitrate=N/A speed=   1x
+2025-05-25 10:23:28,444 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_032.ts' for writing
+2025-05-25 10:23:28,945 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:29,446 - INFO - FFmpeg: elapsed=0:03:18.24 frame= 4958 fps= 25 q=23.0 size=N/A time=00:03:18.32 bitrate=N/A speed=   1x
+2025-05-25 10:23:29,470 - INFO - 127.0.0.1 - - [25/May/2025 10:23:29] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:29,488 - INFO - 127.0.0.1 - - [25/May/2025 10:23:29] "GET /hls/seg_036.ts HTTP/1.1" 200 -
+2025-05-25 10:23:29,666 - INFO - 127.0.0.1 - - [25/May/2025 10:23:29] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:29,667 - INFO - 127.0.0.1 - - [25/May/2025 10:23:29] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:29,671 - INFO - 127.0.0.1 - - [25/May/2025 10:23:29] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:29,947 - INFO - FFmpeg: elapsed=0:03:18.77 frame= 4971 fps= 25 q=23.0 size=N/A time=00:03:18.84 bitrate=N/A speed=   1x
+2025-05-25 10:23:30,448 - INFO - FFmpeg: elapsed=0:03:19.28 frame= 4979 fps= 25 q=23.0 size=N/A time=00:03:19.16 bitrate=N/A speed=0.999x
+2025-05-25 10:23:30,949 - INFO - FFmpeg: elapsed=0:03:19.79 frame= 4996 fps= 25 q=24.0 size=N/A time=00:03:19.84 bitrate=N/A speed=   1x
+2025-05-25 10:23:31,450 - INFO - FFmpeg: elapsed=0:03:20.31 frame= 5010 fps= 25 q=22.0 size=N/A time=00:03:20.40 bitrate=N/A speed=   1x
+2025-05-25 10:23:31,650 - INFO - 127.0.0.1 - - [25/May/2025 10:23:31] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:31,652 - INFO - 127.0.0.1 - - [25/May/2025 10:23:31] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:31,658 - INFO - 127.0.0.1 - - [25/May/2025 10:23:31] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:31,952 - INFO - FFmpeg: elapsed=0:03:20.82 frame= 5023 fps= 25 q=22.0 size=N/A time=00:03:20.92 bitrate=N/A speed=   1x
+2025-05-25 10:23:32,452 - INFO - FFmpeg: elapsed=0:03:21.35 frame= 5029 fps= 25 q=22.0 size=N/A time=00:03:21.16 bitrate=N/A speed=0.999x
+2025-05-25 10:23:32,953 - INFO - FFmpeg: elapsed=0:03:21.86 frame= 5048 fps= 25 q=22.0 size=N/A time=00:03:21.92 bitrate=N/A speed=   1x
+2025-05-25 10:23:33,455 - INFO - FFmpeg: elapsed=0:03:22.37 frame= 5061 fps= 25 q=22.0 size=N/A time=00:03:22.44 bitrate=N/A speed=   1x
+2025-05-25 10:23:33,652 - INFO - 127.0.0.1 - - [25/May/2025 10:23:33] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:33,653 - INFO - 127.0.0.1 - - [25/May/2025 10:23:33] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:33,656 - INFO - 127.0.0.1 - - [25/May/2025 10:23:33] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:33,956 - INFO - FFmpeg: elapsed=0:03:22.90 frame= 5074 fps= 25 q=23.0 size=N/A time=00:03:22.96 bitrate=N/A speed=   1x
+2025-05-25 10:23:34,458 - INFO - FFmpeg: elapsed=0:03:23.40 frame= 5080 fps= 25 q=26.0 size=N/A time=00:03:23.20 bitrate=N/A speed=0.999x
+2025-05-25 10:23:34,959 - INFO - FFmpeg: elapsed=0:03:23.91 frame= 5100 fps= 25 q=26.0 size=N/A time=00:03:24.00 bitrate=N/A speed=   1x
+2025-05-25 10:23:35,460 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_033.ts' for writing
+2025-05-25 10:23:35,463 - INFO - 127.0.0.1 - - [25/May/2025 10:23:35] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:35,476 - INFO - 127.0.0.1 - - [25/May/2025 10:23:35] "GET /hls/seg_037.ts HTTP/1.1" 200 -
+2025-05-25 10:23:35,672 - INFO - 127.0.0.1 - - [25/May/2025 10:23:35] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:35,673 - INFO - 127.0.0.1 - - [25/May/2025 10:23:35] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:35,685 - INFO - 127.0.0.1 - - [25/May/2025 10:23:35] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:35,961 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:36,463 - INFO - FFmpeg: elapsed=0:03:24.43 frame= 5112 fps= 25 q=24.0 size=N/A time=00:03:24.48 bitrate=N/A speed=   1x
+2025-05-25 10:23:36,964 - INFO - FFmpeg: elapsed=0:03:24.94 frame= 5124 fps= 25 q=25.0 size=N/A time=00:03:24.96 bitrate=N/A speed=   1x
+2025-05-25 10:23:37,466 - INFO - FFmpeg: elapsed=0:03:25.46 frame= 5138 fps= 25 q=25.0 size=N/A time=00:03:25.52 bitrate=N/A speed=   1x
+2025-05-25 10:23:37,882 - INFO - 127.0.0.1 - - [25/May/2025 10:23:37] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:37,883 - INFO - 127.0.0.1 - - [25/May/2025 10:23:37] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:37,885 - INFO - 127.0.0.1 - - [25/May/2025 10:23:37] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:37,967 - INFO - FFmpeg: elapsed=0:03:25.99 frame= 5152 fps= 25 q=24.0 size=N/A time=00:03:26.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:38,469 - INFO - FFmpeg: elapsed=0:03:26.50 frame= 5164 fps= 25 q=24.0 size=N/A time=00:03:26.56 bitrate=N/A speed=   1x
+2025-05-25 10:23:38,970 - INFO - FFmpeg: elapsed=0:03:27.02 frame= 5177 fps= 25 q=25.0 size=N/A time=00:03:27.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:39,471 - INFO - FFmpeg: elapsed=0:03:27.53 frame= 5191 fps= 25 q=33.0 size=N/A time=00:03:27.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:39,912 - INFO - 127.0.0.1 - - [25/May/2025 10:23:39] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:39,913 - INFO - 127.0.0.1 - - [25/May/2025 10:23:39] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:39,917 - INFO - 127.0.0.1 - - [25/May/2025 10:23:39] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:39,973 - INFO - FFmpeg: elapsed=0:03:28.04 frame= 5202 fps= 25 q=26.0 size=N/A time=00:03:28.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:40,474 - INFO - FFmpeg: elapsed=0:03:28.56 frame= 5216 fps= 25 q=25.0 size=N/A time=00:03:28.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:41,017 - INFO - FFmpeg: elapsed=0:03:29.07 frame= 5228 fps= 25 q=27.0 size=N/A time=00:03:29.12 bitrate=N/A speed=   1x
+2025-05-25 10:23:41,559 - INFO - FFmpeg: elapsed=0:03:29.60 frame= 5241 fps= 25 q=33.0 size=N/A time=00:03:29.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:42,060 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_034.ts' for writing
+2025-05-25 10:23:42,079 - INFO - 127.0.0.1 - - [25/May/2025 10:23:42] "[36mGET /hls/stream.m3u8 HTTP/1.1[0m" 304 -
+2025-05-25 10:23:42,081 - INFO - 127.0.0.1 - - [25/May/2025 10:23:42] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:42,082 - INFO - 127.0.0.1 - - [25/May/2025 10:23:42] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:42,087 - INFO - 127.0.0.1 - - [25/May/2025 10:23:42] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:42,561 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:43,062 - INFO - FFmpeg: elapsed=0:03:30.11 frame= 5255 fps= 25 q=25.0 size=N/A time=00:03:30.20 bitrate=N/A speed=   1x
+2025-05-25 10:23:43,564 - INFO - FFmpeg: elapsed=0:03:30.62 frame= 5267 fps= 25 q=25.0 size=N/A time=00:03:30.68 bitrate=N/A speed=   1x
+2025-05-25 10:23:44,090 - INFO - FFmpeg: elapsed=0:03:34.69 frame= 5369 fps= 25 q=27.0 size=N/A time=00:03:34.76 bitrate=N/A speed=   1x
+2025-05-25 10:23:44,279 - INFO - 127.0.0.1 - - [25/May/2025 10:23:44] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:44,362 - INFO - 127.0.0.1 - - [25/May/2025 10:23:44] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:44,413 - INFO - 127.0.0.1 - - [25/May/2025 10:23:44] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:44,623 - INFO - FFmpeg: elapsed=0:03:35.21 frame= 5379 fps= 25 q=25.0 size=N/A time=00:03:35.16 bitrate=N/A speed=   1x
+2025-05-25 10:23:45,124 - INFO - FFmpeg: elapsed=0:03:35.71 frame= 5395 fps= 25 q=27.0 size=N/A time=00:03:35.80 bitrate=N/A speed=   1x
+2025-05-25 10:23:45,222 - INFO - 127.0.0.1 - - [25/May/2025 10:23:45] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:45,234 - INFO - 127.0.0.1 - - [25/May/2025 10:23:45] "GET /hls/seg_038.ts HTTP/1.1" 200 -
+2025-05-25 10:23:45,626 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_035.ts' for writing
+2025-05-25 10:23:46,128 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:46,249 - INFO - 127.0.0.1 - - [25/May/2025 10:23:46] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:46,251 - INFO - 127.0.0.1 - - [25/May/2025 10:23:46] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:46,254 - INFO - 127.0.0.1 - - [25/May/2025 10:23:46] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:46,628 - INFO - FFmpeg: elapsed=0:03:36.24 frame= 5407 fps= 25 q=26.0 size=N/A time=00:03:36.28 bitrate=N/A speed=   1x
+2025-05-25 10:23:47,129 - INFO - FFmpeg: elapsed=0:03:36.75 frame= 5420 fps= 25 q=25.0 size=N/A time=00:03:36.80 bitrate=N/A speed=   1x
+2025-05-25 10:23:47,630 - INFO - FFmpeg: elapsed=0:03:37.27 frame= 5429 fps= 25 q=25.0 size=N/A time=00:03:37.16 bitrate=N/A speed=0.999x
+2025-05-25 10:23:48,132 - INFO - FFmpeg: elapsed=0:03:37.77 frame= 5446 fps= 25 q=26.0 size=N/A time=00:03:37.84 bitrate=N/A speed=   1x
+2025-05-25 10:23:48,414 - INFO - 127.0.0.1 - - [25/May/2025 10:23:48] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:48,415 - INFO - 127.0.0.1 - - [25/May/2025 10:23:48] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:48,421 - INFO - 127.0.0.1 - - [25/May/2025 10:23:48] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:48,633 - INFO - FFmpeg: elapsed=0:03:38.30 frame= 5459 fps= 25 q=25.0 size=N/A time=00:03:38.36 bitrate=N/A speed=   1x
+2025-05-25 10:23:49,134 - INFO - FFmpeg: elapsed=0:03:38.81 frame= 5472 fps= 25 q=25.0 size=N/A time=00:03:38.88 bitrate=N/A speed=   1x
+2025-05-25 10:23:49,635 - INFO - FFmpeg: elapsed=0:03:39.32 frame= 5479 fps= 25 q=25.0 size=N/A time=00:03:39.16 bitrate=N/A speed=0.999x
+2025-05-25 10:23:50,137 - INFO - FFmpeg: elapsed=0:03:39.85 frame= 5498 fps= 25 q=26.0 size=N/A time=00:03:39.92 bitrate=N/A speed=   1x
+2025-05-25 10:23:50,445 - INFO - 127.0.0.1 - - [25/May/2025 10:23:50] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:50,446 - INFO - 127.0.0.1 - - [25/May/2025 10:23:50] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:50,451 - INFO - 127.0.0.1 - - [25/May/2025 10:23:50] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:50,639 - INFO - FFmpeg: elapsed=0:03:40.36 frame= 5511 fps= 25 q=25.0 size=N/A time=00:03:40.44 bitrate=N/A speed=   1x
+2025-05-25 10:23:51,144 - INFO - FFmpeg: elapsed=0:03:40.87 frame= 5523 fps= 25 q=25.0 size=N/A time=00:03:40.92 bitrate=N/A speed=   1x
+2025-05-25 10:23:51,463 - INFO - 127.0.0.1 - - [25/May/2025 10:23:51] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:51,482 - INFO - 127.0.0.1 - - [25/May/2025 10:23:51] "GET /hls/seg_039.ts HTTP/1.1" 200 -
+2025-05-25 10:23:51,677 - INFO - FFmpeg: elapsed=0:03:41.38 frame= 5536 fps= 25 q=25.0 size=N/A time=00:03:41.44 bitrate=N/A speed=   1x
+2025-05-25 10:23:52,179 - INFO - FFmpeg: elapsed=0:03:41.91 frame= 5549 fps= 25 q=25.0 size=N/A time=00:03:41.96 bitrate=N/A speed=   1x
+2025-05-25 10:23:52,469 - INFO - 127.0.0.1 - - [25/May/2025 10:23:52] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:52,472 - INFO - 127.0.0.1 - - [25/May/2025 10:23:52] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:52,475 - INFO - 127.0.0.1 - - [25/May/2025 10:23:52] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:52,681 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_036.ts' for writing
+2025-05-25 10:23:53,182 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:23:53,685 - INFO - FFmpeg: elapsed=0:03:42.42 frame= 5562 fps= 25 q=25.0 size=N/A time=00:03:42.48 bitrate=N/A speed=   1x
+2025-05-25 10:23:54,186 - INFO - FFmpeg: elapsed=0:03:42.93 frame= 5575 fps= 25 q=25.0 size=N/A time=00:03:43.00 bitrate=N/A speed=   1x
+2025-05-25 10:23:54,494 - INFO - 127.0.0.1 - - [25/May/2025 10:23:54] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:54,494 - INFO - 127.0.0.1 - - [25/May/2025 10:23:54] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:54,498 - INFO - 127.0.0.1 - - [25/May/2025 10:23:54] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:54,687 - INFO - FFmpeg: elapsed=0:03:43.45 frame= 5589 fps= 25 q=25.0 size=N/A time=00:03:43.56 bitrate=N/A speed=   1x
+2025-05-25 10:23:55,189 - INFO - FFmpeg: elapsed=0:03:43.97 frame= 5601 fps= 25 q=25.0 size=N/A time=00:03:44.04 bitrate=N/A speed=   1x
+2025-05-25 10:23:55,690 - INFO - FFmpeg: elapsed=0:03:44.48 frame= 5613 fps= 25 q=25.0 size=N/A time=00:03:44.52 bitrate=N/A speed=   1x
+2025-05-25 10:23:56,192 - INFO - FFmpeg: elapsed=0:03:44.99 frame= 5627 fps= 25 q=24.0 size=N/A time=00:03:45.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:56,511 - INFO - 127.0.0.1 - - [25/May/2025 10:23:56] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:23:56,513 - INFO - 127.0.0.1 - - [25/May/2025 10:23:56] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:56,516 - INFO - 127.0.0.1 - - [25/May/2025 10:23:56] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:56,520 - INFO - 127.0.0.1 - - [25/May/2025 10:23:56] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:56,528 - INFO - 127.0.0.1 - - [25/May/2025 10:23:56] "GET /hls/seg_040.ts HTTP/1.1" 200 -
+2025-05-25 10:23:56,680 - INFO - 127.0.0.1 - - [25/May/2025 10:23:56] "GET /hls/seg_040.ts HTTP/1.1" 200 -
+2025-05-25 10:23:56,704 - INFO - FFmpeg: elapsed=0:03:45.52 frame= 5639 fps= 25 q=25.0 size=N/A time=00:03:45.56 bitrate=N/A speed=   1x
+2025-05-25 10:23:57,231 - INFO - FFmpeg: elapsed=0:03:46.03 frame= 5652 fps= 25 q=25.0 size=N/A time=00:03:46.08 bitrate=N/A speed=   1x
+2025-05-25 10:23:57,744 - INFO - FFmpeg: elapsed=0:03:46.54 frame= 5666 fps= 25 q=26.0 size=N/A time=00:03:46.64 bitrate=N/A speed=   1x
+2025-05-25 10:23:58,245 - INFO - FFmpeg: elapsed=0:03:47.07 frame= 5678 fps= 25 q=26.0 size=N/A time=00:03:47.12 bitrate=N/A speed=   1x
+2025-05-25 10:23:58,533 - INFO - 127.0.0.1 - - [25/May/2025 10:23:58] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:23:58,534 - INFO - 127.0.0.1 - - [25/May/2025 10:23:58] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:23:58,536 - INFO - 127.0.0.1 - - [25/May/2025 10:23:58] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:23:58,746 - INFO - FFmpeg: elapsed=0:03:47.58 frame= 5690 fps= 25 q=23.0 size=N/A time=00:03:47.60 bitrate=N/A speed=   1x
+2025-05-25 10:23:59,249 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_037.ts' for writing
+2025-05-25 10:23:59,750 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:24:00,252 - INFO - FFmpeg: elapsed=0:03:48.09 frame= 5703 fps= 25 q=27.0 size=N/A time=00:03:48.12 bitrate=N/A speed=   1x
+2025-05-25 10:24:00,557 - INFO - 127.0.0.1 - - [25/May/2025 10:24:00] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:00,557 - INFO - 127.0.0.1 - - [25/May/2025 10:24:00] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:00,563 - INFO - 127.0.0.1 - - [25/May/2025 10:24:00] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:00,813 - INFO - FFmpeg: elapsed=0:03:48.60 frame= 5717 fps= 25 q=25.0 size=N/A time=00:03:48.68 bitrate=N/A speed=   1x
+2025-05-25 10:24:01,339 - INFO - FFmpeg: elapsed=0:03:49.12 frame= 5729 fps= 25 q=25.0 size=N/A time=00:03:49.16 bitrate=N/A speed=   1x
+2025-05-25 10:24:01,840 - INFO - FFmpeg: elapsed=0:03:49.64 frame= 5743 fps= 25 q=29.0 size=N/A time=00:03:49.72 bitrate=N/A speed=   1x
+2025-05-25 10:24:02,342 - INFO - FFmpeg: elapsed=0:03:50.15 frame= 5755 fps= 25 q=26.0 size=N/A time=00:03:50.20 bitrate=N/A speed=   1x
+2025-05-25 10:24:02,577 - INFO - 127.0.0.1 - - [25/May/2025 10:24:02] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:24:02,579 - INFO - 127.0.0.1 - - [25/May/2025 10:24:02] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:02,581 - INFO - 127.0.0.1 - - [25/May/2025 10:24:02] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:02,586 - INFO - 127.0.0.1 - - [25/May/2025 10:24:02] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:02,595 - INFO - 127.0.0.1 - - [25/May/2025 10:24:02] "GET /hls/seg_041.ts HTTP/1.1" 200 -
+2025-05-25 10:24:02,843 - INFO - FFmpeg: elapsed=0:03:50.66 frame= 5768 fps= 25 q=27.0 size=N/A time=00:03:50.72 bitrate=N/A speed=   1x
+2025-05-25 10:24:03,344 - INFO - FFmpeg: elapsed=0:03:51.18 frame= 5779 fps= 25 q=27.0 size=N/A time=00:03:51.16 bitrate=N/A speed=   1x
+2025-05-25 10:24:03,845 - INFO - FFmpeg: elapsed=0:03:51.69 frame= 5794 fps= 25 q=30.0 size=N/A time=00:03:51.76 bitrate=N/A speed=   1x
+2025-05-25 10:24:04,347 - INFO - FFmpeg: elapsed=0:03:52.22 frame= 5807 fps= 25 q=28.0 size=N/A time=00:03:52.28 bitrate=N/A speed=   1x
+2025-05-25 10:24:04,599 - INFO - 127.0.0.1 - - [25/May/2025 10:24:04] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:04,619 - INFO - 127.0.0.1 - - [25/May/2025 10:24:04] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:04,639 - INFO - 127.0.0.1 - - [25/May/2025 10:24:04] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:04,848 - INFO - FFmpeg: elapsed=0:03:52.74 frame= 5821 fps= 25 q=28.0 size=N/A time=00:03:52.84 bitrate=N/A speed=   1x
+2025-05-25 10:24:05,350 - INFO - FFmpeg: elapsed=0:03:53.25 frame= 5829 fps= 25 q=27.0 size=N/A time=00:03:53.16 bitrate=N/A speed=   1x
+2025-05-25 10:24:05,852 - INFO - FFmpeg: elapsed=0:03:53.77 frame= 5846 fps= 25 q=27.0 size=N/A time=00:03:53.84 bitrate=N/A speed=   1x
+2025-05-25 10:24:06,354 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_038.ts' for writing
+2025-05-25 10:24:06,657 - INFO - 127.0.0.1 - - [25/May/2025 10:24:06] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:06,662 - INFO - 127.0.0.1 - - [25/May/2025 10:24:06] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:06,677 - INFO - 127.0.0.1 - - [25/May/2025 10:24:06] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:06,856 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:24:07,356 - INFO - FFmpeg: elapsed=0:03:56.82 frame= 5908 fps= 25 q=25.0 size=N/A time=00:03:56.12 bitrate=N/A speed=0.997x
+2025-05-25 10:24:07,857 - INFO - FFmpeg: elapsed=0:03:57.38 frame= 5929 fps= 25 q=25.0 size=N/A time=00:03:57.16 bitrate=N/A speed=0.999x
+2025-05-25 10:24:08,359 - INFO - FFmpeg: elapsed=0:03:57.89 frame= 5949 fps= 25 q=25.0 size=N/A time=00:03:57.96 bitrate=N/A speed=   1x
+2025-05-25 10:24:08,727 - INFO - 127.0.0.1 - - [25/May/2025 10:24:08] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:24:08,728 - INFO - 127.0.0.1 - - [25/May/2025 10:24:08] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:08,729 - INFO - 127.0.0.1 - - [25/May/2025 10:24:08] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:08,734 - INFO - 127.0.0.1 - - [25/May/2025 10:24:08] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:08,741 - INFO - 127.0.0.1 - - [25/May/2025 10:24:08] "GET /hls/seg_042.ts HTTP/1.1" 200 -
+2025-05-25 10:24:08,860 - INFO - FFmpeg: elapsed=0:03:58.41 frame= 5962 fps= 25 q=24.0 size=N/A time=00:03:58.48 bitrate=N/A speed=   1x
+2025-05-25 10:24:09,361 - INFO - FFmpeg: elapsed=0:03:58.92 frame= 5975 fps= 25 q=24.0 size=N/A time=00:03:59.00 bitrate=N/A speed=   1x
+2025-05-25 10:24:09,863 - INFO - FFmpeg: elapsed=0:03:59.43 frame= 5979 fps= 25 q=24.0 size=N/A time=00:03:59.16 bitrate=N/A speed=0.999x
+2025-05-25 10:24:10,364 - INFO - FFmpeg: elapsed=0:03:59.94 frame= 6000 fps= 25 q=23.0 size=N/A time=00:04:00.00 bitrate=N/A speed=   1x
+2025-05-25 10:24:10,753 - INFO - 127.0.0.1 - - [25/May/2025 10:24:10] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:10,754 - INFO - 127.0.0.1 - - [25/May/2025 10:24:10] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:10,756 - INFO - 127.0.0.1 - - [25/May/2025 10:24:10] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:10,865 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_039.ts' for writing
+2025-05-25 10:24:11,366 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:24:11,867 - INFO - FFmpeg: elapsed=0:04:00.47 frame= 6014 fps= 25 q=23.0 size=N/A time=00:04:00.56 bitrate=N/A speed=   1x
+2025-05-25 10:24:12,368 - INFO - FFmpeg: elapsed=0:04:00.97 frame= 6026 fps= 25 q=23.0 size=N/A time=00:04:01.04 bitrate=N/A speed=   1x
+2025-05-25 10:24:12,823 - INFO - 127.0.0.1 - - [25/May/2025 10:24:12] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:12,826 - INFO - 127.0.0.1 - - [25/May/2025 10:24:12] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:12,830 - INFO - 127.0.0.1 - - [25/May/2025 10:24:12] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:12,870 - INFO - FFmpeg: elapsed=0:04:01.49 frame= 6029 fps= 25 q=23.0 size=N/A time=00:04:01.16 bitrate=N/A speed=0.999x
+2025-05-25 10:24:13,371 - INFO - FFmpeg: elapsed=0:04:02.03 frame= 6053 fps= 25 q=23.0 size=N/A time=00:04:02.12 bitrate=N/A speed=   1x
+2025-05-25 10:24:13,872 - INFO - FFmpeg: elapsed=0:04:02.54 frame= 6065 fps= 25 q=23.0 size=N/A time=00:04:02.60 bitrate=N/A speed=   1x
+2025-05-25 10:24:14,374 - INFO - FFmpeg: elapsed=0:04:03.06 frame= 6078 fps= 25 q=23.0 size=N/A time=00:04:03.12 bitrate=N/A speed=   1x
+2025-05-25 10:24:14,836 - INFO - 127.0.0.1 - - [25/May/2025 10:24:14] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:24:14,838 - INFO - 127.0.0.1 - - [25/May/2025 10:24:14] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:14,841 - INFO - 127.0.0.1 - - [25/May/2025 10:24:14] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:14,848 - INFO - 127.0.0.1 - - [25/May/2025 10:24:14] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:14,859 - INFO - 127.0.0.1 - - [25/May/2025 10:24:14] "GET /hls/seg_043.ts HTTP/1.1" 200 -
+2025-05-25 10:24:14,888 - INFO - FFmpeg: elapsed=0:04:03.57 frame= 6091 fps= 25 q=33.0 size=N/A time=00:04:03.64 bitrate=N/A speed=   1x
+2025-05-25 10:24:15,391 - INFO - FFmpeg: elapsed=0:04:04.09 frame= 6103 fps= 25 q=24.0 size=N/A time=00:04:04.12 bitrate=N/A speed=   1x
+2025-05-25 10:24:15,893 - INFO - FFmpeg: elapsed=0:04:04.60 frame= 6117 fps= 25 q=24.0 size=N/A time=00:04:04.68 bitrate=N/A speed=   1x
+2025-05-25 10:24:16,394 - INFO - FFmpeg: elapsed=0:04:05.12 frame= 6129 fps= 25 q=23.0 size=N/A time=00:04:05.16 bitrate=N/A speed=   1x
+2025-05-25 10:24:16,896 - INFO - FFmpeg: elapsed=0:04:05.64 frame= 6137 fps= 25 q=24.0 size=N/A time=00:04:05.48 bitrate=N/A speed=0.999x
+2025-05-25 10:24:16,925 - INFO - 127.0.0.1 - - [25/May/2025 10:24:16] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:16,928 - INFO - 127.0.0.1 - - [25/May/2025 10:24:16] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:16,936 - INFO - 127.0.0.1 - - [25/May/2025 10:24:16] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:17,398 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_040.ts' for writing
+2025-05-25 10:24:17,900 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:24:18,401 - INFO - FFmpeg: elapsed=0:04:06.16 frame= 6156 fps= 25 q=23.0 size=N/A time=00:04:06.24 bitrate=N/A speed=   1x
+2025-05-25 10:24:18,901 - INFO - FFmpeg: elapsed=0:04:06.69 frame= 6169 fps= 25 q=25.0 size=N/A time=00:04:06.76 bitrate=N/A speed=   1x
+2025-05-25 10:24:19,070 - INFO - 127.0.0.1 - - [25/May/2025 10:24:19] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:19,072 - INFO - 127.0.0.1 - - [25/May/2025 10:24:19] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:19,075 - INFO - 127.0.0.1 - - [25/May/2025 10:24:19] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:19,403 - INFO - FFmpeg: elapsed=0:04:07.20 frame= 6179 fps= 25 q=25.0 size=N/A time=00:04:07.16 bitrate=N/A speed=   1x
+2025-05-25 10:24:19,905 - INFO - FFmpeg: elapsed=0:04:07.71 frame= 6194 fps= 25 q=29.0 size=N/A time=00:04:07.76 bitrate=N/A speed=   1x
+2025-05-25 10:24:20,408 - INFO - FFmpeg: elapsed=0:04:08.23 frame= 6208 fps= 25 q=26.0 size=N/A time=00:04:08.32 bitrate=N/A speed=   1x
+2025-05-25 10:24:20,909 - INFO - FFmpeg: elapsed=0:04:08.74 frame= 6220 fps= 25 q=26.0 size=N/A time=00:04:08.80 bitrate=N/A speed=   1x
+2025-05-25 10:24:21,111 - INFO - 127.0.0.1 - - [25/May/2025 10:24:21] "GET /hls/stream.m3u8 HTTP/1.1" 200 -
+2025-05-25 10:24:21,123 - INFO - 127.0.0.1 - - [25/May/2025 10:24:21] "GET /hls/seg_044.ts HTTP/1.1" 200 -
+2025-05-25 10:24:21,410 - INFO - FFmpeg: elapsed=0:04:09.26 frame= 6229 fps= 25 q=26.0 size=N/A time=00:04:09.16 bitrate=N/A speed=   1x
+2025-05-25 10:24:21,912 - INFO - FFmpeg: elapsed=0:04:09.77 frame= 6245 fps= 25 q=28.0 size=N/A time=00:04:09.80 bitrate=N/A speed=   1x
+2025-05-25 10:24:22,112 - INFO - 127.0.0.1 - - [25/May/2025 10:24:22] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:22,116 - INFO - 127.0.0.1 - - [25/May/2025 10:24:22] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:22,119 - INFO - 127.0.0.1 - - [25/May/2025 10:24:22] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:22,413 - INFO - FFmpeg: elapsed=0:04:10.30 frame= 6259 fps= 25 q=26.0 size=N/A time=00:04:10.36 bitrate=N/A speed=   1x
+2025-05-25 10:24:22,914 - INFO - FFmpeg: elapsed=0:04:10.80 frame= 6272 fps= 25 q=24.0 size=N/A time=00:04:10.88 bitrate=N/A speed=   1x
+2025-05-25 10:24:23,416 - INFO - FFmpeg: elapsed=0:04:11.33 frame= 6279 fps= 25 q=24.0 size=N/A time=00:04:11.16 bitrate=N/A speed=0.999x
+2025-05-25 10:24:23,917 - INFO - FFmpeg: elapsed=0:04:11.84 frame= 6298 fps= 25 q=25.0 size=N/A time=00:04:11.92 bitrate=N/A speed=   1x
+2025-05-25 10:24:24,136 - INFO - 127.0.0.1 - - [25/May/2025 10:24:24] "GET /status HTTP/1.1" 200 -
+2025-05-25 10:24:24,137 - INFO - 127.0.0.1 - - [25/May/2025 10:24:24] "GET /ffmpeg-output HTTP/1.1" 200 -
+2025-05-25 10:24:24,145 - INFO - 127.0.0.1 - - [25/May/2025 10:24:24] "GET /debug HTTP/1.1" 200 -
+2025-05-25 10:24:24,418 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\seg_041.ts' for writing
+2025-05-25 10:24:24,920 - INFO - FFmpeg: [hls @ 0000024625de48c0] Opening 'hls\stream.m3u8.tmp' for writing
+2025-05-25 10:24:25,421 - INFO - FFmpeg: elapsed=0:04:12.36 frame= 6311 fps= 25 q=25.0 size=N/A time=00:04:12.44 bitrate=N/A speed=   1x

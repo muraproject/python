@@ -1,0 +1,57 @@
+<!-- templates/layout.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Camera System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="flex h-screen bg-gray-100">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-blue-800 text-white">
+            <div class="p-4">
+                <h1 class="text-2xl font-semibold">AI Camera System</h1>
+            </div>
+            <nav class="mt-4">
+                <a href="/monitoring" 
+                   class="flex items-center px-4 py-3 hover:bg-blue-700 transition-colors
+                          {% if page == 'monitoring' %}bg-blue-700{% endif %}">
+                    <i class="fas fa-desktop mr-3"></i>
+                    Monitoring
+                </a>
+                <a href="/settings"
+                   class="flex items-center px-4 py-3 hover:bg-blue-700 transition-colors
+                          {% if page == 'settings' %}bg-blue-700{% endif %}">
+                    <i class="fas fa-cog mr-3"></i>
+                    Settings
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col overflow-hidden">
+            <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-100">
+                <div class="container mx-auto px-6 py-8">
+                    {% if page == 'monitoring' %}
+                        {% include 'monitoring_content.html' %}
+                    {% elif page == 'settings' %}
+                        {% include 'settings_content.html' %}
+                    {% endif %}
+                </div>
+            </main>
+        </div>
+    </div>
+
+    {% if page == 'monitoring' %}
+        <script src="{{ url_for('static', filename='js/monitoring.js') }}"></script>
+    {% elif page == 'settings' %}
+        <script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+    {% endif %}
+</body>
+</html>

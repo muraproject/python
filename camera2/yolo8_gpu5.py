@@ -282,7 +282,7 @@ def process_video_stream(video_source, skip_frames=2):
     return object_counts, fps
 
 def main():
-    video_source = 'https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8'
+    video_source = 'rtsp://admin:Jarkabsrg22@cctvaimas.ip-dynamic.net:554/Streaming/Channels/102'
     skip_frames = 1
     object_counts, fps = process_video_stream(video_source, skip_frames)
     

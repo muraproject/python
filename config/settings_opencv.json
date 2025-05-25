@@ -1,0 +1,33 @@
+{
+    "interval": 300,
+    "api_url": "http://17.12.89.3:5000",
+    "api_check_interval": 5,
+    "lines": {
+        "up1": 0.15,
+        "up2": 0.25,
+        "up3": 0.35,
+        "up4": 0.45,
+        "up5": 0.55,
+        "up6": 0.65,
+        "down1": 0.2,
+        "down2": 0.3,
+        "down3": 0.4,
+        "down4": 0.5,
+        "down5": 0.6,
+        "down6": 0.7
+    },
+    "video_source": null,
+    "camera_name": null,
+    "camera_mode": null,
+    "processing": {
+        "target_fps": 30,
+        "confidence_threshold": 0.3,
+        "tracking_points": 30
+    },
+    "display": {
+        "resize_factor": 0.8,
+        "show_sidebar": true,
+        "screenshot_interval": 0
+    },
+    "reset_interval": 20
+}
