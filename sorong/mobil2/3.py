@@ -25,7 +25,7 @@ class SettingsManager:
         # Default settings
         self.default_settings = {
             'interval': 300,  # Interval kirim ke server (detik)
-            'api_url': "http://17.12.89.3:5000",  # URL server API
+            'api_url': "http://localhost:5000",  # URL server API
             'api_check_interval': 5,  # Interval cek API (detik)
             'reset_interval': 20,  # Interval reset dan akumulasi (detik)
             'lines': {
@@ -1147,6 +1147,7 @@ def run_vehicle_counter(
                                font, font_scale_medium, (255, 255, 255), 2)
                     cv2.putText(display_frame, f"Objects: {len(detected_objects)}", (10, 60), 
                                font, font_scale_medium, (255, 255, 255), 2)
+                    camera_name = settings_manager.settings.get('camera_name', 'Unknown')
                     cv2.putText(display_frame, f"Camera: {camera_name}", (10, 90), 
                                font, font_scale_medium, (255, 255, 255), 2)
                     

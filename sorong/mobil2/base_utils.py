@@ -335,7 +335,7 @@ class SettingsManager:
         return (self.current_display_width, self.current_display_height)
 
 class APIManager:
-    def __init__(self, base_url="http://17.12.89.3:5000"):
+    def __init__(self, base_url="http://localhost:5000"):
         self.base_url = base_url
         self.current_camera = None
         self.cameras = []

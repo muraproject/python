@@ -1,7 +1,8 @@
 {
     "interval": 300,
-    "api_url": "http://17.12.89.3:5000",
+    "api_url": "http://localhost:5000",
     "api_check_interval": 5,
+    "reset_interval": 20,
     "lines": {
         "up1": 0.15,
         "up2": 0.25,
@@ -16,7 +17,7 @@
         "down5": 0.6,
         "down6": 0.7
     },
-    "video_source": "rtsp://admin:Jarkabsrg22@17.12.89.34:558/Streaming/Channels/101",
+    "video_source": "https://cctvjss.jogjakota.go.id/kotabaru/ANPR-Jl-Ahmad-Jazuli.stream/playlist.m3u8",
     "camera_name": "Camera 1",
     "camera_mode": "Counting Kendaraan",
     "processing": {
@@ -28,5 +29,11 @@
         "resize_factor": 0.8,
         "show_sidebar": true,
         "screenshot_interval": 0
+    },
+    "hls": {
+        "use_ffmpeg_backend": true,
+        "segment_cache_size": 3,
+        "reconnect_delay": 2,
+        "timeout": 10
     }
 }
