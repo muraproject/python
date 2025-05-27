@@ -14,7 +14,7 @@
         "down5": 0.6,
         "down6": 0.7
     },
-    "video_source": "rtsp://admin:Jarkabsrg22@17.12.89.34:558/Streaming/Channels/102",
+    "video_source": "http://localhost:8880",
     "camera_name": "Camera 1",
     "camera_mode": "Counting Kendaraan",
     "processing": {

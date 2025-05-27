@@ -25,7 +25,7 @@ class SettingsManager:
         # Default settings
         self.default_settings = {
             'interval': 300,  # Interval kirim ke server (detik)
-            'api_url': "http://17.12.89.3:5000",  # URL server API
+            'api_url': "http://localhost:5000",  # URL server API
             'api_check_interval': 5,  # Interval cek API (detik)
             'lines': {
                 'up1': 0.15, 'up2': 0.25, 'up3': 0.35,
