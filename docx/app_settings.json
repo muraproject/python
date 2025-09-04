@@ -1,0 +1,81 @@
+{
+  "replace_rules": [
+    {
+      "find_text": "SD NEGERI 31 TANJUNG AUR",
+      "replace_text": "SD NEGERI 1 WARUJAYENG"
+    },
+    {
+      "find_text": "LELI SEPWITA, S.Pd\t\t",
+      "replace_text": "ENDAH MURNI R, S.Pd.M. MPd."
+    },
+    {
+      "find_text": "197209042006042004",
+      "replace_text": "196409071984042002"
+    },
+    {
+      "find_text": "Admiral Wira Diharga, S.Pd.I",
+      "replace_text": "BINTI NI'MATUL BARIROH, S.Pd."
+    },
+    {
+      "find_text": "Kepala SDN 31 Tanjung Aur",
+      "replace_text": "Kepala SDN 1 Warujayeng"
+    },
+    {
+      "find_text": "Padang,",
+      "replace_text": "Warujayeng, 13 Juli 2021"
+    },
+    {
+      "find_text": "ADMIRAL WIRA DIHARGA, S.Pd.I",
+      "replace_text": "BINTI NI'MATUL BARIROH, S.Pd."
+    },
+    {
+      "find_text": "SD Negeri 31 Tanjung Aur",
+      "replace_text": "SD NEGERI 1 WARUJAYENG"
+    },
+    {
+      "find_text": "SDN 31 TANJUNG AUR",
+      "replace_text": "SDN 1 WARUJAYENG"
+    },
+    {
+      "find_text": "LELI SEPWITA, S.Pd",
+      "replace_text": "ENDAH MURNI R, S.Pd.M. MPd."
+    }
+  ],
+  "image_rules": [
+    {
+      "height": 50.0,
+      "image_filename": "20250828_192633_ttdendah.png",
+      "offset_x": 0.0,
+      "offset_y": -30.0,
+      "target_text": "ENDAH MURNI",
+      "width": 50.0
+    },
+    {
+      "height": 60.0,
+      "image_filename": "20250828_191455_stempellama.png",
+      "offset_x": -20.0,
+      "offset_y": -40.0,
+      "target_text": "ENDAH MURNI",
+      "width": 60.0
+    },
+    {
+      "height": 50.0,
+      "image_filename": "20250828_195125_ttdnikmah-removebg-preview.png",
+      "offset_x": 0.0,
+      "offset_y": -30.0,
+      "target_text": "BINTI NI'MATUL",
+      "width": 50.0
+    }
+  ],
+  "uploaded_images": [
+    "20250828_185214_ttd.png",
+    "20250828_191355_TTD_BU_ILOK.png",
+    "20250828_191403_ttdsusilo.png",
+    "20250828_191438_STEMPEL_2024.png",
+    "20250828_191455_stempellama.png",
+    "20250828_192633_ttdendah.png",
+    "20250828_194600_ttdnikmah.jpg",
+    "20250828_195125_ttdnikmah-removebg-preview.png"
+  ],
+  "last_updated": "2025-08-29T22:27:27.807833"
+}

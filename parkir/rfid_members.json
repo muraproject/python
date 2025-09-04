@@ -1,0 +1,18 @@
+[
+  {
+    "rfid_id": "abcd1",
+    "nama": "user1",
+    "plat_nomor": "-",
+    "telepon": "-",
+    "tanggal_daftar": "2025-08-27",
+    "status": "aktif"
+  },
+  {
+    "rfid_id": "abcd2",
+    "nama": "user2",
+    "plat_nomor": "b 2452 gh",
+    "telepon": "",
+    "tanggal_daftar": "2025-08-27",
+    "status": "aktif"
+  }
+]

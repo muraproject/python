@@ -1,0 +1,12 @@
+{
+    "lower_h": 20,
+    "lower_s": 150,
+    "lower_v": 171,
+    "upper_h": 105,
+    "upper_s": 109,
+    "upper_v": 39,
+    "erosion": 4,
+    "dilation": 2,
+    "min_area": 0,
+    "max_area": 131000
+}

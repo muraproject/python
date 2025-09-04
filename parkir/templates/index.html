@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Parkir</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-secondary text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">🚗 Sistem Parkir</h1>
+            <div class="space-x-4">
+                <button onclick="showPage('masuk')" id="nav-masuk" class="px-4 py-2 rounded-lg bg-primary hover:bg-blue-600 transition">
+                    Pintu Masuk
+                </button>
+                <button onclick="showPage('keluar')" id="nav-keluar" class="px-4 py-2 rounded-lg hover:bg-gray-700 transition">
+                    Pintu Keluar
+                </button>
+                <button onclick="showPage('admin')" id="nav-admin" class="px-4 py-2 rounded-lg hover:bg-gray-700 transition">
+                    Admin
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page: Pintu Masuk -->
+    <div id="page-masuk" class="page">
+        <div class="container mx-auto p-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">🚪 Pintu Masuk</h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Kamera Preview -->
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold mb-4">📹 Kamera Masuk</h3>
+                        <div class="bg-gray-200 h-64 rounded-lg overflow-hidden mb-4" id="camera-masuk-preview">
+                            <img id="camera-masuk-stream" src="" alt="Camera Stream" class="w-full h-full object-cover hidden">
+                            <div id="camera-masuk-placeholder" class="h-full flex items-center justify-center">
+                                <div class="text-center">
+                                    <div class="text-6xl mb-2">📷</div>
+                                    <p class="text-gray-600">Connecting to camera...</p>
+                                    <p class="text-sm text-gray-500 mt-2" id="camera-masuk-url">Loading...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <button onclick="simulateCapture()" class="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold transition">
+                                📸 Capture & Buka Pintu
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Status & Results -->
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold mb-4">📋 Status & Info</h3>
+                        <div id="status-masuk" class="space-y-4">
+                            <div class="text-center py-8">
+                                <div class="text-4xl mb-2">⚡</div>
+                                <p class="text-gray-600">Tekan tombol untuk memproses kendaraan masuk</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Captured Photo Display -->
+                        <div id="captured-photo-masuk" class="mt-4 hidden">
+                            <h4 class="text-lg font-semibold mb-2 text-green-600">📸 Foto Captured</h4>
+                            <img id="captured-img-masuk" src="" alt="Captured Photo" class="w-full h-32 object-cover rounded-lg border">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page: Pintu Keluar -->
+    <div id="page-keluar" class="page hidden">
+        <div class="container mx-auto p-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">🚪 Pintu Keluar</h2>
+                
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Input Barcode -->
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold mb-4">🔍 Scan Barcode</h3>
+                        <div class="space-y-4">
+                            <input type="text" id="barcode-input" placeholder="Masukkan barcode..." 
+                                   class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                            <button onclick="cekBarcode()" class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-semibold transition">
+                                Cek Detail
+                            </button>
+                        </div>
+                        
+                        <div id="detail-kendaraan" class="mt-6 hidden">
+                            <h4 class="font-semibold text-lg mb-3 text-green-600">✅ Detail Kendaraan</h4>
+                            <div id="detail-content" class="space-y-2 text-sm"></div>
+                            <button onclick="prosesKeluar()" class="w-full mt-4 bg-red-500 hover:bg-red-600 text-white py-3 rounded-lg font-semibold transition">
+                                🚪 Buka Pintu Keluar
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- List Kendaraan Parkir -->
+                    <div class="lg:col-span-2 bg-white rounded-lg shadow-lg p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="text-xl font-semibold">🚗 Kendaraan Sedang Parkir</h3>
+                            <span id="total-parkir" class="bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">0 kendaraan</span>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full">
+                                <thead class="bg-gray-50">
+                                    <tr>
+                                        <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">Barcode</th>
+                                        <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">Tanggal Masuk</th>
+                                        <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">Waktu Masuk</th>
+                                        <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">Durasi</th>
+                                        <th class="px-4 py-3 text-left text-sm font-semibold text-gray-700">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="parking-list" class="divide-y divide-gray-200">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kamera Keluar -->
+                <div class="mt-8 bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-semibold mb-4">📹 Kamera Keluar</h3>
+                    <div class="bg-gray-200 h-48 rounded-lg overflow-hidden" id="camera-keluar-preview">
+                        <img id="camera-keluar-stream" src="" alt="Camera Stream" class="w-full h-full object-cover hidden">
+                        <div id="camera-keluar-placeholder" class="h-full flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-4xl mb-2">📷</div>
+                                <p class="text-gray-600">Live Camera Feed - Pintu Keluar</p>
+                                <p class="text-sm text-gray-500 mt-2" id="camera-keluar-url">Loading...</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Captured Photo Display for Exit -->
+                    <div id="captured-photo-keluar" class="mt-4 hidden">
+                        <h4 class="text-lg font-semibold mb-2 text-red-600">📸 Foto Keluar</h4>
+                        <img id="captured-img-keluar" src="" alt="Exit Photo" class="w-full h-32 object-cover rounded-lg border">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page: Admin -->
+    <div id="page-admin" class="page hidden">
+        <div class="container mx-auto p-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">⚙️ Admin Settings</h2>
+                
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <h3 class="text-2xl font-semibold mb-6">📹 Konfigurasi Kamera</h3>
+                    
+                    <form onsubmit="saveSettings(event)" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">🚪 Kamera Pintu Masuk (RTSP URL)</label>
+                            <input type="url" id="camera-masuk-setting" placeholder="rtsp://192.168.1.100:554/stream1" 
+                                   class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                            <p class="text-sm text-gray-500 mt-1">Contoh: rtsp://admin:password@192.168.1.100:554/stream1</p>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">🚪 Kamera Pintu Keluar (RTSP URL)</label>
+                            <input type="url" id="camera-keluar-setting" placeholder="rtsp://192.168.1.101:554/stream2" 
+                                   class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                            <p class="text-sm text-gray-500 mt-1">Contoh: rtsp://admin:password@192.168.1.101:554/stream2</p>
+                        </div>
+                        
+                        <div class="flex space-x-4">
+                            <button type="submit" class="flex-1 bg-green-500 hover:bg-green-600 text-white py-4 rounded-lg font-semibold text-lg transition">
+                                💾 Simpan Pengaturan
+                            </button>
+                            <button type="button" onclick="testCameras()" class="flex-1 bg-blue-500 hover:bg-blue-600 text-white py-4 rounded-lg font-semibold text-lg transition">
+                                🔧 Test Koneksi
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <!-- System Status -->
+                    <div class="mt-8 p-6 bg-gray-50 rounded-lg">
+                        <h4 class="text-lg font-semibold mb-4">📊 System Status</h4>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white p-4 rounded-lg">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm font-medium text-gray-700">Kamera Masuk</span>
+                                    <span id="status-camera-masuk" class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">Checking...</span>
+                                </div>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm font-medium text-gray-700">Kamera Keluar</span>
+                                    <span id="status-camera-keluar" class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">Checking...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="fixed top-4 right-4 space-y-2 z-50"></div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white p-8 rounded-lg text-center">
+            <div class="animate-spin h-12 w-12 border-4 border-primary border-t-transparent rounded-full mx-auto mb-4"></div>
+            <p class="text-lg font-semibold">Memproses...</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

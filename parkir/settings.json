@@ -1,0 +1,4 @@
+{
+  "camera_masuk": "rtsp://192.168.1.30:554/live/ch00_1",
+  "camera_keluar": "rtsp://192.168.1.11:554/live/ch00_1"
+}
